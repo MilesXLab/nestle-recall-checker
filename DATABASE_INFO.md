@@ -2,12 +2,32 @@
 
 ## 📊 Database Statistics
 - **Total Verified Records:** 365 (100% government-verified)
-- **Regions Covered:** 11 (France, UK, Germany, China Mainland, China Cross-border, Hong Kong, MENA, Philippines, Australia/NZ, Egypt, Brunei, Singapore)
+- **Regions Covered:** 11 official sources
+  - **China**: Mainland (30) + Cross-border/Hong Kong (41) = 71 batches total
+  - France, UK, Germany, MENA, Philippines, Australia/NZ, Egypt, Brunei, Singapore
 - **Data Version:** 4.1.0 (Final - 100% Official Sources)
-- **Last Sync:** 2026-01-20 21:45 (PST)
+- **Last Sync:** 2026-01-20 21:55 (PST)
 - **Recall Period:** January 2026 Official Announcements
 - **Data Integrity:** 100% - Only government health authority verified batch codes
 - **Coverage:** ChatGPT + Grok cross-verified
+
+**Note on China/Hong Kong Classification:**
+- "China (Mainland)": Batches from China SAMR and Nestlé China for domestic market
+- "China (Cross-border)": Batches from Hong Kong CFS announcements for cross-border e-commerce products (includes products sold in Hong Kong)
+
+### ⚠️ Data Source Disclaimer
+**IMPORTANT: No official source has published a complete global batch list.**
+
+This database is compiled from:
+1. **Government Health Authorities**: UK FSA, Hong Kong CFS, China SAMR, Egypt NFSA, etc.
+2. **National Regulatory Agencies**: RappelConso (France), Lebensmittelwarnung (Germany), FDA (Philippines), FSANZ (Australia/NZ)
+3. **Nestlé Official Regional Announcements**: By country/region
+
+**Limitations:**
+- This is NOT an exhaustive list of all recalled batches globally
+- Some regions may have additional batches not included here
+- Official sources update independently and asynchronously
+- **Always verify with official hotlines below for definitive confirmation**
 
 ## 🧪 Toxin Information
 **Cereulide (Bacillus cereus metabolite)**

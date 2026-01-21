@@ -2,10 +2,21 @@
 
 > **High-Authority Bilingual Web Tool for 2026 Global Nestlé Infant Formula Recall Verification**
 
-## � Critical Safety Information
+## 🚨 Critical Safety Information
 **Cereulide Toxin (Bacillus cereus)** is **HEAT-RESISTANT**. Boiling water **CANNOT** deactivate it.
 - All recall data is from **January 2026** official announcements
 - Covers **365 officially verified batch codes** from 11 regions (100% government sources)
+
+### ⚠️ Important Disclaimer
+**Official sources have NOT published a complete global batch list.** This database consolidates publicly available information from:
+- Official government health authority websites (FSA, CFS, FDA, RappelConso, FSANZ, SAMR)
+- National regulatory agency announcements
+- Nestlé official recall notices by region
+
+**This tool is for reference and convenient search only.** For definitive verification:
+1. **Always contact official hotlines** (see DATABASE_INFO.md)
+2. **Check your local health authority website**
+3. **When in doubt, DO NOT USE the product**
 
 ## 🚀 Live Demo
 Deploy to GitHub Pages to see it live!
