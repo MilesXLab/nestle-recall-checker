@@ -48,11 +48,11 @@ OFFICIAL_SOURCES = [
 from datetime import datetime
 
 with open('js/data.js', 'w', encoding='utf-8') as f:
-    f.write("// --- OFFICIAL VERIFIED RECALL DATABASE (v4.1.0 - Cleaned) ---\n")
+    f.write("// --- OFFICIAL VERIFIED RECALL DATABASE (v4.5.2 - Cleaned) ---\n")
     f.write("// 100% Official Sources Only - No Speculative Data\n\n")
     
     metadata = json.dumps({
-        "version": "4.1.0 (100% Official)",
+        "version": "4.5.2 (100% Official)",
         "lastUpdated": datetime.now().strftime("%Y-%m-%d %H:%M (PST)"),
         "coverage": "9 Regions - Official Government Sources Only",
         "totalCount": len(batches),
@@ -76,6 +76,6 @@ def safe_print(msg):
     except UnicodeEncodeError:
         print(msg.encode('utf-8', errors='replace').decode('gbk', errors='replace'))
 
-safe_print(f"Generated js/data_v4_1.js from CSV")
+safe_print(f"Generated js/data.js from CSV")
 safe_print(f"Total batches: {len(batches)}")
 safe_print(f"100% official sources only")

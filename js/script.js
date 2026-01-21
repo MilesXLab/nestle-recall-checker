@@ -212,11 +212,6 @@ function renderIdle() {
                         <path d="M75 160 Q80 165 85 160" />
                     </g>
                     
-                    <!-- Blue Label Band -->
-                    <g>
-                        <path d="M30 145 L130 145 L130 165 L30 165 Z" fill="#3B82F6" stroke="#1E293B" stroke-width="4" />
-                        <text x="80" y="159" text-anchor="middle" fill="white" font-size="10" font-weight="950" font-family="Arial, sans-serif" letter-spacing="0.5">LITTLE STAR</text>
-                    </g>
                 </svg>
             </div>
             <p class="text-slate-400 font-bold px-12 text-sm leading-relaxed max-w-sm mx-auto">${I18N[currentLang].idle}</p>
@@ -322,11 +317,6 @@ function renderResult(type, code, itemData = null) {
                                 <circle cx="80" cy="170" r="3" fill="white" opacity="0.5" />
                             </g>
                             
-                            <!-- Blue Label Band -->
-                            <g>
-                                <path d="M30 145 L130 145 L130 165 L30 165 Z" fill="${config.themeColor}" stroke="#1E293B" stroke-width="5" />
-                                <text x="80" y="159" text-anchor="middle" fill="white" font-size="10" font-weight="950" font-family="Arial, sans-serif" letter-spacing="0.5">LITTLE STAR</text>
-                            </g>
 
                             <!-- Emotional Cartoon Expression -->
                             <g class="bottle-face">

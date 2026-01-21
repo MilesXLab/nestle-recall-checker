@@ -1,31 +1,38 @@
-name: Auto Sync Recall Data
+name: Auto Sync & Archive Recall Data
 
 on:
   push:
     paths:
-      - 'recall_database_v3.csv'
-      - 'process_data_v6.py'
+      - 'recall_database.csv'
+      - 'csv_to_js.py'
+      - 'archive_and_sync.py'
+  schedule:
+    - cron: '0 0 * * *' # Daily at midnight
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  sync:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.10'
 
-      - name: Run Data Update Script
-        run: python process_data_v6.py
+      - name: Run Archive and Sync Script
+        run: python archive_and_sync.py
 
-      - name: Commit and Push JS update
+      - name: Commit and Push Changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add js/data.js
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-sync recall data from CSV [skip ci]"
-          git push
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add js/data.js archives/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "📊 Auto-sync: Updated JS database and archived snapshot [skip ci]" && git push)
