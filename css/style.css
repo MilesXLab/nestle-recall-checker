@@ -12,7 +12,9 @@ body {
     min-height: 100vh;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Outfit', sans-serif;
 }
 
@@ -28,8 +30,73 @@ h1, h2, h3 {
 }
 
 @keyframes pulse-red {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.85; transform: scale(1.02); }
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.85;
+        transform: scale(1.02);
+    }
+}
+
+/* 🚨 CRITICAL ALERT - Emergency Flashing Animation */
+.pulse-red-aggressive {
+    animation: emergency-flash-red 0.6s infinite;
+}
+
+@keyframes emergency-flash-red {
+
+    0%,
+    100% {
+        border-color: #DC2626;
+        box-shadow: 0 0 30px rgba(220, 38, 38, 0.8), inset 0 0 20px rgba(220, 38, 38, 0.2);
+        background: #FEF2F2;
+        transform: scale(1);
+    }
+
+    50% {
+        border-color: #7F1D1D;
+        box-shadow: 0 0 60px rgba(220, 38, 38, 1), inset 0 0 40px rgba(220, 38, 38, 0.4);
+        background: #FEE2E2;
+        transform: scale(1.01);
+    }
+}
+
+/* ⚠️ CAUTION ALERT - Warning Flashing Animation */
+.pulse-amber-aggressive {
+    animation: emergency-flash-amber 0.8s infinite;
+}
+
+@keyframes emergency-flash-amber {
+
+    0%,
+    100% {
+        border-color: #F59E0B;
+        box-shadow: 0 0 25px rgba(245, 158, 11, 0.6), inset 0 0 15px rgba(245, 158, 11, 0.2);
+        background: #FFFBEB;
+        transform: scale(1);
+    }
+
+    50% {
+        border-color: #B45309;
+        box-shadow: 0 0 50px rgba(245, 158, 11, 0.9), inset 0 0 30px rgba(245, 158, 11, 0.3);
+        background: #FEF3C7;
+        transform: scale(1.008);
+    }
+}
+
+/* 🍼 Baby Bottle Icon Decoration */
+.bottle-icon {
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
+    transition: transform 0.3s ease;
+}
+
+.bottle-icon:hover {
+    transform: scale(1.1) rotate(-5deg);
 }
 
 .slide-up {
@@ -37,8 +104,15 @@ h1, h2, h3 {
 }
 
 @keyframes slide-up {
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .tech-dad-gradient {
@@ -46,6 +120,15 @@ h1, h2, h3 {
 }
 
 /* Custom Scrollbar */
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 10px; }
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CBD5E1;
+    border-radius: 10px;
+}

@@ -3,7 +3,7 @@ const I18N = {
     en: {
         proj_name: "Aegis Global Guard",
         title: "Recall Checker",
-        hazard: "⚠️ CEREULIDE TOXIN IS HEAT-RESISTANT. BOILING WATER HAS NO EFFECT.",
+        hazard: "⚠️ CEREULIDE (Bacillus cereus toxin) IS HEAT-RESISTANT. BOILING WATER CANNOT DEACTIVATE IT.",
         placeholder: "Enter 10-digit batch code...",
         idle: "Input the 10-digit batch code from the bottom of your tin for strict verification.",
         searching: "Comparing against official regulatory records...",
@@ -31,12 +31,18 @@ const I18N = {
         disclaimer_p1: "This tool strictly indexes batch codes announced by government regulatory bodies (FSA, FDA, SAMR, CFS).",
         disclaimer_p2: "We do not use fuzzy or probabilistic matching to avoid misidentification and legal risks for merchants.",
         disclaimer_p3: "Always cross-reference with the official hotline or local health authorities for a final determination.",
-        disclaimer_btn: "I AGREE TO THE STRICT TERMS"
+        disclaimer_btn: "I AGREE TO THE STRICT TERMS",
+        label_batch: "Batch Code",
+        label_spec: "Specification",
+        label_brand: "Brand",
+        label_country: "Country/Region",
+        label_reason: "Recall Reason",
+        label_source: "Official Source"
     },
     zh: {
         proj_name: "Aegis 全球盾",
         title: "全球召回核对工具",
-        hazard: "⚠️ 仙人掌杆菌毒素具有强耐热性，沸水冲泡无法灭活（高温无效）。",
+        hazard: "⚠️ Cereulide（蜡样芽孢杆菌毒素）具有强耐热性，沸水冲泡无法灭活（高温无效）。",
         placeholder: "输入罐底 10 位编码...",
         idle: "请输入罐底喷码第一行的 10 位编码进行严格核对。",
         searching: "正在比对官方监管部门录入的批次...",
@@ -64,7 +70,13 @@ const I18N = {
         disclaimer_p1: "本工具严格索引政府监管部门（如国家食安中心、FSA、FDA等）发布的批次名单。",
         disclaimer_p2: "系统不使用模糊匹配或过度推断逻辑，以避免误导消费者或导致商家名誉损失。",
         disclaimer_p3: "查询结果仅供参考。继续使用即代表您同意：最终结论以品牌官方或当地食安部门回复为准。",
-        disclaimer_btn: "我已知晓并同意协议"
+        disclaimer_btn: "我已知晓并同意协议",
+        label_batch: "批次编号",
+        label_spec: "规格/重量",
+        label_brand: "产品品牌",
+        label_country: "所属国家/地区",
+        label_reason: "召回原因",
+        label_source: "权威判定源"
     }
 };
 
@@ -160,7 +172,7 @@ function handleSearch() {
 function renderIdle() {
     resultsContainer.innerHTML = `
         <div class="text-center py-16 space-y-6 slide-up opacity-60">
-            <div class="text-7xl mx-auto">🛡️</div>
+            <div class="text-7xl mx-auto">🍼</div>
             <p class="text-slate-500 font-bold px-8">${I18N[currentLang].idle}</p>
         </div>
     `;
@@ -172,7 +184,7 @@ function renderResult(type, code, itemData = null) {
         bg: "bg-slate-100",
         border: "border-slate-300",
         text: "text-slate-900",
-        icon: "🛡️",
+        icon: "✅",
         title: t.status_none,
         desc: t.desc_none,
         pulse: "",
@@ -180,51 +192,66 @@ function renderResult(type, code, itemData = null) {
         seriesLabel: ""
     };
 
-    if (type === 'critical') {
-        const sourceObj = OFFICIAL_SOURCES.find(s => s.id === itemData.source);
+    if (type === 'critical' || type === 'caution') {
+        const isCritical = type === 'critical';
+        const accentColor = isCritical ? "text-red-700" : "text-amber-800";
+        const borderColor = isCritical ? "border-red-600" : "border-amber-500";
+        const bgColor = isCritical ? "bg-red-50" : "bg-amber-50";
+
         config = {
-            bg: "bg-red-50",
-            border: "border-red-600",
-            text: "text-red-700",
-            icon: "🚨",
-            title: t.status_critical,
-            desc: t.desc_critical,
-            pulse: "pulse-red",
+            bg: bgColor,
+            border: borderColor,
+            text: accentColor,
+            icon: isCritical ? "🚨" : "⚠️",
+            title: isCritical ? t.status_critical : t.status_caution,
+            desc: isCritical ? t.desc_critical : t.desc_caution,
+            pulse: isCritical ? "pulse-red-aggressive" : "pulse-amber-aggressive",
+            seriesLabel: type === 'caution' ? `
+                <div class="mt-4 p-4 bg-amber-100 border-l-4 border-amber-600 rounded-lg text-xs text-amber-950 leading-relaxed font-semibold">
+                    ${t.series_notice.replace('[Prefix]', itemData.code)}
+                </div>` : "",
             sourceBtn: `
-                <a href="${sourceObj.url}" target="_blank" class="block w-full text-center py-4 border-2 border-red-600 text-red-700 rounded-2xl text-xs font-black uppercase tracking-widest mt-2 hover:bg-red-100 transition-colors shadow-sm">
+                <a href="${itemData.docUrl}" target="_blank" class="block w-full text-center py-4 border-2 ${borderColor} ${accentColor} rounded-2xl text-xs font-black uppercase tracking-widest mt-2 hover:opacity-80 transition-all shadow-sm">
                     🔗 ${t.view_source}
                 </a>
             `
         };
-    } else if (type === 'caution') {
-        const sourceObj = OFFICIAL_SOURCES.find(s => s.id === itemData.source);
-        config = {
-            bg: "bg-amber-50",
-            border: "border-amber-500",
-            text: "text-amber-800",
-            icon: "⚠️",
-            title: t.status_caution,
-            desc: t.desc_caution,
-            pulse: "",
-            seriesLabel: `<div class="mt-4 p-4 bg-amber-100 border-l-4 border-amber-600 rounded-lg text-xs text-amber-950 leading-relaxed font-semibold">
-                            ${t.series_notice.replace('[Prefix]', itemData.code)}
-                          </div>`,
-            sourceBtn: `
-                <a href="${sourceObj.url}" target="_blank" class="block w-full text-center py-4 border-2 border-amber-600 text-amber-800 rounded-2xl text-[10px] font-black uppercase tracking-widest mt-2 hover:bg-amber-200 transition-colors">
-                    🔍 ${t.view_source}
-                </a>
-            `
-        };
     }
+
+    // Detail Grid HTML
+    const detailGrid = itemData ? `
+        <div class="grid grid-cols-2 gap-4 py-4 border-t border-slate-100">
+            <div>
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_brand}</p>
+                <p class="text-sm font-black text-slate-800">${itemData.subBrand || 'Nestlé'}</p>
+            </div>
+            <div>
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_spec}</p>
+                <p class="text-sm font-black text-slate-800">${itemData.specification || '800g'}</p>
+            </div>
+            <div>
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_country}</p>
+                <p class="text-sm font-black text-slate-800">${itemData.country}</p>
+            </div>
+            <div>
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_source}</p>
+                <p class="text-[11px] font-bold text-blue-600 underline truncate">${itemData.sourceDisplay}</p>
+            </div>
+            <div class="col-span-2">
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_reason}</p>
+                <p class="text-xs font-bold text-red-600 bg-red-50 p-2 rounded-lg mt-1 border border-red-100">${itemData.reason}</p>
+            </div>
+        </div>
+    ` : '';
 
     resultsContainer.innerHTML = `
         <div class="glass-card rounded-[2.5rem] overflow-hidden border-2 ${config.border} ${config.pulse} slide-up shadow-2xl">
             <div class="p-8 space-y-6">
                 <div class="flex justify-between items-start">
                     <div>
-                        <span class="text-[10px] font-bold uppercase tracking-widest ${config.text} opacity-50 mb-1 block">Verified Batch ID</span>
+                        <span class="text-[10px] font-bold uppercase tracking-widest ${config.text} opacity-50 mb-1 block">${t.label_batch}</span>
                         <h3 class="text-4xl font-black ${config.text} tracking-tighter">${code}</h3>
-                        ${itemData ? `<p class="text-xs font-bold text-slate-500 mt-1 uppercase tracking-tight">${itemData.brand} | ${itemData.product}</p>` : ''}
+                        ${itemData ? `<p class="text-xs font-bold text-slate-500 mt-1 uppercase tracking-tight">${itemData.product}</p>` : ''}
                     </div>
                     <div class="text-4xl">${config.icon}</div>
                 </div>
@@ -234,6 +261,8 @@ function renderResult(type, code, itemData = null) {
                     <p class="text-sm text-slate-600 mt-2 font-medium leading-relaxed">${config.desc}</p>
                     ${config.seriesLabel}
                 </div>
+
+                ${detailGrid}
 
                 <div class="space-y-4 pt-4">
                     <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest text-center mb-1">${t.final_authority}</p>

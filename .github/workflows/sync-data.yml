@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'recall_database_v3.csv'
-      - 'process_data_v5.py'
+      - 'process_data_v6.py'
   workflow_dispatch:
 
 jobs:
@@ -20,7 +20,7 @@ jobs:
           python-version: '3.x'
 
       - name: Run Data Update Script
-        run: python process_data_v5.py
+        run: python process_data_v6.py
 
       - name: Commit and Push JS update
         run: |
