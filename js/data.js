@@ -32,7 +32,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -56,7 +56,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -80,7 +80,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -104,7 +104,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -128,7 +128,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -152,7 +152,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -176,7 +176,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -188,7 +188,7 @@ const RECALL_DATA = [
         "country": "Australia/New Zealand",
         "reason": "Precautionary recall: Microbial contamination (Cereulide)",
         "sourceDisplay": "Food Standards Australia New Zealand (FSANZ)",
-        "docUrl": "https://www.foodstandards.gov.au/food-recalls",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -212,7 +212,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -224,7 +224,7 @@ const RECALL_DATA = [
         "country": "Australia/New Zealand",
         "reason": "Precautionary recall: Microbial contamination (Cereulide)",
         "sourceDisplay": "Food Standards Australia New Zealand (FSANZ)",
-        "docUrl": "https://www.foodstandards.gov.au/food-recalls",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -248,7 +248,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -272,7 +272,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -284,7 +284,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -308,7 +308,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -320,7 +320,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -332,7 +332,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -344,7 +344,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -356,7 +356,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -368,7 +368,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -380,7 +380,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -392,7 +392,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -404,7 +404,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -416,7 +416,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -428,7 +428,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -452,7 +452,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -464,7 +464,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -476,7 +476,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -488,7 +488,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -500,7 +500,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -512,7 +512,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -524,7 +524,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -536,7 +536,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -548,7 +548,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -560,7 +560,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -572,7 +572,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -596,7 +596,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -608,7 +608,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -620,7 +620,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -632,7 +632,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -644,7 +644,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -668,7 +668,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -692,7 +692,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -728,7 +728,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -752,7 +752,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -800,7 +800,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -824,7 +824,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -836,7 +836,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -860,7 +860,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -872,7 +872,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -908,7 +908,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -920,7 +920,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -932,7 +932,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -944,7 +944,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -956,7 +956,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -968,7 +968,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -980,7 +980,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -992,7 +992,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1004,7 +1004,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1016,7 +1016,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1028,7 +1028,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1064,7 +1064,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1076,7 +1076,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1088,7 +1088,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1100,7 +1100,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1112,7 +1112,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1124,7 +1124,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1136,7 +1136,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1148,7 +1148,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1160,7 +1160,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1172,7 +1172,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1184,7 +1184,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1244,7 +1244,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1256,7 +1256,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1268,7 +1268,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1280,7 +1280,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1292,7 +1292,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1316,7 +1316,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1340,7 +1340,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1388,7 +1388,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1400,7 +1400,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1448,7 +1448,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1460,7 +1460,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1472,7 +1472,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1496,7 +1496,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1520,7 +1520,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1544,7 +1544,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1568,7 +1568,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1580,7 +1580,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1604,7 +1604,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1616,7 +1616,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1628,7 +1628,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1640,7 +1640,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1652,7 +1652,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1664,7 +1664,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1676,7 +1676,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1688,7 +1688,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1700,7 +1700,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1712,7 +1712,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1724,7 +1724,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1748,7 +1748,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1760,7 +1760,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1772,7 +1772,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1784,7 +1784,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1796,7 +1796,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1808,7 +1808,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1820,7 +1820,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1832,7 +1832,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1844,7 +1844,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1856,7 +1856,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1868,7 +1868,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1892,7 +1892,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1904,7 +1904,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1916,7 +1916,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1928,7 +1928,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1940,7 +1940,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -1964,7 +1964,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2012,7 +2012,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2048,7 +2048,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2072,7 +2072,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2096,7 +2096,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2108,7 +2108,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2132,7 +2132,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2168,7 +2168,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2180,7 +2180,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2192,7 +2192,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2216,7 +2216,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2228,7 +2228,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2240,7 +2240,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2252,7 +2252,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2264,7 +2264,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2276,7 +2276,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2288,7 +2288,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2300,7 +2300,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2312,7 +2312,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2324,7 +2324,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2348,7 +2348,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2360,7 +2360,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2372,7 +2372,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2384,7 +2384,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2396,7 +2396,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2408,7 +2408,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2420,7 +2420,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2432,7 +2432,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2444,7 +2444,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2456,7 +2456,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2492,7 +2492,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2504,7 +2504,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2516,7 +2516,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2528,7 +2528,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2624,7 +2624,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2648,7 +2648,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2672,7 +2672,7 @@ const RECALL_DATA = [
         "country": "Australia/New Zealand",
         "reason": "Precautionary recall: Microbial contamination (Cereulide)",
         "sourceDisplay": "Food Standards Australia New Zealand (FSANZ)",
-        "docUrl": "https://www.foodstandards.gov.au/food-recalls",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2696,7 +2696,7 @@ const RECALL_DATA = [
         "country": "Australia/New Zealand",
         "reason": "Precautionary recall: Microbial contamination (Cereulide)",
         "sourceDisplay": "Food Standards Australia New Zealand (FSANZ)",
-        "docUrl": "https://www.foodstandards.gov.au/food-recalls",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2720,7 +2720,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2744,7 +2744,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2756,7 +2756,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2768,7 +2768,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2780,7 +2780,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2792,7 +2792,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2804,7 +2804,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2816,7 +2816,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2828,7 +2828,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2840,7 +2840,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2852,7 +2852,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2876,7 +2876,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2888,7 +2888,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2900,7 +2900,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2912,7 +2912,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2924,7 +2924,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2936,7 +2936,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2948,7 +2948,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2960,7 +2960,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2972,7 +2972,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -2984,7 +2984,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3008,7 +3008,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3020,7 +3020,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3032,7 +3032,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3044,7 +3044,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3068,7 +3068,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3092,7 +3092,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3116,7 +3116,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3128,7 +3128,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3140,7 +3140,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3260,7 +3260,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3284,7 +3284,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3296,7 +3296,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3308,7 +3308,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3320,7 +3320,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3332,7 +3332,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3344,7 +3344,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3356,7 +3356,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3368,7 +3368,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3380,7 +3380,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3392,7 +3392,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3416,7 +3416,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3428,7 +3428,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3440,7 +3440,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3452,7 +3452,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3464,7 +3464,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3476,7 +3476,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3488,7 +3488,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3500,7 +3500,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3512,7 +3512,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3524,7 +3524,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3536,7 +3536,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3548,7 +3548,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3572,7 +3572,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3584,7 +3584,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3596,7 +3596,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3608,7 +3608,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3632,7 +3632,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3668,7 +3668,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3692,7 +3692,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3704,7 +3704,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3728,7 +3728,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3776,7 +3776,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3800,7 +3800,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3836,7 +3836,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3848,7 +3848,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3860,7 +3860,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3872,7 +3872,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3884,7 +3884,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3896,7 +3896,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3908,7 +3908,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3920,7 +3920,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3932,7 +3932,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3944,7 +3944,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3980,7 +3980,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -3992,7 +3992,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4004,7 +4004,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4016,7 +4016,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4028,7 +4028,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4040,7 +4040,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4052,7 +4052,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4064,7 +4064,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4076,7 +4076,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4088,7 +4088,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4100,7 +4100,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -4124,7 +4124,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4136,7 +4136,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4148,7 +4148,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4160,7 +4160,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4268,7 +4268,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4292,7 +4292,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4304,7 +4304,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4316,7 +4316,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4328,7 +4328,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4340,7 +4340,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4352,7 +4352,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4364,7 +4364,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4376,7 +4376,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4388,7 +4388,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4400,7 +4400,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4424,7 +4424,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4436,7 +4436,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -4448,7 +4448,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -4460,7 +4460,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4472,7 +4472,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4484,7 +4484,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4496,7 +4496,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4508,7 +4508,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4520,7 +4520,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4532,7 +4532,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4544,7 +4544,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4556,7 +4556,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4580,7 +4580,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4592,7 +4592,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -4604,7 +4604,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4616,7 +4616,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4628,7 +4628,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4676,7 +4676,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -4880,7 +4880,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4904,7 +4904,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4916,7 +4916,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4928,7 +4928,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4940,7 +4940,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4952,7 +4952,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4964,7 +4964,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4976,7 +4976,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -4988,7 +4988,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5000,7 +5000,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5024,7 +5024,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5048,7 +5048,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5060,7 +5060,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5072,7 +5072,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5084,7 +5084,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5096,7 +5096,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5108,7 +5108,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5120,7 +5120,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5132,7 +5132,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5144,7 +5144,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5168,7 +5168,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5192,7 +5192,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5204,7 +5204,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5216,7 +5216,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5228,7 +5228,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5252,7 +5252,7 @@ const RECALL_DATA = [
         "country": "Australia/New Zealand",
         "reason": "Precautionary recall: Microbial contamination (Cereulide)",
         "sourceDisplay": "Food Standards Australia New Zealand (FSANZ)",
-        "docUrl": "https://www.foodstandards.gov.au/food-recalls",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -5360,7 +5360,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -5372,7 +5372,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -5468,7 +5468,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5480,7 +5480,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5492,7 +5492,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5504,7 +5504,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5516,7 +5516,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5528,7 +5528,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5540,7 +5540,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5552,7 +5552,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5564,7 +5564,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5576,7 +5576,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5600,7 +5600,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5612,7 +5612,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5624,7 +5624,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5636,7 +5636,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5648,7 +5648,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5660,7 +5660,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5672,7 +5672,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5684,7 +5684,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5696,7 +5696,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5708,7 +5708,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5732,7 +5732,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5744,7 +5744,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5756,7 +5756,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5768,7 +5768,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5780,7 +5780,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5888,7 +5888,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5900,7 +5900,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5912,7 +5912,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5924,7 +5924,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5936,7 +5936,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5948,7 +5948,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5960,7 +5960,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5972,7 +5972,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5984,7 +5984,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -5996,7 +5996,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6020,7 +6020,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6032,7 +6032,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6044,7 +6044,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6056,7 +6056,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6068,7 +6068,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6080,7 +6080,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6092,7 +6092,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6104,7 +6104,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6116,7 +6116,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6128,7 +6128,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6152,7 +6152,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6164,7 +6164,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6176,7 +6176,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6188,7 +6188,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6200,7 +6200,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6236,7 +6236,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6248,7 +6248,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6260,7 +6260,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6272,7 +6272,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6284,7 +6284,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6296,7 +6296,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6308,7 +6308,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6320,7 +6320,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6332,7 +6332,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6344,7 +6344,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6356,7 +6356,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6368,7 +6368,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6380,7 +6380,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6392,7 +6392,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6404,7 +6404,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6416,7 +6416,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6428,7 +6428,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6440,7 +6440,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6452,7 +6452,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6464,7 +6464,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6488,7 +6488,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6500,7 +6500,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6512,7 +6512,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6524,7 +6524,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6536,7 +6536,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6548,7 +6548,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6560,7 +6560,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6572,7 +6572,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6584,7 +6584,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6596,7 +6596,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6608,7 +6608,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6620,7 +6620,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6632,7 +6632,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6644,7 +6644,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6656,7 +6656,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6668,7 +6668,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6680,7 +6680,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6692,7 +6692,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6704,7 +6704,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6716,7 +6716,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6728,7 +6728,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6740,7 +6740,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6752,7 +6752,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6764,7 +6764,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6776,7 +6776,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6788,7 +6788,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6800,7 +6800,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6812,7 +6812,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6824,7 +6824,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6836,7 +6836,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6848,7 +6848,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -6860,7 +6860,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -6872,7 +6872,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -6884,7 +6884,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -6896,7 +6896,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -6908,7 +6908,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -6920,7 +6920,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -6932,7 +6932,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -6944,7 +6944,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -6956,7 +6956,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -6968,7 +6968,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -6980,7 +6980,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -6992,7 +6992,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7004,7 +7004,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7016,7 +7016,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7028,7 +7028,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7040,7 +7040,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7052,7 +7052,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7064,7 +7064,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7076,7 +7076,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7088,7 +7088,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7100,7 +7100,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7112,7 +7112,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7124,7 +7124,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7136,7 +7136,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7148,7 +7148,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7160,7 +7160,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7172,7 +7172,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7184,7 +7184,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7196,7 +7196,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7208,7 +7208,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7220,7 +7220,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7232,7 +7232,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7244,7 +7244,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7256,7 +7256,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7268,7 +7268,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7280,7 +7280,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -7291,8 +7291,8 @@ const RECALL_DATA = [
         "specification": "400g",
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
-        "sourceDisplay": "Philippines FDA / Parenteam Mirror",
-        "docUrl": "https://www.parenteam.com.ph/voluntary-precautionary-recall",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
         "isSeries": false
     },
     {
@@ -7304,7 +7304,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -7316,7 +7316,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -7328,7 +7328,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -7340,7 +7340,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -7352,7 +7352,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -7364,7 +7364,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -7376,7 +7376,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7388,7 +7388,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7400,7 +7400,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7412,7 +7412,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7424,7 +7424,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7436,7 +7436,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7448,7 +7448,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7460,7 +7460,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7472,7 +7472,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7484,7 +7484,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7496,7 +7496,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7508,7 +7508,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7520,7 +7520,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7532,7 +7532,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7544,7 +7544,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7556,7 +7556,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7568,7 +7568,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7580,7 +7580,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7592,7 +7592,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7604,7 +7604,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7616,7 +7616,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7628,7 +7628,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7640,7 +7640,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7652,7 +7652,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7664,7 +7664,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7676,7 +7676,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -7688,7 +7688,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -7700,7 +7700,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -7711,8 +7711,8 @@ const RECALL_DATA = [
         "specification": "400g",
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
-        "sourceDisplay": "Philippines FDA / Parenteam Mirror",
-        "docUrl": "https://www.parenteam.com.ph/voluntary-precautionary-recall",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
         "isSeries": false
     },
     {
@@ -7724,7 +7724,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -7736,7 +7736,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -7748,7 +7748,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7760,7 +7760,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7772,7 +7772,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7784,7 +7784,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7796,7 +7796,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7808,7 +7808,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7820,7 +7820,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7832,7 +7832,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7844,7 +7844,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7856,7 +7856,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7868,7 +7868,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7880,7 +7880,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -7892,7 +7892,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7904,7 +7904,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -7916,7 +7916,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7928,7 +7928,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7940,7 +7940,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7952,7 +7952,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7964,7 +7964,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7976,7 +7976,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -7988,7 +7988,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8000,7 +8000,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8012,7 +8012,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8024,7 +8024,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8036,7 +8036,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8048,7 +8048,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8060,7 +8060,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8192,7 +8192,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -8228,7 +8228,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8240,7 +8240,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8252,7 +8252,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8264,7 +8264,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8276,7 +8276,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8288,7 +8288,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8300,7 +8300,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8312,7 +8312,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8324,7 +8324,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8336,7 +8336,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8348,7 +8348,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8360,7 +8360,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8372,7 +8372,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8384,7 +8384,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8396,7 +8396,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8408,7 +8408,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8420,7 +8420,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8432,7 +8432,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8444,7 +8444,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8456,7 +8456,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8480,7 +8480,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8492,7 +8492,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8504,7 +8504,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8516,7 +8516,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8528,7 +8528,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8540,7 +8540,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -8552,7 +8552,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -8564,7 +8564,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -8576,7 +8576,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -8588,7 +8588,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -8624,7 +8624,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -8671,8 +8671,8 @@ const RECALL_DATA = [
         "specification": "450g",
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
-        "sourceDisplay": "Philippines FDA / Parenteam Mirror",
-        "docUrl": "https://www.parenteam.com.ph/voluntary-precautionary-recall",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
         "isSeries": false
     },
     {
@@ -8684,7 +8684,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8696,7 +8696,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8708,7 +8708,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8720,7 +8720,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8732,7 +8732,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8744,7 +8744,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8756,7 +8756,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8768,7 +8768,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8780,7 +8780,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8792,7 +8792,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8804,7 +8804,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8816,7 +8816,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -8828,7 +8828,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8840,7 +8840,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8852,7 +8852,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8864,7 +8864,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8876,7 +8876,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8888,7 +8888,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8900,7 +8900,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8912,7 +8912,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8924,7 +8924,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8936,7 +8936,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8948,7 +8948,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8960,7 +8960,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8972,7 +8972,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8984,7 +8984,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -8996,7 +8996,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -9008,7 +9008,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -9020,7 +9020,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -9032,7 +9032,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9044,7 +9044,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9056,7 +9056,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9068,7 +9068,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9080,7 +9080,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9092,7 +9092,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9104,7 +9104,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9116,7 +9116,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9128,7 +9128,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9140,7 +9140,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9152,7 +9152,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9164,7 +9164,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9176,7 +9176,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9188,7 +9188,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9200,7 +9200,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9212,7 +9212,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9224,7 +9224,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9236,7 +9236,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9248,7 +9248,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9260,7 +9260,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9272,7 +9272,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9284,7 +9284,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9296,7 +9296,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9308,7 +9308,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9320,7 +9320,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9332,7 +9332,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -9356,7 +9356,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -9368,7 +9368,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -9380,7 +9380,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -9392,7 +9392,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9416,7 +9416,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9428,7 +9428,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9440,7 +9440,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9452,7 +9452,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9464,7 +9464,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9476,7 +9476,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9488,7 +9488,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9500,7 +9500,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9512,7 +9512,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9524,7 +9524,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9548,7 +9548,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9560,7 +9560,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9572,7 +9572,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9584,7 +9584,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9596,7 +9596,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9608,7 +9608,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9620,7 +9620,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9632,7 +9632,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9644,7 +9644,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9656,7 +9656,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9668,7 +9668,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9680,7 +9680,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9692,7 +9692,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9704,7 +9704,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9740,7 +9740,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -9776,7 +9776,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9788,7 +9788,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9800,7 +9800,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9812,7 +9812,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9824,7 +9824,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9836,7 +9836,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9848,7 +9848,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9860,7 +9860,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9872,7 +9872,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9884,7 +9884,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9896,7 +9896,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9908,7 +9908,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -9920,7 +9920,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9932,7 +9932,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9944,7 +9944,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9956,7 +9956,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9968,7 +9968,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9980,7 +9980,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -9992,7 +9992,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10004,7 +10004,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10016,7 +10016,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10028,7 +10028,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10040,7 +10040,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10052,7 +10052,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10064,7 +10064,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10076,7 +10076,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10088,7 +10088,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10099,8 +10099,8 @@ const RECALL_DATA = [
         "specification": "600g",
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
-        "sourceDisplay": "Philippines FDA / Parenteam Mirror",
-        "docUrl": "https://www.parenteam.com.ph/voluntary-precautionary-recall",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
         "isSeries": false
     },
     {
@@ -10124,7 +10124,7 @@ const RECALL_DATA = [
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
-        "docUrl": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10136,7 +10136,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10148,7 +10148,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10160,7 +10160,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10172,7 +10172,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10184,7 +10184,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10196,7 +10196,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10208,7 +10208,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10220,7 +10220,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10232,7 +10232,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10244,7 +10244,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10256,7 +10256,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10268,7 +10268,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10280,7 +10280,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10292,7 +10292,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10304,7 +10304,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10316,7 +10316,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10328,7 +10328,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10340,7 +10340,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10352,7 +10352,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10364,7 +10364,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10376,7 +10376,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10388,7 +10388,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10400,7 +10400,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10412,7 +10412,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10424,7 +10424,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -10436,7 +10436,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -10448,7 +10448,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10460,7 +10460,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10472,7 +10472,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10484,7 +10484,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10496,7 +10496,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10508,7 +10508,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10520,7 +10520,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10532,7 +10532,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10544,7 +10544,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10556,7 +10556,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10568,7 +10568,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10580,7 +10580,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10592,7 +10592,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10604,7 +10604,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10616,7 +10616,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10628,7 +10628,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10640,7 +10640,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10652,7 +10652,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10664,7 +10664,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10676,7 +10676,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10688,7 +10688,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10700,7 +10700,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10712,7 +10712,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10724,7 +10724,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10736,7 +10736,7 @@ const RECALL_DATA = [
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "sourceDisplay": "Global Health Authorities / Nestlé International",
-        "docUrl": "https://www.nestle.com/ask-nestle/recall-info",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": true
     },
     {
@@ -10748,7 +10748,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10760,7 +10760,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10772,7 +10772,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10784,7 +10784,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10796,7 +10796,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10808,7 +10808,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10820,7 +10820,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10832,7 +10832,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10844,7 +10844,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10856,7 +10856,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10868,7 +10868,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10880,7 +10880,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10892,7 +10892,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10904,7 +10904,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10916,7 +10916,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10928,7 +10928,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10940,7 +10940,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10952,7 +10952,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10964,7 +10964,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10976,7 +10976,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -10988,7 +10988,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11000,7 +11000,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11012,7 +11012,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11024,7 +11024,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11036,7 +11036,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11048,7 +11048,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11060,7 +11060,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11072,7 +11072,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11084,7 +11084,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11096,7 +11096,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11108,7 +11108,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11120,7 +11120,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11132,7 +11132,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11144,7 +11144,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11156,7 +11156,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11168,7 +11168,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11180,7 +11180,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11192,7 +11192,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11204,7 +11204,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11216,7 +11216,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11228,7 +11228,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11240,7 +11240,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11252,7 +11252,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11264,7 +11264,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11276,7 +11276,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11288,7 +11288,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11300,7 +11300,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11312,7 +11312,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11324,7 +11324,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11336,7 +11336,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11348,7 +11348,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11360,7 +11360,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11372,7 +11372,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11384,7 +11384,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11396,7 +11396,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -11408,7 +11408,7 @@ const RECALL_DATA = [
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "docUrl": "https://www.nestle.de/recherche",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     }
 ];

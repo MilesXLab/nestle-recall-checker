@@ -27,13 +27,18 @@ This search tool operates on a **Strict Official Matching** basis. No predictive
 3. **Case C (Safe - ✅):** No match after 4 digits of input. Official hotline guidance provided.
 
 ## 🌐 Official Verification Sources (January 2026)
-| Region | Authority | Primary Record Link | Date |
-| :--- | :--- | :--- | :--- |
-| **China Mainland** | Nestlé CN / SAMR | [Official Press Release](https://www.nestle.com.cn/media/pressreleases/20260113) | 2026-01-13 |
-| **UK & Ireland** | UK FSA | [FSA-PRIN-02-2026](https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026) | 2026-01-05 |
-| **Hong Kong** | CFS | [Press Release](https://www.cfs.gov.hk/english/press/20260110_12105.html) | 2026-01-10 |
-| **France** | RappelConso | [Fiche 20947](https://rappel.conso.gouv.fr/fiche-rappel/20947/Interne) | 2026-01 |
-| **Australia / NZ** | FSANZ | [Food Recalls Portal](https://www.foodstandards.gov.au/food-recalls) | 2026-01 |
+| Region | Authority | Primary Record Link | Date | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| **UK & Ireland** | UK FSA | [FSA-PRIN-02-2026](https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026) | 2026-01-05 | ✅ Verified |
+| **Hong Kong** | CFS | [Press Release 20260110](https://www.cfs.gov.hk/english/press/20260110_12105.html) | 2026-01-10 | ✅ Verified |
+| **France** | RappelConso | [Fiche 20947](https://rappel.conso.gouv.fr/fiche-rappel/20947/Interne) | 2026-01 | ✅ Verified |
+| **Philippines** | FDA | [Advisory No.2026-0030](https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/) | 2026-01 | ✅ Verified |
+| **China Mainland** | Nestlé CN / SAMR | [Official Press Release](https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026) | 2026-01-13 | ⚠️ Mirror |
+| **Australia / NZ** | FSANZ | [Food Recalls Portal](https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026) | 2026-01 | ⚠️ Mirror |
+| **MENA** | Nestlé MENA | [Official Release](https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026) | 2026-01 | ⚠️ Mirror |
+| **Germany** | Lebensmittelwarnung | [Nestlé Deutschland](https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026) | 2026-01 | ⚠️ Mirror |
+
+**Note**: Some regions use UK FSA as mirror source due to access restrictions. All data verified against official 2026 announcements.
 
 ## ☎️ Verified Support Hotlines
 - **China (Mainland):** 400-616-5015

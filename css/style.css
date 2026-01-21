@@ -43,9 +43,10 @@ h3 {
     }
 }
 
-/* 🚨 CRITICAL ALERT - Emergency Flashing Animation */
+/* 🚨 CRITICAL ALERT - Emergency Flashing Animation (WHOLE CARD GLOW) */
 .pulse-red-aggressive {
     animation: emergency-flash-red 0.6s infinite;
+    position: relative;
 }
 
 @keyframes emergency-flash-red {
@@ -53,22 +54,35 @@ h3 {
     0%,
     100% {
         border-color: #DC2626;
-        box-shadow: 0 0 30px rgba(220, 38, 38, 0.8), inset 0 0 20px rgba(220, 38, 38, 0.2);
-        background: #FEF2F2;
+        border-width: 3px;
+        box-shadow:
+            0 0 40px 8px rgba(220, 38, 38, 0.9),
+            0 0 80px 16px rgba(220, 38, 38, 0.6),
+            0 0 120px 24px rgba(220, 38, 38, 0.3),
+            inset 0 0 30px rgba(220, 38, 38, 0.3);
+        background: linear-gradient(135deg, #FEF2F2 0%, #FEE2E2 100%);
         transform: scale(1);
+        filter: brightness(1);
     }
 
     50% {
-        border-color: #7F1D1D;
-        box-shadow: 0 0 60px rgba(220, 38, 38, 1), inset 0 0 40px rgba(220, 38, 38, 0.4);
-        background: #FEE2E2;
-        transform: scale(1.01);
+        border-color: #991B1B;
+        border-width: 4px;
+        box-shadow:
+            0 0 60px 12px rgba(220, 38, 38, 1),
+            0 0 100px 20px rgba(220, 38, 38, 0.8),
+            0 0 140px 28px rgba(220, 38, 38, 0.5),
+            inset 0 0 50px rgba(220, 38, 38, 0.5);
+        background: linear-gradient(135deg, #FEE2E2 0%, #FECACA 100%);
+        transform: scale(1.015);
+        filter: brightness(1.1);
     }
 }
 
-/* ⚠️ CAUTION ALERT - Warning Flashing Animation */
+/* ⚠️ CAUTION ALERT - Warning Flashing Animation (WHOLE CARD GLOW) */
 .pulse-amber-aggressive {
     animation: emergency-flash-amber 0.8s infinite;
+    position: relative;
 }
 
 @keyframes emergency-flash-amber {
@@ -76,16 +90,28 @@ h3 {
     0%,
     100% {
         border-color: #F59E0B;
-        box-shadow: 0 0 25px rgba(245, 158, 11, 0.6), inset 0 0 15px rgba(245, 158, 11, 0.2);
-        background: #FFFBEB;
+        border-width: 3px;
+        box-shadow:
+            0 0 35px 6px rgba(245, 158, 11, 0.8),
+            0 0 70px 12px rgba(245, 158, 11, 0.5),
+            0 0 105px 18px rgba(245, 158, 11, 0.3),
+            inset 0 0 25px rgba(245, 158, 11, 0.25);
+        background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%);
         transform: scale(1);
+        filter: brightness(1);
     }
 
     50% {
-        border-color: #B45309;
-        box-shadow: 0 0 50px rgba(245, 158, 11, 0.9), inset 0 0 30px rgba(245, 158, 11, 0.3);
-        background: #FEF3C7;
-        transform: scale(1.008);
+        border-color: #92400E;
+        border-width: 4px;
+        box-shadow:
+            0 0 50px 10px rgba(245, 158, 11, 1),
+            0 0 90px 16px rgba(245, 158, 11, 0.7),
+            0 0 130px 22px rgba(245, 158, 11, 0.4),
+            inset 0 0 40px rgba(245, 158, 11, 0.4);
+        background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+        transform: scale(1.01);
+        filter: brightness(1.08);
     }
 }
 

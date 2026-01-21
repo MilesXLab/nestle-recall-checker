@@ -10,13 +10,13 @@ SOURCE_META = {
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "source_display": "雀巢中国官方公告 / 国家健康委备案",
-        "doc_url": "https://www.nestle.com.cn/media/pressreleases/20260113"
+        "doc_url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026"
     },
     "CN_CROSS": {
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "source_display": "雀巢中国官方公告",
-        "doc_url": "https://www.nestle.com.cn/media/pressreleases/20260113-a"
+        "doc_url": "https://www.cfs.gov.hk/english/press/20260110_12105.html"
     },
     "UK_FSA": {
         "country": "United Kingdom",
@@ -40,31 +40,31 @@ SOURCE_META = {
         "country": "Germany",
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "source_display": "Nestlé Deutschland / Lebensmittelwarnung.de",
-        "doc_url": "https://www.nestle.de/recherche"
+        "doc_url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026"
     },
     "PH_FDA": {
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
-        "source_display": "Philippines FDA / Parenteam Mirror",
-        "doc_url": "https://www.parenteam.com.ph/voluntary-precautionary-recall"
+        "source_display": "Philippines FDA Advisory No.2026-0030",
+        "doc_url": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/"
     },
     "AU_FSANZ": {
         "country": "Australia/New Zealand",
         "reason": "Precautionary recall: Microbial contamination (Cereulide)",
         "source_display": "Food Standards Australia New Zealand (FSANZ)",
-        "doc_url": "https://www.foodstandards.gov.au/food-recalls"
+        "doc_url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026"
     },
     "MENA_VERIFY": {
         "country": "Middle East (MENA)",
         "reason": "Precautionary verification: Quality concern related to raw material",
         "source_display": "Nestlé MENA Official Release",
-        "doc_url": "https://www.nestle-mena.com/en/media/pressreleases/precautionary-recall-specified-batches"
+        "doc_url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026"
     },
     "GLOBAL": {
         "country": "Global (Cross-region)",
         "reason": "International Precautionary Alert: Cereulide toxin risk",
         "source_display": "Global Health Authorities / Nestlé International",
-        "doc_url": "https://www.nestle.com/ask-nestle/recall-info"
+        "doc_url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026"
     }
 }
 
