@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Simple CSV to JS converter - NO data generation
-Only reads from recall_database_v3.csv and generates js/data.js
+Only reads from recall_database.csv and generates js/data.js
 """
 
 import csv
@@ -10,7 +10,7 @@ import json
 
 # Read from CSV
 batches = []
-with open('recall_database_v3.csv', 'r', encoding='utf-8-sig') as f:
+with open('recall_database.csv', 'r', encoding='utf-8-sig') as f:
     reader = csv.DictReader(f)
     for row in reader:
         # Convert isSeries string to boolean
@@ -47,7 +47,7 @@ OFFICIAL_SOURCES = [
 
 from datetime import datetime
 
-with open('js/data_v4_1.js', 'w', encoding='utf-8') as f:
+with open('js/data.js', 'w', encoding='utf-8') as f:
     f.write("// --- OFFICIAL VERIFIED RECALL DATABASE (v4.1.0 - Cleaned) ---\n")
     f.write("// 100% Official Sources Only - No Speculative Data\n\n")
     

@@ -10,7 +10,7 @@ def verify_project():
     
     # 1.1 Load Data
     try:
-        with open('recall_database_v3.csv', 'r', encoding='utf-8-sig') as f:
+        with open('recall_database.csv', 'r', encoding='utf-8-sig') as f:
             reader = csv.DictReader(f)
             rows = list(reader)
     except Exception as e:

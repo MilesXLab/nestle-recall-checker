@@ -1,14 +1,14 @@
 :root {
     --primary: #0F172A;
-    --danger: #EF4444;
+    --danger: #B91C1C;
     --warning: #F59E0B;
     --success: #10B981;
-    --bg-glass: rgba(255, 255, 255, 0.8);
+    --bg-glass: rgba(255, 255, 255, 0.85);
 }
 
 body {
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
-    background: radial-gradient(circle at 50% 0%, #F1F5F9 0%, #E2E8F0 100%);
+    background: radial-gradient(circle at 50% 0%, #F8FAFC 0%, #F1F5F9 100%);
     min-height: 100vh;
 }
 
@@ -20,57 +20,33 @@ h3 {
 
 .glass-card {
     background: var(--bg-glass);
-    backdrop-filter: blur(12px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.04);
 }
 
-.pulse-red {
-    animation: pulse-red 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+#searchInput:focus {
+    background: white;
+    box-shadow: 0 0 0 4px rgba(15, 23, 42, 0.05), 0 10px 30px rgba(0, 0, 0, 0.05);
 }
 
-@keyframes pulse-red {
-
-    0%,
-    100% {
-        opacity: 1;
-        transform: scale(1);
-    }
-
-    50% {
-        opacity: 0.85;
-        transform: scale(1.02);
-    }
-}
-
-/* 🚨 CRITICAL ALERT - Emergency Flashing Animation (WHOLE CARD GLOW) */
-.pulse-red-aggressive {
-    animation: emergency-flash-red 0.6s infinite;
-    position: relative;
-}
-
-/* ========================================
-   GROK-OPTIMIZED BOTTLE ANIMATION SYSTEM
-   奶液颜色主导 + 瓶身氛围辅助 + 适度动画
-   ======================================== */
-
-/* Bottle Container Styles */
+/* Bottle Visualization */
 .bottle-container {
-    width: 150px;
-    height: 275px;
-    margin: 1.5rem auto;
-    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .bottle-svg {
-    width: 100%;
+    width: auto;
     height: 100%;
     filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.08));
     transition: filter 0.7s ease;
 }
 
-/* Milk Fill & Bottle Outline - Default Transitions */
 .milk-fill {
     transition: fill 0.7s ease, opacity 0.5s ease;
 }
@@ -81,15 +57,7 @@ h3 {
     transition: stroke 0.7s ease, stroke-width 0.5s ease;
 }
 
-.bottle-scales {
-    transition: stroke 0.7s ease;
-}
-
-.milk-wave {
-    transition: stroke 0.7s ease, opacity 0.5s ease;
-}
-
-/* ========== STATUS: IDLE (未查询) ========== */
+/* ========== STATUS: IDLE ========== */
 .status-idle .milk-fill {
     fill: #F1F5F9;
     opacity: 0.5;
@@ -111,10 +79,10 @@ h3 {
     opacity: 0.3;
 }
 
-/* ========== STATUS: SAFE (安全) ========== */
+/* ========== STATUS: SAFE ========== */
 .status-safe .milk-fill {
-    fill: #F0FDF4;
-    opacity: 1;
+    fill: #22C55E;
+    opacity: 0.15;
 }
 
 .status-safe .bottle-outline,
@@ -141,10 +109,10 @@ h3 {
     filter: drop-shadow(0 0 15px rgba(34, 197, 94, 0.2));
 }
 
-/* ========== STATUS: WARNING (警告) ========== */
+/* ========== STATUS: WARNING ========== */
 .status-warning .milk-fill {
-    fill: #FFFBEB;
-    opacity: 1;
+    fill: #F59E0B;
+    opacity: 0.2;
 }
 
 .status-warning .bottle-outline,
@@ -171,21 +139,21 @@ h3 {
     filter: drop-shadow(0 0 20px rgba(245, 158, 11, 0.3));
 }
 
-/* ========== STATUS: DANGER (严重召回) ========== */
+/* ========== STATUS: DANGER ========== */
 .status-danger .milk-fill {
-    fill: #FEF2F2;
-    opacity: 1;
+    fill: #B91C1C;
+    opacity: 0.9;
 }
 
 .status-danger .bottle-outline,
 .status-danger .bottle-ring,
 .status-danger .bottle-nipple {
-    stroke: #EF4444;
+    stroke: #B91C1C;
     stroke-width: 4.5;
 }
 
 .status-danger .bottle-scales {
-    stroke: #F87171;
+    stroke: #EF4444;
 }
 
 .status-danger .milk-wave {
@@ -198,24 +166,21 @@ h3 {
 }
 
 .status-danger .bottle-svg {
-    filter: drop-shadow(0 0 30px rgba(239, 68, 68, 0.5));
+    filter: drop-shadow(0 0 35px rgba(185, 28, 28, 0.45));
 }
 
-/* Danger Glow Effect */
-.status-danger::before {
+/* Danger Overlay */
+.status-danger-card::after {
     content: "";
     position: absolute;
-    inset: -20px;
-    background: radial-gradient(circle, rgba(244, 67, 54, 0.35) 0%, transparent 70%);
+    inset: 0;
+    background: radial-gradient(circle at center, rgba(185, 28, 28, 0.05) 0%, transparent 70%);
     animation: pulse-glow 2s infinite;
     pointer-events: none;
-    border-radius: 50%;
-    z-index: -1;
+    z-index: 0;
 }
 
-/* ========== ANIMATION KEYFRAMES ========== */
-
-/* Safe: Gentle Breathing */
+/* Animations */
 @keyframes breathe {
 
     0%,
@@ -230,7 +195,6 @@ h3 {
     }
 }
 
-/* Warning: Light Shake */
 @keyframes shake {
 
     0%,
@@ -247,7 +211,6 @@ h3 {
     }
 }
 
-/* Danger: Intense Shake */
 @keyframes shake-intense {
 
     0%,
@@ -268,42 +231,30 @@ h3 {
     }
 }
 
-/* Danger: Flash Effect */
 @keyframes flash {
     from {
-        opacity: 0.45;
-        filter: brightness(0.9) drop-shadow(0 0 15px rgba(211, 47, 47, 0.4));
+        opacity: 0.5;
+        filter: brightness(0.9) drop-shadow(0 0 10px rgba(185, 28, 28, 0.3));
     }
 
     to {
         opacity: 1;
-        filter: brightness(1.2) drop-shadow(0 0 25px rgba(211, 47, 47, 0.7));
+        filter: brightness(1.2) drop-shadow(0 0 25px rgba(185, 28, 28, 0.6));
     }
 }
 
-/* Danger: Pulsing Glow */
 @keyframes pulse-glow {
 
     0%,
     100% {
-        opacity: 0.5;
+        opacity: 0.3;
         transform: scale(1);
     }
 
     50% {
-        opacity: 0.8;
-        transform: scale(1.15);
+        opacity: 0.6;
+        transform: scale(1.1);
     }
-}
-
-/* 🍼 Baby Bottle Icon Decoration */
-.bottle-icon {
-    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
-    transition: transform 0.3s ease;
-}
-
-.bottle-icon:hover {
-    transform: scale(1.1) rotate(-5deg);
 }
 
 .slide-up {
@@ -324,6 +275,15 @@ h3 {
 
 .tech-dad-gradient {
     background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+}
+
+.bottle-icon {
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
+    transition: transform 0.3s ease;
+}
+
+.bottle-icon:hover {
+    transform: scale(1.1) rotate(-5deg);
 }
 
 /* Custom Scrollbar */

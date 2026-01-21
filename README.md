@@ -32,16 +32,17 @@ Deploy to GitHub Pages to see it live!
 
 ## 📂 Project Structure
 - `index.html`: Main application entry point (Responsive Dashboard)
-- `css/style_v4_1.css`: Premium styling and emergency status animations
-- `js/script_v4_1.js`: Core search engine and i18n logic
-- `js/data_v4_1.js`: Synchronized database (v4.1.0 - 100% official)
-- `recall_database_v3.csv`: Primary source of truth (365 batches)
+- `css/style.css`: Premium styling and emergency status animations
+- `js/script.js`: Core search engine and i18n logic
+- `js/data.js`: Synchronized database (100% official)
+- `recall_database.csv`: Primary source of truth (365 batches)
 - `archive_and_sync.py`: Daily archival and JS synchronization utility
 - `archives/`: Historical snapshots of data for rollback and audit
 - `csv_to_js.py`: Strict data conversion engine
+- `LICENSE`: MIT License
 
 ## 🛠️ Performance & Maintenance
 Run the `archive_and_sync.py` script daily to synchronize the latest CSV changes with the web interface. This ensures the tool always displays the latest verified state while preserving history in the `archives/` directory.
 
 ---
-*Created for public safety and transparency. Data synchronized with official 2026 regulatory announcements.*
+*Created for public safety and transparency. Distributed under MIT License. Data synchronized with official 2026 regulatory announcements.*

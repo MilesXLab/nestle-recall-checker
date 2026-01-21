@@ -101,6 +101,18 @@ function normalizeBatch(code) {
     return { sanitized, fuzzy };
 }
 
+const REGION_FLAGS = {
+    "CN_DOMESTIC": "🇨🇳",
+    "CN_CROSSBORDER": "🌐",
+    "UK_FSA": "🇬🇧",
+    "PH_FDA": "🇵🇭",
+    "HK_CFS": "🇭🇰",
+    "HK_NESTLE": "🇭🇰",
+    "DE_NESTLE": "🇩🇪",
+    "FR_NESTLE": "🇫🇷",
+    "BE_LU_NESTLE": "🇧🇪"
+};
+
 function updateLang() {
     document.querySelector('[data-i18n="project_name"]').textContent = I18N[currentLang].proj_name;
     document.querySelector('[data-i18n="title"]').textContent = I18N[currentLang].title;
@@ -116,7 +128,7 @@ function updateLang() {
     ps[2].textContent = I18N[currentLang].disclaimer_p3;
     acceptBtn.textContent = I18N[currentLang].disclaimer_btn;
 
-    document.querySelector('footer').innerHTML = `
+    document.getElementById('authoritativeFooter').innerHTML = `
         <p class="text-[10px] text-slate-400 mb-2">${I18N[currentLang].data_ver}</p>
         <p class="text-xs text-secondary font-bold">${I18N[currentLang].final_authority}</p>
     `;
@@ -125,9 +137,12 @@ function updateLang() {
     const sourcesHtml = OFFICIAL_SOURCES.map(s => `
         <a href="${s.url}" target="_blank" class="block p-4 glass-card rounded-2xl text-left hover:bg-white transition-all mb-3 border border-slate-100 shadow-sm relative overflow-hidden group">
             <div class="flex justify-between items-start relative z-10">
-                <div>
-                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none mb-1">${s.date}</p>
-                    <p class="text-sm font-black text-slate-800">${s.name}</p>
+                <div class="flex items-start space-x-3">
+                    <span class="text-xl">${REGION_FLAGS[s.id] || "🌐"}</span>
+                    <div>
+                        <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none mb-1">${s.date}</p>
+                        <p class="text-sm font-black text-slate-800 leading-tight">${s.name}</p>
+                    </div>
                 </div>
                 <span class="text-xs text-blue-500 font-bold group-hover:translate-x-1 transition-transform">↗</span>
             </div>
@@ -176,38 +191,38 @@ function renderIdle() {
     resultsContainer.innerHTML = `
         <div class="text-center py-8 space-y-6 slide-up">
             <div class="bottle-container status-idle mx-auto">
-                <svg class="bottle-svg" viewBox="0 0 120 220" xmlns="http://www.w3.org/2000/svg">
+                <svg class="bottle-svg" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
                     <!-- Nipple & Ring -->
-                    <path class="bottle-nipple" d="M60 5 C52 5 48 12 48 25 L72 25 C72 12 68 5 60 5Z" 
+                    <path class="bottle-nipple" d="M50 5 Q42 5 42 20 L58 20 Q58 5 50 5Z" 
                           fill="none" stroke="#BDBDBD" stroke-width="2"/>
-                    <rect class="bottle-ring" x="42" y="25" width="36" height="12" rx="3" 
+                    <rect class="bottle-ring" x="38" y="20" width="24" height="10" rx="3" 
                           fill="none" stroke="#BDBDBD" stroke-width="2.5"/>
                     
-                    <!-- Bottle Body (Contoured) -->
-                    <path class="bottle-outline" d="M42 37 L42 45 C42 70 32 90 32 120 L32 185 C32 205 45 215 60 215 C75 215 88 205 88 185 L88 120 C88 90 78 70 78 45 L78 37 Z" 
+                    <!-- Bottle Body (Iconic Vertical) -->
+                    <path class="bottle-outline" d="M38 30 L38 35 C38 55 30 70 30 100 L30 170 C30 190 40 195 50 195 C60 195 70 190 70 170 L70 100 C70 70 62 55 62 35 L62 30 Z" 
                           fill="none" stroke="#BDBDBD" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     
-                    <!-- Milk Fill (Dynamic) -->
-                    <path class="milk-fill" d="M35 185 C35 200 45 210 60 210 C75 210 85 200 85 185 L85 120 C85 100 78 85 78 70 L42 70 C42 85 35 100 35 120 Z" 
-                          fill="#F5F5F5" opacity="0.6"/>
+                    <!-- Milk Fill -->
+                    <path class="milk-fill" d="M33 170 C33 185 41 190 50 190 C59 190 67 185 67 170 L67 100 C67 80 62 70 62 60 L38 60 C38 70 33 80 33 100 Z" 
+                          fill="#F1F5F9" opacity="0.5"/>
                     
-                    <!-- Milk Wave -->
-                    <path class="milk-wave" d="M42 70 Q51 65 60 70 Q69 75 78 70" 
-                          fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.4"/>
+                    <!-- Wave -->
+                    <path class="milk-wave" d="M33 60 Q42 55 50 60 Q58 65 67 60" 
+                          fill="none" stroke="#E2E8F0" stroke-width="2" opacity="0.3"/>
 
                     <!-- Scales -->
-                    <g class="bottle-scales" stroke="#BDBDBD" opacity="0.4">
-                        <line x1="45" y1="160" x2="55" y2="160" stroke-width="1.5" />
-                        <line x1="45" y1="140" x2="65" y2="140" stroke-width="1.5" />
-                        <line x1="45" y1="120" x2="55" y2="120" stroke-width="1.5" />
-                        <line x1="45" y1="100" x2="65" y2="100" stroke-width="1.5" />
+                    <g class="bottle-scales" stroke="#CBD5E1" opacity="0.4">
+                        <line x1="40" y1="150" x2="48" y2="150" stroke-width="1.5" />
+                        <line x1="40" y1="130" x2="52" y2="130" stroke-width="1.5" />
+                        <line x1="40" y1="110" x2="48" y2="110" stroke-width="1.5" />
+                        <line x1="40" y1="90" x2="52" y2="90" stroke-width="1.5" />
                     </g>
-
-                    <!-- Shine/Reflection -->
-                    <path d="M78 80 Q82 120 82 160" fill="none" stroke="white" stroke-width="3" opacity="0.3" stroke-linecap="round" />
+                    
+                    <!-- Shine -->
+                    <path d="M65 80 Q68 110 68 150" fill="none" stroke="white" stroke-width="3" opacity="0.3" stroke-linecap="round" />
                 </svg>
             </div>
-            <p class="text-slate-500 font-bold px-8 text-sm">${I18N[currentLang].idle}</p>
+            <p class="text-slate-500 font-bold px-8 text-sm leading-relaxed">${I18N[currentLang].idle}</p>
         </div>
     `;
 }
@@ -277,51 +292,40 @@ function renderResult(type, code, itemData = null) {
     ` : '';
 
     resultsContainer.innerHTML = `
-        <div class="glass-card rounded-[2.5rem] overflow-hidden border-2 ${config.border} slide-up shadow-2xl">
+        <div class="glass-card rounded-[2.5rem] overflow-hidden border-2 ${config.border} slide-up shadow-2xl relative">
             <div class="p-8 space-y-6">
                 <!-- SVG Bottle Visualization -->
-                <div class="bottle-container ${config.bottleStatus} mx-auto">
-                    <svg class="bottle-svg" viewBox="0 0 120 220" xmlns="http://www.w3.org/2000/svg">
-                        <!-- Nipple & Ring -->
-                        <path class="bottle-nipple" d="M60 5 C52 5 48 12 48 25 L72 25 C72 12 68 5 60 5Z" 
-                              fill="none" stroke-width="2"/>
-                        <rect class="bottle-ring" x="42" y="25" width="36" height="12" rx="3" 
-                              fill="none" stroke-width="2.5"/>
-                        
-                        <!-- Bottle Body -->
-                        <path class="bottle-outline" d="M42 37 L42 45 C42 70 32 90 32 120 L32 185 C32 205 45 215 60 215 C75 215 88 205 88 185 L88 120 C88 90 78 70 78 45 L78 37 Z" 
-                              fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                        
-                        <!-- Milk Fill -->
-                        <path class="milk-fill" d="M35 185 C35 200 45 210 60 210 C75 210 85 200 85 185 L85 120 C85 100 78 85 78 70 L42 70 C42 85 35 100 35 120 Z"/>
-                        
-                        <!-- Milk Wave -->
-                        <path class="milk-wave" d="M42 70 Q51 65 60 70 Q69 75 78 70" fill="none" stroke-width="2"/>
-
-                        <!-- Scales -->
-                        <g class="bottle-scales" opacity="0.4">
-                            <line x1="45" y1="160" x2="55" y2="160" stroke-width="1.5" />
-                            <line x1="45" y1="140" x2="65" y2="140" stroke-width="1.5" />
-                            <line x1="45" y1="120" x2="55" y2="120" stroke-width="1.5" />
-                            <line x1="45" y1="100" x2="65" y2="100" stroke-width="1.5" />
-                        </g>
-
-                        <!-- Shine -->
-                        <path d="M78 80 Q82 120 82 160" fill="none" stroke="white" stroke-width="3" opacity="0.3" stroke-linecap="round" />
-                    </svg>
-                </div>
-
-                <div class="flex justify-between items-start">
-                    <div>
-                        <span class="text-[10px] font-bold uppercase tracking-widest ${config.text} opacity-50 mb-1 block">${t.label_batch}</span>
-                        <h3 class="text-4xl font-black ${config.text} tracking-tighter">${code}</h3>
-                        ${itemData ? `<p class="text-xs font-bold text-slate-500 mt-1 uppercase tracking-tight">${itemData.product}</p>` : ''}
+                <div class="${type === 'critical' ? 'w-48 h-64' : 'w-32 h-44'} mx-auto transition-all duration-700">
+                    <div class="bottle-container ${config.bottleStatus} w-full h-full">
+                        <svg class="bottle-svg" viewBox="0 0 100 200" xmlns="http://www.w3.org/2000/svg">
+                            <path class="bottle-nipple" d="M50 5 Q42 5 42 20 L58 20 Q58 5 50 5Z" fill="none" stroke-width="2"/>
+                            <rect class="bottle-ring" x="38" y="20" width="24" height="10" rx="3" fill="none" stroke-width="2.5"/>
+                            <path class="bottle-outline" d="M38 30 L38 35 C38 55 30 70 30 100 L30 170 C30 190 40 195 50 195 C60 195 70 190 70 170 L70 100 C70 70 62 55 62 35 L62 30 Z" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path class="milk-fill" d="M33 170 C33 185 41 190 50 190 C59 190 67 185 67 170 L67 100 C67 80 62 70 62 60 L38 60 C38 70 33 80 33 100 Z"/>
+                            <path class="milk-wave" d="M33 60 Q42 55 50 60 Q58 65 67 60" fill="none" stroke-width="2"/>
+                            <g class="bottle-scales" opacity="0.4">
+                                <line x1="40" y1="150" x2="48" y2="150" stroke-width="1.5" />
+                                <line x1="40" y1="130" x2="52" y2="130" stroke-width="1.5" />
+                                <line x1="40" y1="110" x2="48" y2="110" stroke-width="1.5" />
+                                <line x1="40" y1="90" x2="52" y2="90" stroke-width="1.5" />
+                            </g>
+                            <path d="M65 80 Q68 110 68 150" fill="none" stroke="white" stroke-width="3" opacity="0.3" stroke-linecap="round" />
+                        </svg>
                     </div>
                 </div>
+
+                <div class="text-center space-y-2">
+                    <span class="text-[10px] font-bold uppercase tracking-widest ${config.text} opacity-50 block">${t.label_batch}</span>
+                    <h3 class="${type === 'critical' ? 'text-5xl' : 'text-3xl'} font-black ${config.text} tracking-tighter">${code}</h3>
+                    ${itemData ? `<p class="text-xs font-bold text-slate-500 uppercase tracking-tight">${itemData.product}</p>` : ''}
+                </div>
                 
-                <div class="py-4 border-t border-slate-100">
-                    <p class="text-lg font-black ${config.text}">${config.title}</p>
-                    <p class="text-sm text-slate-600 mt-2 font-medium leading-relaxed">${config.desc}</p>
+                <div class="py-6 border-t border-slate-100 text-center">
+                    <div class="flex items-center justify-center space-x-2 mb-2">
+                        ${type === 'critical' ? '<span class="text-2xl">⚠️</span>' : ''}
+                        <p class="${type === 'critical' ? 'text-2xl leading-tight' : 'text-lg'} font-black ${config.text}">${config.title}</p>
+                    </div>
+                    <p class="${type === 'critical' ? 'text-base' : 'text-sm'} text-slate-600 font-medium leading-relaxed">${config.desc}</p>
                     ${config.seriesLabel}
                 </div>
 
@@ -332,16 +336,17 @@ function renderResult(type, code, itemData = null) {
                     <div class="grid grid-cols-1 gap-3">
                         ${config.sourceBtn}
                         <div class="grid grid-cols-2 gap-2">
-                            <a href="tel:4006165015" class="flex items-center justify-center py-4 bg-slate-900 text-white rounded-2xl text-[10px] font-black uppercase tracking-tight shadow-lg active:scale-95 transition-all">
-                                CN: 400-616-5015
+                            <a href="tel:4006165015" class="flex items-center justify-center py-4 bg-gray-900 text-white rounded-2xl text-[10px] font-black uppercase tracking-tight shadow-lg active:scale-95 transition-all">
+                                <span class="mr-1">📞</span> CN: 400-616-5015
                             </a>
-                            <a href="tel:+85221798888" class="flex items-center justify-center py-4 bg-slate-900 text-white rounded-2xl text-[10px] font-black uppercase tracking-tight shadow-lg active:scale-95 transition-all">
-                                HK: +852-2179-8888
+                            <a href="tel:+85221798888" class="flex items-center justify-center py-4 bg-gray-900 text-white rounded-2xl text-[10px] font-black uppercase tracking-tight shadow-lg active:scale-95 transition-all">
+                                <span class="mr-1">📞</span> HK: +852-2179-8888
                             </a>
                         </div>
                     </div>
                 </div>
             </div>
+            ${type === 'critical' ? '<div class="absolute top-0 left-0 w-full h-1 bg-red-600 animate-pulse"></div>' : ''}
         </div>
     `;
 }

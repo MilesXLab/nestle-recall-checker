@@ -5,7 +5,7 @@ import subprocess
 import sys
 
 # Configuration
-DB_FILE = "recall_database_v3.csv"
+DB_FILE = "recall_database.csv"
 ARCHIVE_DIR = "archives"
 SYNC_SCRIPT = "csv_to_js.py"
 
@@ -44,7 +44,7 @@ def archive_and_sync():
         result = subprocess.run(["python", SYNC_SCRIPT], capture_output=True, text=True, encoding='utf-8', errors='replace')
         if result.returncode == 0:
             safe_print(result.stdout)
-            safe_print("✅ JS Database (js/data_v4_1.js) successfully synchronized.")
+            safe_print("✅ JS Database (js/data.js) successfully synchronized.")
         else:
             safe_print(f"❌ Error in sync script: {result.stderr}")
             sys.exit(1)
