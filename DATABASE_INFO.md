@@ -13,7 +13,7 @@
 
 **Note on China/Hong Kong Classification:**
 - "China (Mainland)": Batches from China SAMR and Nestlé China for domestic market
-- "China (Cross-border)": Batches from Hong Kong CFS announcements for cross-border e-commerce products (includes products sold in Hong Kong)
+- "Hong Kong, China": Batches from Hong Kong CFS announcements (includes cross-border e-commerce products sold in Hong Kong SAR)
 
 ### ⚠️ Data Source Disclaimer
 **IMPORTANT: No official source has published a complete global batch list.**

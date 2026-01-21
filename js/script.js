@@ -171,9 +171,27 @@ function handleSearch() {
 
 function renderIdle() {
     resultsContainer.innerHTML = `
-        <div class="text-center py-16 space-y-6 slide-up opacity-60">
-            <div class="text-7xl mx-auto">🍼</div>
-            <p class="text-slate-500 font-bold px-8">${I18N[currentLang].idle}</p>
+        <div class="text-center py-8 space-y-6 slide-up">
+            <div class="bottle-container status-idle mx-auto">
+                <svg class="bottle-svg" viewBox="0 0 100 140" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Bottle Body -->
+                    <path class="bottle-outline" d="M35 25 Q30 30 30 40 L30 110 Q30 120 40 125 L60 125 Q70 120 70 110 L70 40 Q70 30 65 25 Z" 
+                          fill="none" stroke="#BDBDBD" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                    
+                    <!-- Nipple -->
+                    <ellipse class="bottle-nipple" cx="50" cy="20" rx="15" ry="10" 
+                             fill="none" stroke="#BDBDBD" stroke-width="3"/>
+                    
+                    <!-- Milk Fill (from bottom up) -->
+                    <path class="milk-fill" d="M33 123 L67 123 L67 70 Q67 50 50 50 Q33 50 33 70 Z" 
+                          fill="#F5F5F5" opacity="0.6"/>
+                    
+                    <!-- Milk Wave -->
+                    <path class="milk-wave" d="M33 70 Q43 65 50 70 Q57 75 67 70" 
+                          fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.4"/>
+                </svg>
+            </div>
+            <p class="text-slate-500 font-bold px-8 text-sm">${I18N[currentLang].idle}</p>
         </div>
     `;
 }
@@ -184,10 +202,9 @@ function renderResult(type, code, itemData = null) {
         bg: "bg-slate-100",
         border: "border-slate-300",
         text: "text-slate-900",
-        icon: "✅",
+        bottleStatus: "status-safe",
         title: t.status_none,
         desc: t.desc_none,
-        pulse: "",
         sourceBtn: "",
         seriesLabel: ""
     };
@@ -202,10 +219,9 @@ function renderResult(type, code, itemData = null) {
             bg: bgColor,
             border: borderColor,
             text: accentColor,
-            icon: isCritical ? "🚨" : "⚠️",
+            bottleStatus: isCritical ? "status-danger" : "status-warning",
             title: isCritical ? t.status_critical : t.status_caution,
             desc: isCritical ? t.desc_critical : t.desc_caution,
-            pulse: isCritical ? "pulse-red-aggressive" : "pulse-amber-aggressive",
             seriesLabel: type === 'caution' ? `
                 <div class="mt-4 p-4 bg-amber-100 border-l-4 border-amber-600 rounded-lg text-xs text-amber-950 leading-relaxed font-semibold">
                     ${t.series_notice.replace('[Prefix]', itemData.code)}
@@ -245,15 +261,34 @@ function renderResult(type, code, itemData = null) {
     ` : '';
 
     resultsContainer.innerHTML = `
-        <div class="glass-card rounded-[2.5rem] overflow-hidden border-2 ${config.border} ${config.pulse} slide-up shadow-2xl">
+        <div class="glass-card rounded-[2.5rem] overflow-hidden border-2 ${config.border} slide-up shadow-2xl">
             <div class="p-8 space-y-6">
+                <!-- SVG Bottle Visualization -->
+                <div class="bottle-container ${config.bottleStatus} mx-auto">
+                    <svg class="bottle-svg" viewBox="0 0 100 140" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Bottle Body -->
+                        <path class="bottle-outline" d="M35 25 Q30 30 30 40 L30 110 Q30 120 40 125 L60 125 Q70 120 70 110 L70 40 Q70 30 65 25 Z" 
+                              fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                        
+                        <!-- Nipple -->
+                        <ellipse class="bottle-nipple" cx="50" cy="20" rx="15" ry="10" 
+                                 fill="none"/>
+                        
+                        <!-- Milk Fill (from bottom up) -->
+                        <path class="milk-fill" d="M33 123 L67 123 L67 70 Q67 50 50 50 Q33 50 33 70 Z"/>
+                        
+                        <!-- Milk Wave -->
+                        <path class="milk-wave" d="M33 70 Q43 65 50 70 Q57 75 67 70" 
+                              fill="none" stroke-width="2"/>
+                    </svg>
+                </div>
+
                 <div class="flex justify-between items-start">
                     <div>
                         <span class="text-[10px] font-bold uppercase tracking-widest ${config.text} opacity-50 mb-1 block">${t.label_batch}</span>
                         <h3 class="text-4xl font-black ${config.text} tracking-tighter">${code}</h3>
                         ${itemData ? `<p class="text-xs font-bold text-slate-500 mt-1 uppercase tracking-tight">${itemData.product}</p>` : ''}
                     </div>
-                    <div class="text-4xl">${config.icon}</div>
                 </div>
                 
                 <div class="py-4 border-t border-slate-100">

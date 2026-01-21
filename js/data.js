@@ -1805,7 +1805,7 @@ const RECALL_DATA = [
         "subBrand": "S-26",
         "product": "S-26 ULTIMA 2 800g",
         "specification": "800g",
-        "country": "Hong Kong",
+        "country": "China (Cross-border)",
         "reason": "Precautionary recall: Possible presence of Cereulide Produced by Bacillus Cereus",
         "sourceDisplay": "HK Centre for Food Safety (CFS)",
         "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
