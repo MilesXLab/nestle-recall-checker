@@ -176,22 +176,35 @@ function renderIdle() {
     resultsContainer.innerHTML = `
         <div class="text-center py-8 space-y-6 slide-up">
             <div class="bottle-container status-idle mx-auto">
-                <svg class="bottle-svg" viewBox="0 0 100 140" xmlns="http://www.w3.org/2000/svg">
-                    <!-- Bottle Body -->
-                    <path class="bottle-outline" d="M35 25 Q30 30 30 40 L30 110 Q30 120 40 125 L60 125 Q70 120 70 110 L70 40 Q70 30 65 25 Z" 
+                <svg class="bottle-svg" viewBox="0 0 120 220" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Nipple & Ring -->
+                    <path class="bottle-nipple" d="M60 5 C52 5 48 12 48 25 L72 25 C72 12 68 5 60 5Z" 
+                          fill="none" stroke="#BDBDBD" stroke-width="2"/>
+                    <rect class="bottle-ring" x="42" y="25" width="36" height="12" rx="3" 
+                          fill="none" stroke="#BDBDBD" stroke-width="2.5"/>
+                    
+                    <!-- Bottle Body (Contoured) -->
+                    <path class="bottle-outline" d="M42 37 L42 45 C42 70 32 90 32 120 L32 185 C32 205 45 215 60 215 C75 215 88 205 88 185 L88 120 C88 90 78 70 78 45 L78 37 Z" 
                           fill="none" stroke="#BDBDBD" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
                     
-                    <!-- Nipple -->
-                    <ellipse class="bottle-nipple" cx="50" cy="20" rx="15" ry="10" 
-                             fill="none" stroke="#BDBDBD" stroke-width="3"/>
-                    
-                    <!-- Milk Fill (from bottom up) -->
-                    <path class="milk-fill" d="M33 123 L67 123 L67 70 Q67 50 50 50 Q33 50 33 70 Z" 
+                    <!-- Milk Fill (Dynamic) -->
+                    <path class="milk-fill" d="M35 185 C35 200 45 210 60 210 C75 210 85 200 85 185 L85 120 C85 100 78 85 78 70 L42 70 C42 85 35 100 35 120 Z" 
                           fill="#F5F5F5" opacity="0.6"/>
                     
                     <!-- Milk Wave -->
-                    <path class="milk-wave" d="M33 70 Q43 65 50 70 Q57 75 67 70" 
+                    <path class="milk-wave" d="M42 70 Q51 65 60 70 Q69 75 78 70" 
                           fill="none" stroke="#E0E0E0" stroke-width="2" opacity="0.4"/>
+
+                    <!-- Scales -->
+                    <g class="bottle-scales" stroke="#BDBDBD" opacity="0.4">
+                        <line x1="45" y1="160" x2="55" y2="160" stroke-width="1.5" />
+                        <line x1="45" y1="140" x2="65" y2="140" stroke-width="1.5" />
+                        <line x1="45" y1="120" x2="55" y2="120" stroke-width="1.5" />
+                        <line x1="45" y1="100" x2="65" y2="100" stroke-width="1.5" />
+                    </g>
+
+                    <!-- Shine/Reflection -->
+                    <path d="M78 80 Q82 120 82 160" fill="none" stroke="white" stroke-width="3" opacity="0.3" stroke-linecap="round" />
                 </svg>
             </div>
             <p class="text-slate-500 font-bold px-8 text-sm">${I18N[currentLang].idle}</p>
@@ -268,21 +281,33 @@ function renderResult(type, code, itemData = null) {
             <div class="p-8 space-y-6">
                 <!-- SVG Bottle Visualization -->
                 <div class="bottle-container ${config.bottleStatus} mx-auto">
-                    <svg class="bottle-svg" viewBox="0 0 100 140" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="bottle-svg" viewBox="0 0 120 220" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Nipple & Ring -->
+                        <path class="bottle-nipple" d="M60 5 C52 5 48 12 48 25 L72 25 C72 12 68 5 60 5Z" 
+                              fill="none" stroke-width="2"/>
+                        <rect class="bottle-ring" x="42" y="25" width="36" height="12" rx="3" 
+                              fill="none" stroke-width="2.5"/>
+                        
                         <!-- Bottle Body -->
-                        <path class="bottle-outline" d="M35 25 Q30 30 30 40 L30 110 Q30 120 40 125 L60 125 Q70 120 70 110 L70 40 Q70 30 65 25 Z" 
+                        <path class="bottle-outline" d="M42 37 L42 45 C42 70 32 90 32 120 L32 185 C32 205 45 215 60 215 C75 215 88 205 88 185 L88 120 C88 90 78 70 78 45 L78 37 Z" 
                               fill="none" stroke-linecap="round" stroke-linejoin="round"/>
                         
-                        <!-- Nipple -->
-                        <ellipse class="bottle-nipple" cx="50" cy="20" rx="15" ry="10" 
-                                 fill="none"/>
-                        
-                        <!-- Milk Fill (from bottom up) -->
-                        <path class="milk-fill" d="M33 123 L67 123 L67 70 Q67 50 50 50 Q33 50 33 70 Z"/>
+                        <!-- Milk Fill -->
+                        <path class="milk-fill" d="M35 185 C35 200 45 210 60 210 C75 210 85 200 85 185 L85 120 C85 100 78 85 78 70 L42 70 C42 85 35 100 35 120 Z"/>
                         
                         <!-- Milk Wave -->
-                        <path class="milk-wave" d="M33 70 Q43 65 50 70 Q57 75 67 70" 
-                              fill="none" stroke-width="2"/>
+                        <path class="milk-wave" d="M42 70 Q51 65 60 70 Q69 75 78 70" fill="none" stroke-width="2"/>
+
+                        <!-- Scales -->
+                        <g class="bottle-scales" opacity="0.4">
+                            <line x1="45" y1="160" x2="55" y2="160" stroke-width="1.5" />
+                            <line x1="45" y1="140" x2="65" y2="140" stroke-width="1.5" />
+                            <line x1="45" y1="120" x2="55" y2="120" stroke-width="1.5" />
+                            <line x1="45" y1="100" x2="65" y2="100" stroke-width="1.5" />
+                        </g>
+
+                        <!-- Shine -->
+                        <path d="M78 80 Q82 120 82 160" fill="none" stroke="white" stroke-width="3" opacity="0.3" stroke-linecap="round" />
                     </svg>
                 </div>
 

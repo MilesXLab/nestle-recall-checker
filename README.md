@@ -22,31 +22,26 @@
 Deploy to GitHub Pages to see it live!
 
 ## 🛡️ Key Features
-- **🍼 Baby-Focused Design**: Premium UI with **Grok-Optimized** bottle visualizations
-- **⚡ Visual Emergency System**: 
-  - **Color-Coded Milk Status**: White (Idle) → Green (Safe) → Yellow (Warning) → Red (Danger)
-  - **Dynamic Animations**: Gentle breathing (Safe), Warning shake (Caution), Aggressive flash (Critical)
-- **🌐 Bilingual Support**: Full English/Chinese (EN/中文) interface
-- **📊 Accurate Logic**: 
-  - **🚨 Critical Alert**: Exact match with 365 officially recalled batch codes
-  - **⚠️ Warning Alert**: Series prefix matching for production line recalls
-  - **✅ Safe Status**: No match found with official hotline guidance
-- **🔬 Scientific Accuracy**: Precise Cereulide toxin information with heat-resistance warnings
-- **📱 Mobile-First**: Responsive design using Tailwind CSS and Inter/Outfit typography
+- **🍼 Ultimate Bottle Design**: Highly realistic SVG visualization with contoured shape, scale lines, and dynamic milk fill status.
+- **📊 Professional Dashboard**: Optimized two-column layout showing Search/Results and Authoritative Sources side-by-side (Desktop).
+- **⚡ Daily Archival System**: Automated daily synchronization with official records, maintaining timestamped snapshots for maximum transparency.
+- **🌐 Dual-Engine Verification**:
+  - **🚨 Critical Alert**: Exact match with 365 officially recalled batch codes.
+  - **✅ Safe Status**: Verified against the latest official announcements.
+- **🌐 Full Bilingual Support**: Deep integration of English/Chinese (EN/中文) across all UI components.
 
 ## 📂 Project Structure
-- `index.html`: Main application entry point
-- `css/style_v4_1.css`: Premium styling with emergency animations
-- `js/data_v4_1.js`: Centralized database (365 verified entries, v4.1.0 - 100% official)
-- `js/script_v4_1.js`: Core bilingual logic and search engine
-- `csv_to_js.py`: Strict data generation script (100% Official Sources)
-- `resources/official_docs/`: Local PDF backups of FSA/RappelConso advisories
+- `index.html`: Main application entry point (Responsive Dashboard)
+- `css/style_v4_1.css`: Premium styling and emergency status animations
+- `js/script_v4_1.js`: Core search engine and i18n logic
+- `js/data_v4_1.js`: Synchronized database (v4.1.0 - 100% official)
+- `recall_database_v3.csv`: Primary source of truth (365 batches)
+- `archive_and_sync.py`: Daily archival and JS synchronization utility
+- `archives/`: Historical snapshots of data for rollback and audit
+- `csv_to_js.py`: Strict data conversion engine
 
-## 🛠️ Deploy to GitHub Pages
-1. Create a new repository: `nestle-recall-checker`
-2. Push these files to the `main` branch
-3. Go to **Settings** > **Pages** and set source to `main` branch
-4. Your site will be live at `https://<username>.github.io/nestle-recall-checker/`
+## 🛠️ Performance & Maintenance
+Run the `archive_and_sync.py` script daily to synchronize the latest CSV changes with the web interface. This ensures the tool always displays the latest verified state while preserving history in the `archives/` directory.
 
 ---
-*Created for public safety and transparency in infant nutrition. Data synchronized with official 2026 regulatory announcements.*
+*Created for public safety and transparency. Data synchronized with official 2026 regulatory announcements.*

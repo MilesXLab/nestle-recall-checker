@@ -45,13 +45,15 @@ OFFICIAL_SOURCES = [
     { "id": "BE_LU_NESTLE", "name": "Nestlé Belgilux / Luxembourg Rappel", "url": "https://www.nestle.be/fr/info-consommateurs/rappel-produits", "date": "2026-01-05" }
 ]
 
+from datetime import datetime
+
 with open('js/data_v4_1.js', 'w', encoding='utf-8') as f:
     f.write("// --- OFFICIAL VERIFIED RECALL DATABASE (v4.1.0 - Cleaned) ---\n")
     f.write("// 100% Official Sources Only - No Speculative Data\n\n")
     
     metadata = json.dumps({
         "version": "4.1.0 (100% Official)",
-        "lastUpdated": "2026-01-20 21:45 (PST)",
+        "lastUpdated": datetime.now().strftime("%Y-%m-%d %H:%M (PST)"),
         "coverage": "9 Regions - Official Government Sources Only",
         "totalCount": len(batches),
         "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
@@ -68,6 +70,12 @@ with open('js/data_v4_1.js', 'w', encoding='utf-8') as f:
     json.dump(batches, f, indent=4, ensure_ascii=False)
     f.write(";\n")
 
-print(f"✅ Generated js/data_v4_1.js from CSV")
-print(f"📊 Total batches: {len(batches)}")
-print(f"🎯 100% official sources only")
+def safe_print(msg):
+    try:
+        print(msg)
+    except UnicodeEncodeError:
+        print(msg.encode('utf-8', errors='replace').decode('gbk', errors='replace'))
+
+safe_print(f"Generated js/data_v4_1.js from CSV")
+safe_print(f"Total batches: {len(batches)}")
+safe_print(f"100% official sources only")

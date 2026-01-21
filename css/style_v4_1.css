@@ -56,17 +56,17 @@ h3 {
 
 /* Bottle Container Styles */
 .bottle-container {
-    width: 180px;
-    height: 240px;
-    margin: 2rem auto;
+    width: 150px;
+    height: 275px;
+    margin: 1.5rem auto;
     position: relative;
-    transition: all 0.5s ease;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .bottle-svg {
     width: 100%;
     height: 100%;
-    filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.08));
     transition: filter 0.7s ease;
 }
 
@@ -76,8 +76,13 @@ h3 {
 }
 
 .bottle-outline,
+.bottle-ring,
 .bottle-nipple {
     transition: stroke 0.7s ease, stroke-width 0.5s ease;
+}
+
+.bottle-scales {
+    transition: stroke 0.7s ease;
 }
 
 .milk-wave {
@@ -86,36 +91,46 @@ h3 {
 
 /* ========== STATUS: IDLE (未查询) ========== */
 .status-idle .milk-fill {
-    fill: #F5F5F5;
-    opacity: 0.6;
+    fill: #F1F5F9;
+    opacity: 0.5;
 }
 
 .status-idle .bottle-outline,
+.status-idle .bottle-ring,
 .status-idle .bottle-nipple {
-    stroke: #BDBDBD;
-    stroke-width: 3;
+    stroke: #CBD5E1;
+    stroke-width: 2.5;
+}
+
+.status-idle .bottle-scales {
+    stroke: #94A3B8;
 }
 
 .status-idle .milk-wave {
-    stroke: #E0E0E0;
-    opacity: 0.4;
+    stroke: #E2E8F0;
+    opacity: 0.3;
 }
 
 /* ========== STATUS: SAFE (安全) ========== */
 .status-safe .milk-fill {
-    fill: #FEF9E7;
+    fill: #F0FDF4;
     opacity: 1;
 }
 
 .status-safe .bottle-outline,
+.status-safe .bottle-ring,
 .status-safe .bottle-nipple {
-    stroke: #81C784;
-    stroke-width: 3.5;
+    stroke: #22C55E;
+    stroke-width: 3;
+}
+
+.status-safe .bottle-scales {
+    stroke: #4ADE80;
 }
 
 .status-safe .milk-wave {
-    stroke: #A5D6A7;
-    opacity: 0.7;
+    stroke: #86EFAC;
+    opacity: 0.6;
 }
 
 .status-safe {
@@ -123,24 +138,29 @@ h3 {
 }
 
 .status-safe .bottle-svg {
-    filter: drop-shadow(0 0 8px rgba(129, 199, 132, 0.3));
+    filter: drop-shadow(0 0 15px rgba(34, 197, 94, 0.2));
 }
 
 /* ========== STATUS: WARNING (警告) ========== */
 .status-warning .milk-fill {
-    fill: #FFE082;
+    fill: #FFFBEB;
     opacity: 1;
 }
 
 .status-warning .bottle-outline,
+.status-warning .bottle-ring,
 .status-warning .bottle-nipple {
-    stroke: #FFB74D;
-    stroke-width: 4;
+    stroke: #F59E0B;
+    stroke-width: 3.5;
+}
+
+.status-warning .bottle-scales {
+    stroke: #FBBF24;
 }
 
 .status-warning .milk-wave {
-    stroke: #FFCC80;
-    opacity: 0.8;
+    stroke: #FCD34D;
+    opacity: 0.7;
 }
 
 .status-warning {
@@ -148,24 +168,29 @@ h3 {
 }
 
 .status-warning .bottle-svg {
-    filter: drop-shadow(0 0 12px rgba(255, 183, 77, 0.4));
+    filter: drop-shadow(0 0 20px rgba(245, 158, 11, 0.3));
 }
 
 /* ========== STATUS: DANGER (严重召回) ========== */
 .status-danger .milk-fill {
-    fill: #EF5350;
+    fill: #FEF2F2;
     opacity: 1;
 }
 
 .status-danger .bottle-outline,
+.status-danger .bottle-ring,
 .status-danger .bottle-nipple {
-    stroke: #D32F2F;
-    stroke-width: 5;
+    stroke: #EF4444;
+    stroke-width: 4.5;
+}
+
+.status-danger .bottle-scales {
+    stroke: #F87171;
 }
 
 .status-danger .milk-wave {
-    stroke: #FFCDD2;
-    opacity: 0.9;
+    stroke: #FCA5A5;
+    opacity: 0.8;
 }
 
 .status-danger {
@@ -173,7 +198,7 @@ h3 {
 }
 
 .status-danger .bottle-svg {
-    filter: drop-shadow(0 0 20px rgba(211, 47, 47, 0.6));
+    filter: drop-shadow(0 0 30px rgba(239, 68, 68, 0.5));
 }
 
 /* Danger Glow Effect */
