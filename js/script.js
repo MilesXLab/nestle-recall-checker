@@ -296,7 +296,7 @@ function renderResult(type, code, itemData = null) {
         border: "border-slate-300",
         text: "text-slate-900",
         bottleStatus: "status-safe",
-        themeColor: "#D97706", // Default Safe (Warm Amber/Yellow)
+        themeColor: "#3B82F6", // Default Safe uses Blue (neutral, not misleading)
         title: t.status_none,
         desc: t.desc_none,
         sourceBtn: "",
@@ -460,20 +460,7 @@ function renderResult(type, code, itemData = null) {
                 <div class="space-y-4 pt-2">
                     <div class="grid grid-cols-1 gap-3">
                         ${config.sourceBtn}
-                        <div class="grid grid-cols-2 gap-2">
-                            <a href="tel:4006165015" class="flex items-center justify-center py-3.5 bg-gray-900 text-white rounded-[1.2rem] shadow-lg active:scale-95 transition-all text-center">
-                                <div class="flex flex-col">
-                                    <span class="text-[8px] font-black uppercase tracking-widest opacity-40 leading-none mb-1">China</span>
-                                    <span class="text-[11px] font-black tracking-tighter">400-616-5015</span>
-                                </div>
-                            </a>
-                            <a href="tel:+85221798888" class="flex items-center justify-center py-3.5 bg-gray-900 text-white rounded-[1.2rem] shadow-lg active:scale-95 transition-all text-center">
-                                <div class="flex flex-col">
-                                    <span class="text-[8px] font-black uppercase tracking-widest opacity-40 leading-none mb-1">HK</span>
-                                    <span class="text-[11px] font-black tracking-tighter">+852-2179-8888</span>
-                                </div>
-                            </a>
-                        </div>
+                        ${getHotlineButtons(itemData)}
                     </div>
                 </div>
             </div>
