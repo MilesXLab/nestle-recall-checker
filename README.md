@@ -9,7 +9,7 @@ You can deploy this to GitHub Pages to see it live!
 - **Real-time Search**: Results update instantly as you type.
 - **Bilingual**: Full support for English and Chinese.
 - **Accurate Logic**: 
-  - **Critical Alert**: Exact match with 800+ known recalled batch codes.
+  - **Critical Alert**: Exact match with 950+ known recalled batch codes.
   - **Warning Alert**: Prefix matching (first 4 digits) for emerging risk series.
 - **Safety Info**: Prominent warnings regarding Cereulide toxin heat resistance.
 - **Tech Dad Aesthetic**: Premium, mobile-first design using Tailwind CSS and Inter/Outfit typography.
@@ -17,7 +17,7 @@ You can deploy this to GitHub Pages to see it live!
 ## 📂 Project Structure
 - `index.html`: Main application entry point.
 - `css/style.css`: Custom premium styling and animations.
-- `js/data.js`: Centralized batch code database (800+ entries).
+- `js/data.js`: Centralized batch code database (950+ entries).
 - `js/script.js`: Core bilingual logic and search engine.
 
 ## 🛠️ How to Deploy to GitHub Pages

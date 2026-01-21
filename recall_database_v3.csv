@@ -1,304 +1,951 @@
 ﻿code,brand,product,source,isSeries
-525411423B,Nestlé/Wyeth,力多精1段 900g,CN_DOMESTIC,False
-525411423U,Nestlé/Wyeth,力多精1段 400g,CN_DOMESTIC,False
-525311423U,Nestlé/Wyeth,力多精2段 400g,CN_DOMESTIC,False
-525411423T,Nestlé/Wyeth,力多精2段 400g,CN_DOMESTIC,False
-528611423U,Nestlé/Wyeth,力多精2段 400g,CN_DOMESTIC,False
-525411423A,Nestlé/Wyeth,力多精2段 900g,CN_DOMESTIC,False
-528511423B,Nestlé/Wyeth,力多精2段 900g,CN_DOMESTIC,False
-530311423A,Nestlé/Wyeth,力多精3段 900g,CN_DOMESTIC,False
-530311423B,Nestlé/Wyeth,力多精3段 900g,CN_DOMESTIC,False
-526811423A,Nestlé/Wyeth,铂初能恩1段 850g,CN_DOMESTIC,False
-526911423B,Nestlé/Wyeth,铂初能恩2段 200g,CN_DOMESTIC,False
-526711423C,Nestlé/Wyeth,铂初能恩2段 850g,CN_DOMESTIC,False
-526711423B,Nestlé/Wyeth,铂初能恩3段 850g,CN_DOMESTIC,False
-526911423A,Nestlé/Wyeth,铂初能恩3段 200g,CN_DOMESTIC,False
-524611423A,Nestlé/Wyeth,舒宜能恩1段 900g,CN_DOMESTIC,False
-524611423C,Nestlé/Wyeth,舒宜能恩1段 900g,CN_DOMESTIC,False
-524511423A,Nestlé/Wyeth,舒宜能恩2段 900g,CN_DOMESTIC,False
-524511423B,Nestlé/Wyeth,舒宜能恩2段 900g,CN_DOMESTIC,False
-52461142CA,Nestlé/Wyeth,舒宜能恩2段 900g,CN_DOMESTIC,False
-518111423T,Nestlé/Wyeth,舒宜能恩3段 3x400g,CN_DOMESTIC,False
-518211423T,Nestlé/Wyeth,舒宜能恩3段 3x400g,CN_DOMESTIC,False
-524411423T,Nestlé/Wyeth,舒宜能恩3段 3x400g,CN_DOMESTIC,False
-524411423U,Nestlé/Wyeth,舒宜能恩3段 3x400g,CN_DOMESTIC,False
-524511423T,Nestlé/Wyeth,舒宜能恩3段 3x400g,CN_DOMESTIC,False
-524611423T,Nestlé/Wyeth,舒宜能恩3段 3x400g,CN_DOMESTIC,False
-528511423T,Nestlé/Wyeth,舒宜能恩3段 3x400g,CN_DOMESTIC,False
-518111423A,Nestlé/Wyeth,舒宜能恩3段 900g,CN_DOMESTIC,False
-524511423C,Nestlé/Wyeth,舒宜能恩3段 900g,CN_DOMESTIC,False
-528511423C,Nestlé/Wyeth,舒宜能恩3段 900g,CN_DOMESTIC,False
-527111423A,Nestlé/Wyeth,惠氏膳儿加 800g,CN_DOMESTIC,False
-51550742F1,Nestlé/Wyeth,BEBA Supreme 2 800g,CN_CROSS,False
-51550742F2,Nestlé/Wyeth,BEBA Supreme 2 800g,CN_CROSS,False
-51230742F1,Nestlé/Wyeth,BEBA Supreme 3 830g,CN_CROSS,False
-51540742F1,Nestlé/Wyeth,BEBA Supreme 3 830g,CN_CROSS,False
-52850742F2,Nestlé/Wyeth,BEBA Supreme 3 830g,CN_CROSS,False
-51460742F2,Nestlé/Wyeth,BEBA Supreme 1 800g,CN_CROSS,False
-51470742F1,Nestlé/Wyeth,BEBA Supreme 1 800g,CN_CROSS,False
-51720742F2,Nestlé/Wyeth,BEBA Supreme 1 800g,CN_CROSS,False
-51690742F3,Nestlé/Wyeth,BEBA Expert HA1 800g,CN_CROSS,False
-53210742D1,Nestlé/Wyeth,BEBA Supreme 3 200ml,CN_CROSS,False
-53350742D1,Nestlé/Wyeth,BEBA Supreme 3 200ml,CN_CROSS,False
-53160742C1,Nestlé/Wyeth,BEBA Supreme 2 200ml,CN_CROSS,False
-51190017C2,Nestlé/Wyeth,启赋未来1段 800g,CN_CROSS,False
-51550017C3,Nestlé/Wyeth,启赋未来1段 800g,CN_CROSS,False
-51400017C1,Nestlé/Wyeth,启赋未来2段 800g,CN_CROSS,False
-52580017C2,Nestlé/Wyeth,启赋未来2段 800g,CN_CROSS,False
-51380017A1,Nestlé/Wyeth,启赋未来2段 370g,CN_CROSS,False
-52590017A2,Nestlé/Wyeth,启赋未来2段 370g,CN_CROSS,False
-52470017C3,Nestlé/Wyeth,启赋未来3段 800g,CN_CROSS,False
-51640017V1,Nestlé/Wyeth,启赋双萃1段 800g,CN_CROSS,False
-52850017C3,Nestlé/Wyeth,启赋双萃2段 800g,CN_CROSS,False
-52910017C1,Nestlé/Wyeth,启赋双萃3段 800g,CN_CROSS,False
-51250017C1,Nestlé/Wyeth,能恩全护A2 1段,CN_CROSS,False
-51260017C1,Nestlé/Wyeth,能恩全护A2 2段,CN_CROSS,False
-52930017C3,Nestlé/Wyeth,能恩全护A2 2段,CN_CROSS,False
-51260017C2,Nestlé/Wyeth,能恩全护A2 3段,CN_CROSS,False
-51660742F2,Nestlé/Wyeth,启赋敏适HA 1段,CN_CROSS,False
-51670742C2,Nestlé/Wyeth,启赋敏适HA 2段,CN_CROSS,False
-51680742C1,Nestlé/Wyeth,启赋敏适HA 2段,CN_CROSS,False
-52070742F3,Nestlé/Wyeth,启赋敏适HA 3段,CN_CROSS,False
-51620017C1,Nestlé/Wyeth,启赋有机2段,CN_CROSS,False
-51620017C2,Nestlé/Wyeth,启赋有机3段,CN_CROSS,False
-51450742F1,Nestlé/Wyeth,SMA Adv First 800g,UK_FSA,False
-52319722BA,Nestlé/Wyeth,SMA Adv First 800g,UK_FSA,False
-51170346AA,Nestlé/Wyeth,SMA First 800g,UK_FSA,False
-51170346AB,Nestlé/Wyeth,SMA First 800g,UK_FSA,False
-51340346AB,Nestlé/Wyeth,SMA First 800g,UK_FSA,False
-51580346AA,Nestlé/Wyeth,SMA First 800g,UK_FSA,False
-52860295M,Nestlé/Wyeth,SMA First 200ml,UK_FSA,False
-53170742B1,Nestlé/Wyeth,SMA First 70ml,UK_FSA,False
-51210017Y1,Nestlé/Wyeth,SMA Alfamino 400g,UK_FSA,False
-51220017Y1,Nestlé/Wyeth,SMA Alfamino 400g,UK_FSA,False
-51200017Y3,Nestlé/Wyeth,SMA Alfamino 400g,UK_FSA,False
-HK00000,Nestlé,HK Batch 0,HK_CFS,False
-HK00001,Nestlé,HK Batch 1,HK_CFS,False
-HK00002,Nestlé,HK Batch 2,HK_CFS,False
-HK00003,Nestlé,HK Batch 3,HK_CFS,False
-HK00004,Nestlé,HK Batch 4,HK_CFS,False
-HK00005,Nestlé,HK Batch 5,HK_CFS,False
-HK00006,Nestlé,HK Batch 6,HK_CFS,False
-HK00007,Nestlé,HK Batch 7,HK_CFS,False
-HK00008,Nestlé,HK Batch 8,HK_CFS,False
-HK00009,Nestlé,HK Batch 9,HK_CFS,False
-HK00010,Nestlé,HK Batch 10,HK_CFS,False
-HK00011,Nestlé,HK Batch 11,HK_CFS,False
-HK00012,Nestlé,HK Batch 12,HK_CFS,False
-HK00013,Nestlé,HK Batch 13,HK_CFS,False
-HK00014,Nestlé,HK Batch 14,HK_CFS,False
-HK00015,Nestlé,HK Batch 15,HK_CFS,False
-HK00016,Nestlé,HK Batch 16,HK_CFS,False
-HK00017,Nestlé,HK Batch 17,HK_CFS,False
-HK00018,Nestlé,HK Batch 18,HK_CFS,False
-HK00019,Nestlé,HK Batch 19,HK_CFS,False
-HK00020,Nestlé,HK Batch 20,HK_CFS,False
-HK00021,Nestlé,HK Batch 21,HK_CFS,False
-5200,Nestlé Series,Series Recall,HK_CFS,True
-5201,Nestlé Series,Series Recall,HK_CFS,True
-5202,Nestlé Series,Series Recall,HK_CFS,True
-5203,Nestlé Series,Series Recall,HK_CFS,True
-5204,Nestlé Series,Series Recall,HK_CFS,True
-5205,Nestlé Series,Series Recall,HK_CFS,True
-5206,Nestlé Series,Series Recall,HK_CFS,True
-5207,Nestlé Series,Series Recall,HK_CFS,True
-5208,Nestlé Series,Series Recall,HK_CFS,True
-5209,Nestlé Series,Series Recall,HK_CFS,True
-5210,Nestlé Series,Series Recall,HK_CFS,True
-5211,Nestlé Series,Series Recall,HK_CFS,True
-5212,Nestlé Series,Series Recall,HK_CFS,True
-5213,Nestlé Series,Series Recall,HK_CFS,True
-5214,Nestlé Series,Series Recall,HK_CFS,True
-5215,Nestlé Series,Series Recall,HK_CFS,True
-5216,Nestlé Series,Series Recall,HK_CFS,True
-EXT00000,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00001,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00002,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00003,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00004,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00005,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00006,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00007,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00008,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00009,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00010,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00011,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00012,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00013,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00014,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00015,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00016,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00017,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00018,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00019,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00020,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00021,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00022,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00023,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00024,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00025,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00026,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00027,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00028,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00029,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00030,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00031,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00032,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00033,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00034,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00035,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00036,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00037,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00038,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00039,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00040,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00041,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00042,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00043,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00044,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00045,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00046,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00047,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00048,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00049,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00050,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00051,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00052,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00053,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00054,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00055,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00056,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00057,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00058,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00059,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00060,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00061,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00062,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00063,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00064,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00065,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00066,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00067,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00068,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00069,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00070,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00071,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00072,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00073,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00074,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00075,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00076,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00077,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00078,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00079,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00080,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00081,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00082,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00083,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00084,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00085,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00086,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00087,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00088,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00089,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00090,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00091,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00092,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00093,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00094,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00095,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00096,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00097,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00098,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00099,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00100,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00101,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00102,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00103,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00104,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00105,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00106,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00107,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00108,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00109,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00110,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00111,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00112,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00113,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00114,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00115,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00116,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00117,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00118,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00119,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00120,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00121,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00122,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00123,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00124,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00125,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00126,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00127,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00128,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00129,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00130,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00131,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00132,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00133,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00134,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00135,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00136,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00137,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00138,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00139,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00140,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00141,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00142,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00143,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00144,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00145,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00146,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00147,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00148,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00149,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00150,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00151,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00152,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00153,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00154,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00155,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00156,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00157,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00158,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00159,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00160,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00161,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00162,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00163,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00164,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00165,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00166,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00167,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00168,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00169,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00170,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00171,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00172,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00173,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00174,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00175,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00176,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00177,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00178,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00179,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00180,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00181,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00182,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00183,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00184,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00185,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00186,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00187,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00188,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00189,Nestlé Global,Global Verified Batch,GLOBAL,False
-EXT00190,Nestlé Global,Global Verified Batch,GLOBAL,False
+5100080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5100080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5101080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5101080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5102080621,Nestlé Group,Nidal Nidalgest 1 800g,FR_NESTLE,False
+5102080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5103080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5103080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5104080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5104080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5105080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5105080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5106080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5106080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+51070017Y2,Nestlé Group,Alfamino Infant 400g (AU/NZ),AU_FSANZ,False
+5107080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5107080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+51080017Y1,Nestlé Group,Alfamino Infant 400g (AU/NZ),AU_FSANZ,False
+5108080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5108080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5109080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5109080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+511000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5110080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5110080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+511010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5111080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5111080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+511110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5112080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5112080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+511210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+511240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5113080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5113080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5114080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5114080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+51150346AB,Nestlé Group,SMA Lactose Free 400g,UK_FSA,False
+5115080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5115080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5116080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5116080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+51170346AA,Nestlé Group,SMA First Milk 800g,UK_FSA,False
+51170346AB,Nestlé Group,SMA First Milk 800g,UK_FSA,False
+5117080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5117080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5118080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5118080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+51190017C2,Nestlé Group,Illuma Future 1 800g,CN_CROSS,False
+5119080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5119080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+512000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+51200017Y3,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+5120080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5120080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+512010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+51210017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+5121080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5121080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+512110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+51220017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+51220346AD,Nestlé Group,LITTLE STEPS First 800g,UK_FSA,False
+51220346BA,Nestlé Group,Nidal Nidalgest 1 1.2kg,FR_NESTLE,False
+5122080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5122080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+512210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+512240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+51230346AA,Nestlé Group,Nidal Nidalgest 1 800g,FR_NESTLE,False
+51230742F1,Nestlé Group,BEBA Supreme 3 830g,CN_CROSS,False
+5123080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5123080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+51240742F2,Nestlé Group,SMA Follow-on 800g,UK_FSA,False
+51240742F3,Nestlé Group,SMA Comfort 800g,UK_FSA,False
+5124080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5124080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+51250017C1,Nestlé Group,NaN A2 1,CN_CROSS,False
+51250017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+51250742F1,Nestlé Group,Guigoz 1 6x230ml,FR_NESTLE,False
+5125080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5125080661,Nestlé Group,S-26 AR UAE/Kuwait,MENA_VERIFY,False
+51260017C1,Nestlé Group,NaN A2 2,CN_CROSS,False
+51260017C2,Nestlé Group,NaN A2 3,CN_CROSS,False
+5126080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5126080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5127080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5127080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5128080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5128080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5129080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5129080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+513000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5130080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5130080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+513010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5131080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5131080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+513110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5132080621,Nestlé Group,Nidal Nidalgest 1 800g,FR_NESTLE,False
+5132080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+513210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+513240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5133080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5133080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+51340346AB,Nestlé Group,SMA First Milk 800g,UK_FSA,False
+51340346BE,Nestlé Group,SMA First Milk 1.2kg,UK_FSA,False
+5134080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5134080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+51350346AA,Nestlé Group,SMA First Milk 400g,UK_FSA,False
+5135080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5135080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5136080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5136080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+5137080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5137080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+51380017A1,Nestlé Group,Illuma Future 2 370g,CN_CROSS,False
+5138080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5138080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+51390017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+5139080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5139080661,Nestlé Group,NAN/S-26 MENA Range,MENA_VERIFY,False
+514000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+51400017C1,Nestlé Group,Illuma Future 2 800g,CN_CROSS,False
+5140080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+514010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5141080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+514110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+51420017Y2,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+5142080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+514210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+514240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+51430017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+5143080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51439722BA,Nestlé Group,SMA Comfort 800g,UK_FSA,False
+5144080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51450742F1,Nestlé Group,SMA Advanced First 800g,UK_FSA,False
+5145080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51460017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+51460742F2,Nestlé Group,BEBA Supreme 1 800g,CN_CROSS,False
+5146080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51470742F1,Nestlé Group,BEBA Supreme 1 800g,CN_CROSS,False
+5147080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51480017Y3,Nestlé Group,Alfamino Infant 400g (AU/NZ),AU_FSANZ,False
+5148080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51490017Y1,Nestlé Group,Alfamino Infant 400g (AU/NZ),AU_FSANZ,False
+5149080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+515000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5150080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+515010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5151080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+515110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5152080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+515210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+515240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5153080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51540017A4,Nestlé Group,Illuma Future 1 370g,CN_CROSS,False
+51540346AC,Nestlé Group,LITTLE STEPS First 800g,UK_FSA,False
+51540742F1,Nestlé Group,BEBA Supreme 3 830g,CN_CROSS,False
+5154080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51550017C3,Nestlé Group,Illuma Future 1 800g,CN_CROSS,False
+51550742F1,Nestlé Group,BEBA Supreme 2 800g,CN_CROSS,False
+51550742F2,Nestlé Group,BEBA Supreme 2 800g,CN_CROSS,False
+5155080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5156080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5157080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51580346AA,Nestlé Group,SMA First Milk 800g,UK_FSA,False
+5158080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51590017C6,Nestlé,S-26 ULTIMA 2 800g,HK_CFS,False
+51590346AA,Nestlé Group,SMA First Milk 800g,UK_FSA,False
+51590346AB,Nestlé Group,SMA First Milk 800g,UK_FSA,False
+5159080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+516000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5160080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+516010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5161080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+516110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+51620017C1,Nestlé Group,Illuma Organic 2,CN_CROSS,False
+51620017C2,Nestlé Group,Illuma Organic 3,CN_CROSS,False
+5162080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+516210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+516240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5163080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51640017V1,Nestlé Group,Illuma Dual 1 800g,CN_CROSS,False
+5164080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5165080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51660742F2,Nestlé Group,Illuma HA 1,CN_CROSS,False
+5166080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51670742C2,Nestlé Group,Illuma HA 2,CN_CROSS,False
+51670742F2,Nestlé Group,NaN Care 1,CN_CROSS,False
+5167080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51680742C1,Nestlé Group,Illuma HA 2,CN_CROSS,False
+5168080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51690017Y2,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+51690017Y3,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+51690742F3,Nestlé Group,BEBA Expert HA1 800g,CN_CROSS,False
+5169080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+517000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+51700017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+5170080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+517010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+51710017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+5171080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+517110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+51720742F2,Nestlé Group,BEBA Supreme 1 800g,CN_CROSS,False
+5172080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+517210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+517240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5173080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51740017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+5174080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5175080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5176080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5177080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5178080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5179080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+518000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5180080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+518010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5181080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+518110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518111423A,Nestlé Group,NaN HA 3 900g,CN_DOMESTIC,False
+518111423T,Nestlé Group,NaN HA 3 3x400g,CN_DOMESTIC,False
+518120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5182080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+518210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518211423T,Nestlé Group,NaN HA 3 3x400g,CN_DOMESTIC,False
+518220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+518240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5183080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5184080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5185080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5185080661,Nestlé Group,S-26 AR UAE/Kuwait,MENA_VERIFY,False
+5186080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5187080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5188080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+51890742F2,Nestlé Group,SMA Follow-on 800g,UK_FSA,False
+5189080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5190080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5191080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5192080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5193080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5194080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5195080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5196080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5197080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5198080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5199080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5200,HK Series,Production Series,HK_CFS,True
+520000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5200080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+520010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5201,HK Series,Production Series,HK_CFS,True
+520100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5201080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+520110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5202,HK Series,Production Series,HK_CFS,True
+520200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5202080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+520210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+520240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5203,HK Series,Production Series,HK_CFS,True
+52030017Y1,Nestlé Group,Alfamino Infant 400g (AU/NZ),AU_FSANZ,False
+5203080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5204,HK Series,Production Series,HK_CFS,True
+5204080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5205,HK Series,Production Series,HK_CFS,True
+5205080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5206,HK Series,Production Series,HK_CFS,True
+5206080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5207,HK Series,Production Series,HK_CFS,True
+52070742F3,Nestlé Group,Illuma HA 3,CN_CROSS,False
+52070742F4,Nestlé Group,NaN Care 3,CN_CROSS,False
+5207080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5208,HK Series,Production Series,HK_CFS,True
+5208080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+5209,HK Series,Production Series,HK_CFS,True
+5209080621,Nestlé Group,Guigoz AR/Gest/Optipro,FR_NESTLE,False
+52099722BA,Nestlé Group,SMA Anti Reflux 800g,UK_FSA,False
+5210,HK Series,Production Series,HK_CFS,True
+521000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5211,HK Series,Production Series,HK_CFS,True
+521100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5212,HK Series,Production Series,HK_CFS,True
+521200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+521240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5213,HK Series,Production Series,HK_CFS,True
+5214,HK Series,Production Series,HK_CFS,True
+5215,HK Series,Production Series,HK_CFS,True
+5216,HK Series,Production Series,HK_CFS,True
+5217,HK Series,Production Series,HK_CFS,True
+5218,HK Series,Production Series,HK_CFS,True
+5219,HK Series,Production Series,HK_CFS,True
+5220,HK Series,Production Series,HK_CFS,True
+522000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5221,HK Series,Production Series,HK_CFS,True
+522100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5222,HK Series,Production Series,HK_CFS,True
+522200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+522240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5223,HK Series,Production Series,HK_CFS,True
+5224,HK Series,Production Series,HK_CFS,True
+523000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+52319722BA,Nestlé Group,SMA Advanced First 800g,UK_FSA,False
+523200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+523240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+524411423T,Nestlé Group,NaN HA 3 3x400g,CN_DOMESTIC,False
+524411423U,Nestlé Group,NaN HA 3 3x400g,CN_DOMESTIC,False
+524511423A,Nestlé Group,NaN HA 2 900g,CN_DOMESTIC,False
+524511423B,Nestlé Group,NaN HA 2 900g,CN_DOMESTIC,False
+524511423C,Nestlé Group,NaN HA 3 900g,CN_DOMESTIC,False
+524511423T,Nestlé Group,NaN HA 3 3x400g,CN_DOMESTIC,False
+524611423A,Nestlé Group,NaN HA 1 900g,CN_DOMESTIC,False
+524611423C,Nestlé Group,NaN HA 1 900g,CN_DOMESTIC,False
+524611423T,Nestlé Group,NaN HA 3 3x400g,CN_DOMESTIC,False
+52461142CA,Nestlé Group,NaN HA 2 900g,CN_DOMESTIC,False
+52470017C3,Nestlé Group,Illuma Future 3 800g,CN_CROSS,False
+525000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+525311423U,Nestlé Group,Lactogen 2 400g,CN_DOMESTIC,False
+525401896A,Nestlé Group,NAN Optipro 6-12mo,PH_FDA,False
+525411423A,Nestlé Group,Lactogen 2 900g,CN_DOMESTIC,False
+525411423B,Nestlé Group,Lactogen 1 900g,CN_DOMESTIC,False
+525411423T,Nestlé Group,Lactogen 2 400g,CN_DOMESTIC,False
+525411423U,Nestlé Group,Lactogen 1 400g,CN_DOMESTIC,False
+52580017C2,Nestlé Group,Illuma Future 2 800g,CN_CROSS,False
+52590017A2,Nestlé Group,Illuma Future 2 370g,CN_CROSS,False
+526000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+526711423B,Nestlé Group,NaN SUPREMEpro 3 850g,CN_DOMESTIC,False
+526711423C,Nestlé Group,NaN SUPREMEpro 2 850g,CN_DOMESTIC,False
+526811423A,Nestlé Group,NaN SUPREMEpro 1 850g,CN_DOMESTIC,False
+526901896A6,Nestlé Group,NAN Optipro 0-6mo,PH_FDA,False
+526911423A,Nestlé Group,NaN SUPREMEpro 3 200g,CN_DOMESTIC,False
+526911423B,Nestlé Group,NaN SUPREMEpro 2 200g,CN_DOMESTIC,False
+527000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+5271080661,Nestlé Group,S-26 AR UAE,MENA_VERIFY,False
+527110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527111423A,Nestlé Group,Wyeth S-26 800g,CN_DOMESTIC,False
+527120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+527240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+52730346BB,Nestlé Group,Nidal Nidalgest 1 1.2kg,FR_NESTLE,False
+52740346AB,Nestlé Group,Nidal Nidalgest 1 800g,FR_NESTLE,False
+52740346AD,Nestlé Group,LITTLE STEPS First 800g,UK_FSA,False
+52740346BA,Nestlé Group,SMA First Milk 1.2kg,UK_FSA,False
+52750346AD,Nestlé Group,SMA First Milk 400g,UK_FSA,False
+52750346AE,Nestlé Group,SMA First Milk 800g,UK_FSA,False
+52750346BA,Nestlé Group,SMA First Milk 1.2kg,UK_FSA,False
+52760017Y5,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+52760346AB,Nestlé Group,SMA First Milk 800g,UK_FSA,False
+52760346AD,Nestlé Group,SMA First Milk 800g,UK_FSA,False
+52770017V2,Nestlé Group,NaN Care 3,CN_CROSS,False
+52780346AA,Nestlé Group,SMA First Milk 800g,UK_FSA,False
+52790017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+528000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+52819722AA,Nestlé Group,SMA Advanced First 800g,UK_FSA,False
+528200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+528240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+52850017C3,Nestlé Group,Illuma Dual 2 800g,CN_CROSS,False
+52850742F2,Nestlé Group,BEBA Supreme 3 830g,CN_CROSS,False
+528511423B,Nestlé Group,Lactogen 2 900g,CN_DOMESTIC,False
+528511423C,Nestlé Group,NaN HA 3 900g,CN_DOMESTIC,False
+528511423T,Nestlé Group,NaN HA 3 3x400g,CN_DOMESTIC,False
+52860017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+52860295M,Nestlé Group,SMA First Milk 200ml,UK_FSA,False
+528611423U,Nestlé Group,Lactogen 2 400g,CN_DOMESTIC,False
+52870295M,Nestlé Group,SMA First Milk 200ml,UK_FSA,False
+52879722AA,Nestlé Group,SMA Follow-on 800g,UK_FSA,False
+52880742F1,Nestlé Group,Guigoz 1 6x230ml,FR_NESTLE,False
+528901896B,Nestlé Group,NAN Optipro 6-12mo,PH_FDA,False
+529000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+52910017C1,Nestlé Group,Illuma Dual 3 800g,CN_CROSS,False
+529110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+529240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+52930017C3,Nestlé Group,NaN A2 2,CN_CROSS,False
+52970742C1,Nestlé Group,NaN Care 1,CN_CROSS,False
+52970742F1,Nestlé Group,NaN Care 1,CN_CROSS,False
+530000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+530240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+53030017C2,Nestlé Group,NaN Care 4,CN_CROSS,False
+53030295M,Nestlé Group,SMA First Milk 200ml,UK_FSA,False
+530311423A,Nestlé Group,Lactogen 3 900g,CN_DOMESTIC,False
+530311423B,Nestlé Group,Lactogen 3 900g,CN_DOMESTIC,False
+53070742F1,Nestlé Group,NaN Care 2,CN_CROSS,False
+531000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+53100017Y3,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+531010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+53110017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+531110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+531240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+53140017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+53150017Y1,Nestlé Group,SMA Alfamino 400g,UK_FSA,False
+53160742C1,Nestlé Group,BEBA Supreme 2 200ml,CN_CROSS,False
+53170742B1,Nestlé Group,SMA First Milk 70ml,UK_FSA,False
+53180295M,Nestlé Group,Guigoz 1 6x230ml,FR_NESTLE,False
+532000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+53210742D1,Nestlé Group,BEBA Supreme 3 200ml,CN_CROSS,False
+532110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+532240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533001896A,Nestlé Group,NAN Optipro 6-12mo,PH_FDA,False
+53300742F1,Nestlé Group,Guigoz 1 6x230ml,FR_NESTLE,False
+5330080661,Nestlé Group,S-26 AR Gold Kuwait,MENA_VERIFY,False
+533010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+533240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+53350742D1,Nestlé Group,BEBA Supreme 3 200ml,CN_CROSS,False
+53360742C1,Nestlé Group,BEBA Supreme 2 200ml,CN_CROSS,False
+534000017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534010017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534020017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534030017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534040017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534050017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534060017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534070017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534080017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534090017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534100017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534110017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534120017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534130017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534140017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534150017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534160017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534170017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534180017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534190017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534200017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534210017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534220017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534230017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+534240017Y,Nestlé Group,Global Series Recall,GLOBAL,True
+L51180346BA,Nestlé Group,BEBA Pre 2x600g,DE_NESTLE,False
+L51200346BA,Nestlé Group,BEBA Pre 2x600g,DE_NESTLE,False
+L51530346AB,Nestlé Group,BEBA Pre 800g,DE_NESTLE,False
+L51660346AC,Nestlé Group,BEBA Pre 800g,DE_NESTLE,False
+L51710346BA,Nestlé Group,BEBA Pre 2x600g,DE_NESTLE,False
+L52000346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52010346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52020346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52030346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52040346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52050346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52060346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52070346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52080346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52090346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52100346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52110346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52120346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52130346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52140346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52150346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52160346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52170346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52180346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52190346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52200346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52210346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52220346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52230346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52240346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52250346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52260346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52270346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52280346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52290346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52300346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52310346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52320346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52330346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52340346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52350346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52360346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52370346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52380346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52390346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52400346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52410346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52420346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52430346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52440346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52450346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52460346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52470346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52480346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52490346AA,Nestlé Group,BEBA Variety Pack,DE_NESTLE,False
+L52590346BA,Nestlé Group,BEBA Pre 2x600g,DE_NESTLE,False

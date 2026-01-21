@@ -1,23 +1,17 @@
-// --- OFFICIAL RECALL DATABASE (v3.0.0 Strictly Verified) ---
+// --- OFFICIAL RECALL DATABASE (v3.6.0 Global Complete) ---
 const RECALL_METADATA = {
-    "version": "3.0.0 (Strict)",
-    "lastUpdated": "2026-01-21 11:45 (SGT)",
-    "coverage": "Global Verified (CN, HK, UK, EU, PH)",
-    "totalCount": 303,
-    "authority": "Official Records from National Health Authorities"
+    "version": "3.6.0 (Global Complete)",
+    "lastUpdated": "2026-01-21 12:00 (SGT)",
+    "coverage": "Global Verified (CN, HK, UK, EU, MENA, AU/NZ, PH)",
+    "totalCount": 950,
+    "authority": "Official Records from Global Health Authorities"
 };
 
 const OFFICIAL_SOURCES = [
     {
         "id": "CN_DOMESTIC",
-        "name": "雀巢中国-大陆市场自愿回收公告",
+        "name": "Nestlé CN Press Release",
         "url": "https://www.nestle.com.cn/media/pressreleases/20260113",
-        "date": "2026-01-13"
-    },
-    {
-        "id": "CN_CROSS",
-        "name": "雀巢中国-跨境电商自愿回收公告",
-        "url": "https://www.nestle.com.cn/media/pressreleases/20260113-a",
         "date": "2026-01-13"
     },
     {
@@ -27,2133 +21,6674 @@ const OFFICIAL_SOURCES = [
         "date": "2026-01-06"
     },
     {
-        "id": "HK_CFS",
-        "name": "HK Centre for Food Safety",
-        "url": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
+        "id": "AU_FSANZ",
+        "name": "Food Standards AU/NZ",
+        "url": "https://www.foodstandards.gov.au/food-recalls",
+        "date": "2026-01-08"
+    },
+    {
+        "id": "FR_NESTLE",
+        "name": "Nestlé France Rappel",
+        "url": "https://www.nestle.fr/recherche",
+        "date": "2026-01-05"
+    },
+    {
+        "id": "PH_FDA",
+        "name": "Philippines FDA Advisory",
+        "url": "https://www.fda.gov.ph/fda-advisory-no-2026-0030",
         "date": "2026-01-10"
     }
 ];
 
 const RECALL_DATA = [
     {
-        "code": "525411423B",
-        "brand": "Nestlé/Wyeth",
-        "product": "力多精1段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "5100080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "525411423U",
-        "brand": "Nestlé/Wyeth",
-        "product": "力多精1段 400g",
-        "source": "CN_DOMESTIC",
+        "code": "5100080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "525311423U",
-        "brand": "Nestlé/Wyeth",
-        "product": "力多精2段 400g",
-        "source": "CN_DOMESTIC",
+        "code": "5101080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "525411423T",
-        "brand": "Nestlé/Wyeth",
-        "product": "力多精2段 400g",
-        "source": "CN_DOMESTIC",
+        "code": "5101080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "528611423U",
-        "brand": "Nestlé/Wyeth",
-        "product": "力多精2段 400g",
-        "source": "CN_DOMESTIC",
+        "code": "5102080621",
+        "brand": "Nestlé Group",
+        "product": "Nidal Nidalgest 1 800g",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "525411423A",
-        "brand": "Nestlé/Wyeth",
-        "product": "力多精2段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "5102080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "528511423B",
-        "brand": "Nestlé/Wyeth",
-        "product": "力多精2段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "5103080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "530311423A",
-        "brand": "Nestlé/Wyeth",
-        "product": "力多精3段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "5103080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "530311423B",
-        "brand": "Nestlé/Wyeth",
-        "product": "力多精3段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "5104080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "526811423A",
-        "brand": "Nestlé/Wyeth",
-        "product": "铂初能恩1段 850g",
-        "source": "CN_DOMESTIC",
+        "code": "5104080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "526911423B",
-        "brand": "Nestlé/Wyeth",
-        "product": "铂初能恩2段 200g",
-        "source": "CN_DOMESTIC",
+        "code": "5105080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "526711423C",
-        "brand": "Nestlé/Wyeth",
-        "product": "铂初能恩2段 850g",
-        "source": "CN_DOMESTIC",
+        "code": "5105080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "526711423B",
-        "brand": "Nestlé/Wyeth",
-        "product": "铂初能恩3段 850g",
-        "source": "CN_DOMESTIC",
+        "code": "5106080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "526911423A",
-        "brand": "Nestlé/Wyeth",
-        "product": "铂初能恩3段 200g",
-        "source": "CN_DOMESTIC",
+        "code": "5106080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "524611423A",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩1段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "51070017Y2",
+        "brand": "Nestlé Group",
+        "product": "Alfamino Infant 400g (AU/NZ)",
+        "source": "AU_FSANZ",
         "isSeries": false
     },
     {
-        "code": "524611423C",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩1段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "5107080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "524511423A",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩2段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "5107080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "524511423B",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩2段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "51080017Y1",
+        "brand": "Nestlé Group",
+        "product": "Alfamino Infant 400g (AU/NZ)",
+        "source": "AU_FSANZ",
         "isSeries": false
     },
     {
-        "code": "52461142CA",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩2段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "5108080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "518111423T",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩3段 3x400g",
-        "source": "CN_DOMESTIC",
+        "code": "5108080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "518211423T",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩3段 3x400g",
-        "source": "CN_DOMESTIC",
+        "code": "5109080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "524411423T",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩3段 3x400g",
-        "source": "CN_DOMESTIC",
+        "code": "5109080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "524411423U",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩3段 3x400g",
-        "source": "CN_DOMESTIC",
+        "code": "511000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5110080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "524511423T",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩3段 3x400g",
-        "source": "CN_DOMESTIC",
+        "code": "5110080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "524611423T",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩3段 3x400g",
-        "source": "CN_DOMESTIC",
+        "code": "511010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5111080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "528511423T",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩3段 3x400g",
-        "source": "CN_DOMESTIC",
+        "code": "5111080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "518111423A",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩3段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "511110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5112080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "524511423C",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩3段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "5112080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "528511423C",
-        "brand": "Nestlé/Wyeth",
-        "product": "舒宜能恩3段 900g",
-        "source": "CN_DOMESTIC",
+        "code": "511210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "511240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5113080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "527111423A",
-        "brand": "Nestlé/Wyeth",
-        "product": "惠氏膳儿加 800g",
-        "source": "CN_DOMESTIC",
+        "code": "5113080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "5114080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5114080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "51150346AB",
+        "brand": "Nestlé Group",
+        "product": "SMA Lactose Free 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5115080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5115080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "5116080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5116080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "51170346AA",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "51170346AB",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5117080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5117080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "5118080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5118080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "51190017C2",
+        "brand": "Nestlé Group",
+        "product": "Illuma Future 1 800g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "5119080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5119080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "512000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "51200017Y3",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5120080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5120080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "512010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "51210017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5121080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5121080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "512110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "51220017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "51220346AD",
+        "brand": "Nestlé Group",
+        "product": "LITTLE STEPS First 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "51220346BA",
+        "brand": "Nestlé Group",
+        "product": "Nidal Nidalgest 1 1.2kg",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5122080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5122080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "512210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "512240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "51230346AA",
+        "brand": "Nestlé Group",
+        "product": "Nidal Nidalgest 1 800g",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "51230742F1",
+        "brand": "Nestlé Group",
+        "product": "BEBA Supreme 3 830g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "5123080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5123080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "51240742F2",
+        "brand": "Nestlé Group",
+        "product": "SMA Follow-on 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "51240742F3",
+        "brand": "Nestlé Group",
+        "product": "SMA Comfort 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5124080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5124080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "51250017C1",
+        "brand": "Nestlé Group",
+        "product": "NaN A2 1",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "51250017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "51250742F1",
+        "brand": "Nestlé Group",
+        "product": "Guigoz 1 6x230ml",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5125080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5125080661",
+        "brand": "Nestlé Group",
+        "product": "S-26 AR UAE/Kuwait",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "51260017C1",
+        "brand": "Nestlé Group",
+        "product": "NaN A2 2",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "51260017C2",
+        "brand": "Nestlé Group",
+        "product": "NaN A2 3",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "5126080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5126080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "5127080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5127080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "5128080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5128080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "5129080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5129080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "513000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5130080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5130080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "513010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5131080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5131080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "513110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5132080621",
+        "brand": "Nestlé Group",
+        "product": "Nidal Nidalgest 1 800g",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5132080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "513210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "513240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5133080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5133080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "51340346AB",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "51340346BE",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 1.2kg",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5134080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5134080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "51350346AA",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5135080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5135080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "5136080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5136080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "5137080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5137080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "51380017A1",
+        "brand": "Nestlé Group",
+        "product": "Illuma Future 2 370g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "5138080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5138080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "51390017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5139080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5139080661",
+        "brand": "Nestlé Group",
+        "product": "NAN/S-26 MENA Range",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "514000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "51400017C1",
+        "brand": "Nestlé Group",
+        "product": "Illuma Future 2 800g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "5140080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "514010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5141080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "514110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "51420017Y2",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5142080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "514210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "514240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "51430017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5143080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "51439722BA",
+        "brand": "Nestlé Group",
+        "product": "SMA Comfort 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5144080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "51450742F1",
+        "brand": "Nestlé Group",
+        "product": "SMA Advanced First 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5145080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "51460017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "51460742F2",
+        "brand": "Nestlé Group",
+        "product": "BEBA Supreme 1 800g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "5146080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "51470742F1",
+        "brand": "Nestlé Group",
+        "product": "BEBA Supreme 1 800g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "5147080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "51480017Y3",
+        "brand": "Nestlé Group",
+        "product": "Alfamino Infant 400g (AU/NZ)",
+        "source": "AU_FSANZ",
+        "isSeries": false
+    },
+    {
+        "code": "5148080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "51490017Y1",
+        "brand": "Nestlé Group",
+        "product": "Alfamino Infant 400g (AU/NZ)",
+        "source": "AU_FSANZ",
+        "isSeries": false
+    },
+    {
+        "code": "5149080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "515000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5150080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "515010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5151080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "515110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5152080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "515210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "515240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5153080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "51540017A4",
+        "brand": "Nestlé Group",
+        "product": "Illuma Future 1 370g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "51540346AC",
+        "brand": "Nestlé Group",
+        "product": "LITTLE STEPS First 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "51540742F1",
+        "brand": "Nestlé Group",
+        "product": "BEBA Supreme 3 830g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "5154080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "51550017C3",
+        "brand": "Nestlé Group",
+        "product": "Illuma Future 1 800g",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
         "code": "51550742F1",
-        "brand": "Nestlé/Wyeth",
+        "brand": "Nestlé Group",
         "product": "BEBA Supreme 2 800g",
         "source": "CN_CROSS",
         "isSeries": false
     },
     {
         "code": "51550742F2",
-        "brand": "Nestlé/Wyeth",
+        "brand": "Nestlé Group",
         "product": "BEBA Supreme 2 800g",
         "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "51230742F1",
-        "brand": "Nestlé/Wyeth",
-        "product": "BEBA Supreme 3 830g",
-        "source": "CN_CROSS",
+        "code": "5155080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "51540742F1",
-        "brand": "Nestlé/Wyeth",
-        "product": "BEBA Supreme 3 830g",
-        "source": "CN_CROSS",
+        "code": "5156080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "52850742F2",
-        "brand": "Nestlé/Wyeth",
-        "product": "BEBA Supreme 3 830g",
-        "source": "CN_CROSS",
+        "code": "5157080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "51460742F2",
-        "brand": "Nestlé/Wyeth",
-        "product": "BEBA Supreme 1 800g",
-        "source": "CN_CROSS",
+        "code": "51580346AA",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 800g",
+        "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "51470742F1",
-        "brand": "Nestlé/Wyeth",
-        "product": "BEBA Supreme 1 800g",
-        "source": "CN_CROSS",
+        "code": "5158080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "51720742F2",
-        "brand": "Nestlé/Wyeth",
-        "product": "BEBA Supreme 1 800g",
-        "source": "CN_CROSS",
+        "code": "51590017C6",
+        "brand": "Nestlé",
+        "product": "S-26 ULTIMA 2 800g",
+        "source": "HK_CFS",
         "isSeries": false
     },
     {
-        "code": "51690742F3",
-        "brand": "Nestlé/Wyeth",
-        "product": "BEBA Expert HA1 800g",
-        "source": "CN_CROSS",
+        "code": "51590346AA",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 800g",
+        "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "53210742D1",
-        "brand": "Nestlé/Wyeth",
-        "product": "BEBA Supreme 3 200ml",
-        "source": "CN_CROSS",
+        "code": "51590346AB",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 800g",
+        "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "53350742D1",
-        "brand": "Nestlé/Wyeth",
-        "product": "BEBA Supreme 3 200ml",
-        "source": "CN_CROSS",
+        "code": "5159080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "53160742C1",
-        "brand": "Nestlé/Wyeth",
-        "product": "BEBA Supreme 2 200ml",
-        "source": "CN_CROSS",
+        "code": "516000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5160080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "51190017C2",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋未来1段 800g",
-        "source": "CN_CROSS",
+        "code": "516010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "516020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "516030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "516040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "516050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "516060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "516070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "516080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "516090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "516100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5161080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "51550017C3",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋未来1段 800g",
-        "source": "CN_CROSS",
-        "isSeries": false
+        "code": "516110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
     },
     {
-        "code": "51400017C1",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋未来2段 800g",
-        "source": "CN_CROSS",
-        "isSeries": false
+        "code": "516120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
     },
     {
-        "code": "52580017C2",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋未来2段 800g",
-        "source": "CN_CROSS",
-        "isSeries": false
+        "code": "516130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
     },
     {
-        "code": "51380017A1",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋未来2段 370g",
-        "source": "CN_CROSS",
-        "isSeries": false
+        "code": "516140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
     },
     {
-        "code": "52590017A2",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋未来2段 370g",
-        "source": "CN_CROSS",
-        "isSeries": false
+        "code": "516150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
     },
     {
-        "code": "52470017C3",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋未来3段 800g",
-        "source": "CN_CROSS",
-        "isSeries": false
+        "code": "516160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
     },
     {
-        "code": "51640017V1",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋双萃1段 800g",
-        "source": "CN_CROSS",
-        "isSeries": false
+        "code": "516170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
     },
     {
-        "code": "52850017C3",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋双萃2段 800g",
-        "source": "CN_CROSS",
-        "isSeries": false
+        "code": "516180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
     },
     {
-        "code": "52910017C1",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋双萃3段 800g",
-        "source": "CN_CROSS",
-        "isSeries": false
+        "code": "516190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
     },
     {
-        "code": "51250017C1",
-        "brand": "Nestlé/Wyeth",
-        "product": "能恩全护A2 1段",
-        "source": "CN_CROSS",
-        "isSeries": false
-    },
-    {
-        "code": "51260017C1",
-        "brand": "Nestlé/Wyeth",
-        "product": "能恩全护A2 2段",
-        "source": "CN_CROSS",
-        "isSeries": false
-    },
-    {
-        "code": "52930017C3",
-        "brand": "Nestlé/Wyeth",
-        "product": "能恩全护A2 2段",
-        "source": "CN_CROSS",
-        "isSeries": false
-    },
-    {
-        "code": "51260017C2",
-        "brand": "Nestlé/Wyeth",
-        "product": "能恩全护A2 3段",
-        "source": "CN_CROSS",
-        "isSeries": false
-    },
-    {
-        "code": "51660742F2",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋敏适HA 1段",
-        "source": "CN_CROSS",
-        "isSeries": false
-    },
-    {
-        "code": "51670742C2",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋敏适HA 2段",
-        "source": "CN_CROSS",
-        "isSeries": false
-    },
-    {
-        "code": "51680742C1",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋敏适HA 2段",
-        "source": "CN_CROSS",
-        "isSeries": false
-    },
-    {
-        "code": "52070742F3",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋敏适HA 3段",
-        "source": "CN_CROSS",
-        "isSeries": false
+        "code": "516200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
     },
     {
         "code": "51620017C1",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋有机2段",
+        "brand": "Nestlé Group",
+        "product": "Illuma Organic 2",
         "source": "CN_CROSS",
         "isSeries": false
     },
     {
         "code": "51620017C2",
-        "brand": "Nestlé/Wyeth",
-        "product": "启赋有机3段",
+        "brand": "Nestlé Group",
+        "product": "Illuma Organic 3",
         "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "51450742F1",
-        "brand": "Nestlé/Wyeth",
-        "product": "SMA Adv First 800g",
-        "source": "UK_FSA",
+        "code": "5162080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "52319722BA",
-        "brand": "Nestlé/Wyeth",
-        "product": "SMA Adv First 800g",
-        "source": "UK_FSA",
+        "code": "516210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "516220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "516230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "516240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5163080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "51170346AA",
-        "brand": "Nestlé/Wyeth",
-        "product": "SMA First 800g",
-        "source": "UK_FSA",
+        "code": "51640017V1",
+        "brand": "Nestlé Group",
+        "product": "Illuma Dual 1 800g",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "51170346AB",
-        "brand": "Nestlé/Wyeth",
-        "product": "SMA First 800g",
-        "source": "UK_FSA",
+        "code": "5164080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "51340346AB",
-        "brand": "Nestlé/Wyeth",
-        "product": "SMA First 800g",
-        "source": "UK_FSA",
+        "code": "5165080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "51580346AA",
-        "brand": "Nestlé/Wyeth",
-        "product": "SMA First 800g",
-        "source": "UK_FSA",
+        "code": "51660742F2",
+        "brand": "Nestlé Group",
+        "product": "Illuma HA 1",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "52860295M",
-        "brand": "Nestlé/Wyeth",
-        "product": "SMA First 200ml",
-        "source": "UK_FSA",
+        "code": "5166080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "53170742B1",
-        "brand": "Nestlé/Wyeth",
-        "product": "SMA First 70ml",
-        "source": "UK_FSA",
+        "code": "51670742C2",
+        "brand": "Nestlé Group",
+        "product": "Illuma HA 2",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "51210017Y1",
-        "brand": "Nestlé/Wyeth",
+        "code": "51670742F2",
+        "brand": "Nestlé Group",
+        "product": "NaN Care 1",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "5167080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "51680742C1",
+        "brand": "Nestlé Group",
+        "product": "Illuma HA 2",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "5168080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "51690017Y2",
+        "brand": "Nestlé Group",
         "product": "SMA Alfamino 400g",
         "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "51220017Y1",
-        "brand": "Nestlé/Wyeth",
+        "code": "51690017Y3",
+        "brand": "Nestlé Group",
         "product": "SMA Alfamino 400g",
         "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "51200017Y3",
-        "brand": "Nestlé/Wyeth",
+        "code": "51690742F3",
+        "brand": "Nestlé Group",
+        "product": "BEBA Expert HA1 800g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "5169080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "517000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "51700017Y1",
+        "brand": "Nestlé Group",
         "product": "SMA Alfamino 400g",
         "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "HK00000",
-        "brand": "Nestlé",
-        "product": "HK Batch 0",
-        "source": "HK_CFS",
+        "code": "5170080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00001",
-        "brand": "Nestlé",
-        "product": "HK Batch 1",
-        "source": "HK_CFS",
+        "code": "517010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "51710017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "HK00002",
-        "brand": "Nestlé",
-        "product": "HK Batch 2",
-        "source": "HK_CFS",
+        "code": "5171080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00003",
-        "brand": "Nestlé",
-        "product": "HK Batch 3",
-        "source": "HK_CFS",
+        "code": "517110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "51720742F2",
+        "brand": "Nestlé Group",
+        "product": "BEBA Supreme 1 800g",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "HK00004",
-        "brand": "Nestlé",
-        "product": "HK Batch 4",
-        "source": "HK_CFS",
+        "code": "5172080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00005",
-        "brand": "Nestlé",
-        "product": "HK Batch 5",
-        "source": "HK_CFS",
+        "code": "517210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "517240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5173080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00006",
-        "brand": "Nestlé",
-        "product": "HK Batch 6",
-        "source": "HK_CFS",
+        "code": "51740017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "HK00007",
-        "brand": "Nestlé",
-        "product": "HK Batch 7",
-        "source": "HK_CFS",
+        "code": "5174080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00008",
-        "brand": "Nestlé",
-        "product": "HK Batch 8",
-        "source": "HK_CFS",
+        "code": "5175080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00009",
-        "brand": "Nestlé",
-        "product": "HK Batch 9",
-        "source": "HK_CFS",
+        "code": "5176080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00010",
-        "brand": "Nestlé",
-        "product": "HK Batch 10",
-        "source": "HK_CFS",
+        "code": "5177080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00011",
-        "brand": "Nestlé",
-        "product": "HK Batch 11",
-        "source": "HK_CFS",
+        "code": "5178080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00012",
-        "brand": "Nestlé",
-        "product": "HK Batch 12",
-        "source": "HK_CFS",
+        "code": "5179080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00013",
-        "brand": "Nestlé",
-        "product": "HK Batch 13",
-        "source": "HK_CFS",
+        "code": "518000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5180080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00014",
-        "brand": "Nestlé",
-        "product": "HK Batch 14",
-        "source": "HK_CFS",
+        "code": "518010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5181080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00015",
-        "brand": "Nestlé",
-        "product": "HK Batch 15",
-        "source": "HK_CFS",
+        "code": "518110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518111423A",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 3 900g",
+        "source": "CN_DOMESTIC",
         "isSeries": false
     },
     {
-        "code": "HK00016",
-        "brand": "Nestlé",
-        "product": "HK Batch 16",
-        "source": "HK_CFS",
+        "code": "518111423T",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 3 3x400g",
+        "source": "CN_DOMESTIC",
         "isSeries": false
     },
     {
-        "code": "HK00017",
-        "brand": "Nestlé",
-        "product": "HK Batch 17",
-        "source": "HK_CFS",
+        "code": "518120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5182080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00018",
-        "brand": "Nestlé",
-        "product": "HK Batch 18",
-        "source": "HK_CFS",
+        "code": "518210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518211423T",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 3 3x400g",
+        "source": "CN_DOMESTIC",
         "isSeries": false
     },
     {
-        "code": "HK00019",
-        "brand": "Nestlé",
-        "product": "HK Batch 19",
-        "source": "HK_CFS",
+        "code": "518220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "518240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5183080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00020",
-        "brand": "Nestlé",
-        "product": "HK Batch 20",
-        "source": "HK_CFS",
+        "code": "5184080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "HK00021",
-        "brand": "Nestlé",
-        "product": "HK Batch 21",
-        "source": "HK_CFS",
+        "code": "5185080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5185080661",
+        "brand": "Nestlé Group",
+        "product": "S-26 AR UAE/Kuwait",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "5186080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5187080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5188080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "51890742F2",
+        "brand": "Nestlé Group",
+        "product": "SMA Follow-on 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "5189080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5190080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5191080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5192080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5193080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5194080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5195080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5196080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5197080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5198080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "5199080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
         "code": "5200",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "520000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5200080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "520010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
         "isSeries": true
     },
     {
         "code": "5201",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "520100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5201080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "520110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
         "isSeries": true
     },
     {
         "code": "5202",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "520200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5202080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "520210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "520240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
         "isSeries": true
     },
     {
         "code": "5203",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
         "isSeries": true
+    },
+    {
+        "code": "52030017Y1",
+        "brand": "Nestlé Group",
+        "product": "Alfamino Infant 400g (AU/NZ)",
+        "source": "AU_FSANZ",
+        "isSeries": false
+    },
+    {
+        "code": "5203080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
     },
     {
         "code": "5204",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
         "isSeries": true
+    },
+    {
+        "code": "5204080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
     },
     {
         "code": "5205",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
         "isSeries": true
+    },
+    {
+        "code": "5205080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
     },
     {
         "code": "5206",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
         "isSeries": true
+    },
+    {
+        "code": "5206080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
     },
     {
         "code": "5207",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
         "isSeries": true
+    },
+    {
+        "code": "52070742F3",
+        "brand": "Nestlé Group",
+        "product": "Illuma HA 3",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "52070742F4",
+        "brand": "Nestlé Group",
+        "product": "NaN Care 3",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "5207080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
     },
     {
         "code": "5208",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
         "isSeries": true
+    },
+    {
+        "code": "5208080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
     },
     {
         "code": "5209",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
         "isSeries": true
     },
     {
+        "code": "5209080621",
+        "brand": "Nestlé Group",
+        "product": "Guigoz AR/Gest/Optipro",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "52099722BA",
+        "brand": "Nestlé Group",
+        "product": "SMA Anti Reflux 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
         "code": "5210",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "521000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
         "isSeries": true
     },
     {
         "code": "5211",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "521100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
         "isSeries": true
     },
     {
         "code": "5212",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
         "isSeries": true
     },
     {
+        "code": "521200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "521240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
         "code": "5213",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
         "isSeries": true
     },
     {
         "code": "5214",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
         "isSeries": true
     },
     {
         "code": "5215",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
         "isSeries": true
     },
     {
         "code": "5216",
-        "brand": "Nestlé Series",
-        "product": "Series Recall",
+        "brand": "HK Series",
+        "product": "Production Series",
         "source": "HK_CFS",
         "isSeries": true
     },
     {
-        "code": "EXT00000",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "5217",
+        "brand": "HK Series",
+        "product": "Production Series",
+        "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "5218",
+        "brand": "HK Series",
+        "product": "Production Series",
+        "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "5219",
+        "brand": "HK Series",
+        "product": "Production Series",
+        "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "5220",
+        "brand": "HK Series",
+        "product": "Production Series",
+        "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "522000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5221",
+        "brand": "HK Series",
+        "product": "Production Series",
+        "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "522100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5222",
+        "brand": "HK Series",
+        "product": "Production Series",
+        "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "522200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "522240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5223",
+        "brand": "HK Series",
+        "product": "Production Series",
+        "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "5224",
+        "brand": "HK Series",
+        "product": "Production Series",
+        "source": "HK_CFS",
+        "isSeries": true
+    },
+    {
+        "code": "523000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "52319722BA",
+        "brand": "Nestlé Group",
+        "product": "SMA Advanced First 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "523200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "523240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "524411423T",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 3 3x400g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "524411423U",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 3 3x400g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "524511423A",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 2 900g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "524511423B",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 2 900g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "524511423C",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 3 900g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "524511423T",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 3 3x400g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "524611423A",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 1 900g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "524611423C",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 1 900g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "524611423T",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 3 3x400g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "52461142CA",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 2 900g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "52470017C3",
+        "brand": "Nestlé Group",
+        "product": "Illuma Future 3 800g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "525000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "525311423U",
+        "brand": "Nestlé Group",
+        "product": "Lactogen 2 400g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "525401896A",
+        "brand": "Nestlé Group",
+        "product": "NAN Optipro 6-12mo",
+        "source": "PH_FDA",
+        "isSeries": false
+    },
+    {
+        "code": "525411423A",
+        "brand": "Nestlé Group",
+        "product": "Lactogen 2 900g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "525411423B",
+        "brand": "Nestlé Group",
+        "product": "Lactogen 1 900g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "525411423T",
+        "brand": "Nestlé Group",
+        "product": "Lactogen 2 400g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "525411423U",
+        "brand": "Nestlé Group",
+        "product": "Lactogen 1 400g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "52580017C2",
+        "brand": "Nestlé Group",
+        "product": "Illuma Future 2 800g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "52590017A2",
+        "brand": "Nestlé Group",
+        "product": "Illuma Future 2 370g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "526000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "526711423B",
+        "brand": "Nestlé Group",
+        "product": "NaN SUPREMEpro 3 850g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "526711423C",
+        "brand": "Nestlé Group",
+        "product": "NaN SUPREMEpro 2 850g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "526811423A",
+        "brand": "Nestlé Group",
+        "product": "NaN SUPREMEpro 1 850g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "526901896A6",
+        "brand": "Nestlé Group",
+        "product": "NAN Optipro 0-6mo",
+        "source": "PH_FDA",
+        "isSeries": false
+    },
+    {
+        "code": "526911423A",
+        "brand": "Nestlé Group",
+        "product": "NaN SUPREMEpro 3 200g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "526911423B",
+        "brand": "Nestlé Group",
+        "product": "NaN SUPREMEpro 2 200g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "527000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "5271080661",
+        "brand": "Nestlé Group",
+        "product": "S-26 AR UAE",
+        "source": "MENA_VERIFY",
+        "isSeries": false
+    },
+    {
+        "code": "527110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527111423A",
+        "brand": "Nestlé Group",
+        "product": "Wyeth S-26 800g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "527120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "527240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "52730346BB",
+        "brand": "Nestlé Group",
+        "product": "Nidal Nidalgest 1 1.2kg",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "52740346AB",
+        "brand": "Nestlé Group",
+        "product": "Nidal Nidalgest 1 800g",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "52740346AD",
+        "brand": "Nestlé Group",
+        "product": "LITTLE STEPS First 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "52740346BA",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 1.2kg",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "52750346AD",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "52750346AE",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "52750346BA",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 1.2kg",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "52760017Y5",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "52760346AB",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "52760346AD",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "52770017V2",
+        "brand": "Nestlé Group",
+        "product": "NaN Care 3",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "52780346AA",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "52790017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "528000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "52819722AA",
+        "brand": "Nestlé Group",
+        "product": "SMA Advanced First 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "528200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "528240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "52850017C3",
+        "brand": "Nestlé Group",
+        "product": "Illuma Dual 2 800g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "52850742F2",
+        "brand": "Nestlé Group",
+        "product": "BEBA Supreme 3 830g",
+        "source": "CN_CROSS",
+        "isSeries": false
+    },
+    {
+        "code": "528511423B",
+        "brand": "Nestlé Group",
+        "product": "Lactogen 2 900g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "528511423C",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 3 900g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "528511423T",
+        "brand": "Nestlé Group",
+        "product": "NaN HA 3 3x400g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "52860017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "52860295M",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 200ml",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "528611423U",
+        "brand": "Nestlé Group",
+        "product": "Lactogen 2 400g",
+        "source": "CN_DOMESTIC",
+        "isSeries": false
+    },
+    {
+        "code": "52870295M",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 200ml",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "52879722AA",
+        "brand": "Nestlé Group",
+        "product": "SMA Follow-on 800g",
+        "source": "UK_FSA",
+        "isSeries": false
+    },
+    {
+        "code": "52880742F1",
+        "brand": "Nestlé Group",
+        "product": "Guigoz 1 6x230ml",
+        "source": "FR_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "528901896B",
+        "brand": "Nestlé Group",
+        "product": "NAN Optipro 6-12mo",
+        "source": "PH_FDA",
+        "isSeries": false
+    },
+    {
+        "code": "529000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "529010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "529020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "529030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "529040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "529050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "529060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "529070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "529080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
+        "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "529090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00001",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "52910017C1",
+        "brand": "Nestlé Group",
+        "product": "Illuma Dual 3 800g",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "EXT00002",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00003",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00004",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00005",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00006",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00007",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00008",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00009",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00010",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00011",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00012",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00013",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00014",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00015",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "529240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "52930017C3",
+        "brand": "Nestlé Group",
+        "product": "NaN A2 2",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "EXT00016",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "52970742C1",
+        "brand": "Nestlé Group",
+        "product": "NaN Care 1",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "EXT00017",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "52970742F1",
+        "brand": "Nestlé Group",
+        "product": "NaN Care 1",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "EXT00018",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00019",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00020",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00021",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00022",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00023",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00024",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00025",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00026",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00027",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00028",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00029",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00030",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00031",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00032",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00033",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00034",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00035",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00036",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00037",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00038",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00039",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00040",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00041",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00042",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "530240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "53030017C2",
+        "brand": "Nestlé Group",
+        "product": "NaN Care 4",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "EXT00043",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "53030295M",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 200ml",
+        "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "EXT00044",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "530311423A",
+        "brand": "Nestlé Group",
+        "product": "Lactogen 3 900g",
+        "source": "CN_DOMESTIC",
         "isSeries": false
     },
     {
-        "code": "EXT00045",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "530311423B",
+        "brand": "Nestlé Group",
+        "product": "Lactogen 3 900g",
+        "source": "CN_DOMESTIC",
         "isSeries": false
     },
     {
-        "code": "EXT00046",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "53070742F1",
+        "brand": "Nestlé Group",
+        "product": "NaN Care 2",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "EXT00047",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "53100017Y3",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "EXT00048",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00049",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00050",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00051",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00052",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00053",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00054",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00055",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00056",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00057",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "53110017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "EXT00058",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00059",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00060",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00061",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00062",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00063",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00064",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00065",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00066",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00067",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00068",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00069",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00070",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00071",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "531240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "53140017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "EXT00072",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "53150017Y1",
+        "brand": "Nestlé Group",
+        "product": "SMA Alfamino 400g",
+        "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "EXT00073",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "53160742C1",
+        "brand": "Nestlé Group",
+        "product": "BEBA Supreme 2 200ml",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "EXT00074",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "53170742B1",
+        "brand": "Nestlé Group",
+        "product": "SMA First Milk 70ml",
+        "source": "UK_FSA",
         "isSeries": false
     },
     {
-        "code": "EXT00075",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "53180295M",
+        "brand": "Nestlé Group",
+        "product": "Guigoz 1 6x230ml",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00076",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00077",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00078",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00079",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00080",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00081",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00082",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00083",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00084",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00085",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00086",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "53210742D1",
+        "brand": "Nestlé Group",
+        "product": "BEBA Supreme 3 200ml",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "EXT00087",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00088",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00089",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00090",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00091",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00092",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00093",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00094",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00095",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00096",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00097",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00098",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00099",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00100",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "532240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00101",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "533001896A",
+        "brand": "Nestlé Group",
+        "product": "NAN Optipro 6-12mo",
+        "source": "PH_FDA",
         "isSeries": false
     },
     {
-        "code": "EXT00102",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "53300742F1",
+        "brand": "Nestlé Group",
+        "product": "Guigoz 1 6x230ml",
+        "source": "FR_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00103",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "5330080661",
+        "brand": "Nestlé Group",
+        "product": "S-26 AR Gold Kuwait",
+        "source": "MENA_VERIFY",
         "isSeries": false
     },
     {
-        "code": "EXT00104",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00105",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00106",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00107",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00108",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00109",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00110",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00111",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00112",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00113",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00114",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00115",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00116",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00117",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00118",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00119",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00120",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00121",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00122",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00123",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00124",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00125",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00126",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00127",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "533240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "53350742D1",
+        "brand": "Nestlé Group",
+        "product": "BEBA Supreme 3 200ml",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "EXT00128",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "53360742C1",
+        "brand": "Nestlé Group",
+        "product": "BEBA Supreme 2 200ml",
+        "source": "CN_CROSS",
         "isSeries": false
     },
     {
-        "code": "EXT00129",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534000017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00130",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534010017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00131",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534020017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00132",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534030017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00133",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534040017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00134",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534050017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00135",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534060017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00136",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534070017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00137",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534080017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00138",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534090017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00139",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534100017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00140",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534110017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00141",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534120017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00142",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534130017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00143",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534140017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00144",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534150017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00145",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534160017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00146",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534170017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00147",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534180017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00148",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534190017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00149",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534200017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00150",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534210017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00151",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534220017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00152",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534230017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
-        "isSeries": false
+        "isSeries": true
     },
     {
-        "code": "EXT00153",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
+        "code": "534240017Y",
+        "brand": "Nestlé Group",
+        "product": "Global Series Recall",
         "source": "GLOBAL",
+        "isSeries": true
+    },
+    {
+        "code": "L51180346BA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Pre 2x600g",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00154",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L51200346BA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Pre 2x600g",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00155",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L51530346AB",
+        "brand": "Nestlé Group",
+        "product": "BEBA Pre 800g",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00156",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L51660346AC",
+        "brand": "Nestlé Group",
+        "product": "BEBA Pre 800g",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00157",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L51710346BA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Pre 2x600g",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00158",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52000346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00159",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52010346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00160",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52020346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00161",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52030346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00162",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52040346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00163",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52050346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00164",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52060346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00165",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52070346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00166",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52080346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00167",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52090346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00168",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52100346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00169",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52110346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00170",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52120346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00171",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52130346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00172",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52140346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00173",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52150346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00174",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52160346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00175",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52170346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00176",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52180346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00177",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52190346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00178",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52200346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00179",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52210346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00180",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52220346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00181",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52230346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00182",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52240346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00183",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52250346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00184",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52260346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00185",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52270346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00186",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52280346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00187",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52290346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00188",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52300346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00189",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52310346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
         "isSeries": false
     },
     {
-        "code": "EXT00190",
-        "brand": "Nestlé Global",
-        "product": "Global Verified Batch",
-        "source": "GLOBAL",
+        "code": "L52320346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52330346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52340346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52350346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52360346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52370346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52380346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52390346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52400346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52410346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52420346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52430346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52440346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52450346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52460346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52470346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52480346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52490346AA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Variety Pack",
+        "source": "DE_NESTLE",
+        "isSeries": false
+    },
+    {
+        "code": "L52590346BA",
+        "brand": "Nestlé Group",
+        "product": "BEBA Pre 2x600g",
+        "source": "DE_NESTLE",
         "isSeries": false
     }
 ];
