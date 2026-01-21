@@ -189,38 +189,39 @@ function handleSearch() {
 function renderIdle() {
     resultsContainer.innerHTML = `
         <div class="text-center py-8 space-y-10 slide-up">
-            <div class="bottle-container status-idle mx-auto">
-                <svg class="bottle-svg" viewBox="0 0 100 240" xmlns="http://www.w3.org/2000/svg">
-                    <!-- Iconic Baby Bottle Shape -->
-                    <!-- Nipple -->
-                    <path class="bottle-nipple" d="M50 5 Q40 5 40 25 L60 25 Q60 5 50 5Z" 
+            <div class="bottle-container status-idle mx-auto" style="width: 140px; height: 160px;">
+                <svg class="bottle-svg" viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Nipple (Wide/Chubby) -->
+                    <path class="bottle-nipple" d="M100 5 Q85 5 85 30 L115 30 Q115 5 100 5Z" 
                           fill="none" stroke="#CBD5E1" stroke-width="2.5"/>
-                    <!-- Collar -->
-                    <rect class="bottle-ring" x="35" y="25" width="30" height="15" rx="4" 
+                    <!-- Dome Collar -->
+                    <path class="bottle-ring" d="M65 65 A40 40 0 0 1 135 65 L140 75 L60 75 Z" 
                           fill="none" stroke="#CBD5E1" stroke-width="3"/>
                     
-                    <!-- Main Body (Iconic Straighter Glass) -->
-                    <path class="bottle-outline" d="M35 40 L35 220 C35 230 40 235 50 235 C60 235 65 230 65 220 L65 40 Z" 
-                          fill="none" stroke="#CBD5E1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-                    
-                    <!-- Milk Fill (Iconic Level) -->
-                    <path class="milk-fill" d="M39 220 L39 100 Q50 95 61 100 L61 220 C61 225 58 230 50 230 C42 230 39 225 39 220 Z" 
-                          fill="#F8FAFC" opacity="0.6"/>
-                    
-                    <!-- Wave -->
-                    <path class="milk-wave" d="M39 100 Q50 90 61 100" 
-                          fill="none" stroke="#F1F5F9" stroke-width="2.5" opacity="0.4"/>
+                    <!-- Handles (C-Shape) -->
+                    <path class="bottle-handles" d="M60 85 Q30 85 30 130 Q30 160 55 160" 
+                          fill="none" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
+                    <path class="bottle-handles" d="M140 85 Q170 85 170 130 Q170 160 145 160" 
+                          fill="none" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
 
-                    <!-- Iconic Scale Marks -->
-                    <g class="bottle-scales" stroke="#E2E8F0" opacity="0.5">
-                        <line x1="40" y1="180" x2="48" y2="180" stroke-width="2" />
-                        <line x1="40" y1="150" x2="52" y2="150" stroke-width="2" />
-                        <line x1="40" y1="120" x2="48" y2="120" stroke-width="2" />
-                        <line x1="40" y1="90" x2="52" y2="90" stroke-width="2" />
-                    </g>
+                    <!-- Main Body (Wide/Curvy) -->
+                    <path class="bottle-outline" d="M60 75 L60 90 Q60 140 65 180 Q65 235 100 235 Q135 235 135 180 Q140 140 140 90 L140 75" 
+                          fill="none" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
                     
-                    <!-- Iconic Shine -->
-                    <path d="M60 60 L60 180" fill="none" stroke="white" stroke-width="4" opacity="0.3" stroke-linecap="round" />
+                    <!-- Milk Fill -->
+                    <path class="milk-fill" d="M65 220 L65 130 Q100 120 135 130 L135 220 Q135 230 100 230 Q65 230 65 220 Z" 
+                          fill="#F8FAFC" opacity="0.4"/>
+
+                    <!-- Straw with Weight -->
+                    <path class="bottle-straw" d="M100 75 L100 210" fill="none" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="3" opacity="0.3"/>
+                    <circle cx="100" cy="215" r="5" fill="#CBD5E1" opacity="0.2"/>
+                    
+                    <!-- Scales -->
+                    <g class="bottle-scales" stroke="#E2E8F0" opacity="0.5">
+                        <line x1="100" y1="180" x2="110" y2="180" stroke-width="2" />
+                        <line x1="100" y1="150" x2="115" y2="150" stroke-width="2" />
+                        <line x1="100" y1="120" x2="110" y2="120" stroke-width="2" />
+                    </g>
                 </svg>
             </div>
             <p class="text-slate-400 font-bold px-12 text-sm leading-relaxed max-w-sm mx-auto">${I18N[currentLang].idle}</p>
@@ -296,21 +297,22 @@ function renderResult(type, code, itemData = null) {
         <div class="glass-card rounded-[3rem] overflow-hidden border-2 ${config.border} slide-up shadow-2xl relative">
             <div class="p-10 space-y-8">
                 <!-- SVG Bottle Visualization -->
-                <div class="${type === 'critical' ? 'w-56 h-80' : 'w-40 h-56'} mx-auto transition-all duration-700">
+                <div class="${type === 'critical' ? 'w-64 h-72' : 'w-48 h-56'} mx-auto transition-all duration-700">
                     <div class="bottle-container ${config.bottleStatus} w-full h-full">
-                        <svg class="bottle-svg" viewBox="0 0 100 240" xmlns="http://www.w3.org/2000/svg">
-                            <path class="bottle-nipple" d="M50 5 Q40 5 40 25 L60 25 Q60 5 50 5Z" fill="none" stroke-width="2.5"/>
-                            <rect class="bottle-ring" x="35" y="25" width="30" height="15" rx="4" fill="none" stroke-width="3"/>
-                            <path class="bottle-outline" d="M35 40 L35 220 C35 230 40 235 50 235 C60 235 65 230 65 220 L65 40 Z" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path class="milk-fill" d="M39 220 L39 100 Q50 95 61 100 L61 220 C61 225 58 230 50 230 C42 230 39 225 39 220 Z" />
-                            <path class="milk-wave" d="M39 100 Q50 90 61 100" fill="none" stroke-width="2.5"/>
+                        <svg class="bottle-svg" viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
+                            <path class="bottle-nipple" d="M100 5 Q85 5 85 30 L115 30 Q115 5 100 5Z" fill="none" stroke-width="2.5"/>
+                            <path class="bottle-ring" d="M65 65 A40 40 0 0 1 135 65 L140 75 L60 75 Z" fill="none" stroke-width="3"/>
+                            <path class="bottle-handles" d="M60 85 Q30 85 30 130 Q30 160 55 160" fill="none" stroke-width="6" stroke-linecap="round"/>
+                            <path class="bottle-handles" d="M140 85 Q170 85 170 130 Q170 160 145 160" fill="none" stroke-width="6" stroke-linecap="round"/>
+                            <path class="bottle-outline" d="M60 75 L60 90 Q60 140 65 180 Q65 235 100 235 Q135 235 135 180 Q140 140 140 90 L140 75" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path class="milk-fill" d="M65 220 L65 130 Q100 120 135 130 L135 220 Q135 230 100 230 Q65 230 65 220 Z" />
+                            <path class="bottle-straw" d="M100 75 L100 210" fill="none" stroke-width="1.5" stroke-dasharray="3" opacity="0.3"/>
+                            <circle cx="100" cy="215" r="5" opacity="0.2"/>
                             <g class="bottle-scales" opacity="0.5">
-                                <line x1="40" y1="180" x2="48" y2="180" stroke-width="2" />
-                        <line x1="40" y1="150" x2="52" y2="150" stroke-width="2" />
-                        <line x1="40" y1="120" x2="48" y2="120" stroke-width="2" />
-                        <line x1="40" y1="90" x2="52" y2="90" stroke-width="2" />
+                                <line x1="100" y1="180" x2="110" y2="180" stroke-width="2" />
+                        <line x1="100" y1="150" x2="115" y2="150" stroke-width="2" />
+                        <line x1="100" y1="120" x2="110" y2="120" stroke-width="2" />
                             </g>
-                            <path d="M60 60 L60 180" fill="none" stroke="white" stroke-width="4" opacity="0.3" stroke-linecap="round" />
                         </svg>
                     </div>
                 </div>
