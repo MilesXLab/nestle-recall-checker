@@ -10,6 +10,63 @@ const RECALL_METADATA = {
     "integrity": "100% Verified - No Speculative Series Alerts"
 };
 
+const OFFICIAL_SOURCES = [
+    {
+        "id": "CN_DOMESTIC",
+        "name": "雀巢中国-大陆市场自愿回收公告 (30批次)",
+        "url": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "date": "2026-01-13"
+    },
+    {
+        "id": "CN_CROSSBORDER",
+        "name": "雀巢中国-跨境电商自愿回收公告 (41批次)",
+        "url": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113-a",
+        "date": "2026-01-13"
+    },
+    {
+        "id": "UK_FSA",
+        "name": "UK Food Standards Agency (FSA-PRIN-02-2026)",
+        "url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "date": "2026-01-06"
+    },
+    {
+        "id": "PH_FDA",
+        "name": "Philippines FDA Advisory 2026-0030",
+        "url": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "date": "2026-01-10"
+    },
+    {
+        "id": "HK_CFS",
+        "name": "HK Centre for Food Safety (2026-0110)",
+        "url": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
+        "date": "2026-01-10"
+    },
+    {
+        "id": "HK_NESTLE",
+        "name": "Nestlé HK Official Recall",
+        "url": "https://www.nestle.com.hk/en/media/pressreleases/allpressreleases/precautionary%20and%20voluntary%20recall%20of%20nestle%20nutrition",
+        "date": "2026-01-06"
+    },
+    {
+        "id": "DE_NESTLE",
+        "name": "Nestlé Deutschland / Österreich Rückruf",
+        "url": "https://www.nestle.de/marken/babynahrung/beba/rueckruf",
+        "date": "2026-01-05"
+    },
+    {
+        "id": "FR_NESTLE",
+        "name": "Nestlé France Rappel Guigoz/Nidal",
+        "url": "https://www.nestle.fr/info-consommateurs/rappel-guigoz-nidal",
+        "date": "2026-01-05"
+    },
+    {
+        "id": "BE_LU_NESTLE",
+        "name": "Nestlé Belgilux / Luxembourg Rappel",
+        "url": "https://www.nestle.be/fr/info-consommateurs/rappel-produits",
+        "date": "2026-01-05"
+    }
+];
+
 const RECALL_DATA = [
     {
         "code": "5100080621",

@@ -9,7 +9,7 @@
 - ✅ **China (Cross-border)**: Found 42 records (Correct Naming)
 
 ## 2. Application Logic Check
-- ✅ `js/data.js` appears synced with CSV (Total count matches)
+- ✅ `js/data_v4_1.js` appears synced with CSV (Total count matches)
 
 ## 3. Project Structure
 - ✅ All core application files present

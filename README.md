@@ -14,7 +14,7 @@
 - Nestlé official recall notices by region
 
 **This tool is for reference and convenient search only.** For definitive verification:
-1. **Always contact official hotlines** (see DATABASE_INFO.md)
+1. **Always contact official hotlines** (listed in the app)
 2. **Check your local health authority website**
 3. **When in doubt, DO NOT USE the product**
 
@@ -36,9 +36,9 @@ Deploy to GitHub Pages to see it live!
 
 ## 📂 Project Structure
 - `index.html`: Main application entry point
-- `css/style.css`: Premium styling with emergency animations
-- `js/data.js`: Centralized database (365 verified entries, v4.1.0 - 100% official)
-- `js/script.js`: Core bilingual logic and search engine
+- `css/style_v4_1.css`: Premium styling with emergency animations
+- `js/data_v4_1.js`: Centralized database (365 verified entries, v4.1.0 - 100% official)
+- `js/script_v4_1.js`: Core bilingual logic and search engine
 - `csv_to_js.py`: Strict data generation script (100% Official Sources)
 - `resources/official_docs/`: Local PDF backups of FSA/RappelConso advisories
 

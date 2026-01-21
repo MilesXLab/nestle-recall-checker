@@ -52,20 +52,20 @@ def verify_project():
 
     # 1.4 JSON Data Sync Check
     try:
-        with open('js/data.js', 'r', encoding='utf-8') as f:
+        with open('js/data_v4_1.js', 'r', encoding='utf-8') as f:
             js_content = f.read()
             if str(total_batches) in js_content and "100% Official" in js_content:
                 report.append("\n## 2. Application Logic Check")
-                report.append("- ✅ `js/data.js` appears synced with CSV (Total count matches)")
+                report.append("- ✅ `js/data_v4_1.js` appears synced with CSV (Total count matches)")
             else:
                  report.append("\n## 2. Application Logic Check")
-                 report.append(f"- ⚠️ `js/data.js` might be out of sync. Check total count.")
+                 report.append(f"- ⚠️ `js/data_v4_1.js` might be out of sync. Check total count.")
     except:
-        report.append("- ❌ Could not read js/data.js")
+        report.append("- ❌ Could not read js/data_v4_1.js")
 
     # 1.5 File Structure
     report.append("\n## 3. Project Structure")
-    required_files = ['index.html', 'css/style.css', 'js/script.js', 'README.md', 'DATABASE_INFO.md']
+    required_files = ['index.html', 'css/style_v4_1.css', 'js/script_v4_1.js', 'js/data_v4_1.js', 'README.md']
     missing_files = [f for f in required_files if not os.path.exists(f)]
     
     if not missing_files:

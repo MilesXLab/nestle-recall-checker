@@ -37,7 +37,8 @@ const I18N = {
         label_brand: "Brand",
         label_country: "Country/Region",
         label_reason: "Recall Reason",
-        label_source: "Official Source"
+        label_source: "Official Source",
+        label_authoritative_sources: "Authoritative Data Sources"
     },
     zh: {
         proj_name: "Aegis 全球盾",
@@ -76,7 +77,8 @@ const I18N = {
         label_brand: "产品品牌",
         label_country: "所属国家/地区",
         label_reason: "召回原因",
-        label_source: "权威判定源"
+        label_source: "权威判定源",
+        label_authoritative_sources: "权威数据来源 (同步官方)"
     }
 };
 
@@ -103,6 +105,7 @@ function updateLang() {
     document.querySelector('[data-i18n="project_name"]').textContent = I18N[currentLang].proj_name;
     document.querySelector('[data-i18n="title"]').textContent = I18N[currentLang].title;
     document.querySelector('[data-i18n="hazard_info"]').textContent = I18N[currentLang].hazard;
+    document.querySelector('[data-i18n="sources_title"]').textContent = I18N[currentLang].label_authoritative_sources;
     document.getElementById('searchInput').placeholder = I18N[currentLang].placeholder;
 
     // Disclaimer update
