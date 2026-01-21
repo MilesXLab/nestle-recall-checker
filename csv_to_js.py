@@ -33,7 +33,7 @@ with open('recall_database_v3.csv', 'r', encoding='utf-8-sig') as f:
 batches.sort(key=lambda x: x['code'])
 
 # Write to JS
-with open('js/data.js', 'w', encoding='utf-8') as f:
+with open('js/data_v4_1.js', 'w', encoding='utf-8') as f:
     f.write("// --- OFFICIAL VERIFIED RECALL DATABASE (v4.1.0 - Cleaned) ---\n")
     f.write("// 100% Official Sources Only - No Speculative Data\n\n")
     
