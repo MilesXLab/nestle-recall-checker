@@ -188,39 +188,29 @@ function handleSearch() {
 
 function renderIdle() {
     resultsContainer.innerHTML = `
-        <div class="text-center py-8 space-y-10 slide-up">
-            <div class="bottle-container status-idle mx-auto" style="width: 140px; height: 160px;">
-                <svg class="bottle-svg" viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
-                    <!-- Nipple (Wide/Chubby) -->
-                    <path class="bottle-nipple" d="M100 5 Q85 5 85 30 L115 30 Q115 5 100 5Z" 
+        <div class="text-center py-6 space-y-8 slide-up">
+            <div class="bottle-container status-idle mx-auto" style="width: 120px; height: 140px;">
+                <svg class="bottle-svg" viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Nipple (Pigeon Style) -->
+                    <path class="bottle-nipple" d="M80 5 Q70 5 65 35 L95 35 Q90 5 80 5Z" 
                           fill="none" stroke="#CBD5E1" stroke-width="2.5"/>
-                    <!-- Dome Collar -->
-                    <path class="bottle-ring" d="M65 65 A40 40 0 0 1 135 65 L140 75 L60 75 Z" 
+                    <!-- White Collar (Dome) -->
+                    <path class="bottle-ring" d="M35 70 A45 45 0 0 1 125 70 L130 85 L30 85 Z" 
                           fill="none" stroke="#CBD5E1" stroke-width="3"/>
                     
-                    <!-- Handles (C-Shape) -->
-                    <path class="bottle-handles" d="M60 85 Q30 85 30 130 Q30 160 55 160" 
-                          fill="none" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
-                    <path class="bottle-handles" d="M140 85 Q170 85 170 130 Q170 160 145 160" 
-                          fill="none" stroke="#CBD5E1" stroke-width="6" stroke-linecap="round"/>
-
-                    <!-- Main Body (Wide/Curvy) -->
-                    <path class="bottle-outline" d="M60 75 L60 90 Q60 140 65 180 Q65 235 100 235 Q135 235 135 180 Q140 140 140 90 L140 75" 
-                          fill="none" stroke="#CBD5E1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <!-- Main Body (Wide & Stable) -->
+                    <path class="bottle-outline" d="M30 85 L30 190 Q30 215 80 215 Q130 215 130 190 L130 85 Z" 
+                          fill="none" stroke="#CBD5E1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
                     
                     <!-- Milk Fill -->
-                    <path class="milk-fill" d="M65 220 L65 130 Q100 120 135 130 L135 220 Q135 230 100 230 Q65 230 65 220 Z" 
-                          fill="#F8FAFC" opacity="0.4"/>
+                    <path class="milk-fill" d="M35 200 L35 120 Q80 110 125 120 L125 200 Q125 210 80 210 Q35 210 35 200 Z" 
+                          fill="#F8FAFC" opacity="0.3"/>
 
-                    <!-- Straw with Weight -->
-                    <path class="bottle-straw" d="M100 75 L100 210" fill="none" stroke="#CBD5E1" stroke-width="1.5" stroke-dasharray="3" opacity="0.3"/>
-                    <circle cx="100" cy="215" r="5" fill="#CBD5E1" opacity="0.2"/>
-                    
-                    <!-- Scales -->
+                    <!-- Scales (Standard) -->
                     <g class="bottle-scales" stroke="#E2E8F0" opacity="0.5">
-                        <line x1="100" y1="180" x2="110" y2="180" stroke-width="2" />
-                        <line x1="100" y1="150" x2="115" y2="150" stroke-width="2" />
-                        <line x1="100" y1="120" x2="110" y2="120" stroke-width="2" />
+                        <line x1="80" y1="180" x2="90" y2="180" stroke-width="2" />
+                        <line x1="80" y1="150" x2="95" y2="150" stroke-width="2" />
+                        <line x1="80" y1="120" x2="90" y2="120" stroke-width="2" />
                     </g>
                 </svg>
             </div>
@@ -294,66 +284,62 @@ function renderResult(type, code, itemData = null) {
     ` : '';
 
     resultsContainer.innerHTML = `
-        <div class="glass-card rounded-[3rem] overflow-hidden border-2 ${config.border} slide-up shadow-2xl relative">
-            <div class="p-10 space-y-8">
-                <!-- SVG Bottle Visualization -->
-                <div class="${type === 'critical' ? 'w-64 h-72' : 'w-48 h-56'} mx-auto transition-all duration-700">
+        <div class="glass-card rounded-[2.5rem] overflow-hidden border-2 ${config.border} slide-up shadow-2xl relative">
+            <div class="p-6 space-y-4">
+                <!-- SVG Bottle Visualization (Compact) -->
+                <div class="${type === 'critical' ? 'w-40 h-48' : 'w-32 h-40'} mx-auto transition-all duration-700">
                     <div class="bottle-container ${config.bottleStatus} w-full h-full">
-                        <svg class="bottle-svg" viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
-                            <path class="bottle-nipple" d="M100 5 Q85 5 85 30 L115 30 Q115 5 100 5Z" fill="none" stroke-width="2.5"/>
-                            <path class="bottle-ring" d="M65 65 A40 40 0 0 1 135 65 L140 75 L60 75 Z" fill="none" stroke-width="3"/>
-                            <path class="bottle-handles" d="M60 85 Q30 85 30 130 Q30 160 55 160" fill="none" stroke-width="6" stroke-linecap="round"/>
-                            <path class="bottle-handles" d="M140 85 Q170 85 170 130 Q170 160 145 160" fill="none" stroke-width="6" stroke-linecap="round"/>
-                            <path class="bottle-outline" d="M60 75 L60 90 Q60 140 65 180 Q65 235 100 235 Q135 235 135 180 Q140 140 140 90 L140 75" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                            <path class="milk-fill" d="M65 220 L65 130 Q100 120 135 130 L135 220 Q135 230 100 230 Q65 230 65 220 Z" />
-                            <path class="bottle-straw" d="M100 75 L100 210" fill="none" stroke-width="1.5" stroke-dasharray="3" opacity="0.3"/>
-                            <circle cx="100" cy="215" r="5" opacity="0.2"/>
+                        <svg class="bottle-svg" viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
+                            <path class="bottle-nipple" d="M80 5 Q70 5 65 35 L95 35 Q90 5 80 5Z" fill="none" stroke-width="2.5"/>
+                            <path class="bottle-ring" d="M35 70 A45 45 0 0 1 125 70 L130 85 L30 85 Z" fill="none" stroke-width="3"/>
+                            <path class="bottle-outline" d="M30 85 L30 190 Q30 215 80 215 Q130 215 130 190 L130 85 Z" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path class="milk-fill" d="M35 200 L35 120 Q80 110 125 120 L125 200 Q125 210 80 210 Q35 210 35 200 Z" />
                             <g class="bottle-scales" opacity="0.5">
-                                <line x1="100" y1="180" x2="110" y2="180" stroke-width="2" />
-                        <line x1="100" y1="150" x2="115" y2="150" stroke-width="2" />
-                        <line x1="100" y1="120" x2="110" y2="120" stroke-width="2" />
+                                <line x1="80" y1="180" x2="90" y2="180" stroke-width="2" />
+                                <line x1="80" y1="150" x2="95" y2="150" stroke-width="2" />
+                                <line x1="80" y1="120" x2="90" y2="120" stroke-width="2" />
                             </g>
                         </svg>
                     </div>
                 </div>
 
-                <div class="text-center space-y-3">
-                    <span class="text-[10px] font-black uppercase tracking-[0.3em] ${config.text} opacity-40 block">${t.label_batch}</span>
-                    <h3 class="${type === 'critical' ? 'text-6xl' : 'text-4xl'} font-black ${config.text} tracking-tight font-serif">${code}</h3>
-                    ${itemData ? `<p class="text-xs font-black text-slate-400 uppercase tracking-widest">${itemData.product}</p>` : ''}
+                <div class="text-center">
+                    <span class="text-[9px] font-black uppercase tracking-[0.2em] ${config.text} opacity-40 block mb-0.5">${t.label_batch}</span>
+                    <h3 class="${type === 'critical' ? 'text-4xl' : 'text-3xl'} font-black ${config.text} tracking-tight font-sans">${code}</h3>
+                    ${itemData ? `<p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-1">${itemData.product}</p>` : ''}
                 </div>
                 
-                <div class="py-8 border-t border-slate-100 text-center">
-                    <div class="flex items-center justify-center space-x-3 mb-3">
-                        ${type === 'critical' ? '<span class="text-3xl animate-bounce">⚠️</span>' : ''}
-                        <p class="${type === 'critical' ? 'text-2xl leading-tight' : 'text-xl'} font-black ${config.text} uppercase tracking-tight">${config.title}</p>
+                <div class="py-4 border-t border-slate-100 text-center">
+                    <div class="flex items-center justify-center space-x-2 mb-1.5">
+                        ${type === 'critical' ? '<span class="text-xl">⚠️</span>' : ''}
+                        <p class="${type === 'critical' ? 'text-xl' : 'text-lg'} font-black ${config.text} uppercase tracking-tight">${config.title}</p>
                     </div>
-                    <p class="${type === 'critical' ? 'text-sm' : 'text-xs'} text-slate-500 font-bold leading-relaxed max-w-sm mx-auto">${config.desc}</p>
+                    <p class="text-[11px] text-slate-500 font-bold leading-snug max-w-xs mx-auto">${config.desc}</p>
                     ${config.seriesLabel}
                 </div>
 
                 ${detailGrid}
 
-                <div class="space-y-6 pt-6">
-                    <p class="text-[9px] font-black text-slate-300 uppercase tracking-[0.2em] text-center">${t.final_authority}</p>
-                    <div class="grid grid-cols-1 gap-4">
+                <div class="space-y-4 pt-2">
+                    <div class="grid grid-cols-1 gap-3">
                         ${config.sourceBtn}
-                        <div class="grid grid-cols-2 gap-3">
-                            <a href="tel:4006165015" class="flex flex-col items-center justify-center py-5 bg-gray-900 text-white rounded-[1.5rem] shadow-xl active:scale-95 transition-all group overflow-hidden relative">
-                                <span class="text-[10px] font-black uppercase tracking-widest opacity-40 mb-1 group-hover:opacity-100 transition-opacity">China</span>
-                                <span class="text-xs font-black tracking-tight">400-616-5015</span>
-                                <div class="absolute inset-x-0 bottom-0 h-1 bg-blue-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                        <div class="grid grid-cols-2 gap-2">
+                            <a href="tel:4006165015" class="flex items-center justify-center py-3.5 bg-gray-900 text-white rounded-[1.2rem] shadow-lg active:scale-95 transition-all text-center">
+                                <div class="flex flex-col">
+                                    <span class="text-[8px] font-black uppercase tracking-widest opacity-40 leading-none mb-1">China</span>
+                                    <span class="text-[11px] font-black tracking-tighter">400-616-5015</span>
+                                </div>
                             </a>
-                            <a href="tel:+85221798888" class="flex flex-col items-center justify-center py-5 bg-gray-900 text-white rounded-[1.5rem] shadow-xl active:scale-95 transition-all group overflow-hidden relative">
-                                <span class="text-[10px] font-black uppercase tracking-widest opacity-40 mb-1 group-hover:opacity-100 transition-opacity">Hong Kong</span>
-                                <span class="text-xs font-black tracking-tight">+852-2179-8888</span>
-                                <div class="absolute inset-x-0 bottom-0 h-1 bg-red-500 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                            <a href="tel:+85221798888" class="flex items-center justify-center py-3.5 bg-gray-900 text-white rounded-[1.2rem] shadow-lg active:scale-95 transition-all text-center">
+                                <div class="flex flex-col">
+                                    <span class="text-[8px] font-black uppercase tracking-widest opacity-40 leading-none mb-1">HK</span>
+                                    <span class="text-[11px] font-black tracking-tighter">+852-2179-8888</span>
+                                </div>
                             </a>
                         </div>
                     </div>
-                </div>
             </div>
-            ${type === 'critical' ? '<div class="absolute top-0 left-0 w-full h-1.5 bg-red-600 animate-pulse z-20"></div>' : ''}
+            ${type === 'critical' ? '<div class="absolute top-0 left-0 w-full h-1 bg-red-600 animate-pulse z-20"></div>' : ''}
         </div>
     `;
 }
