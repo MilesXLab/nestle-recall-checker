@@ -1,0 +1,20 @@
+Total batches in database: 350
+ChatGPT verified batches found: 35/50
+Coverage: 70.0%
+
+Missing batches:
+  51570742F3 (SMA Anti Reflux 800g, UK)
+  52099722BB (SMA Anti Reflux 800g, UK)
+  52739722BA (SMA Anti Reflux 800g, UK)
+  53140017Y2 (SMA Alfamino 400g, UK)
+  51510346AC (NAN Comfort 1, Egypt)
+  51370346AA (NAN OptiPro 1, Egypt)
+  52650346AA (NAN OptiPro 1, Egypt)
+  51460346AB (NAN OptiPro 1, Egypt)
+  51460346AA (NAN OptiPro 1, Egypt)
+  53030017C1 (NAN HA 3 SupremePro 800g, Brunei)
+  51420017C4 (NAN HA 2 SupremePro 800g, Brunei)
+  51460017C2 (NAN HA 1 SupremePro 800g, Brunei)
+  51470017C1 (NAN HA 1 SupremePro 800g, Brunei)
+  53030017B1 (NAN HA 3 SupremePro 32g, Brunei)
+  52340017C3 (NAN HA 1 SupremePro 800g, Singapore)

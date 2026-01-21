@@ -1,0 +1,31 @@
+name: Auto Sync Recall Data
+
+on:
+  push:
+    paths:
+      - 'recall_database_v3.csv'
+      - 'process_data_v6.py'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run Data Update Script
+        run: python process_data_v6.py
+
+      - name: Commit and Push JS update
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add js/data.js
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-sync recall data from CSV [skip ci]"
+          git push

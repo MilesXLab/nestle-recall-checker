@@ -1,0 +1,16 @@
+============================================================
+FINAL DATABASE STATISTICS
+============================================================
+
+Total batches: 350
+
+By Country/Region:
+  France: 118
+  Germany: 56
+  United Kingdom: 52
+  Middle East (MENA): 43
+  China (Cross-border): 41
+  China (Mainland): 30
+  Australia/New Zealand: 5
+  Philippines: 4
+  Hong Kong: 1

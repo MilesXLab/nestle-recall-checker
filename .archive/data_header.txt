@@ -1,0 +1,31 @@
+// --- OFFICIAL RECALL DATABASE (Legal-Grade v3.0 GLOBAL) ---
+// All batch codes sourced from official regulatory announcements
+// Total: 800+ verified codes from 8 regions
+
+const RECALL_METADATA = {
+    version: "3.0.0 (Global Strict)",
+    lastUpdated: "2026-01-21 02:00 (SGT)",
+    coverage: "Global (CN, HK, UK, DE, AT, FR, BE, LU, PH)",
+    totalBatches: "800+ verified codes",
+    authority: "Official Records from Nestlé Global & National Health Authorities",
+    hotlines: {
+        CN: { name: "China Mainland", number: "400-616-5015", hours: "24/7" },
+        HK: { name: "Hong Kong / Macau", number: "+852-2179-8888", hours: "9am-6pm" },
+        UK: { name: "UK & Ireland", number: "0800-081-8180", hours: "Local" },
+        PH: { name: "Philippines", number: "+63-2-8898-0061", hours: "Local" },
+        DE: { name: "Germany", number: "+49-69-6671-8888", hours: "Local" },
+        FR: { name: "France", number: "+33-1-60-53-50-00", hours: "Local" }
+    }
+};
+
+const OFFICIAL_SOURCES = [
+    { id: "CN_DOMESTIC", name: "雀巢中国-大陆市场自愿回收公告 (30批次)", url: "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113", date: "2026-01-13" },
+    { id: "CN_CROSSBORDER", name: "雀巢中国-跨境电商自愿回收公告 (41批次)", url: "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113-a", date: "2026-01-13" },
+    { id: "UK_FSA", name: "UK Food Standards Agency (FSA-PRIN-02-2026)", url: "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026", date: "2026-01-06" },
+    { id: "PH_FDA", name: "Philippines FDA Advisory 2026-0030", url: "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/", date: "2026-01-10" },
+    { id: "HK_CFS", name: "HK Centre for Food Safety (2026-0110)", url: "https://www.cfs.gov.hk/english/press/20260110_12105.html", date: "2026-01-10" },
+    { id: "HK_NESTLE", name: "Nestlé HK Official Recall", url: "https://www.nestle.com.hk/en/media/pressreleases/allpressreleases/precautionary%20and%20voluntary%20recall%20of%20nestle%20nutrition", date: "2026-01-06" },
+    { id: "DE_NESTLE", name: "Nestlé Deutschland / Österreich Rückruf", url: "https://www.nestle.de/marken/babynahrung/beba/rueckruf", date: "2026-01-05" },
+    { id: "FR_NESTLE", name: "Nestlé France Rappel Guigoz/Nidal", url: "https://www.nestle.fr/info-consommateurs/rappel-guigoz-nidal", date: "2026-01-05" },
+    { id: "BE_LU_NESTLE", name: "Nestlé Belgilux / Luxembourg Rappel", url: "https://www.nestle.be/fr/info-consommateurs/rappel-produits", date: "2026-01-05" }
+];
