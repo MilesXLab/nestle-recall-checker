@@ -1,9 +1,9 @@
-// --- OFFICIAL VERIFIED RECALL DATABASE (v4.1.0 - Cleaned) ---
+// --- OFFICIAL VERIFIED RECALL DATABASE (v4.5.2 - Cleaned) ---
 // 100% Official Sources Only - No Speculative Data
 
 const RECALL_METADATA = {
-    "version": "4.1.0 (100% Official)",
-    "lastUpdated": "2026-01-20 21:45 (PST)",
+    "version": "4.5.2 (100% Official)",
+    "lastUpdated": "2026-01-21 11:39 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
     "totalCount": 365,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",

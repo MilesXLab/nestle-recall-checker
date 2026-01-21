@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Simple CSV to JS converter - NO data generation
-Only reads from recall_database_v3.csv and generates js/data.js
+Only reads from recall_database.csv and generates js/data.js
 """
 
 import csv
@@ -10,7 +10,7 @@ import json
 
 # Read from CSV
 batches = []
-with open('recall_database_v3.csv', 'r', encoding='utf-8-sig') as f:
+with open('recall_database.csv', 'r', encoding='utf-8-sig') as f:
     reader = csv.DictReader(f)
     for row in reader:
         # Convert isSeries string to boolean
@@ -45,13 +45,15 @@ OFFICIAL_SOURCES = [
     { "id": "BE_LU_NESTLE", "name": "Nestlé Belgilux / Luxembourg Rappel", "url": "https://www.nestle.be/fr/info-consommateurs/rappel-produits", "date": "2026-01-05" }
 ]
 
-with open('js/data_v4_1.js', 'w', encoding='utf-8') as f:
-    f.write("// --- OFFICIAL VERIFIED RECALL DATABASE (v4.1.0 - Cleaned) ---\n")
+from datetime import datetime
+
+with open('js/data.js', 'w', encoding='utf-8') as f:
+    f.write("// --- OFFICIAL VERIFIED RECALL DATABASE (v4.5.2 - Cleaned) ---\n")
     f.write("// 100% Official Sources Only - No Speculative Data\n\n")
     
     metadata = json.dumps({
-        "version": "4.1.0 (100% Official)",
-        "lastUpdated": "2026-01-20 21:45 (PST)",
+        "version": "4.5.2 (100% Official)",
+        "lastUpdated": datetime.now().strftime("%Y-%m-%d %H:%M (PST)"),
         "coverage": "9 Regions - Official Government Sources Only",
         "totalCount": len(batches),
         "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
@@ -68,6 +70,12 @@ with open('js/data_v4_1.js', 'w', encoding='utf-8') as f:
     json.dump(batches, f, indent=4, ensure_ascii=False)
     f.write(";\n")
 
-print(f"✅ Generated js/data_v4_1.js from CSV")
-print(f"📊 Total batches: {len(batches)}")
-print(f"🎯 100% official sources only")
+def safe_print(msg):
+    try:
+        print(msg)
+    except UnicodeEncodeError:
+        print(msg.encode('utf-8', errors='replace').decode('gbk', errors='replace'))
+
+safe_print(f"Generated js/data.js from CSV")
+safe_print(f"Total batches: {len(batches)}")
+safe_print(f"100% official sources only")
