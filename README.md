@@ -5,7 +5,7 @@
 ## � Critical Safety Information
 **Cereulide Toxin (Bacillus cereus)** is **HEAT-RESISTANT**. Boiling water **CANNOT** deactivate it.
 - All recall data is from **January 2026** official announcements
-- Covers **350 officially verified batch codes** from 9 regions (speculative series alerts removed)
+- Covers **365 officially verified batch codes** from 11 regions (100% government sources)
 
 ## 🚀 Live Demo
 Deploy to GitHub Pages to see it live!
@@ -15,7 +15,7 @@ Deploy to GitHub Pages to see it live!
 - **⚡ Real-time Emergency Alerts**: Aggressive flashing animations for critical recalls
 - **🌐 Bilingual Support**: Full English/Chinese (EN/中文) interface
 - **📊 Accurate Logic**: 
-  - **🚨 Critical Alert**: Exact match with 350 officially recalled batch codes (Red emergency flash)
+  - **🚨 Critical Alert**: Exact match with 365 officially recalled batch codes (Red emergency flash)
   - **⚠️ Warning Alert**: Series prefix matching for production line recalls (Amber flash)
   - **✅ Safe Status**: No match found with official hotline guidance
 - **🔬 Scientific Accuracy**: Precise Cereulide toxin information with heat-resistance warnings
@@ -24,7 +24,7 @@ Deploy to GitHub Pages to see it live!
 ## 📂 Project Structure
 - `index.html`: Main application entry point
 - `css/style.css`: Premium styling with emergency flash animations
-- `js/data.js`: Centralized database (350 verified entries, v4.1.0 - cleaned)
+- `js/data.js`: Centralized database (365 verified entries, v4.1.0 - 100% official)
 - `js/script.js`: Core bilingual logic and search engine
 - `process_data_v6.py`: Data enrichment pipeline
 - `resources/official_docs/`: Local PDF backups of FSA/RappelConso advisories
