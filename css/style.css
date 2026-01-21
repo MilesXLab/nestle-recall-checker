@@ -79,66 +79,33 @@ h4 {
     stroke-width: 3;
 }
 
-/* ========== STATUS: SAFE (Warm Creamy Yellow) ========== */
+/* ========== STATUS: SAFE (Rich Creamy Yellow) ========== */
 .status-safe .milk-fill {
-    fill: #FEF3C7;
+    fill: #FFE082;
+    /* Deeper creamy yellow */
     opacity: 1;
-}
-
-/* Warm Creamy Yellow */
-.status-safe .bottle-outline,
-.status-safe .bottle-ring,
-.status-safe .bottle-nipple {
-    stroke: #D97706;
-    stroke-width: 4;
-}
-
-.status-safe .bottle-face {
-    color: #D97706;
 }
 
 .status-safe {
     animation: breathe 4s ease-in-out infinite;
 }
 
-/* ========== STATUS: WARNING (Pale Orange) ========== */
+/* ========== STATUS: WARNING (Warm Orange) ========== */
 .status-warning .milk-fill {
-    fill: #FFEDD5;
+    fill: #FFB74D;
+    /* Deeper warm orange */
     opacity: 1;
-}
-
-/* Pale Orange */
-.status-warning .bottle-outline,
-.status-warning .bottle-ring,
-.status-warning .bottle-nipple {
-    stroke: #EA580C;
-    stroke-width: 4.5;
-}
-
-.status-warning .bottle-face {
-    color: #EA580C;
 }
 
 .status-warning {
     animation: float 3s ease-in-out infinite;
 }
 
-/* ========== STATUS: DANGER (Cautionary Red) ========== */
+/* ========== STATUS: DANGER (Cautionary Deep Red) ========== */
 .status-danger .milk-fill {
-    fill: #FEE2E2;
+    fill: #EF9A9A;
+    /* Deeper cautionary red */
     opacity: 1;
-}
-
-/* Pale Red Base */
-.status-danger .bottle-outline,
-.status-danger .bottle-ring,
-.status-danger .bottle-nipple {
-    stroke: #B91C1C;
-    stroke-width: 5;
-}
-
-.status-danger .bottle-face {
-    color: #B91C1C;
 }
 
 .status-danger {
