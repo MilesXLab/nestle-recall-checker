@@ -1,4 +1,4 @@
-# 🍼 Nestlé Recall Checker (Global Edition v4.0.0)
+# 🍼 Nestlé Recall Checker (Global Edition v4.1.0)
 
 > **High-Authority Bilingual Web Tool for 2026 Global Nestlé Infant Formula Recall Verification**
 
@@ -22,22 +22,24 @@
 Deploy to GitHub Pages to see it live!
 
 ## 🛡️ Key Features
-- **🍼 Baby-Focused Design**: Premium UI with bottle icons and infant-centric aesthetics
-- **⚡ Real-time Emergency Alerts**: Aggressive flashing animations for critical recalls
+- **🍼 Baby-Focused Design**: Premium UI with **Grok-Optimized** bottle visualizations
+- **⚡ Visual Emergency System**: 
+  - **Color-Coded Milk Status**: White (Idle) → Green (Safe) → Yellow (Warning) → Red (Danger)
+  - **Dynamic Animations**: Gentle breathing (Safe), Warning shake (Caution), Aggressive flash (Critical)
 - **🌐 Bilingual Support**: Full English/Chinese (EN/中文) interface
 - **📊 Accurate Logic**: 
-  - **🚨 Critical Alert**: Exact match with 365 officially recalled batch codes (Red emergency flash)
-  - **⚠️ Warning Alert**: Series prefix matching for production line recalls (Amber flash)
+  - **🚨 Critical Alert**: Exact match with 365 officially recalled batch codes
+  - **⚠️ Warning Alert**: Series prefix matching for production line recalls
   - **✅ Safe Status**: No match found with official hotline guidance
 - **🔬 Scientific Accuracy**: Precise Cereulide toxin information with heat-resistance warnings
 - **📱 Mobile-First**: Responsive design using Tailwind CSS and Inter/Outfit typography
 
 ## 📂 Project Structure
 - `index.html`: Main application entry point
-- `css/style.css`: Premium styling with emergency flash animations
+- `css/style.css`: Premium styling with emergency animations
 - `js/data.js`: Centralized database (365 verified entries, v4.1.0 - 100% official)
 - `js/script.js`: Core bilingual logic and search engine
-- `process_data_v6.py`: Data enrichment pipeline
+- `csv_to_js.py`: Strict data generation script (100% Official Sources)
 - `resources/official_docs/`: Local PDF backups of FSA/RappelConso advisories
 
 ## 🛠️ Deploy to GitHub Pages
