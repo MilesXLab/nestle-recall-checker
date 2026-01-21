@@ -49,7 +49,7 @@ with open('js/data_v4_1.js', 'w', encoding='utf-8') as f:
     f.write(f"const RECALL_METADATA = {metadata};\n\n")
     f.write("const RECALL_DATA = ")
     json.dump(batches, f, indent=4, ensure_ascii=False)
-    f.write(";\n\nexport { RECALL_METADATA, RECALL_DATA };")
+    f.write(";\n")
 
 print(f"✅ Generated js/data.js from CSV")
 print(f"📊 Total batches: {len(batches)}")

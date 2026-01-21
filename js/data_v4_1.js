@@ -4392,5 +4392,3 @@ const RECALL_DATA = [
         "isSeries": false
     }
 ];
-
-export { RECALL_METADATA, RECALL_DATA };
