@@ -82,6 +82,70 @@ const I18N = {
     }
 };
 
+const REASON_MAP = {
+    // Chinese Bases
+    "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险": {
+        en: "Precautionary recall: Risk of Cereulide (Bacillus cereus toxin) in certain raw materials",
+        zh: "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险"
+    },
+    "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)": {
+        en: "Precautionary recall: Cereulide toxin risk",
+        zh: "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)"
+    },
+    // English Bases
+    "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)": {
+        en: "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
+        zh: "预防性召回：可能存在蜡样芽孢杆菌毒素 (Cereulide)"
+    },
+    "Precautionary verification: Quality concern related to raw material": {
+        en: "Precautionary verification: Quality concern related to raw material",
+        zh: "预防性核查：涉及原材料的质量问题"
+    },
+    "Microbial contamination (Cereulide)": {
+        en: "Microbial contamination (Cereulide)",
+        zh: "微生物污染 (Cereulide)"
+    },
+    "Precautionary recall: Microbial contamination (Cereulide)": {
+        en: "Precautionary recall: Microbial contamination (Cereulide)",
+        zh: "预防性召回：微生物污染 (Cereulide)"
+    },
+    "Precautionary recall: Possible presence of Cereulide toxin": {
+        en: "Precautionary recall: Possible presence of Cereulide toxin",
+        zh: "预防性召回：可能存在 Cereulide 毒素"
+    },
+    "Precautionary recall: Potential presence of Cereulide toxin": {
+        en: "Precautionary recall: Potential presence of Cereulide toxin",
+        zh: "预防性召回：可能存在 Cereulide 毒素"
+    },
+    "Voluntary Recall: Detection of low levels of cereulide in a raw material": {
+        en: "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        zh: "自愿召回：在原材料中检测到低水平的 Cereulide"
+    },
+    "Precautionary recall: Cereulide Produced by Bacillus Cereus": {
+        en: "Precautionary recall: Cereulide Produced by Bacillus Cereus",
+        zh: "预防性召回：蜡样芽孢杆菌产生的 Cereulide 毒素"
+    },
+    "Precautionary recall: Cereulide toxin risk": {
+        en: "Precautionary recall: Cereulide toxin risk",
+        zh: "预防性召回：Cereulide 毒素风险"
+    },
+    "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid": {
+        en: "Precautionary recall: Possible presence of Cereulide toxin",
+        zh: "预防性召回：可能存在 Cereulide 毒素"
+    },
+    "Rappel de précaution : Présence potentielle de toxin (Céréulide)": {
+        en: "Precautionary recall: Potential presence of Cereulide toxin",
+        zh: "预防性召回：可能存在 Cereulide 毒素"
+    }
+};
+
+function getTranslatedReason(reason, lang) {
+    if (REASON_MAP[reason] && REASON_MAP[reason][lang]) {
+        return REASON_MAP[reason][lang];
+    }
+    return reason; // Fallback to original
+}
+
 // --- LANGUAGE DETECTION ---
 let currentLang = 'en'; // Default to English
 if (localStorage.getItem('preferred_lang')) {
@@ -155,7 +219,13 @@ function updateLang() {
     `).join('');
 
     document.getElementById('sourcesList').innerHTML = sourcesHtml;
-    handleSearch();
+
+    // Force re-render of current view
+    if (searchInput.value.trim().length > 0) {
+        handleSearch();
+    } else {
+        renderIdle();
+    }
 }
 
 function handleSearch() {
@@ -280,7 +350,7 @@ function renderResult(type, code, itemData = null) {
             </div>
             <div class="col-span-2">
                 <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_reason}</p>
-                <p class="text-xs font-bold text-red-600 bg-red-50 p-2 rounded-lg mt-1 border border-red-100">${itemData.reason}</p>
+                <p class="text-xs font-bold text-red-600 bg-red-50 p-2 rounded-lg mt-1 border border-red-100">${getTranslatedReason(itemData.reason, currentLang)}</p>
             </div>
         </div>
     ` : '';
