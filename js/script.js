@@ -191,26 +191,22 @@ function renderIdle() {
         <div class="text-center py-6 space-y-8 slide-up">
             <div class="bottle-container status-idle mx-auto" style="width: 120px; height: 140px;">
                 <svg class="bottle-svg" viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
-                    <!-- Nipple (Pigeon Style) -->
-                    <path class="bottle-nipple" d="M80 5 Q70 5 65 35 L95 35 Q90 5 80 5Z" 
-                          fill="none" stroke="#CBD5E1" stroke-width="2.5"/>
-                    <!-- White Collar (Dome) -->
-                    <path class="bottle-ring" d="M35 70 A45 45 0 0 1 125 70 L130 85 L30 85 Z" 
-                          fill="none" stroke="#CBD5E1" stroke-width="3"/>
+                    <!-- Nipple -->
+                    <path class="bottle-nipple" d="M80 5 Q70 5 65 35 L95 35 Q90 5 80 5Z" fill="none" stroke="#CBD5E1" stroke-width="2.5"/>
+                    <path class="bottle-ring" d="M35 70 A45 45 0 0 1 125 70 L130 85 L30 85 Z" fill="none" stroke="#CBD5E1" stroke-width="3"/>
+                    <path class="bottle-outline" d="M30 85 L30 190 Q30 215 80 215 Q130 215 130 190 L130 85 Z" fill="none" stroke="#CBD5E1" stroke-width="3.5"/>
                     
-                    <!-- Main Body (Wide & Stable) -->
-                    <path class="bottle-outline" d="M30 85 L30 190 Q30 215 80 215 Q130 215 130 190 L130 85 Z" 
-                          fill="none" stroke="#CBD5E1" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <!-- Expression: Sleeping/Neutral -->
+                    <g class="bottle-face" stroke="#CBD5E1" stroke-width="2" fill="none" opacity="0.5">
+                        <path d="M65 145 Q70 140 75 145" /> <!-- Left Eye -->
+                        <path d="M85 145 Q90 140 95 145" /> <!-- Right Eye -->
+                        <path d="M75 165 Q80 168 85 165" /> <!-- Mouth -->
+                    </g>
                     
-                    <!-- Milk Fill -->
-                    <path class="milk-fill" d="M35 200 L35 120 Q80 110 125 120 L125 200 Q125 210 80 210 Q35 210 35 200 Z" 
-                          fill="#F8FAFC" opacity="0.3"/>
-
-                    <!-- Scales (Standard) -->
+                    <path class="milk-fill" d="M35 200 L35 120 Q80 110 125 120 L125 200 Q125 210 80 210 Q35 210 35 200 Z" fill="#F8FAFC" opacity="0.3"/>
                     <g class="bottle-scales" stroke="#E2E8F0" opacity="0.5">
                         <line x1="80" y1="180" x2="90" y2="180" stroke-width="2" />
                         <line x1="80" y1="150" x2="95" y2="150" stroke-width="2" />
-                        <line x1="80" y1="120" x2="90" y2="120" stroke-width="2" />
                     </g>
                 </svg>
             </div>
@@ -293,6 +289,28 @@ function renderResult(type, code, itemData = null) {
                             <path class="bottle-nipple" d="M80 5 Q70 5 65 35 L95 35 Q90 5 80 5Z" fill="none" stroke-width="2.5"/>
                             <path class="bottle-ring" d="M35 70 A45 45 0 0 1 125 70 L130 85 L30 85 Z" fill="none" stroke-width="3"/>
                             <path class="bottle-outline" d="M30 85 L30 190 Q30 215 80 215 Q130 215 130 190 L130 85 Z" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            
+                            <!-- Expression: Dynamic -->
+                            <g class="bottle-face" stroke-width="2.5" fill="none">
+                                ${type === 'safe' ? `
+                                    <circle cx="65" cy="145" r="1.5" fill="currentColor" />
+                                    <circle cx="95" cy="145" r="1.5" fill="currentColor" />
+                                    <path d="M70 165 Q80 175 90 165" /> <!-- Smile -->
+                                ` : type === 'warning' ? `
+                                    <path d="M60 148 L70 142" /> <!-- Worried Eye -->
+                                    <path d="M90 142 L100 148" />
+                                    <path d="M75 168 L85 168" /> <!-- Flat Mouth -->
+                                ` : `
+                                    <path d="M60 150 Q65 140 70 150" /> <!-- Crying Eye Left -->
+                                    <path d="M90 150 Q95 140 100 150" /> <!-- Crying Eye Right -->
+                                    <path d="M72 170 Q80 160 88 170" /> <!-- Sad Mouth -->
+                                    <circle cx="63" cy="158" r="2" fill="currentColor" opacity="0.6"> <!-- Tear -->
+                                        <animate attributeName="cy" values="158;180" dur="2s" repeatCount="indefinite" />
+                                        <animate attributeName="opacity" values="0.6;0" dur="2s" repeatCount="indefinite" />
+                                    </circle>
+                                `}
+                            </g>
+
                             <path class="milk-fill" d="M35 200 L35 120 Q80 110 125 120 L125 200 Q125 210 80 210 Q35 210 35 200 Z" />
                             <g class="bottle-scales" opacity="0.5">
                                 <line x1="80" y1="180" x2="90" y2="180" stroke-width="2" />
