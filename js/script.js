@@ -1,40 +1,70 @@
-// --- I18N SYSTEM ---
+// --- I18N SYSTEM (STRICT v2.4) ---
 const I18N = {
     en: {
-        project_name: "Aegis Global Guard",
-        title: "Milk Recall Search",
-        input_placeholder: "Enter 10-digit batch code...",
-        hazard_info: "Cereulide toxin is heat-resistant. Boiling water will NOT kill it.",
-        idle_text: "Enter your batch code found on the bottom of the tin.",
-        searching: "Analyzing batch...",
-        critical_notice: "CRITICAL RECALL MATCHED",
-        critical_desc: "This product is part of the OFFICIAL recall. DANGER: STOP USING IMMEDIATELY.",
-        warning_notice: "POTENTIAL RISK DETECTED",
-        warning_desc: "Your batch prefix matches a known recall series. Please verify with official hotline.",
-        safe_notice: "No Matches Found",
-        safe_desc: "This batch is not in our local database, but always check official news.",
-        brand_label: "Brand",
-        expiry_label: "Series Match",
-        action_contact: "Contact Local Hotline: 400-616-5015",
-        disclaimer: "Independent safety tool. Data synchronized with global reports."
+        proj_name: "Aegis Global Guard",
+        title: "Recall Checker",
+        hazard: "⚠️ CEREULIDE TOXIN IS HEAT-RESISTANT. BOILING WATER HAS NO EFFECT.",
+        placeholder: "Enter 10-digit batch code...",
+        idle: "Input the 10-digit batch code from the bottom of your tin for strict verification.",
+        searching: "Comparing against official regulatory records...",
+
+        status_critical: "STRICT MATCH: OFFICIAL RECALL",
+        desc_critical: "This specific batch code is explicitly listed in the official recall announcement.",
+
+        status_caution: "OFFICIAL SERIES RECALL",
+        desc_caution: "Your code starts with a production series prefix that has been recalled in its entirety by official sources.",
+
+        status_none: "NO MATCH IN OFFICIAL LIST",
+        desc_none: "This specific code is not currently found in our database of officially recalled batches.",
+
+        series_notice: "Official Regulatory Notice: The authority has recalled the ENTIRE production series starting with '[Prefix]'. Individual codes within this series are affected.",
+
+        final_authority: "THE OFFICIAL HOTLINE IS THE ONLY FINAL AUTHORITY.",
+        btn_cn: "Call China: 400 616 5015",
+        btn_hk: "Call HK: +852 2179 8888",
+        btn_uk: "Call UK: 0800 081 8180",
+        btn_ph: "Call PH: +63 2 8898 0061",
+        view_source: "View Official Source",
+        data_ver: "Database Sync: " + RECALL_METADATA.version + " | " + RECALL_METADATA.lastUpdated,
+
+        disclaimer_title: "Strict Compliance Notice",
+        disclaimer_p1: "This tool strictly indexes batch codes announced by government regulatory bodies (FSA, FDA, SAMR, CFS).",
+        disclaimer_p2: "We do not use fuzzy or probabilistic matching to avoid misidentification and legal risks for merchants.",
+        disclaimer_p3: "Always cross-reference with the official hotline or local health authorities for a final determination.",
+        disclaimer_btn: "I AGREE TO THE STRICT TERMS"
     },
     zh: {
-        project_name: "Aegis 全球盾",
-        title: "奶粉召回极速查询",
-        input_placeholder: "输入罐底 10 位批次号...",
-        hazard_info: "仙人掌杆菌毒素具有强耐热性，沸水冲泡无法灭活（高温无用）。",
-        idle_text: "请输入您在奶粉罐底部看到的 10 位批次编码。",
-        searching: "正在匹配数据...",
-        critical_notice: "!!! 官方召回命中 !!!",
-        critical_desc: "该批次已列入官方自愿回收名单！风险：高度关注。请立即停止食用并封存。",
-        warning_notice: "!!! 潜在风险警示 !!!",
-        warning_desc: "该批次的前4位与已知问题系列一致，可能存在风险。请务必拨打官网客服核实。",
-        safe_notice: "暂未发现匹配信息",
-        safe_desc: "数据库中未找到该批次，但不代表绝对安全，请以官方公告为准。",
-        brand_label: "品牌系列",
-        expiry_label: "系列匹配",
-        action_contact: "拨打客服电话: 400-616-5015",
-        disclaimer: "公益性信息检索工具。数据实时对齐全球官方召回公告。"
+        proj_name: "Aegis 全球盾",
+        title: "全球召回核对工具",
+        hazard: "⚠️ 仙人掌杆菌毒素具有强耐热性，沸水冲泡无法灭活（高温无效）。",
+        placeholder: "输入罐底 10 位编码...",
+        idle: "请输入罐底喷码第一行的 10 位编码进行严格核对。",
+        searching: "正在比对官方监管部门录入的批次...",
+
+        status_critical: "!!! 官方精确匹配：确认召回 !!!",
+        desc_critical: "该 10 位批次号明确出现在官方公布的召回名单中。",
+
+        status_caution: "!!! 官方整线召回：系列匹配 !!!",
+        desc_caution: "您的批次号开头属于官方公告明确指定的整线召回系列码。",
+
+        status_none: "官方名单未命中",
+        desc_none: "在当前录入的官方召回名单中未找到该批次。注：非保修证明，请以官方客服为准。",
+
+        series_notice: "官方监管说明：监管部门对以 “[Prefix]” 开头的整条生产线/生产系列下达了召回令，因此该系列下所有产品均在受影响范围。",
+
+        final_authority: "官方热线反馈是唯一的最终判定标准。",
+        btn_cn: "拨打大陆客服: 400 616 5015",
+        btn_hk: "拨打香港客服: +852 2179 8888",
+        btn_uk: "拨打英国客服: 0800 081 8180",
+        btn_ph: "拨打菲律宾客服: +63 2 8898 0061",
+        view_source: "查看官方原始公告",
+        data_ver: "最近同步: " + RECALL_METADATA.version + " | " + RECALL_METADATA.lastUpdated,
+
+        disclaimer_title: "严格合规性协议",
+        disclaimer_p1: "本工具严格索引政府监管部门（如国家食安中心、FSA、FDA等）发布的批次名单。",
+        disclaimer_p2: "系统不使用模糊匹配或过度推断逻辑，以避免误导消费者或导致商家名誉损失。",
+        disclaimer_p3: "查询结果仅供参考。继续使用即代表您同意：最终结论以品牌官方或当地食安部门回复为准。",
+        disclaimer_btn: "我已知晓并同意协议"
     }
 };
 
@@ -45,121 +75,183 @@ const langToggle = document.getElementById('langToggle');
 const searchInput = document.getElementById('searchInput');
 const resultsContainer = document.getElementById('resultsContainer');
 const clearBtn = document.getElementById('clearBtn');
-const idleStateHTML = document.getElementById('idleState').outerHTML;
+const disclaimerModal = document.getElementById('disclaimerModal');
+const acceptBtn = document.getElementById('acceptBtn');
+
+// Normalization Engine
+function normalizeBatch(code) {
+    if (!code) return { sanitized: "", fuzzy: "" };
+    let sanitized = code.toString().trim().toUpperCase().replace(/[^A-Z0-9]/g, '');
+    const ocrMap = { 'O': '0', 'I': '1', 'L': '1', 'S': '5', 'B': '8', 'Z': '2' };
+    let fuzzy = sanitized.split('').map(char => ocrMap[char] || char).join('');
+    return { sanitized, fuzzy };
+}
 
 function updateLang() {
-    document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        el.textContent = I18N[currentLang][key];
-    });
-    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-        const key = el.getAttribute('data-i18n-placeholder');
-        el.placeholder = I18N[currentLang][key];
-    });
-    // Re-run search to update results in new language
+    document.querySelector('[data-i18n="project_name"]').textContent = I18N[currentLang].proj_name;
+    document.querySelector('[data-i18n="title"]').textContent = I18N[currentLang].title;
+    document.querySelector('[data-i18n="hazard_info"]').textContent = I18N[currentLang].hazard;
+    document.getElementById('searchInput').placeholder = I18N[currentLang].placeholder;
+
+    // Disclaimer update
+    document.querySelector('#disclaimerModal h3').textContent = I18N[currentLang].disclaimer_title;
+    const ps = document.querySelectorAll('#disclaimerModal p');
+    ps[0].textContent = I18N[currentLang].disclaimer_p1;
+    ps[1].textContent = I18N[currentLang].disclaimer_p2;
+    ps[2].textContent = I18N[currentLang].disclaimer_p3;
+    acceptBtn.textContent = I18N[currentLang].disclaimer_btn;
+
+    document.querySelector('footer').innerHTML = `
+        <p class="text-[10px] text-slate-400 mb-2">${I18N[currentLang].data_ver}</p>
+        <p class="text-xs text-secondary font-bold">${I18N[currentLang].final_authority}</p>
+    `;
+
+    // Global Sources section
+    const sourcesHtml = OFFICIAL_SOURCES.map(s => `
+        <a href="${s.url}" target="_blank" class="block p-4 glass-card rounded-2xl text-left hover:bg-white transition-all mb-3 border border-slate-100 shadow-sm relative overflow-hidden group">
+            <div class="flex justify-between items-start relative z-10">
+                <div>
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest leading-none mb-1">${s.date}</p>
+                    <p class="text-sm font-black text-slate-800">${s.name}</p>
+                </div>
+                <span class="text-xs text-blue-500 font-bold group-hover:translate-x-1 transition-transform">↗</span>
+            </div>
+            <div class="absolute inset-0 bg-blue-50 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+        </a>
+    `).join('');
+
+    document.getElementById('sourcesList').innerHTML = sourcesHtml;
+
     handleSearch();
 }
 
 function handleSearch() {
-    const input = searchInput.value.trim().toUpperCase();
+    const rawInput = searchInput.value;
+    const { sanitized, fuzzy } = normalizeBatch(rawInput);
 
-    if (input.length > 0) {
+    if (sanitized.length > 0) {
         clearBtn.classList.remove('hidden');
     } else {
         clearBtn.classList.add('hidden');
-        resultsContainer.innerHTML = idleStateHTML;
+        renderIdle();
         return;
     }
 
-    // Logic A: Exact Match (Defined in data.js as RECALL_DATA)
-    const exactMatch = RECALL_DATA.includes(input);
+    // STRICT MATCHING LOGIC (v2.4)
+    // 1. Exact Match: Must match the full code in database (non-series)
+    const exactMatch = RECALL_DATA.find(item =>
+        !item.isSeries && (sanitized === item.code || fuzzy === item.code)
+    );
 
-    // Logic B: Prefix Match (4 digits)
-    const prefixMatch = RECALL_DATA.some(code => code.startsWith(input.substring(0, 4))) && input.length >= 4;
+    // 2. Series Match: Must match code marked as isSeries in database
+    const seriesMatch = RECALL_DATA.find(item =>
+        item.isSeries && sanitized.startsWith(item.code)
+    );
 
     if (exactMatch) {
-        renderResult('critical', input);
-    } else if (prefixMatch) {
-        renderResult('warning', input);
-    } else if (input.length >= 4) {
-        renderResult('safe', input);
-    } else {
-        resultsContainer.innerHTML = `
-            <div class="text-center py-12 opacity-50">
-                <div class="animate-pulse">◌</div>
-                <p class="mt-2 text-sm">${I18N[currentLang].searching}</p>
-            </div>
-        `;
+        renderResult('critical', sanitized, exactMatch);
+    } else if (seriesMatch) {
+        renderResult('caution', sanitized, seriesMatch);
+    } else if (sanitized.length >= 4) {
+        renderResult('none', sanitized);
     }
 }
 
-function renderResult(type, input) {
-    let html = '';
+function renderIdle() {
+    resultsContainer.innerHTML = `
+        <div class="text-center py-16 space-y-6 slide-up opacity-60">
+            <div class="text-7xl mx-auto">🛡️</div>
+            <p class="text-slate-500 font-bold px-8">${I18N[currentLang].idle}</p>
+        </div>
+    `;
+}
+
+function renderResult(type, code, itemData = null) {
     const t = I18N[currentLang];
+    let config = {
+        bg: "bg-slate-100",
+        border: "border-slate-300",
+        text: "text-slate-900",
+        icon: "🛡️",
+        title: t.status_none,
+        desc: t.desc_none,
+        pulse: "",
+        sourceBtn: "",
+        seriesLabel: ""
+    };
 
     if (type === 'critical') {
-        html = `
-            <div class="glass-card rounded-3xl overflow-hidden border-2 border-red-500 shadow-2xl slide-up pulse-red">
-                <div class="bg-red-500 text-white px-6 py-4 flex justify-between items-center">
-                    <span class="font-bold tracking-tight">${t.critical_notice}</span>
-                    <span class="text-xs uppercase font-bold px-2 py-1 bg-white text-red-600 rounded">Alert</span>
-                </div>
-                <div class="p-6 space-y-4">
-                    <div class="flex justify-between items-center">
-                        <h3 class="text-4xl font-black text-red-600 tracking-tighter">${input}</h3>
-                        <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center text-2xl">⚠️</div>
-                    </div>
-                    <p class="text-red-900 font-bold leading-snug">${t.critical_desc}</p>
-                    <div class="p-4 bg-red-100 rounded-2xl border border-red-200">
-                        <p class="text-xs text-red-800 font-bold uppercase mb-1">Cereulide Warning:</p>
-                        <p class="text-sm text-red-700">${t.hazard_info}</p>
-                    </div>
-                    <a href="tel:4006165015" class="block w-full text-center py-4 bg-red-600 text-white rounded-2xl font-bold active:scale-95 transition-transform hover:bg-red-700">
-                        ${t.action_contact}
-                    </a>
-                </div>
-            </div>
-        `;
-    } else if (type === 'warning') {
-        html = `
-            <div class="glass-card rounded-3xl overflow-hidden border-2 border-amber-400 shadow-xl slide-up">
-                <div class="bg-amber-400 text-amber-900 px-6 py-4 font-bold flex justify-between items-center">
-                     <span>${t.warning_notice}</span>
-                     <span class="text-[10px] bg-white px-1 rounded uppercase">Partial Match</span>
-                </div>
-                <div class="p-6 space-y-4">
-                    <h3 class="text-3xl font-bold text-amber-800">${input}...</h3>
-                    <p class="text-amber-900 font-medium">${t.warning_desc}</p>
-                    <div class="grid grid-cols-2 gap-4">
-                        <div class="bg-amber-50 p-3 rounded-xl border border-amber-200">
-                            <p class="text-[10px] uppercase text-amber-600 font-bold">${t.brand_label}</p>
-                            <p class="text-sm font-bold">Nestlé / Wyeth</p>
-                        </div>
-                        <div class="bg-amber-50 p-3 rounded-xl border border-amber-200">
-                            <p class="text-[10px] uppercase text-amber-600 font-bold">${t.expiry_label}</p>
-                            <p class="text-sm font-bold">Prefix: ${input.substring(0, 4)}</p>
-                        </div>
-                    </div>
-                    <a href="tel:4006165015" class="block w-full text-center py-4 bg-amber-500 text-white rounded-2xl font-bold active:scale-95 transition-transform">
-                        ${t.action_contact}
-                    </a>
-                </div>
-            </div>
-        `;
-    } else {
-        html = `
-            <div class="glass-card rounded-3xl p-8 text-center space-y-3 opacity-90 slide-up border border-slate-200">
-                <div class="w-16 h-16 bg-slate-100 rounded-full mx-auto flex items-center justify-center text-2xl">🛡️</div>
-                <h3 class="text-xl font-bold text-slate-700">${t.safe_notice}</h3>
-                <p class="text-slate-500 text-sm leading-relaxed">${t.safe_desc}</p>
-                <div class="pt-4 flex justify-center space-x-2">
-                    <span class="text-[10px] uppercase font-bold text-slate-400 border border-slate-200 px-2 py-0.5 rounded-full">Checked at ${new Date().toLocaleTimeString()}</span>
-                </div>
-            </div>
-        `;
+        const sourceObj = OFFICIAL_SOURCES.find(s => s.id === itemData.source);
+        config = {
+            bg: "bg-red-50",
+            border: "border-red-600",
+            text: "text-red-700",
+            icon: "🚨",
+            title: t.status_critical,
+            desc: t.desc_critical,
+            pulse: "pulse-red",
+            sourceBtn: `
+                <a href="${sourceObj.url}" target="_blank" class="block w-full text-center py-4 border-2 border-red-600 text-red-700 rounded-2xl text-xs font-black uppercase tracking-widest mt-2 hover:bg-red-100 transition-colors shadow-sm">
+                    🔗 ${t.view_source}
+                </a>
+            `
+        };
+    } else if (type === 'caution') {
+        const sourceObj = OFFICIAL_SOURCES.find(s => s.id === itemData.source);
+        config = {
+            bg: "bg-amber-50",
+            border: "border-amber-500",
+            text: "text-amber-800",
+            icon: "⚠️",
+            title: t.status_caution,
+            desc: t.desc_caution,
+            pulse: "",
+            seriesLabel: `<div class="mt-4 p-4 bg-amber-100 border-l-4 border-amber-600 rounded-lg text-xs text-amber-950 leading-relaxed font-semibold">
+                            ${t.series_notice.replace('[Prefix]', itemData.code)}
+                          </div>`,
+            sourceBtn: `
+                <a href="${sourceObj.url}" target="_blank" class="block w-full text-center py-4 border-2 border-amber-600 text-amber-800 rounded-2xl text-[10px] font-black uppercase tracking-widest mt-2 hover:bg-amber-200 transition-colors">
+                    🔍 ${t.view_source}
+                </a>
+            `
+        };
     }
 
-    resultsContainer.innerHTML = html;
+    resultsContainer.innerHTML = `
+        <div class="glass-card rounded-[2.5rem] overflow-hidden border-2 ${config.border} ${config.pulse} slide-up shadow-2xl">
+            <div class="p-8 space-y-6">
+                <div class="flex justify-between items-start">
+                    <div>
+                        <span class="text-[10px] font-bold uppercase tracking-widest ${config.text} opacity-50 mb-1 block">Verified Batch ID</span>
+                        <h3 class="text-4xl font-black ${config.text} tracking-tighter">${code}</h3>
+                        ${itemData ? `<p class="text-xs font-bold text-slate-500 mt-1 uppercase tracking-tight">${itemData.brand} | ${itemData.product}</p>` : ''}
+                    </div>
+                    <div class="text-4xl">${config.icon}</div>
+                </div>
+                
+                <div class="py-4 border-t border-slate-100">
+                    <p class="text-lg font-black ${config.text}">${config.title}</p>
+                    <p class="text-sm text-slate-600 mt-2 font-medium leading-relaxed">${config.desc}</p>
+                    ${config.seriesLabel}
+                </div>
+
+                <div class="space-y-4 pt-4">
+                    <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest text-center mb-1">${t.final_authority}</p>
+                    <div class="grid grid-cols-1 gap-3">
+                        ${config.sourceBtn}
+                        <div class="grid grid-cols-2 gap-2">
+                            <a href="tel:4006165015" class="flex items-center justify-center py-4 bg-slate-900 text-white rounded-2xl text-[10px] font-black uppercase tracking-tight shadow-lg active:scale-95 transition-all">
+                                CN: 400-616-5015
+                            </a>
+                            <a href="tel:+85221798888" class="flex items-center justify-center py-4 bg-slate-900 text-white rounded-2xl text-[10px] font-black uppercase tracking-tight shadow-lg active:scale-95 transition-all">
+                                HK: +852-2179-8888
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
 }
 
 // Event Listeners
@@ -168,13 +260,24 @@ langToggle.addEventListener('click', () => {
     updateLang();
 });
 
+acceptBtn.addEventListener('click', () => {
+    disclaimerModal.classList.add('hidden');
+    localStorage.setItem('aegis_agreed', 'true');
+});
+
+if (!localStorage.getItem('aegis_agreed')) {
+    disclaimerModal.classList.remove('hidden');
+} else {
+    disclaimerModal.classList.add('hidden');
+}
+
 searchInput.addEventListener('input', handleSearch);
 
 clearBtn.addEventListener('click', () => {
     searchInput.value = '';
-    handleSearch();
+    renderIdle();
+    clearBtn.classList.add('hidden');
     searchInput.focus();
 });
 
-// Initialize on page load
 updateLang();
