@@ -1,0 +1,77 @@
+{
+  "summary": {
+    "original_count": 950,
+    "verified_count": 350,
+    "removed_count": 600,
+    "removed_global_series": 575,
+    "removed_production_series": 25
+  },
+  "verified_by_country": {
+    "France": 118,
+    "Middle East (MENA)": 43,
+    "Australia/New Zealand": 5,
+    "United Kingdom": 52,
+    "China (Cross-border)": 41,
+    "Hong Kong": 1,
+    "China (Mainland)": 30,
+    "Philippines": 4,
+    "Germany": 56
+  },
+  "removed_samples": [
+    {
+      "code": "511000017Y",
+      "subBrand": "Nestlé Nutrition",
+      "product": "Global Series Alert",
+      "specification": "800g",
+      "country": "Global (Cross-region)",
+      "reason": "International Precautionary Alert: Cereulide toxin risk",
+      "sourceDisplay": "Global Health Authorities / Nestlé International",
+      "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+      "isSeries": "True"
+    },
+    {
+      "code": "511010017Y",
+      "subBrand": "Nestlé Nutrition",
+      "product": "Global Series Alert",
+      "specification": "800g",
+      "country": "Global (Cross-region)",
+      "reason": "International Precautionary Alert: Cereulide toxin risk",
+      "sourceDisplay": "Global Health Authorities / Nestlé International",
+      "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+      "isSeries": "True"
+    },
+    {
+      "code": "511020017Y",
+      "subBrand": "Nestlé Nutrition",
+      "product": "Global Series Alert",
+      "specification": "800g",
+      "country": "Global (Cross-region)",
+      "reason": "International Precautionary Alert: Cereulide toxin risk",
+      "sourceDisplay": "Global Health Authorities / Nestlé International",
+      "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+      "isSeries": "True"
+    },
+    {
+      "code": "511030017Y",
+      "subBrand": "Nestlé Nutrition",
+      "product": "Global Series Alert",
+      "specification": "800g",
+      "country": "Global (Cross-region)",
+      "reason": "International Precautionary Alert: Cereulide toxin risk",
+      "sourceDisplay": "Global Health Authorities / Nestlé International",
+      "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+      "isSeries": "True"
+    },
+    {
+      "code": "511040017Y",
+      "subBrand": "Nestlé Nutrition",
+      "product": "Global Series Alert",
+      "specification": "800g",
+      "country": "Global (Cross-region)",
+      "reason": "International Precautionary Alert: Cereulide toxin risk",
+      "sourceDisplay": "Global Health Authorities / Nestlé International",
+      "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+      "isSeries": "True"
+    }
+  ]
+}

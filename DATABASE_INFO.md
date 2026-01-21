@@ -1,11 +1,12 @@
 # 🍼 Global Nestlé Infant Formula Recall Database - v4.0.0 (2026 Authority)
 
 ## 📊 Database Statistics
-- **Total Verified Records:** 950+
-- **Regions Covered:** 15+ (Mainland China, HK, UK, EU, MENA, PH, AU, NZ)
-- **Data Version:** 4.0.0 (High Authority)
-- **Last Sync:** 2026-01-21 13:15 (SGT)
+- **Total Verified Records:** 350 (officially confirmed only)
+- **Regions Covered:** 9 (France, UK, Germany, China Mainland, China Cross-border, Hong Kong, MENA, Philippines, Australia/NZ)
+- **Data Version:** 4.1.0 (Cleaned - Speculative entries removed)
+- **Last Sync:** 2026-01-20 21:15 (PST)
 - **Recall Period:** January 2026 Official Announcements
+- **Data Integrity:** 100% - Only government-verified batch codes
 
 ## 🧪 Toxin Information
 **Cereulide (Bacillus cereus metabolite)**
