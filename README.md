@@ -4,38 +4,38 @@
 > 
 > **Author:** TechDadShanghai | **License:** CC BY-NC 4.0 | **Updated:** January 2026
 
-## 📋 License & Usage Terms
+## License & Usage Terms
 
 **This project is distributed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.**
 
-### ✅ What You CAN Do
-- ✓ Use for personal, educational, and informational purposes
-- ✓ Share the tool with family, friends, and community members
-- ✓ Modify the code for your own non-commercial use
-- ✓ Deploy to your own servers for free public access
-- ✓ Contribute improvements back to the community
+### What You CAN Do
+- Use for personal, educational, and informational purposes
+- Share the tool with family, friends, and community members
+- Modify the code for your own non-commercial use
+- Deploy to your own servers for free public access
+- Contribute improvements back to the community
 
-### ❌ What You CANNOT Do
-- ✗ **Sell** the tool or charge users for access
-- ✗ **Bundle** this project with commercial products
-- ✗ **Rebrand** and sell as your own commercial service
-- ✗ **Provide** as part of a paid SaaS/subscription without permission
-- ✗ **Remove** or obscure attribution to TechDadShanghai
-- ✗ **Use commercially** without explicit written permission
+### What You CANNOT Do
+- **Sell** the tool or charge users for access
+- **Bundle** this project with commercial products
+- **Rebrand** and sell as your own commercial service
+- **Provide** as part of a paid SaaS/subscription without permission
+- **Remove** or obscure attribution to TechDadShanghai
+- **Use commercially** without explicit written permission
 
-### 💼 Commercial Use
+### Commercial Use
 For any commercial application, licensing, or partnership inquiries:
-📧 **Contact:** opensource@techdadshanghai.com  
-📝 **Terms:** Separate commercial license agreement required
+**Contact:** opensource@techdadshanghai.com  
+**Terms:** Separate commercial license agreement required
 
 ---
 
-## 🚨 Critical Safety Information
+## Critical Safety Information
 **Cereulide Toxin (Bacillus cereus)** is **HEAT-RESISTANT**. Boiling water **CANNOT** deactivate it.
 - All recall data is from **January 2026** official announcements
 - Covers **365 officially verified batch codes** from 11 regions (100% government sources)
 
-### ⚠️ Important Disclaimer
+### Important Disclaimer
 **Official sources have NOT published a complete global batch list.** This database consolidates publicly available information from:
 - Official government health authority websites (FSA, CFS, FDA, RappelConso, FSANZ, SAMR)
 - National regulatory agency announcements
@@ -46,19 +46,19 @@ For any commercial application, licensing, or partnership inquiries:
 2. **Check your local health authority website**
 3. **When in doubt, DO NOT USE the product**
 
-## 🚀 Live Demo
+## Live Demo
 Deploy to GitHub Pages to see it live!
 
-## 🛡️ Key Features
-- **🍼 Ultimate Bottle Design**: Highly realistic SVG visualization with contoured shape, scale lines, and dynamic milk fill status.
-- **📊 Professional Dashboard**: Optimized two-column layout showing Search/Results and Authoritative Sources side-by-side (Desktop).
-- **⚡ Daily Archival System**: Automated daily synchronization with official records, maintaining timestamped snapshots for maximum transparency.
-- **🌐 Dual-Engine Verification**:
-  - **🚨 Critical Alert**: Exact match with 365 officially recalled batch codes.
-  - **✅ Safe Status**: Verified against the latest official announcements.
-- **🌐 Full Bilingual Support**: Deep integration of English/Chinese (EN/中文) across all UI components.
+## Key Features
+- **Ultimate Bottle Design**: Highly realistic SVG visualization with contoured shape, scale lines, and dynamic milk fill status.
+- **Professional Dashboard**: Optimized two-column layout showing Search/Results and Authoritative Sources side-by-side (Desktop).
+- **Daily Archival System**: Automated daily synchronization with official records, maintaining timestamped snapshots for maximum transparency.
+- **Dual-Engine Verification**:
+  - **Critical Alert**: Exact match with 365 officially recalled batch codes.
+  - **Safe Status**: Verified against the latest official announcements.
+- **Full Bilingual Support**: Deep integration of English/Chinese (EN/中文) across all UI components.
 
-## 📂 Project Structure
+## Project Structure
 - `index.html`: Main application entry point (Responsive Dashboard)
 - `css/style.css`: Premium styling and emergency status animations
 - `js/script.js`: Core search engine and i18n logic
@@ -69,18 +69,18 @@ Deploy to GitHub Pages to see it live!
 - `csv_to_js.py`: Strict data conversion engine
 - `LICENSE`: MIT License
 
-## 🛠️ Performance & Maintenance
+## Performance & Maintenance
 Run the `archive_and_sync.py` script daily to synchronize the latest CSV changes with the web interface. This ensures the tool always displays the latest verified state while preserving history in the `archives/` directory.
 
 ---
 
-## 🎯 Open Source Strategy & Roadmap
+## Open Source Strategy & Roadmap
 
 ### Phase 1: Community Foundation (2026-Present)
-- ✓ Open source frontend + Markdown content
-- ✓ Community feedback and transparency
-- ✓ Daily data synchronization with official sources
-- ✓ Build user trust through verified information
+- Open source frontend + Markdown content
+- Community feedback and transparency
+- Daily data synchronization with official sources
+- Build user trust through verified information
 
 ### Phase 2: Enhanced Features (Future)
 - Dynamic backend APIs for real-time data
@@ -98,7 +98,7 @@ Run the `archive_and_sync.py` script daily to synchronize the latest CSV changes
 
 ---
 
-## 📞 Community & Support
+## Community & Support
 
 - **GitHub Issues:** Report bugs and feature requests
 - **Discussions:** Share experiences and safety tips
