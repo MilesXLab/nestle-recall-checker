@@ -1,3 +1,17 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Global Nestlé Infant Formula Recall Verification Tool
+Daily Archive & Sync Utility
+
+Author: TechDadShanghai
+License: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+Copyright (c) 2026 TechDadShanghai
+
+This utility automatically archives recall data and synchronizes with the web interface.
+Use for non-commercial purposes only. For commercial licensing, contact: opensource@techdadshanghai.com
+"""
+
 import os
 import shutil
 from datetime import datetime

@@ -1,3 +1,17 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Global Nestlé Infant Formula Recall Verification Tool
+Final Pre-Deployment Verification
+
+Author: TechDadShanghai
+License: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+Copyright (c) 2026 TechDadShanghai
+
+This utility performs comprehensive checks before deployment to ensure data integrity.
+Use for non-commercial purposes only. For commercial licensing, contact: opensource@techdadshanghai.com
+"""
+
 import csv
 import json
 import os

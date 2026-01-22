@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Simple CSV to JS converter - NO data generation
-Only reads from recall_database.csv and generates js/data.js
+Global Nestlé Infant Formula Recall Verification Tool
+CSV to JS Data Converter
+
+Author: TechDadShanghai
+License: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+Copyright (c) 2026 TechDadShanghai
+
+This tool converts recall data from CSV format to JavaScript for use in the web interface.
+Use for non-commercial purposes only. For commercial licensing, contact: opensource@techdadshanghai.com
 """
 
 import csv
