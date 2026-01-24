@@ -3,9 +3,9 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-23 20:52 (PST)",
+    "lastUpdated": "2026-01-23 21:09 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
-    "totalCount": 328,
+    "totalCount": 375,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
     "integrity": "100% Verified - No Speculative Series Alerts"
 };
@@ -25,14 +25,14 @@ const OFFICIAL_SOURCES = [
     },
     {
         "id": "SG_SFA_DUMEX",
-        "name": "SFA Singapore - Dumex / NAN Official Recall",
-        "url": "https://www.sfa.gov.sg/news/details/direction-to-recall-additional-infant-formula-products-due-to-presence-of-cereulide-toxin",
+        "name": "SFA Singapore - Food Alerts & Recalls Index",
+        "url": "https://www.sfa.gov.sg/food-information/food-alerts-and-advisories",
         "date": "2026-01-17"
     },
     {
         "id": "FR_PICOT",
-        "name": "Rappel Conso - Picot (Lactalis) Official Alert",
-        "url": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Interne",
+        "name": "Rappel Conso - Picot (Lactalis) Verified Alert",
+        "url": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "date": "2026-01-21"
     },
     {
@@ -71,7 +71,7 @@ const RECALL_DATA = [
         "country": "Singapore",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Singapore Food Agency (SFA)",
-        "docUrl": "https://www.sfa.gov.sg/news/details/direction-to-recall-additional-infant-formula-products-due-to-presence-of-cereulide-toxin",
+        "docUrl": "https://www.sfa.gov.sg/food-information/food-alerts-and-advisories",
         "isSeries": false
     },
     {
@@ -111,6 +111,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5100080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5101080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -120,6 +132,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5101080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -135,6 +159,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5102080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5103080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -144,6 +180,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5103080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -159,6 +207,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5104080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5105080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -171,6 +231,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5105080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5106080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -180,6 +252,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5106080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -207,6 +291,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5107080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "51080017Y1",
         "brand": "Nestlé",
         "subBrand": "Nestlé Nutrition",
@@ -231,6 +327,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5108080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5109080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -240,6 +348,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5109080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -255,6 +375,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5110080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5111080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -264,6 +396,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5111080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -279,6 +423,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5112080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5113080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -291,6 +447,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5113080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5114080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -300,6 +468,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5114080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -327,6 +507,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5115080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5116080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -336,6 +528,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5116080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -375,6 +579,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5117080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5118080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -387,6 +603,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5118080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "51190017C2",
         "brand": "Nestlé",
         "subBrand": "Illuma",
@@ -395,7 +623,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -408,6 +636,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5119080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -435,6 +675,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5120080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "51210017Y1",
         "brand": "Nestlé",
         "subBrand": "SMA",
@@ -456,6 +708,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5121080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -507,6 +771,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5122080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "51230346AA",
         "brand": "Nestlé",
         "subBrand": "Nidal",
@@ -527,7 +803,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -540,6 +816,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5123080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -579,6 +867,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5124080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "51250017C1",
         "brand": "Nestlé",
         "subBrand": "NAN",
@@ -587,7 +887,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -627,6 +927,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5125080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "S-26 AR UAE/Kuwait 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "51260017C1",
         "brand": "Nestlé",
         "subBrand": "NAN",
@@ -635,7 +947,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -647,7 +959,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -663,6 +975,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5126080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5127080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -672,6 +996,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5127080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -687,6 +1023,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5128080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5129080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -696,6 +1044,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5129080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -711,6 +1071,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5130080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5131080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -720,6 +1092,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5131080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -735,6 +1119,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5132080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5133080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -744,6 +1140,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5133080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -783,6 +1191,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5134080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "51350346AA",
         "brand": "Nestlé",
         "subBrand": "SMA",
@@ -807,6 +1227,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5135080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "5136080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -816,6 +1248,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5136080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -843,6 +1287,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5137080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "51380017A1",
         "brand": "Nestlé",
         "subBrand": "Illuma",
@@ -851,7 +1307,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -864,6 +1320,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5138080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -891,6 +1359,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5139080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "NAN/S-26 MENA Range 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "51400017C1",
         "brand": "Nestlé",
         "subBrand": "Illuma",
@@ -899,7 +1379,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1091,7 +1571,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1127,7 +1607,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1259,7 +1739,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1283,7 +1763,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1307,7 +1787,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1319,7 +1799,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1331,7 +1811,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1487,7 +1967,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1499,7 +1979,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1535,7 +2015,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1571,7 +2051,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1595,7 +2075,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1607,7 +2087,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1631,7 +2111,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1679,7 +2159,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1763,7 +2243,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -1907,7 +2387,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1919,7 +2399,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1943,7 +2423,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -1980,6 +2460,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5185080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "S-26 AR UAE/Kuwait 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2267,7 +2759,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2279,7 +2771,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2363,7 +2855,7 @@ const RECALL_DATA = [
         "country": "Singapore",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Singapore Food Agency (SFA)",
-        "docUrl": "https://e.vnexpress.net/news/news/singapore-recalls-nestle-dumex-infant-formula-over-suspected-toxin-contamination-5007342.html",
+        "docUrl": "https://www.sfa.gov.sg/food-information/food-alerts-and-advisories",
         "isSeries": false
     },
     {
@@ -2375,7 +2867,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2387,7 +2879,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2399,7 +2891,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2411,7 +2903,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2423,7 +2915,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2435,7 +2927,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2447,7 +2939,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2459,7 +2951,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2471,7 +2963,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2483,7 +2975,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2495,7 +2987,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2507,7 +2999,19 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
+        "code": "525401896A",
+        "brand": "Nestlé",
+        "subBrand": "Nestlé Nutrition",
+        "product": "NAN Optipro 6-12mo 400g",
+        "specification": "400g",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
         "isSeries": false
     },
     {
@@ -2519,7 +3023,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2531,7 +3035,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2543,7 +3047,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2555,7 +3059,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2567,7 +3071,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2579,7 +3083,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2603,7 +3107,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2615,7 +3119,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2627,7 +3131,19 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
+        "code": "526901896A6",
+        "brand": "Nestlé",
+        "subBrand": "Nestlé Nutrition",
+        "product": "NAN Optipro 0-6mo 400g",
+        "specification": "400g",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
         "isSeries": false
     },
     {
@@ -2639,7 +3155,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2651,7 +3167,19 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
+        "code": "5271080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "S-26 AR UAE 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2663,7 +3191,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2807,7 +3335,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2855,7 +3383,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2867,7 +3395,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2879,7 +3407,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2891,7 +3419,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2903,7 +3431,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2939,7 +3467,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -2979,6 +3507,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "528901896B",
+        "brand": "Nestlé",
+        "subBrand": "Nestlé Nutrition",
+        "product": "NAN Optipro 6-12mo 450g",
+        "specification": "450g",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "isSeries": false
+    },
+    {
         "code": "52910017C1",
         "brand": "Nestlé",
         "subBrand": "Illuma",
@@ -2987,7 +3527,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -2999,7 +3539,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3011,7 +3551,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3023,7 +3563,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3059,7 +3599,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3083,7 +3623,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -3095,7 +3635,7 @@ const RECALL_DATA = [
         "country": "China (Mainland)",
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "isSeries": false
     },
     {
@@ -3107,7 +3647,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3179,7 +3719,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3215,7 +3755,19 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
+        "isSeries": false
+    },
+    {
+        "code": "533001896A",
+        "brand": "Nestlé",
+        "subBrand": "Nestlé Nutrition",
+        "product": "NAN Optipro 6-12mo 600g",
+        "specification": "600g",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
         "isSeries": false
     },
     {
@@ -3231,6 +3783,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5330080661",
+        "brand": "Nestlé",
+        "subBrand": "S-26",
+        "product": "S-26 AR Gold Kuwait 400g",
+        "specification": "400g",
+        "country": "Middle East (MENA)",
+        "reason": "Precautionary verification: Quality concern related to raw material",
+        "sourceDisplay": "Nestlé MENA Official Release",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "53350742D1",
         "brand": "Nestlé",
         "subBrand": "BEBA",
@@ -3239,7 +3803,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3251,7 +3815,7 @@ const RECALL_DATA = [
         "country": "China (Cross-border)",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
+        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
         "isSeries": false
     },
     {
@@ -3263,7 +3827,7 @@ const RECALL_DATA = [
         "country": "France",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Interne",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "isSeries": false
     },
     {
@@ -3275,7 +3839,7 @@ const RECALL_DATA = [
         "country": "France",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Interne",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "isSeries": false
     },
     {
@@ -3287,7 +3851,7 @@ const RECALL_DATA = [
         "country": "France",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Interne",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "isSeries": false
     },
     {
@@ -3299,7 +3863,7 @@ const RECALL_DATA = [
         "country": "France",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Interne",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "isSeries": false
     },
     {
@@ -3311,7 +3875,7 @@ const RECALL_DATA = [
         "country": "France",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Interne",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "isSeries": false
     },
     {
@@ -3323,7 +3887,7 @@ const RECALL_DATA = [
         "country": "France",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Interne",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "isSeries": false
     },
     {
