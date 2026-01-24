@@ -3,7 +3,7 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-24 04:28 (PST)",
+    "lastUpdated": "2026-01-24 04:43 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
     "totalCount": 375,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
@@ -25,13 +25,13 @@ const OFFICIAL_SOURCES = [
     },
     {
         "id": "SG_SFA_DUMEX",
-        "name": "SFA Singapore - Food Alerts & Recalls Index",
-        "url": "https://www.sfa.gov.sg/news-publications/circulars-and-notices/food-alerts-and-recalls",
+        "name": "SFA Singapore - Official Newsroom Gateway",
+        "url": "https://www.sfa.gov.sg/news-publications/newsroom",
         "date": "2026-01-17"
     },
     {
         "id": "FR_PICOT",
-        "name": "Rappel Conso - Picot (Lactalis) Verified Alert",
+        "name": "Rappel Conso - Picot (Lactalis) Verified Archive",
         "url": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "date": "2026-01-21"
     },
@@ -71,7 +71,7 @@ const RECALL_DATA = [
         "country": "Singapore",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Singapore Food Agency (SFA)",
-        "docUrl": "https://www.sfa.gov.sg/news-publications/circulars-and-notices/food-alerts-and-recalls",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom",
         "isSeries": false
     },
     {
@@ -2855,7 +2855,7 @@ const RECALL_DATA = [
         "country": "Singapore",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Singapore Food Agency (SFA)",
-        "docUrl": "https://www.sfa.gov.sg/news-publications/circulars-and-notices/food-alerts-and-recalls",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom",
         "isSeries": false
     },
     {
