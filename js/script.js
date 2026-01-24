@@ -261,22 +261,22 @@ function handleSearch() {
 
 function renderIdle() {
     resultsContainer.innerHTML = `
-        <div class="text-center py-10 space-y-10 slide-up">
-            <div class="bottle-container status-idle mx-auto" style="width: 160px; height: 180px;">
+        <div class="text-center py-6 space-y-8 slide-up">
+            <div class="bottle-container status-idle mx-auto" style="width: 140px; height: 160px;">
                 <svg class="bottle-svg" viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M80 15 Q68 15 68 35 L92 35 Q92 15 80 15Z" fill="#FFE4E6" />
                         <path d="M48 35 L112 35 Q120 35 120 45 L120 65 Q120 75 112 75 L48 75 Q40 75 40 65 L40 45 Q40 35 48 35Z" fill="#3B82F6" />
                         <path d="M45 75 L115 75 Q130 75 130 110 L130 170 Q130 205 80 205 Q30 205 30 170 L30 110 Q30 75 45 75 Z" fill="white" />
                     </g>
-                    <g stroke="#94A3B8" stroke-width="5" fill="none" opacity="0.6" stroke-linecap="round">
+                    <g stroke="#94A3B8" stroke-width="4" fill="none" opacity="0.6" stroke-linecap="round">
                         <path d="M60 135 Q65 130 70 135" /> 
                         <path d="M90 135 Q95 130 100 135" />
                         <path d="M75 160 Q80 165 85 160" />
                     </g>
                 </svg>
             </div>
-            <p class="text-slate-400 font-black px-12 text-xs uppercase tracking-[0.2em] leading-relaxed max-w-sm mx-auto">${I18N[currentLang].idle}</p>
+            <p class="text-slate-400 font-bold px-12 text-sm leading-relaxed max-w-sm mx-auto">${I18N[currentLang].idle}</p>
         </div>
     `;
 }
@@ -311,11 +311,11 @@ function renderResult(type, code, itemData = null) {
             title: isCritical ? t.status_critical : t.status_caution,
             desc: isCritical ? t.desc_critical : t.desc_caution,
             seriesLabel: type === 'caution' ? `
-                <div class="mt-4 p-5 bg-amber-100 border-l-4 border-amber-600 rounded-xl text-xs text-amber-950 leading-relaxed font-bold">
+                <div class="mt-4 p-4 bg-amber-100 border-l-4 border-amber-600 rounded-lg text-xs text-amber-950 leading-relaxed font-semibold">
                     ${t.series_notice.replace('[Prefix]', itemData.code)}
                 </div>` : "",
             sourceBtn: `
-                <a href="${itemData.docUrl}" target="_blank" class="block w-full text-center py-5 border-2 ${borderColor} ${accentColor} rounded-2xl text-[10px] font-black uppercase tracking-widest mt-2 hover:bg-white transition-all shadow-sm">
+                <a href="${itemData.docUrl}" target="_blank" class="block w-full text-center py-4 border-2 ${borderColor} ${accentColor} rounded-2xl text-xs font-black uppercase tracking-widest mt-2 hover:opacity-80 transition-all shadow-sm">
                     🔗 ${t.view_source}
                 </a>
             `
@@ -323,35 +323,34 @@ function renderResult(type, code, itemData = null) {
     }
 
     const detailGrid = itemData ? `
-        <div class="grid grid-cols-2 gap-6 py-6 border-t border-slate-100">
+        <div class="grid grid-cols-2 gap-4 py-4 border-t border-slate-100">
             <div>
-                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1.5">${t.label_brand}</p>
-                <p class="text-[13px] font-black text-slate-800">${itemData.brand || 'Nestlé'}</p>
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_brand}</p>
+                <p class="text-sm font-black text-slate-800">${itemData.brand || 'Nestlé'}</p>
             </div>
             <div>
-                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1.5">${t.label_spec}</p>
-                <p class="text-[13px] font-black text-slate-800">${itemData.specification || '800g'}</p>
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_spec}</p>
+                <p class="text-sm font-black text-slate-800">${itemData.specification || '800g'}</p>
             </div>
             <div>
-                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1.5">${t.label_country}</p>
-                <p class="text-[13px] font-black text-slate-800">${itemData.country}</p>
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_country}</p>
+                <p class="text-sm font-black text-slate-800">${itemData.country}</p>
             </div>
             <div>
-                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1.5">${t.label_source}</p>
-                <p class="text-[11px] font-black text-blue-600 truncate">${itemData.sourceDisplay}</p>
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_source}</p>
+                <p class="text-[11px] font-bold text-blue-600 underline truncate">${itemData.sourceDisplay}</p>
             </div>
             <div class="col-span-2">
-                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1.5">${t.label_reason}</p>
-                <p class="text-[11px] font-bold text-red-600 bg-red-50/50 p-3 rounded-xl border border-red-100 leading-relaxed">${getTranslatedReason(itemData.reason, currentLang)}</p>
+                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_reason}</p>
+                <p class="text-xs font-bold text-red-600 bg-red-50 p-2 rounded-lg mt-1 border border-red-100">${getTranslatedReason(itemData.reason, currentLang)}</p>
             </div>
         </div>
     ` : '';
 
     resultsContainer.innerHTML = `
-        <div class="glass-card rounded-[2.5rem] overflow-hidden border-2 ${config.border} slide-up shadow-2xl relative">
-            <div class="p-6 space-y-4">
-                <!-- Premium Little Star SVG Character -->
-                <div class="${type === 'critical' ? 'w-52 h-64' : 'w-48 h-60'} mx-auto transition-all duration-700">
+        <div class="glass-card rounded-[2rem] overflow-hidden border border-slate-200 slide-up shadow-xl">
+            <div class="p-5 space-y-4">
+                <div class="w-24 h-32 mx-auto">
                     <div class="bottle-container ${config.bottleStatus} w-full h-full">
                         <svg class="bottle-svg" viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
                             <defs>
@@ -359,73 +358,27 @@ function renderResult(type, code, itemData = null) {
                                     <path d="M45 75 L115 75 Q130 75 130 110 L130 170 Q130 205 80 205 Q30 205 30 170 L30 110 Q30 75 45 75 Z" />
                                 </clipPath>
                             </defs>
-                            
-                            <!-- Premium Outlines & Base -->
                             <g fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-                                <!-- Nipple -->
                                 <path d="M80 15 Q68 15 68 35 L92 35 Q92 15 80 15Z" fill="#FFE4E6" />
-                                <!-- Cap (Dynamic Theme Color) -->
                                 <path d="M48 35 L112 35 Q120 35 120 45 L120 65 Q120 75 112 75 L48 75 Q40 75 40 65 L40 45 Q40 35 48 35Z" fill="${config.themeColor}" />
-                                <!-- Body Base -->
                                 <path d="M45 75 L115 75 Q130 75 130 110 L130 170 Q130 205 80 205 Q30 205 30 170 L30 110 Q30 75 45 75 Z" fill="white" />
                             </g>
-                            
-                            <!-- Dynamic Liquid Fill -->
                             <g clip-path="url(#bodyClip)">
                                 <path class="milk-fill" d="M20 210 L140 210 L140 100 Q80 90 20 100 Z" />
-                                <!-- Premium Inner Decorations (Sparkles/Bubbles) -->
-                                <circle cx="50" cy="180" r="4" fill="white" opacity="0.4" />
-                                <circle cx="110" cy="190" r="6" fill="white" opacity="0.3" />
-                                <circle cx="80" cy="170" r="3" fill="white" opacity="0.5" />
                             </g>
-                            
-
-                            <!-- Emotional Cartoon Expression -->
                             <g class="bottle-face">
                                 ${type === 'none' ? `
-                                    <!-- Status 1: Safe - Happy & Sparkling -->
-                                    <g fill="#1E293B">
-                                        <circle cx="60" cy="122" r="12" /> 
-                                        <circle cx="100" cy="122" r="12" />
-                                        <circle cx="66" cy="116" r="4.5" fill="white" /> 
-                                        <circle cx="106" cy="116" r="4.5" fill="white" />
-                                        <circle cx="56" cy="129" r="2" fill="white" opacity="0.6" />
-                                        <circle cx="96" cy="129" r="2" fill="white" opacity="0.6" />
-                                    </g>
-                                    <path d="M72 132 Q80 138 88 132" fill="none" stroke="#1E293B" stroke-width="4.5" stroke-linecap="round" />
-                                    <ellipse cx="45" cy="135" rx="8" ry="4" fill="#FDA4AF" opacity="0.8" />
-                                    <ellipse cx="115" cy="135" rx="8" ry="4" fill="#FDA4AF" opacity="0.8" />
-                                ` : type === 'caution' ? `
-                                    <!-- Status 2: Warning - Worried -->
                                     <g fill="#1E293B">
                                         <circle cx="65" cy="125" r="6" /> 
                                         <circle cx="95" cy="125" r="6" />
                                     </g>
-                                    <!-- Eyebrow raised -->
-                                    <path d="M85 110 Q100 100 115 110" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
-                                    <path d="M75 145 L85 145" fill="none" stroke="#1E293B" stroke-width="5" stroke-linecap="round" />
-                                    <!-- Caution Icon -->
-                                    <g transform="translate(145, 80)">
-                                        <path d="M0 -15 L15 15 L-15 15 Z" fill="#F59E0B" stroke="#1E293B" stroke-width="3" />
-                                        <text y="10" text-anchor="middle" fill="white" font-size="16" font-weight="950" font-family="Arial">!</text>
-                                    </g>
+                                    <path d="M72 145 Q80 152 88 145" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
                                 ` : `
-                                    <!-- Status 3: Danger - Teary & Sad -->
                                     <g fill="#1E293B">
-                                        <path d="M50 125 Q60 110 70 125" fill="none" stroke="#1E293B" stroke-width="5" stroke-linecap="round" />
-                                        <path d="M90 125 Q100 110 110 125" fill="none" stroke="#1E293B" stroke-width="5" stroke-linecap="round" />
+                                        <path d="M55 125 Q65 115 75 125" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
+                                        <path d="M85 125 Q95 115 105 125" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
                                     </g>
-                                    <path d="M70 148 Q80 138 90 148" fill="none" stroke="#1E293B" stroke-width="5" stroke-linecap="round" />
-                                    
-                                    <!-- Animated Tears -->
-                                    <circle cx="55" cy="130" r="5" fill="#60A5FA" opacity="0.9">
-                                        <animate attributeName="cy" values="130;185" dur="1s" repeatCount="indefinite" />
-                                        <animate attributeName="opacity" values="0.9;0" dur="1s" repeatCount="indefinite" />
-                                    </circle>
-                                    <circle cx="105" cy="130" r="5" fill="#60A5FA" opacity="0.9">
-                                        <animate attributeName="cy" values="130;185" dur="1.4s" repeatCount="indefinite" />
-                                        <animate attributeName="opacity" values="0.9;0" dur="1.4s" repeatCount="indefinite" />
-                                    </circle>
+                                    <circle cx="80" cy="150" r="8" fill="#1E293B" opacity="0.1" />
                                 `}
                             </g>
                         </svg>
@@ -433,30 +386,23 @@ function renderResult(type, code, itemData = null) {
                 </div>
 
                 <div class="text-center">
-                    <span class="text-[9px] font-black uppercase tracking-[0.2em] ${config.text} opacity-40 block mb-0.5">${t.label_batch}</span>
-                    <h3 class="${type === 'critical' ? 'text-4xl' : 'text-3xl'} font-black ${config.text} tracking-tight font-sans">${code}</h3>
-                    ${itemData ? `<p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mt-1">${itemData.product}</p>` : ''}
+                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">${t.label_batch}</p>
+                    <h3 class="text-2xl font-black text-slate-900 tracking-tight">${code}</h3>
                 </div>
                 
-                <div class="py-4 border-t border-slate-100 text-center">
-                    <div class="flex items-center justify-center space-x-2 mb-1.5">
-                        ${type === 'critical' ? '<span class="text-xl">⚠️</span>' : ''}
-                        <p class="${type === 'critical' ? 'text-xl' : 'text-lg'} font-black ${config.text} uppercase tracking-tight">${config.title}</p>
-                    </div>
-                    <p class="text-[11px] text-slate-500 font-bold leading-snug max-w-xs mx-auto">${config.desc}</p>
+                <div class="py-3 border-t border-slate-100 text-center">
+                    <p class="text-lg font-black ${config.text} uppercase tracking-tight">${config.title}</p>
+                    <p class="text-[11px] text-slate-500 font-semibold leading-relaxed mt-1">${config.desc}</p>
                     ${config.seriesLabel}
                 </div>
 
                 ${detailGrid}
 
-                <div class="space-y-4 pt-2">
-                    <div class="grid grid-cols-1 gap-3">
-                        ${config.sourceBtn}
-                        ${getHotlineButtons(itemData)}
-                    </div>
+                <div class="space-y-3 pt-2">
+                    ${config.sourceBtn}
+                    ${getHotlineButtons(itemData)}
                 </div>
             </div>
-            ${type === 'critical' ? '<div class="absolute top-0 left-0 w-full h-1 bg-red-600 animate-pulse z-20"></div>' : ''}
         </div>
     `;
 }
