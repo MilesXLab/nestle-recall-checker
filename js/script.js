@@ -284,11 +284,11 @@ function renderIdle() {
 function renderResult(type, code, itemData = null) {
     const t = I18N[currentLang];
     let config = {
-        bg: "bg-slate-100",
-        border: "border-slate-300",
+        bg: "bg-white",
+        border: "border-slate-100",
         text: "text-slate-900",
         bottleStatus: "status-safe",
-        themeColor: "#3B82F6", // Default Safe uses Blue (neutral, not misleading)
+        themeColor: "#EF4444", // Authentic Red Cap as per initial design
         title: t.status_none,
         desc: t.desc_none,
         sourceBtn: "",
@@ -348,17 +348,18 @@ function renderResult(type, code, itemData = null) {
     ` : '';
 
     resultsContainer.innerHTML = `
-        <div class="glass-card rounded-[2rem] overflow-hidden border border-slate-200 slide-up shadow-xl">
-            <div class="p-5 space-y-4">
-                <div class="w-24 h-32 mx-auto">
-                    <div class="bottle-container ${config.bottleStatus} w-full h-full">
+        <div class="glass-card rounded-[2.5rem] overflow-hidden border border-slate-200 shadow-2xl slide-up">
+            <div class="py-12 px-6 space-y-8">
+                <!-- Authentic Initial Bottle Effect -->
+                <div class="w-32 h-40 mx-auto relative flex items-center justify-center">
+                    <div class="bottle-container ${config.bottleStatus} w-full h-full relative z-10 flex items-center justify-center">
                         <svg class="bottle-svg" viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
                             <defs>
                                 <clipPath id="bodyClip">
                                     <path d="M45 75 L115 75 Q130 75 130 110 L130 170 Q130 205 80 205 Q30 205 30 170 L30 110 Q30 75 45 75 Z" />
                                 </clipPath>
                             </defs>
-                            <g fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+                            <g fill="none" stroke="#0F172A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M80 15 Q68 15 68 35 L92 35 Q92 15 80 15Z" fill="#FFE4E6" />
                                 <path d="M48 35 L112 35 Q120 35 120 45 L120 65 Q120 75 112 75 L48 75 Q40 75 40 65 L40 45 Q40 35 48 35Z" fill="${config.themeColor}" />
                                 <path d="M45 75 L115 75 Q130 75 130 110 L130 170 Q130 205 80 205 Q30 205 30 170 L30 110 Q30 75 45 75 Z" fill="white" />
@@ -367,41 +368,40 @@ function renderResult(type, code, itemData = null) {
                                 <path class="milk-fill" d="M20 210 L140 210 L140 100 Q80 90 20 100 Z" />
                             </g>
                             <g class="bottle-face">
-                                ${type === 'none' ? `
-                                    <g fill="#1E293B">
-                                        <circle cx="65" cy="125" r="6" /> 
-                                        <circle cx="95" cy="125" r="6" />
-                                    </g>
-                                    <path d="M72 145 Q80 152 88 145" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
-                                ` : `
-                                    <g fill="#1E293B">
-                                        <path d="M55 125 Q65 115 75 125" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
-                                        <path d="M85 125 Q95 115 105 125" fill="none" stroke="#1E293B" stroke-width="4" stroke-linecap="round" />
-                                    </g>
-                                    <circle cx="80" cy="150" r="8" fill="#1E293B" opacity="0.1" />
-                                `}
+                                <g fill="#0F172A">
+                                    <path d="M55 130 Q65 120 75 130" fill="none" stroke="#0F172A" stroke-width="5" stroke-linecap="round" />
+                                    <path d="M85 130 Q95 120 105 130" fill="none" stroke="#0F172A" stroke-width="5" stroke-linecap="round" />
+                                </g>
+                                <circle cx="80" cy="155" r="4" fill="#FFBCC9" />
                             </g>
                         </svg>
                     </div>
+                    <!-- Soft Halo Glow (Initial Effect) -->
+                    <div class="absolute w-48 h-48 bg-pink-100/40 rounded-full blur-3xl -z-0"></div>
                 </div>
 
+                <!-- Precise Typo Layout as per Screenshot -->
                 <div class="text-center">
-                    <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-1">${t.label_batch}</p>
-                    <h3 class="text-2xl font-black text-slate-900 tracking-tight">${code}</h3>
+                    <p class="text-[12px] font-black text-slate-400 uppercase tracking-[0.3em] mb-2" style="font-family: 'Outfit', sans-serif;">${t.label_batch}</p>
+                    <h3 class="text-4xl md:text-5xl font-black text-slate-900 tracking-tighter leading-none">${code}</h3>
                 </div>
                 
-                <div class="py-3 border-t border-slate-100 text-center">
-                    <p class="text-lg font-black ${config.text} uppercase tracking-tight">${config.title}</p>
-                    <p class="text-[11px] text-slate-500 font-semibold leading-relaxed mt-1">${config.desc}</p>
-                    ${config.seriesLabel}
-                </div>
-
-                ${detailGrid}
-
-                <div class="space-y-3 pt-2">
-                    ${config.sourceBtn}
-                    ${getHotlineButtons(itemData)}
-                </div>
+                ${type !== 'none' ? `
+                    <div class="pt-8 border-t border-slate-100 text-center">
+                        <p class="text-xl font-black ${config.text} uppercase tracking-tight">${config.title}</p>
+                        <p class="text-[14px] text-slate-500 font-bold leading-relaxed mt-2">${config.desc}</p>
+                        ${config.seriesLabel}
+                    </div>
+                    ${detailGrid}
+                    <div class="space-y-4 pt-4">
+                        ${config.sourceBtn}
+                        ${getHotlineButtons(itemData)}
+                    </div>
+                ` : `
+                    <div class="pt-8 text-center opacity-40">
+                        <p class="text-sm font-bold text-slate-400 italic">${t.desc_none}</p>
+                    </div>
+                `}
             </div>
         </div>
     `;

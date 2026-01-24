@@ -68,32 +68,34 @@ h4 {
 
 /* ========== STATUS: IDLE ========== */
 .status-idle .milk-fill {
-    fill: #E2E8F0;
-    opacity: 0.2;
+    fill: #F1F5F9;
+    opacity: 0.3;
 }
 
-.status-idle .bottle-outline,
-.status-idle .bottle-ring,
-.status-idle .bottle-nipple {
-    stroke: #CBD5E1;
-    stroke-width: 3;
-}
-
-/* ========== STATUS: SAFE (Rich Creamy Yellow) ========== */
+/* ========== STATUS: SAFE (Vibrant Pinkish-White) ========== */
 .status-safe .milk-fill {
-    fill: #FFE082;
-    /* Deeper creamy yellow */
+    fill: #FFD1DC;
+    /* Soft Pink Milk */
     opacity: 1;
 }
 
 .status-safe {
-    animation: breathe 4s ease-in-out infinite;
+    animation: breathe 3s ease-in-out infinite;
+}
+
+.status-safe::after {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle, rgba(244, 114, 182, 0.2) 0%, transparent 70%);
+    z-index: -1;
+    animation: pulse-glow 2s infinite alternate;
 }
 
 /* ========== STATUS: WARNING (Warm Orange) ========== */
 .status-warning .milk-fill {
     fill: #FFB74D;
-    /* Deeper warm orange */
     opacity: 1;
 }
 
@@ -103,13 +105,25 @@ h4 {
 
 /* ========== STATUS: DANGER (Cautionary Deep Red) ========== */
 .status-danger .milk-fill {
-    fill: #EF9A9A;
-    /* Deeper cautionary red */
+    fill: #FECACA;
+    /* Light Red/Pinkish Milk */
     opacity: 1;
 }
 
 .status-danger {
-    animation: danger-pulse 1s infinite alternate;
+    animation: danger-pulse 0.8s infinite alternate;
+}
+
+@keyframes pulse-glow {
+    from {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+
+    to {
+        transform: scale(1.2);
+        opacity: 0.8;
+    }
 }
 
 /* Animations */
