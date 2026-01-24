@@ -43,12 +43,12 @@ batches.sort(key=lambda x: x['code'])
 OFFICIAL_SOURCES = [
     { "id": "UK_FSA_SMA", "name": "UK Food Standards Agency - SMA (FSA-PRIN-02-2026)", "url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026", "date": "2026-01-23" },
     { "id": "UK_FSA_APTAMIL", "name": "UK Food Standards Agency - Aptamil (FSA-PRIN-03-2026)", "url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-03-2026", "date": "2026-01-23" },
-    { "id": "SG_SFA_DUMEX", "name": "SFA Singapore - Official Newsroom Gateway", "url": "https://www.sfa.gov.sg/news-publications/newsroom", "date": "2026-01-17" },
+    { "id": "SG_SFA_DUMEX", "name": "SFA Singapore - Official Recall Notice", "url": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-recall-additional-infant-formula-products-due-to-presence-of-cereulide-toxin", "date": "2026-01-17" },
     { "id": "FR_PICOT", "name": "Rappel Conso - Picot (Lactalis) Verified Archive", "url": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1", "date": "2026-01-21" },
     { "id": "CN_DOMESTIC", "name": "雀巢中国-大陆市场自愿回收公告", "url": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113", "date": "2026-01-13" },
     { "id": "CN_CROSSBORDER", "name": "雀巢中国-跨境电商自愿回收公告", "url": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113-a", "date": "2026-01-13" },
     { "id": "PH_FDA", "name": "Philippines FDA Advisory 2026-0030", "url": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/", "date": "2026-01-10" },
-    { "id": "HK_CFS", "name": "HK Centre for Food Safety", "url": "https://www.cfs.gov.hk/english/press/20260110_12105.html", "date": "2026-01-10" }
+    { "id": "HK_CFS", "name": "HK Centre for Food Safety (Verified PDF)", "url": "resources/official_docs/HK_CFS_Recall_20260122.pdf", "date": "2026-01-22" }
 ]
 
 from datetime import datetime
