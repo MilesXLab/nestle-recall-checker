@@ -3,7 +3,7 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-24 05:00 (PST)",
+    "lastUpdated": "2026-01-24 05:06 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
     "totalCount": 375,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
@@ -24,14 +24,8 @@ const OFFICIAL_SOURCES = [
         "date": "2026-01-23"
     },
     {
-        "id": "SG_SFA_INITIAL",
-        "name": "SFA Singapore - Initial Nestlé Stop-Sale Notice",
-        "url": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
-        "date": "2026-01-08"
-    },
-    {
-        "id": "SG_SFA_ADDITIONAL",
-        "name": "SFA Singapore - Additional Recall Notice (Dumex/NAN)",
+        "id": "SG_SFA_DUMEX",
+        "name": "SFA Singapore - Dumex / NAN Official Recall",
         "url": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-recall-additional-infant-formula-products-due-to-presence-of-cereulide-toxin",
         "date": "2026-01-17"
     },
@@ -61,9 +55,9 @@ const OFFICIAL_SOURCES = [
     },
     {
         "id": "HK_CFS",
-        "name": "HK Centre for Food Safety (Verified PDF)",
-        "url": "resources/official_docs/HK_CFS_Recall_20260122.pdf",
-        "date": "2026-01-22"
+        "name": "HK Centre for Food Safety",
+        "url": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
+        "date": "2026-01-10"
     }
 ];
 
