@@ -261,20 +261,23 @@ function handleSearch() {
 
 function renderIdle() {
     resultsContainer.innerHTML = `
-        <div class="text-center py-6 space-y-8 slide-up">
-            <div class="bottle-container status-idle mx-auto" style="width: 140px; height: 160px;">
-                <svg class="bottle-svg" viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
-                    <g fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M80 15 Q68 15 68 35 L92 35 Q92 15 80 15Z" fill="#FFE4E6" />
-                        <path d="M48 35 L112 35 Q120 35 120 45 L120 65 Q120 75 112 75 L48 75 Q40 75 40 65 L40 45 Q40 35 48 35Z" fill="#3B82F6" />
-                        <path d="M45 75 L115 75 Q130 75 130 110 L130 170 Q130 205 80 205 Q30 205 30 170 L30 110 Q30 75 45 75 Z" fill="white" />
-                    </g>
-                    <g stroke="#94A3B8" stroke-width="4" fill="none" opacity="0.6" stroke-linecap="round">
-                        <path d="M60 135 Q65 130 70 135" /> 
-                        <path d="M90 135 Q95 130 100 135" />
-                        <path d="M75 160 Q80 165 85 160" />
-                    </g>
-                </svg>
+        <div class="text-center py-12 space-y-10 slide-up">
+            <div class="relative flex items-center justify-center">
+                <div class="bottle-container status-idle mx-auto relative z-10" style="width: 140px; height: 180px;">
+                    <svg class="bottle-svg" viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
+                        <g fill="none" stroke="#0F172A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M80 15 Q68 15 68 35 L92 35 Q92 15 80 15Z" fill="#EF4444" />
+                            <path d="M48 35 L112 35 Q120 35 120 45 L120 65 Q120 75 112 75 L48 75 Q40 75 40 65 L40 45 Q40 35 48 35Z" fill="#EF4444" />
+                            <path d="M45 75 L115 75 Q130 75 130 110 L130 170 Q130 205 80 205 Q30 205 30 170 L30 110 Q30 75 45 75 Z" fill="white" />
+                        </g>
+                        <g class="bottle-face" opacity="0.3">
+                            <g fill="#0F172A">
+                                <circle cx="65" cy="125" r="7" /> 
+                                <circle cx="95" cy="125" r="7" />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
             </div>
             <p class="text-slate-400 font-bold px-12 text-sm leading-relaxed max-w-sm mx-auto">${I18N[currentLang].idle}</p>
         </div>
@@ -285,10 +288,8 @@ function renderResult(type, code, itemData = null) {
     const t = I18N[currentLang];
     let config = {
         bg: "bg-white",
-        border: "border-slate-100",
-        text: "text-slate-900",
         bottleStatus: "status-safe",
-        themeColor: "#EF4444", // Authentic Red Cap as per initial design
+        themeColor: "#EF4444",
         title: t.status_none,
         desc: t.desc_none,
         sourceBtn: "",
@@ -298,20 +299,16 @@ function renderResult(type, code, itemData = null) {
     if (type === 'critical' || type === 'caution') {
         const isCritical = type === 'critical';
         const accentColor = isCritical ? "text-red-700" : "text-amber-800";
-        const themeHex = isCritical ? "#B91C1C" : "#D97706";
         const borderColor = isCritical ? "border-red-600" : "border-amber-500";
-        const bgColor = isCritical ? "bg-red-50" : "bg-amber-50";
 
         config = {
-            bg: bgColor,
-            border: borderColor,
-            text: accentColor,
-            themeColor: themeHex,
+            bg: isCritical ? "bg-red-50" : "bg-amber-50",
             bottleStatus: isCritical ? "status-danger" : "status-warning",
+            themeColor: isCritical ? "#B91C1C" : "#F59E0B",
             title: isCritical ? t.status_critical : t.status_caution,
             desc: isCritical ? t.desc_critical : t.desc_caution,
             seriesLabel: type === 'caution' ? `
-                <div class="mt-4 p-4 bg-amber-100 border-l-4 border-amber-600 rounded-lg text-xs text-amber-950 leading-relaxed font-semibold">
+                <div class="mt-4 p-4 bg-amber-100 border-l-4 border-amber-600 rounded-lg text-xs text-amber-950 font-bold">
                     ${t.series_notice.replace('[Prefix]', itemData.code)}
                 </div>` : "",
             sourceBtn: `
@@ -323,18 +320,18 @@ function renderResult(type, code, itemData = null) {
     }
 
     const detailGrid = itemData ? `
-        <div class="grid grid-cols-2 gap-4 py-4 border-t border-slate-100">
+        <div class="grid grid-cols-2 gap-4 py-8 border-t border-slate-100">
             <div>
                 <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_brand}</p>
-                <p class="text-sm font-black text-slate-800">${itemData.brand || 'Nestlé'}</p>
+                <p class="text-sm font-black text-slate-900">${itemData.brand}</p>
             </div>
             <div>
                 <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_spec}</p>
-                <p class="text-sm font-black text-slate-800">${itemData.specification || '800g'}</p>
+                <p class="text-sm font-black text-slate-900">${itemData.specification}</p>
             </div>
             <div>
                 <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_country}</p>
-                <p class="text-sm font-black text-slate-800">${itemData.country}</p>
+                <p class="text-sm font-black text-slate-900">${itemData.country}</p>
             </div>
             <div>
                 <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_source}</p>
@@ -348,58 +345,65 @@ function renderResult(type, code, itemData = null) {
     ` : '';
 
     resultsContainer.innerHTML = `
-        <div class="glass-card rounded-[2.5rem] overflow-hidden border border-slate-200 shadow-2xl slide-up">
-            <div class="py-12 px-6 space-y-8">
+        <div class="glass-card rounded-[2.8rem] overflow-hidden border border-slate-200 shadow-2xl slide-up">
+            <div class="py-14 px-8 space-y-10">
                 <!-- Authentic Initial Bottle Effect -->
-                <div class="w-32 h-40 mx-auto relative flex items-center justify-center">
-                    <div class="bottle-container ${config.bottleStatus} w-full h-full relative z-10 flex items-center justify-center">
+                <div class="relative flex items-center justify-center h-48">
+                    <div class="bottle-halo absolute"></div>
+                    <div class="bottle-container ${config.bottleStatus} relative z-10" style="width: 130px; height: 170px;">
                         <svg class="bottle-svg" viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
                             <defs>
                                 <clipPath id="bodyClip">
                                     <path d="M45 75 L115 75 Q130 75 130 110 L130 170 Q130 205 80 205 Q30 205 30 170 L30 110 Q30 75 45 75 Z" />
                                 </clipPath>
                             </defs>
-                            <g fill="none" stroke="#0F172A" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M80 15 Q68 15 68 35 L92 35 Q92 15 80 15Z" fill="#FFE4E6" />
+                            <g fill="none" stroke="#0F172A" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M80 15 Q68 15 68 35 L92 35 Q92 15 80 15Z" fill="${config.themeColor}" />
                                 <path d="M48 35 L112 35 Q120 35 120 45 L120 65 Q120 75 112 75 L48 75 Q40 75 40 65 L40 45 Q40 35 48 35Z" fill="${config.themeColor}" />
                                 <path d="M45 75 L115 75 Q130 75 130 110 L130 170 Q130 205 80 205 Q30 205 30 170 L30 110 Q30 75 45 75 Z" fill="white" />
                             </g>
                             <g clip-path="url(#bodyClip)">
-                                <path class="milk-fill" d="M20 210 L140 210 L140 100 Q80 90 20 100 Z" />
+                                <path class="milk-fill" d="M20 210 L140 210 L140 110 Q80 100 20 110 Z" />
                             </g>
                             <g class="bottle-face">
-                                <g fill="#0F172A">
-                                    <path d="M55 130 Q65 120 75 130" fill="none" stroke="#0F172A" stroke-width="5" stroke-linecap="round" />
-                                    <path d="M85 130 Q95 120 105 130" fill="none" stroke="#0F172A" stroke-width="5" stroke-linecap="round" />
-                                </g>
-                                <circle cx="80" cy="155" r="4" fill="#FFBCC9" />
+                                ${type === 'none' ? `
+                                    <g fill="#0F172A">
+                                        <circle cx="65" cy="130" r="7" /> 
+                                        <circle cx="95" cy="130" r="7" />
+                                    </g>
+                                    <path d="M72 152 Q80 160 88 152" fill="none" stroke="#0F172A" stroke-width="5" stroke-linecap="round" />
+                                ` : `
+                                    <g fill="#0F172A" stroke="#0F172A" stroke-width="6" stroke-linecap="round">
+                                        <path d="M55 130 Q65 118 75 130" fill="none" />
+                                        <path d="M85 130 Q95 118 105 130" fill="none" />
+                                    </g>
+                                    <circle cx="80" cy="160" r="5" fill="#FFBCC9" />
+                                `}
                             </g>
                         </svg>
                     </div>
-                    <!-- Soft Halo Glow (Initial Effect) -->
-                    <div class="absolute w-48 h-48 bg-pink-100/40 rounded-full blur-3xl -z-0"></div>
                 </div>
 
-                <!-- Precise Typo Layout as per Screenshot -->
+                <!-- Precise Typography -->
                 <div class="text-center">
-                    <p class="text-[12px] font-black text-slate-400 uppercase tracking-[0.3em] mb-2" style="font-family: 'Outfit', sans-serif;">${t.label_batch}</p>
-                    <h3 class="text-4xl md:text-5xl font-black text-slate-900 tracking-tighter leading-none">${code}</h3>
+                    <p class="text-[13px] font-black text-slate-400 uppercase tracking-[0.4em] mb-4">${t.label_batch}</p>
+                    <h3 class="text-5xl md:text-6xl font-black text-slate-900 tracking-tighter leading-none">${code}</h3>
                 </div>
                 
                 ${type !== 'none' ? `
-                    <div class="pt-8 border-t border-slate-100 text-center">
-                        <p class="text-xl font-black ${config.text} uppercase tracking-tight">${config.title}</p>
-                        <p class="text-[14px] text-slate-500 font-bold leading-relaxed mt-2">${config.desc}</p>
+                    <div class="pt-10 border-t border-slate-100 text-center">
+                        <p class="text-xl font-black ${type === 'critical' ? 'text-red-700' : 'text-amber-800'} uppercase tracking-tight">${config.title}</p>
+                        <p class="text-[15px] text-slate-500 font-bold leading-relaxed mt-2">${config.desc}</p>
                         ${config.seriesLabel}
                     </div>
                     ${detailGrid}
-                    <div class="space-y-4 pt-4">
+                    <div class="space-y-4 pt-6">
                         ${config.sourceBtn}
                         ${getHotlineButtons(itemData)}
                     </div>
                 ` : `
                     <div class="pt-8 text-center opacity-40">
-                        <p class="text-sm font-bold text-slate-400 italic">${t.desc_none}</p>
+                        <p class="text-[15px] font-bold text-slate-400 italic">${t.desc_none}</p>
                     </div>
                 `}
             </div>

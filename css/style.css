@@ -72,10 +72,10 @@ h4 {
     opacity: 0.3;
 }
 
-/* ========== STATUS: SAFE (Vibrant Pinkish-White) ========== */
+/* ========== STATUS: SAFE (Initial Vibrant Pink) ========== */
 .status-safe .milk-fill {
     fill: #FFD1DC;
-    /* Soft Pink Milk */
+    /* Initial Vibrant Pink */
     opacity: 1;
 }
 
@@ -83,17 +83,31 @@ h4 {
     animation: breathe 3s ease-in-out infinite;
 }
 
-.status-safe::after {
-    content: '';
+/* Initial Halo Effect */
+.bottle-halo {
     position: absolute;
-    width: 120px;
-    height: 120px;
-    background: radial-gradient(circle, rgba(244, 114, 182, 0.2) 0%, transparent 70%);
+    width: 250px;
+    height: 250px;
+    background: radial-gradient(circle, rgba(239, 68, 68, 0.15) 0%, transparent 70%);
+    border-radius: 100%;
     z-index: -1;
-    animation: pulse-glow 2s infinite alternate;
+    filter: blur(20px);
+    animation: glow-pulse 2s infinite alternate;
 }
 
-/* ========== STATUS: WARNING (Warm Orange) ========== */
+@keyframes glow-pulse {
+    from {
+        transform: scale(0.9);
+        opacity: 0.4;
+    }
+
+    to {
+        transform: scale(1.1);
+        opacity: 0.7;
+    }
+}
+
+/* ========== STATUS: WARNING ========== */
 .status-warning .milk-fill {
     fill: #FFB74D;
     opacity: 1;
@@ -103,27 +117,14 @@ h4 {
     animation: float 3s ease-in-out infinite;
 }
 
-/* ========== STATUS: DANGER (Cautionary Deep Red) ========== */
+/* ========== STATUS: DANGER ========== */
 .status-danger .milk-fill {
-    fill: #FECACA;
-    /* Light Red/Pinkish Milk */
+    fill: #EF9A9A;
     opacity: 1;
 }
 
 .status-danger {
-    animation: danger-pulse 0.8s infinite alternate;
-}
-
-@keyframes pulse-glow {
-    from {
-        transform: scale(0.8);
-        opacity: 0.5;
-    }
-
-    to {
-        transform: scale(1.2);
-        opacity: 0.8;
-    }
+    animation: danger-pulse 1s infinite alternate;
 }
 
 /* Animations */
@@ -135,7 +136,7 @@ h4 {
     }
 
     50% {
-        transform: scale(1.02) translateY(-4px);
+        transform: scale(1.05) translateY(-5px);
     }
 }
 
@@ -158,12 +159,12 @@ h4 {
 @keyframes danger-pulse {
     from {
         transform: scale(1);
-        filter: brightness(1) drop-shadow(0 0 15px rgba(185, 28, 28, 0.3));
+        filter: brightness(1) drop-shadow(0 0 15px rgba(239, 68, 68, 0.3));
     }
 
     to {
-        transform: scale(1.05);
-        filter: brightness(1.2) drop-shadow(0 0 30px rgba(185, 28, 28, 0.6));
+        transform: scale(1.08);
+        filter: brightness(1.2) drop-shadow(0 0 30px rgba(239, 68, 68, 0.5));
     }
 }
 
