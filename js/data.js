@@ -3,7 +3,7 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-23 20:27 (PST)",
+    "lastUpdated": "2026-01-23 20:32 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
     "totalCount": 375,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
@@ -83,7 +83,7 @@ const RECALL_DATA = [
         "country": "Croatia",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "DIRH Croatia",
-        "docUrl": "https://www.hapih.hr/raspisana-obavijest-o-povlacenju-proizvoda-aptamil-ar-1/",
+        "docUrl": "https://www.hapih.hr/opoziv-proizvoda-aptamil-ar-1/",
         "isSeries": false
     },
     {
