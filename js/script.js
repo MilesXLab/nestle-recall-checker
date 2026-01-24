@@ -4,81 +4,81 @@ const I18N = {
         proj_name: "Aegis Global Guard",
         title: "Recall Checker",
         hazard: "⚠️ CEREULIDE (Bacillus cereus toxin) IS HEAT-RESISTANT. BOILING WATER CANNOT DEACTIVATE IT.",
-        placeholder: "Enter 10-digit batch code...",
-        idle: "Input the 10-digit batch code from the bottom of your tin for strict verification.",
-        searching: "Comparing against official regulatory records...",
+        placeholder: "Enter batch code...",
+        idle: "Input the batch code from your product for strict safety verification.",
+        searching: "Comparing against global regulatory records...",
 
         status_critical: "STRICT MATCH: OFFICIAL RECALL",
-        desc_critical: "This specific batch code is explicitly listed in the official recall announcement.",
+        desc_critical: "This specific batch is explicitly listed in official recall announcements.",
 
         status_caution: "OFFICIAL SERIES RECALL",
-        desc_caution: "Your code starts with a production series prefix that has been recalled in its entirety by official sources.",
+        desc_caution: "This prefix belongs to a production series that has been fully recalled.",
 
-        status_none: "NO MATCH IN OFFICIAL LIST",
-        desc_none: "This specific code is not currently found in our database of officially recalled batches.",
+        status_none: "NO MATCH FOUND",
+        desc_none: "This batch is not currently in our database of officially recalled products.",
 
-        series_notice: "Official Regulatory Notice: The authority has recalled the ENTIRE production series starting with '[Prefix]'. Individual codes within this series are affected.",
+        series_notice: "Regulatory Alert: The authority has recalled the ENTIRE production series '[Prefix]'.",
 
-        final_authority: "THE OFFICIAL HOTLINE IS THE ONLY FINAL AUTHORITY.",
+        final_authority: "THE OFFICIAL BRAND HOTLINE IS THE ONLY FINAL AUTHORITY.",
         btn_cn: "Call China: 400 616 5015",
         btn_hk: "Call HK: +852 2179 8888",
         btn_uk: "Call UK: 0800 081 8180",
         btn_ph: "Call PH: +63 2 8898 0061",
-        view_source: "View Official Source",
-        data_ver: "Database Sync: " + RECALL_METADATA.version + " | " + RECALL_METADATA.lastUpdated,
+        view_source: "View Official Alert",
+        data_ver: "Global Database v" + RECALL_METADATA.version + " | Last Sync: " + RECALL_METADATA.lastUpdated,
 
-        disclaimer_title: "Strict Compliance Notice",
-        disclaimer_p1: "This tool strictly indexes batch codes announced by government regulatory bodies (FSA, FDA, SAMR, CFS).",
-        disclaimer_p2: "We do not use fuzzy or probabilistic matching to avoid misidentification and legal risks for merchants.",
-        disclaimer_p3: "Always cross-reference with the official hotline or local health authorities for a final determination.",
-        disclaimer_btn: "I AGREE TO THE STRICT TERMS",
+        disclaimer_title: "Global Safety Compliance",
+        disclaimer_p1: "This tool strictly indexes batch codes announced by health authorities (FSA, FDA, SFA, RappelConso).",
+        disclaimer_p2: "It covers major brands including Nestlé, Aptamil (Danone), and Picot (Lactalis) affected by the January 2026 alert.",
+        disclaimer_p3: "If you have any doubt, contact the brand's official consumer hotline immediately.",
+        disclaimer_btn: "I UNDERSTAND & AGREE",
         label_batch: "Batch Code",
-        label_spec: "Specification",
+        label_spec: "Product Info",
         label_brand: "Brand",
-        label_country: "Country/Region",
-        label_reason: "Recall Reason",
-        label_source: "Official Source",
-        label_authoritative_sources: "Authoritative Data Sources"
+        label_country: "Region",
+        label_reason: "Reason",
+        label_source: "Source",
+        label_authoritative_sources: "Authoritative Data Index"
     },
     zh: {
         proj_name: "Aegis 全球盾",
-        title: "全球召回核对工具",
-        hazard: "⚠️ Cereulide（蜡样芽孢杆菌毒素）具有强耐热性，沸水冲泡无法灭活（高温无效）。",
-        placeholder: "输入罐底 10 位编码...",
-        idle: "请输入罐底喷码第一行的 10 位编码进行严格核对。",
-        searching: "正在比对官方监管部门录入的批次...",
+        title: "婴儿奶粉召回核对",
+        hazard: "⚠️ Cereulide（蜡样芽孢杆菌毒素）具有强耐热性，沸水冲泡无效（高温无法杀灭）。",
+        placeholder: "输入批次编号...",
+        idle: "请输入产品罐底或包装上的批次编号进行权威核对。",
+        searching: "正在同步全球监管部门名单...",
 
-        status_critical: "!!! 官方精确匹配：确认召回 !!!",
-        desc_critical: "该 10 位批次号明确出现在官方公布的召回名单中。",
+        status_critical: "!!! 命中官方召回名单 !!!",
+        desc_critical: "该批次编号已明确列入官方公布的全球召回名单中。",
 
-        status_caution: "!!! 官方整线召回：系列匹配 !!!",
-        desc_caution: "您的批次号开头属于官方公告明确指定的整线召回系列码。",
+        status_caution: "!!! 官方整线召回警告 !!!",
+        desc_caution: "该批次属于监管部门下令整线召回的生产系列。",
 
-        status_none: "官方名单未命中",
-        desc_none: "在当前录入的官方召回名单中未找到该批次。注：非保修证明，请以官方客服为准。",
+        status_none: "未发现匹配召回记录",
+        desc_none: "当前官方数据库中未发现该批次的召回记录。请以官方热线为准。",
 
-        series_notice: "官方监管说明：监管部门对以 “[Prefix]” 开头的整条生产线/生产系列下达了召回令，因此该系列下所有产品均在受影响范围。",
+        series_notice: "官方监管说明：监管部门已对以 “[Prefix]” 开头的整条系列下达了召回令。",
 
-        final_authority: "官方热线反馈是唯一的最终判定标准。",
-        btn_cn: "拨打大陆客服: 400 616 5015",
-        btn_hk: "拨打香港客服: +852 2179 8888",
-        btn_uk: "拨打英国客服: 0800 081 8180",
-        btn_ph: "拨打菲律宾客服: +63 2 8898 0061",
+        final_authority: "官方品牌热线是召回判定的唯一最终依据。",
+        btn_cn: "拨打中国热线: 400 616 5015",
+        btn_hk: "拨打香港热线: +852 2179 8888",
+        btn_uk: "拨打英国热线: 0800 081 8180",
+        btn_ph: "拨打菲律宾热线: +63 2 8898 0061",
         view_source: "查看官方原始公告",
-        data_ver: "最近同步: " + RECALL_METADATA.version + " | " + RECALL_METADATA.lastUpdated,
+        data_ver: "全球数据库 v" + RECALL_METADATA.version + " | 同步时间: " + RECALL_METADATA.lastUpdated,
 
-        disclaimer_title: "严格合规性协议",
-        disclaimer_p1: "本工具严格索引政府监管部门（如国家食安中心、FSA、FDA等）发布的批次名单。",
-        disclaimer_p2: "系统不使用模糊匹配或过度推断逻辑，以避免误导消费者或导致商家名誉损失。",
-        disclaimer_p3: "查询结果仅供参考。继续使用即代表您同意：最终结论以品牌官方或当地食安部门回复为准。",
+        disclaimer_title: "全球安全合规协议",
+        disclaimer_p1: "本工具同步全球卫生监管机构（如 FSA, SFA, RappelConso）发布的权威数据。",
+        disclaimer_p2: "涵盖受 2026年1月 Cereulide 毒素事件影响的雀巢、爱他美 (Aptamil)、Picot 等主要品牌。",
+        disclaimer_p3: "如有任何疑问，请立即联系品牌官方客服热线。",
         disclaimer_btn: "我已知晓并同意协议",
-        label_batch: "批次编号",
-        label_spec: "规格/重量",
-        label_brand: "产品品牌",
-        label_country: "所属国家/地区",
+        label_batch: "批号",
+        label_spec: "产品详情",
+        label_brand: "所属品牌",
+        label_country: "召回区域",
         label_reason: "召回原因",
         label_source: "权威判定源",
-        label_authoritative_sources: "权威数据来源 (同步官方)"
+        label_authoritative_sources: "权威数据索引 (同步官方)"
     }
 };
 
@@ -163,7 +163,7 @@ const acceptBtn = document.getElementById('acceptBtn');
 // Normalization Engine
 function normalizeBatch(code) {
     if (!code) return { sanitized: "", fuzzy: "" };
-    let sanitized = code.toString().trim().toUpperCase().replace(/[^A-Z0-9]/g, '');
+    let sanitized = code.toString().trim().toUpperCase().replace(/[^A-Z0-9-]/g, '');
     const ocrMap = { 'O': '0', 'I': '1', 'L': '1', 'S': '5', 'B': '8', 'Z': '2' };
     let fuzzy = sanitized.split('').map(char => ocrMap[char] || char).join('');
     return { sanitized, fuzzy };
@@ -172,13 +172,12 @@ function normalizeBatch(code) {
 const REGION_FLAGS = {
     "CN_DOMESTIC": "🇨🇳",
     "CN_CROSSBORDER": "🌐",
-    "UK_FSA": "🇬🇧",
+    "UK_FSA_SMA": "🇬🇧",
+    "UK_FSA_APTAMIL": "🇬🇧",
+    "SG_SFA_DUMEX": "🇸🇬",
+    "FR_PICOT": "🇫🇷",
     "PH_FDA": "🇵🇭",
-    "HK_CFS": "🇭🇰",
-    "HK_NESTLE": "🇭🇰",
-    "DE_NESTLE": "🇩🇪",
-    "FR_NESTLE": "🇫🇷",
-    "BE_LU_NESTLE": "🇧🇪"
+    "HK_CFS": "🇭🇰"
 };
 
 function updateLang() {
@@ -197,19 +196,19 @@ function updateLang() {
     acceptBtn.textContent = I18N[currentLang].disclaimer_btn;
 
     document.getElementById('authoritativeFooter').innerHTML = `
-        <p class="text-[10px] text-slate-400 mb-2">${I18N[currentLang].data_ver}</p>
-        <p class="text-xs text-secondary font-bold">${I18N[currentLang].final_authority}</p>
+        <p class="text-[10px] text-slate-400 mb-2 font-bold">${I18N[currentLang].data_ver}</p>
+        <p class="text-[11px] text-slate-600 font-black">${I18N[currentLang].final_authority}</p>
     `;
 
     // Global Sources section
     const sourcesHtml = OFFICIAL_SOURCES.map(s => `
-        <a href="${s.url}" target="_blank" class="block p-5 glass-card rounded-[1.5rem] text-left hover:bg-white transition-all border border-slate-100 shadow-sm relative overflow-hidden group h-full">
+        <a href="${s.url}" target="_blank" class="block p-6 glass-card rounded-[2rem] text-left hover:bg-white transition-all border border-slate-100 shadow-sm relative overflow-hidden group h-full">
             <div class="flex justify-between items-start relative z-10">
-                <div class="flex items-start space-x-3">
-                    <span class="text-2xl">${REGION_FLAGS[s.id] || "🌐"}</span>
+                <div class="flex items-start space-x-4">
+                    <span class="text-3xl">${REGION_FLAGS[s.id] || "🌐"}</span>
                     <div>
-                        <p class="text-[9px] font-black text-slate-400 uppercase tracking-widest leading-none mb-1.5">${s.date}</p>
-                        <p class="text-[13px] font-black text-slate-800 leading-tight">${s.name}</p>
+                        <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest leading-none mb-2">${s.date}</p>
+                        <p class="text-[14px] font-black text-slate-800 leading-tight">${s.name}</p>
                     </div>
                 </div>
                 <span class="text-xs text-blue-500 font-bold group-hover:translate-x-1 transition-transform opacity-0 group-hover:opacity-100">↗</span>
@@ -262,29 +261,22 @@ function handleSearch() {
 
 function renderIdle() {
     resultsContainer.innerHTML = `
-        <div class="text-center py-6 space-y-8 slide-up">
-            <div class="bottle-container status-idle mx-auto" style="width: 140px; height: 160px;">
+        <div class="text-center py-10 space-y-10 slide-up">
+            <div class="bottle-container status-idle mx-auto" style="width: 160px; height: 180px;">
                 <svg class="bottle-svg" viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
-                    <!-- Base Character Body (Premium Vector Style) -->
                     <g fill="none" stroke="#1E293B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
-                        <!-- Nipple (Soft Peach) -->
                         <path d="M80 15 Q68 15 68 35 L92 35 Q92 15 80 15Z" fill="#FFE4E6" />
-                        <!-- Blue Ribbed Cap (Little Star Style) -->
                         <path d="M48 35 L112 35 Q120 35 120 45 L120 65 Q120 75 112 75 L48 75 Q40 75 40 65 L40 45 Q40 35 48 35Z" fill="#3B82F6" />
-                        <!-- Body (Pigeon Style) -->
                         <path d="M45 75 L115 75 Q130 75 130 110 L130 170 Q130 205 80 205 Q30 205 30 170 L30 110 Q30 75 45 75 Z" fill="white" />
                     </g>
-                    
-                    <!-- Sleepy/Idle Expression -->
-                    <g stroke="#94A3B8" stroke-width="4" fill="none" opacity="0.6" stroke-linecap="round">
+                    <g stroke="#94A3B8" stroke-width="5" fill="none" opacity="0.6" stroke-linecap="round">
                         <path d="M60 135 Q65 130 70 135" /> 
                         <path d="M90 135 Q95 130 100 135" />
                         <path d="M75 160 Q80 165 85 160" />
                     </g>
-                    
                 </svg>
             </div>
-            <p class="text-slate-400 font-bold px-12 text-sm leading-relaxed max-w-sm mx-auto">${I18N[currentLang].idle}</p>
+            <p class="text-slate-400 font-black px-12 text-xs uppercase tracking-[0.2em] leading-relaxed max-w-sm mx-auto">${I18N[currentLang].idle}</p>
         </div>
     `;
 }
@@ -319,11 +311,11 @@ function renderResult(type, code, itemData = null) {
             title: isCritical ? t.status_critical : t.status_caution,
             desc: isCritical ? t.desc_critical : t.desc_caution,
             seriesLabel: type === 'caution' ? `
-                <div class="mt-4 p-4 bg-amber-100 border-l-4 border-amber-600 rounded-lg text-xs text-amber-950 leading-relaxed font-semibold">
+                <div class="mt-4 p-5 bg-amber-100 border-l-4 border-amber-600 rounded-xl text-xs text-amber-950 leading-relaxed font-bold">
                     ${t.series_notice.replace('[Prefix]', itemData.code)}
                 </div>` : "",
             sourceBtn: `
-                <a href="${itemData.docUrl}" target="_blank" class="block w-full text-center py-4 border-2 ${borderColor} ${accentColor} rounded-2xl text-xs font-black uppercase tracking-widest mt-2 hover:opacity-80 transition-all shadow-sm">
+                <a href="${itemData.docUrl}" target="_blank" class="block w-full text-center py-5 border-2 ${borderColor} ${accentColor} rounded-2xl text-[10px] font-black uppercase tracking-widest mt-2 hover:bg-white transition-all shadow-sm">
                     🔗 ${t.view_source}
                 </a>
             `
@@ -331,26 +323,26 @@ function renderResult(type, code, itemData = null) {
     }
 
     const detailGrid = itemData ? `
-        <div class="grid grid-cols-2 gap-4 py-4 border-t border-slate-100">
+        <div class="grid grid-cols-2 gap-6 py-6 border-t border-slate-100">
             <div>
-                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_brand}</p>
-                <p class="text-sm font-black text-slate-800">${itemData.subBrand || 'Nestlé'}</p>
+                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1.5">${t.label_brand}</p>
+                <p class="text-[13px] font-black text-slate-800">${itemData.brand || 'Nestlé'}</p>
             </div>
             <div>
-                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_spec}</p>
-                <p class="text-sm font-black text-slate-800">${itemData.specification || '800g'}</p>
+                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1.5">${t.label_spec}</p>
+                <p class="text-[13px] font-black text-slate-800">${itemData.specification || '800g'}</p>
             </div>
             <div>
-                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_country}</p>
-                <p class="text-sm font-black text-slate-800">${itemData.country}</p>
+                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1.5">${t.label_country}</p>
+                <p class="text-[13px] font-black text-slate-800">${itemData.country}</p>
             </div>
             <div>
-                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_source}</p>
-                <p class="text-[11px] font-bold text-blue-600 underline truncate">${itemData.sourceDisplay}</p>
+                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1.5">${t.label_source}</p>
+                <p class="text-[11px] font-black text-blue-600 truncate">${itemData.sourceDisplay}</p>
             </div>
             <div class="col-span-2">
-                <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_reason}</p>
-                <p class="text-xs font-bold text-red-600 bg-red-50 p-2 rounded-lg mt-1 border border-red-100">${getTranslatedReason(itemData.reason, currentLang)}</p>
+                <p class="text-[10px] font-black text-slate-400 uppercase tracking-widest mb-1.5">${t.label_reason}</p>
+                <p class="text-[11px] font-bold text-red-600 bg-red-50/50 p-3 rounded-xl border border-red-100 leading-relaxed">${getTranslatedReason(itemData.reason, currentLang)}</p>
             </div>
         </div>
     ` : '';

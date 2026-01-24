@@ -4,92 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Nestlé Milk Formula Recall Search | 雀巢奶粉全球召回查询</title>
+    <title>Global Formula Safety Guard | 全球婴儿奶粉召回安全查询</title>
     <meta name="description"
-        content="Official data-aligned search tool for global Nestlé infant formula recalls. Check your batch codes for safety.">
+        content="Critical safety tool for global infant formula recalls (Nestlé, Aptamil, Lactalis). Verify your batch code against official health agency data.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=4.1.0">
+    <link rel="stylesheet" href="css/style.css?v=5.0.0">
     <style>
         .disclaimer-banner {
-            background: rgba(255, 255, 255, 0.95);
-            border-bottom: 2px solid #EF4444;
-            backdrop-filter: blur(8px);
+            background: rgba(255, 255, 255, 0.9);
+            border-bottom: 1px solid rgba(225, 29, 72, 0.1);
+            backdrop-filter: blur(20px);
         }
 
         .modal-overlay {
-            background: rgba(15, 23, 42, 0.9);
-            backdrop-filter: blur(10px);
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
         }
     </style>
 </head>
 
-<body class="text-slate-900 overflow-x-hidden">
+<body class="text-slate-900 overflow-x-hidden selection:bg-blue-100">
 
     <!-- Disclaimer Modal (Legal Mandatory) -->
     <div id="disclaimerModal" class="fixed inset-0 z-[100] flex items-center justify-center p-4 modal-overlay hidden">
-        <div class="glass-card bg-white rounded-[2rem] p-8 max-w-sm w-full shadow-2xl space-y-6 slide-up">
+        <div class="glass-card bg-white/90 rounded-[2.5rem] p-10 max-w-md w-full shadow-2xl space-y-8 slide-up">
             <div
-                class="w-16 h-16 tech-dad-gradient rounded-2xl flex items-center justify-center text-3xl mx-auto shadow-lg">
+                class="w-20 h-20 tech-dad-gradient rounded-3xl flex items-center justify-center text-4xl mx-auto shadow-2xl mb-2">
                 🛡️</div>
-            <h3 class="text-xl font-black text-center text-slate-900"></h3>
-            <div class="space-y-4 text-sm text-slate-600 leading-relaxed">
+            <div class="text-center space-y-2">
+                <h3 class="text-2xl font-black text-slate-900 tracking-tight"></h3>
+                <p class="text-xs text-slate-400 font-bold uppercase tracking-widest">Global Safety Compliance</p>
+            </div>
+            <div class="space-y-4 text-sm text-slate-600 leading-relaxed font-medium">
                 <p></p>
                 <p></p>
-                <p class="font-bold text-slate-900 border-l-4 border-red-500 pl-3"></p>
+                <div class="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-xl">
+                    <p class="font-bold text-red-900 text-xs"></p>
+                </div>
             </div>
             <button id="acceptBtn"
-                class="w-full py-4 tech-dad-gradient text-white rounded-2xl font-bold shadow-xl active:scale-95 transition-all">
+                class="w-full py-5 tech-dad-gradient text-white rounded-2xl font-black text-xs uppercase tracking-[0.2em] shadow-2xl active:scale-95 transition-all hover:shadow-blue-500/20">
             </button>
         </div>
     </div>
 
     <!-- Global Emergency Banner -->
-    <div class="disclaimer-banner sticky top-0 z-50 px-4 py-3 text-center shadow-lg">
-        <p class="text-[11px] md:text-xs font-black text-red-600 uppercase tracking-tight" data-i18n="hazard_info">
-            ⚠️ CEREULIDE TOXIN IS HEAT-RESISTANT. BOILING WATER HAS NO EFFECT.
-        </p>
+    <div class="disclaimer-banner sticky top-0 z-50 px-4 py-3 text-center shadow-sm">
+        <div class="flex items-center justify-center space-x-2">
+            <span class="animate-pulse">⚠️</span>
+            <p class="text-[10px] md:text-xs font-black text-rose-600 uppercase tracking-widest"
+                data-i18n="hazard_info">
+                CEREULIDE TOXIN IS HEAT-RESISTANT. BOILING WATER HAS NO EFFECT.
+            </p>
+        </div>
     </div>
 
     <!-- Header -->
-    <header class="w-full px-4 pt-10 pb-6">
-        <div class="max-w-xl mx-auto flex justify-between items-center mb-6">
-            <div class="flex items-center space-x-2">
+    <header class="w-full px-4 pt-12 pb-8">
+        <div class="max-w-2xl mx-auto flex justify-between items-end mb-8">
+            <div class="flex items-center space-x-4">
                 <div
-                    class="w-10 h-10 tech-dad-gradient rounded-xl flex items-center justify-center shadow-lg bottle-icon">
-                    <span class="text-white text-xl">🍼</span>
+                    class="w-14 h-14 tech-dad-gradient rounded-3xl flex items-center justify-center shadow-2xl transform -rotate-3 hover:rotate-0 transition-transform cursor-pointer">
+                    <span class="text-white text-3xl">🍼</span>
                 </div>
                 <div>
-                    <h2 class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 leading-none"
-                        data-i18n="project_name">Aegis Guard</h2>
-                    <h1 class="text-xl font-black tracking-tight mt-1" data-i18n="title">Recall Checker</h1>
+                    <h2 class="text-[11px] font-black uppercase tracking-[0.4em] text-slate-400 leading-none mb-1"
+                        data-i18n="project_name">Global Safety Guard</h2>
+                    <h1 class="text-3xl font-black tracking-tighter text-slate-900" data-i18n="title">Recall Checker
+                    </h1>
                 </div>
             </div>
 
             <button id="langToggle"
-                class="px-4 py-2 rounded-xl glass-card border border-slate-200 text-xs font-bold hover:bg-white transition-all shadow-sm active:scale-95">
+                class="px-5 py-2.5 rounded-2xl glass-card border border-slate-200 text-[10px] font-black uppercase tracking-widest text-slate-600 hover:text-blue-600 hover:border-blue-200 transition-all shadow-sm active:scale-95">
                 EN / 中文
             </button>
         </div>
 
-        <main class="max-w-3xl mx-auto px-4 pb-12">
+        <main class="max-w-3xl mx-auto px-4 pb-20">
             <!-- Search & Results Focused Area -->
-            <div class="space-y-10">
+            <div class="space-y-12">
                 <!-- Search Box (Enhanced) -->
                 <div class="relative group">
                     <div
-                        class="absolute inset-y-0 left-0 pl-7 flex items-center pointer-events-none group-focus-within:text-blue-500 transition-colors">
-                        <span class="text-2xl opacity-40">🔍</span>
+                        class="absolute inset-y-0 left-0 pl-8 flex items-center pointer-events-none group-focus-within:text-blue-500 transition-colors">
+                        <span class="text-3xl opacity-30">🔍</span>
                     </div>
                     <input type="text" id="searchInput"
-                        class="w-full bg-white/80 backdrop-blur-md border border-slate-200 py-7 pl-16 pr-16 rounded-[2.5rem] text-2xl font-black placeholder:text-slate-300 placeholder:font-normal focus:outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500/30 transition-all shadow-xl"
+                        class="w-full bg-white/70 backdrop-blur-xl border-2 border-white py-8 pl-18 pr-20 rounded-[3rem] text-3xl font-black text-slate-800 placeholder:text-slate-300 placeholder:font-bold placeholder:tracking-tight focus:outline-none transition-all shadow-2xl"
                         placeholder="Loading..." maxlength="15">
-                    <div class="absolute inset-y-0 right-0 pr-5 flex items-center">
-                        <button id="clearBtn" class="hidden p-3 hover:bg-slate-100 rounded-full transition-all">
-                            <svg class="w-6 h-6 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
+                    <div class="absolute inset-y-0 right-0 pr-6 flex items-center">
+                        <button id="clearBtn"
+                            class="hidden p-4 hover:bg-slate-100 rounded-full transition-all active:scale-90">
+                            <svg class="w-8 h-8 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3"
                                     d="M6 18L18 6M6 6l12 12" />
                             </svg>
                         </button>
@@ -97,38 +108,39 @@
                 </div>
 
                 <!-- Results Centerpiece -->
-                <div id="resultsContainer" class="min-h-[300px]">
+                <div id="resultsContainer" class="min-h-[400px]">
                     <!-- States injected via script.js -->
                 </div>
 
                 <!-- Authoritative Reference Section (Bottom Position) -->
-                <div class="space-y-6 pt-12">
-                    <div class="glass-card rounded-[2.5rem] p-10 border border-slate-100 shadow-2xl bg-white/50">
-                        <div class="flex items-center space-x-4 mb-10">
+                <div class="space-y-8 pt-16">
+                    <div class="glass-card rounded-[3rem] p-12 border border-white/50 shadow-2xl">
+                        <div class="flex items-center space-x-5 mb-12">
                             <div
-                                class="w-12 h-12 tech-dad-gradient rounded-2xl flex items-center justify-center text-white text-xl shadow-lg">
+                                class="w-14 h-14 tech-dad-gradient rounded-[1.5rem] flex items-center justify-center text-white text-2xl shadow-xl">
                                 ✓</div>
                             <div>
-                                <h4 class="text-[10px] font-black uppercase tracking-[0.3em] text-slate-800 leading-none"
+                                <h4 class="text-xs font-black uppercase tracking-[0.4em] text-slate-800 leading-none"
                                     data-i18n="sources_title">Authoritative Data Sources</h4>
-                                <p class="text-[9px] text-slate-400 font-bold uppercase tracking-widest mt-2">Verified
-                                    Government Announcements</p>
+                                <p class="text-[10px] text-slate-400 font-bold uppercase tracking-[0.2em] mt-3">Verified
+                                    by Government Health Agencies</p>
                             </div>
                         </div>
 
-                        <div id="sourcesList" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <div id="sourcesList" class="grid grid-cols-1 md:grid-cols-2 gap-5">
                             <!-- Links injected via script.js -->
                         </div>
 
-                        <div class="mt-12 pt-8 border-t border-slate-200/50">
-                            <div class="flex items-start space-x-4 opacity-50">
-                                <span class="text-lg">ℹ️</span>
-                                <p class="text-[11px] leading-relaxed text-slate-500 font-medium">
-                                    The global database is synchronized daily with official records from government
-                                    health agencies.
-                                    Historical snapshots are archived for transparency and data integrity.
-                                    This tool is for informational reference; for definitive medical guidance, consult
-                                    the official hotline listed above.
+                        <div class="mt-16 pt-10 border-t border-slate-200/40">
+                            <div class="flex items-start space-x-5 px-4">
+                                <div class="text-2xl mt-1">ℹ️</div>
+                                <p
+                                    class="text-[11px] leading-relaxed text-slate-400 font-semibold uppercase tracking-wider">
+                                    The global database is synchronized hourly with official records from government
+                                    health agencies worldwide including FSA (UK), SFA (Singapore), and RappelConso
+                                    (France).
+                                    This tool is for rapid verification; for definitive medical or regulatory guidance,
+                                    contact official hotlines.
                                 </p>
                             </div>
                         </div>
@@ -138,11 +150,14 @@
 
             <!-- Footer -->
             <footer
-                class="pt-20 pb-12 text-center text-slate-300 text-[10px] space-y-3 font-medium uppercase tracking-widest">
-                <p>© 2026 TechDadShanghai • Open Source Under CC BY-NC 4.0 License</p>
-                <p class="text-[9px] text-slate-400">Global Nestlé Infant Formula Recall Verification Tool</p>
-                <p class="text-[8px] text-slate-500">🛡️ Community Safety Project • Not for Commercial Use Without Permission</p>
-                <div id="authoritativeFooter" class="opacity-80"></div>
+                class="pt-32 pb-16 text-center text-slate-400 text-[10px] space-y-4 font-black uppercase tracking-[0.3em]">
+                <p class="opacity-40">© 2026 Community Safety Project • Aegis Global Guard</p>
+                <div class="flex justify-center space-x-6 opacity-30">
+                    <span>Data Privacy Verified</span>
+                    <span>100% Non-Profit</span>
+                    <span>Open Access</span>
+                </div>
+                <div id="authoritativeFooter" class="pt-6"></div>
             </footer>
         </main>
     </header>
