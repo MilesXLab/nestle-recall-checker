@@ -3,7 +3,7 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-23 21:09 (PST)",
+    "lastUpdated": "2026-01-24 04:27 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
     "totalCount": 375,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
@@ -26,7 +26,7 @@ const OFFICIAL_SOURCES = [
     {
         "id": "SG_SFA_DUMEX",
         "name": "SFA Singapore - Food Alerts & Recalls Index",
-        "url": "https://www.sfa.gov.sg/food-information/food-alerts-and-advisories",
+        "url": "https://www.sfa.gov.sg/news-publications/circulars-and-notices/food-alerts-and-recalls",
         "date": "2026-01-17"
     },
     {
@@ -71,7 +71,7 @@ const RECALL_DATA = [
         "country": "Singapore",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Singapore Food Agency (SFA)",
-        "docUrl": "https://www.sfa.gov.sg/food-information/food-alerts-and-advisories",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/circulars-and-notices/food-alerts-and-recalls",
         "isSeries": false
     },
     {
@@ -2855,7 +2855,7 @@ const RECALL_DATA = [
         "country": "Singapore",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Singapore Food Agency (SFA)",
-        "docUrl": "https://www.sfa.gov.sg/food-information/food-alerts-and-advisories",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/circulars-and-notices/food-alerts-and-recalls",
         "isSeries": false
     },
     {
