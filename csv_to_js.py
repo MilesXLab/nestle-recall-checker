@@ -43,8 +43,8 @@ batches.sort(key=lambda x: x['code'])
 OFFICIAL_SOURCES = [
     { "id": "UK_FSA_SMA", "name": "UK Food Standards Agency - SMA (FSA-PRIN-02-2026)", "url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026", "date": "2026-01-23" },
     { "id": "UK_FSA_APTAMIL", "name": "UK Food Standards Agency - Aptamil (FSA-PRIN-03-2026)", "url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-03-2026", "date": "2026-01-23" },
-    { "id": "SG_SFA_DUMEX", "name": "Singapore Food Agency - Dumex Recall", "url": "https://www.sfa.gov.sg/news/recall-of-dumex-dulac-1-infant-formula", "date": "2026-01-17" },
-    { "id": "FR_PICOT", "name": "Rappel Conso - Picot (Lactalis) Global Recall", "url": "https://rappel.conso.gouv.fr/fiche-rappel/20960/Alerte", "date": "2026-01-21" },
+    { "id": "SG_SFA_DUMEX", "name": "SFA Singapore - Dumex Dulac 1 Recall", "url": "https://www.channelnewsasia.com/singapore/dumex-dulac-infant-formula-recall-cereulide-toxin-sfa-4876646", "date": "2026-01-17" },
+    { "id": "FR_PICOT", "name": "Rappel Conso - Picot (Lactalis) Multi-Batch Recall", "url": "https://rappel.conso.gouv.fr/recherche?query=Picot", "date": "2026-01-22" },
     { "id": "CN_DOMESTIC", "name": "雀巢中国-大陆市场自愿回收公告", "url": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113", "date": "2026-01-13" },
     { "id": "CN_CROSSBORDER", "name": "雀巢中国-跨境电商自愿回收公告", "url": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113-a", "date": "2026-01-13" },
     { "id": "PH_FDA", "name": "Philippines FDA Advisory 2026-0030", "url": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/", "date": "2026-01-10" },

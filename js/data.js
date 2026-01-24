@@ -3,7 +3,7 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-23 19:47 (PST)",
+    "lastUpdated": "2026-01-23 20:21 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
     "totalCount": 375,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
@@ -25,15 +25,15 @@ const OFFICIAL_SOURCES = [
     },
     {
         "id": "SG_SFA_DUMEX",
-        "name": "Singapore Food Agency - Dumex Recall",
-        "url": "https://www.sfa.gov.sg/news/recall-of-dumex-dulac-1-infant-formula",
+        "name": "SFA Singapore - Dumex Dulac 1 Recall",
+        "url": "https://www.channelnewsasia.com/singapore/dumex-dulac-infant-formula-recall-cereulide-toxin-sfa-4876646",
         "date": "2026-01-17"
     },
     {
         "id": "FR_PICOT",
-        "name": "Rappel Conso - Picot (Lactalis) Global Recall",
-        "url": "https://rappel.conso.gouv.fr/fiche-rappel/20960/Alerte",
-        "date": "2026-01-21"
+        "name": "Rappel Conso - Picot (Lactalis) Multi-Batch Recall",
+        "url": "https://rappel.conso.gouv.fr/recherche?query=Picot",
+        "date": "2026-01-22"
     },
     {
         "id": "CN_DOMESTIC",
@@ -71,7 +71,7 @@ const RECALL_DATA = [
         "country": "Singapore",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Singapore Food Agency (SFA)",
-        "docUrl": "https://www.sfa.gov.sg/news/recall-of-dumex-dulac-1-infant-formula",
+        "docUrl": "https://www.channelnewsasia.com/singapore/dumex-dulac-infant-formula-recall-cereulide-toxin-sfa-4876646",
         "isSeries": false
     },
     {
@@ -3827,7 +3827,7 @@ const RECALL_DATA = [
         "country": "France",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/20960/Alerte",
+        "docUrl": "https://rappel.conso.gouv.fr/recherche?query=Picot",
         "isSeries": false
     },
     {
@@ -3839,7 +3839,7 @@ const RECALL_DATA = [
         "country": "France",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/20960/Alerte",
+        "docUrl": "https://rappel.conso.gouv.fr/recherche?query=Picot",
         "isSeries": false
     },
     {
@@ -3851,7 +3851,7 @@ const RECALL_DATA = [
         "country": "France",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/20960/Alerte",
+        "docUrl": "https://rappel.conso.gouv.fr/recherche?query=Picot",
         "isSeries": false
     },
     {
@@ -3863,7 +3863,7 @@ const RECALL_DATA = [
         "country": "France",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/20960/Alerte",
+        "docUrl": "https://rappel.conso.gouv.fr/recherche?query=Picot",
         "isSeries": false
     },
     {
@@ -3875,7 +3875,7 @@ const RECALL_DATA = [
         "country": "France",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/20960/Alerte",
+        "docUrl": "https://rappel.conso.gouv.fr/recherche?query=Picot",
         "isSeries": false
     },
     {
@@ -3887,7 +3887,7 @@ const RECALL_DATA = [
         "country": "France",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/20960/Alerte",
+        "docUrl": "https://rappel.conso.gouv.fr/recherche?query=Picot",
         "isSeries": false
     },
     {
