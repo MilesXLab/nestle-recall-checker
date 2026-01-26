@@ -24,8 +24,14 @@ const OFFICIAL_SOURCES = [
         "date": "2026-01-23"
     },
     {
-        "id": "SG_SFA_DUMEX",
-        "name": "SFA Singapore - Dumex / NAN Official Recall",
+        "id": "SG_SFA_INITIAL",
+        "name": "SFA Singapore - Initial Stop-Sale Notice",
+        "url": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
+        "date": "2026-01-08"
+    },
+    {
+        "id": "SG_SFA_ADDITIONAL",
+        "name": "SFA Singapore - Additional Recall Notice",
         "url": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-recall-additional-infant-formula-products-due-to-presence-of-cereulide-toxin",
         "date": "2026-01-17"
     },

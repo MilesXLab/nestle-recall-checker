@@ -175,6 +175,8 @@ const REGION_FLAGS = {
     "UK_FSA": "🇬🇧",
     "PH_FDA": "🇵🇭",
     "HK_CFS": "🇭🇰",
+    "SG_SFA_INITIAL": "🇸🇬",
+    "SG_SFA_ADDITIONAL": "🇸🇬",
     "HK_NESTLE": "🇭🇰",
     "DE_NESTLE": "🇩🇪",
     "FR_NESTLE": "🇫🇷",
