@@ -1,32 +1,31 @@
-# 🍼 Global Nestlé Infant Formula Recall Verification Tool
+# 🍼 Global Formula Safety Guard (Aegis Global Guard)
 
-> **High-Authority Bilingual Web Tool for 2026 Global Nestlé Infant Formula Recall Verification**
+> **Official Cross-Brand Verification Tool for 2026 Infant Formula Recalls**
 > 
 > **Author:** TechDadShanghai | **License:** CC BY-NC 4.0 | **Updated:** January 2026
 
-## License & Usage Terms
+## 📜 License & Usage Terms
 
 **This project is distributed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.**
 
-### What You CAN Do
-- Use for personal, educational, and informational purposes
-- Share the tool with family, friends, and community members
-- Modify the code for your own non-commercial use
-- Deploy to your own servers for free public access
-- Contribute improvements back to the community
+### ✅ Allowed Usage
+- **Free for Personal Use**: Use for family safety and community awareness.
+- **Sharing**: You are encouraged to share this tool for free public benefit.
+- **Adaptation**: You may adapt and improve the tool for non-commercial safety purposes.
 
-### What You CANNOT Do
-- **Sell** the tool or charge users for access
-- **Bundle** this project with commercial products
-- **Rebrand** and sell as your own commercial service
-- **Provide** as part of a paid SaaS/subscription without permission
-- **Remove** or obscure attribution to TechDadShanghai
-- **Use commercially** without explicit written permission
+### ❌ Strict Prohibitions (No Commercial Use)
+- **No Paid Content**: Any form of **paid courses, paid consultation, or premium subscriptions** using this content is STRICTLY PROHIBITED.
+- **No Reselling**: Selling access to this tool or its database is a violation of the license.
+- **No Commercial Bundling**: You cannot bundle this tool inside a paid commercial product or service.
 
-### Commercial Use
-For any commercial application, licensing, or partnership inquiries:
+### ⚠️ Security Notice
+If you encounter anyone **charging money** or claiming "official paid services" related to **ChinaOps** or this safety project, please **reject and report it** immediately to the community. This is a non-profit public safety utility.
+
+---
+
+### Commercial Licensing
+For genuine non-profit organizations or legitimate disaster relief partnerships:
 **Contact:** opensource@techdadshanghai.com  
-**Terms:** Separate commercial license agreement required
 
 ---
 

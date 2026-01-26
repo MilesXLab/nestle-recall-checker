@@ -3,31 +3,55 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-22 10:48 (PST)",
+    "lastUpdated": "2026-01-26 03:58 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
-    "totalCount": 365,
+    "totalCount": 375,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
     "integrity": "100% Verified - No Speculative Series Alerts"
 };
 
 const OFFICIAL_SOURCES = [
     {
+        "id": "UK_FSA_SMA",
+        "name": "UK Food Standards Agency - SMA (FSA-PRIN-02-2026)",
+        "url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "date": "2026-01-23"
+    },
+    {
+        "id": "UK_FSA_APTAMIL",
+        "name": "UK Food Standards Agency - Aptamil (FSA-PRIN-03-2026)",
+        "url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-03-2026",
+        "date": "2026-01-23"
+    },
+    {
+        "id": "SG_SFA_INITIAL",
+        "name": "SFA Singapore - Initial Stop-Sale Notice",
+        "url": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
+        "date": "2026-01-08"
+    },
+    {
+        "id": "SG_SFA_ADDITIONAL",
+        "name": "SFA Singapore - Additional Recall Notice",
+        "url": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-recall-additional-infant-formula-products-due-to-presence-of-cereulide-toxin",
+        "date": "2026-01-17"
+    },
+    {
+        "id": "FR_PICOT",
+        "name": "Rappel Conso - Picot (Lactalis) Verified Archive",
+        "url": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
+        "date": "2026-01-21"
+    },
+    {
         "id": "CN_DOMESTIC",
-        "name": "雀巢中国-大陆市场自愿回收公告 (30批次)",
+        "name": "雀巢中国-大陆市场自愿回收公告",
         "url": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
         "date": "2026-01-13"
     },
     {
         "id": "CN_CROSSBORDER",
-        "name": "雀巢中国-跨境电商自愿回收公告 (41批次)",
+        "name": "雀巢中国-跨境电商自愿回收公告",
         "url": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113-a",
         "date": "2026-01-13"
-    },
-    {
-        "id": "UK_FSA",
-        "name": "UK Food Standards Agency (FSA-PRIN-02-2026)",
-        "url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
-        "date": "2026-01-06"
     },
     {
         "id": "PH_FDA",
@@ -37,37 +61,49 @@ const OFFICIAL_SOURCES = [
     },
     {
         "id": "HK_CFS",
-        "name": "HK Centre for Food Safety (2026-0110)",
-        "url": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
-        "date": "2026-01-10"
-    },
-    {
-        "id": "HK_NESTLE",
-        "name": "Nestlé HK Official Recall",
-        "url": "https://www.nestle.com.hk/en/media/pressreleases/allpressreleases/precautionary%20and%20voluntary%20recall%20of%20nestle%20nutrition",
-        "date": "2026-01-06"
-    },
-    {
-        "id": "DE_NESTLE",
-        "name": "Nestlé Deutschland / Österreich Rückruf",
-        "url": "https://www.nestle.de/marken/babynahrung/beba/rueckruf",
-        "date": "2026-01-05"
-    },
-    {
-        "id": "FR_NESTLE",
-        "name": "Nestlé France Rappel Guigoz/Nidal",
-        "url": "https://www.nestle.fr/info-consommateurs/rappel-guigoz-nidal",
-        "date": "2026-01-05"
-    },
-    {
-        "id": "BE_LU_NESTLE",
-        "name": "Nestlé Belgilux / Luxembourg Rappel",
-        "url": "https://www.nestle.be/fr/info-consommateurs/rappel-produits",
-        "date": "2026-01-05"
+        "name": "HK Centre for Food Safety (Verified PDF)",
+        "url": "resources/official_docs/HK_CFS_Recall_20260122.pdf",
+        "date": "2026-01-22"
     }
 ];
 
 const RECALL_DATA = [
+    {
+        "code": "101570778C",
+        "brand": "Dumex (Danone)",
+        "subBrand": "Dumex",
+        "product": "Dumex Dulac 1 800g",
+        "specification": "800g",
+        "country": "Singapore",
+        "reason": "Precautionary recall: Cereulide toxin risk",
+        "sourceDisplay": "Singapore Food Agency (SFA)",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-recall-additional-infant-formula-products-due-to-presence-of-cereulide-toxin",
+        "isSeries": false
+    },
+    {
+        "code": "111444865",
+        "brand": "Aptamil (Danone)",
+        "subBrand": "Aptamil",
+        "product": "Aptamil AR 1 400g",
+        "specification": "400g",
+        "country": "Croatia",
+        "reason": "Precautionary recall: Cereulide toxin risk",
+        "sourceDisplay": "DIRH Croatia",
+        "docUrl": "https://www.hapih.hr/opoziv-proizvoda-aptamil-ar-1/",
+        "isSeries": false
+    },
+    {
+        "code": "31-10-2026",
+        "brand": "Aptamil (Danone)",
+        "subBrand": "Aptamil",
+        "product": "Aptamil First Infant Formula 800g",
+        "specification": "800g",
+        "country": "United Kingdom",
+        "reason": "Precautionary recall: Cereulide toxin detected",
+        "sourceDisplay": "UK Food Standards Agency (FSA)",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-03-2026",
+        "isSeries": false
+    },
     {
         "code": "5100080621",
         "brand": "Nestlé",
@@ -1382,10 +1418,10 @@ const RECALL_DATA = [
         "subBrand": "NAN",
         "product": "NAN HA 2 SupremePro 800g",
         "specification": "800g",
-        "country": "Brunei",
+        "country": "Singapore, Brunei",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Brunei Food Safety Authority",
-        "docUrl": "https://asianews.network/brunei-issues-advisory-on-recall-of-five-nestle-nan-infant-formula-products/",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
         "isSeries": false
     },
     {
@@ -1490,10 +1526,10 @@ const RECALL_DATA = [
         "subBrand": "NAN",
         "product": "NAN HA 1 SupremePro 800g",
         "specification": "800g",
-        "country": "Brunei",
+        "country": "Singapore, Brunei",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Brunei Food Safety Authority",
-        "docUrl": "https://asianews.network/brunei-issues-advisory-on-recall-of-five-nestle-nan-infant-formula-products/",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
         "isSeries": false
     },
     {
@@ -1562,10 +1598,10 @@ const RECALL_DATA = [
         "subBrand": "NAN",
         "product": "NAN HA 1 SupremePro 800g",
         "specification": "800g",
-        "country": "Brunei",
+        "country": "Singapore, Brunei",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Brunei Food Safety Authority",
-        "docUrl": "https://asianews.network/brunei-issues-advisory-on-recall-of-five-nestle-nan-infant-formula-products/",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
         "isSeries": false
     },
     {
@@ -2193,6 +2229,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "51719722BA",
+        "brand": "SMA (Nestlé)",
+        "subBrand": "SMA",
+        "product": "SMA Lactose Free 400g",
+        "specification": "400g",
+        "country": "United Kingdom",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "UK Food Standards Agency (FSA)",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
         "code": "51720742F2",
         "brand": "Nestlé",
         "subBrand": "BEBA",
@@ -2813,7 +2861,7 @@ const RECALL_DATA = [
         "country": "Singapore",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Singapore Food Agency (SFA)",
-        "docUrl": "https://e.vnexpress.net/news/news/singapore-recalls-nestle-dumex-infant-formula-over-suspected-toxin-contamination-5007342.html",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-recall-additional-infant-formula-products-due-to-presence-of-cereulide-toxin",
         "isSeries": false
     },
     {
@@ -3530,10 +3578,10 @@ const RECALL_DATA = [
         "subBrand": "NAN",
         "product": "NAN HA 3 SupremePro 32g",
         "specification": "32g",
-        "country": "Brunei",
+        "country": "Singapore, Brunei",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Brunei Food Safety Authority",
-        "docUrl": "https://asianews.network/brunei-issues-advisory-on-recall-of-five-nestle-nan-infant-formula-products/",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
         "isSeries": false
     },
     {
@@ -3542,10 +3590,10 @@ const RECALL_DATA = [
         "subBrand": "NAN",
         "product": "NAN HA 3 SupremePro 800g",
         "specification": "800g",
-        "country": "Brunei",
+        "country": "Singapore, Brunei",
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Brunei Food Safety Authority",
-        "docUrl": "https://asianews.network/brunei-issues-advisory-on-recall-of-five-nestle-nan-infant-formula-products/",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
         "isSeries": false
     },
     {
@@ -3774,6 +3822,78 @@ const RECALL_DATA = [
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
         "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
+        "isSeries": false
+    },
+    {
+        "code": "8000003280",
+        "brand": "Picot (Lactalis)",
+        "subBrand": "Picot",
+        "product": "Picot Nutrition Quotidienne 2ème âge 800g",
+        "specification": "800g",
+        "country": "France",
+        "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
+        "sourceDisplay": "Rappel Conso (Gouvernement Français)",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
+        "isSeries": false
+    },
+    {
+        "code": "8000003281",
+        "brand": "Picot (Lactalis)",
+        "subBrand": "Picot",
+        "product": "Picot Standard 2ème âge 850g",
+        "specification": "850g",
+        "country": "France",
+        "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
+        "sourceDisplay": "Rappel Conso (Gouvernement Français)",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
+        "isSeries": false
+    },
+    {
+        "code": "8000003297",
+        "brand": "Picot (Lactalis)",
+        "subBrand": "Picot",
+        "product": "Picot Nutrition Quotidienne 1er âge 400g/800g",
+        "specification": "800g",
+        "country": "France",
+        "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
+        "sourceDisplay": "Rappel Conso (Gouvernement Français)",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
+        "isSeries": false
+    },
+    {
+        "code": "8000003298",
+        "brand": "Picot (Lactalis)",
+        "subBrand": "Picot",
+        "product": "Picot Standard 1er âge 850g",
+        "specification": "850g",
+        "country": "France",
+        "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
+        "sourceDisplay": "Rappel Conso (Gouvernement Français)",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
+        "isSeries": false
+    },
+    {
+        "code": "8000003312",
+        "brand": "Picot (Lactalis)",
+        "subBrand": "Picot",
+        "product": "Picot Nutrition Quotidienne 1er âge 400g/800g",
+        "specification": "800g",
+        "country": "France",
+        "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
+        "sourceDisplay": "Rappel Conso (Gouvernement Français)",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
+        "isSeries": false
+    },
+    {
+        "code": "8000003400",
+        "brand": "Picot (Lactalis)",
+        "subBrand": "Picot",
+        "product": "Picot AR 2ème âge 800g",
+        "specification": "800g",
+        "country": "France",
+        "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
+        "sourceDisplay": "Rappel Conso (Gouvernement Français)",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "isSeries": false
     },
     {
