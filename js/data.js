@@ -3,7 +3,7 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-25 18:40 (PST)",
+    "lastUpdated": "2026-01-25 18:41 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
     "totalCount": 375,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
@@ -55,9 +55,9 @@ const OFFICIAL_SOURCES = [
     },
     {
         "id": "HK_CFS",
-        "name": "HK Centre for Food Safety",
-        "url": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
-        "date": "2026-01-10"
+        "name": "HK Centre for Food Safety (Verified PDF)",
+        "url": "resources/official_docs/HK_CFS_Recall_20260122.pdf",
+        "date": "2026-01-22"
     }
 ];
 

@@ -48,7 +48,7 @@ OFFICIAL_SOURCES = [
     { "id": "CN_DOMESTIC", "name": "雀巢中国-大陆市场自愿回收公告", "url": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113", "date": "2026-01-13" },
     { "id": "CN_CROSSBORDER", "name": "雀巢中国-跨境电商自愿回收公告", "url": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113-a", "date": "2026-01-13" },
     { "id": "PH_FDA", "name": "Philippines FDA Advisory 2026-0030", "url": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/", "date": "2026-01-10" },
-    { "id": "HK_CFS", "name": "HK Centre for Food Safety", "url": "https://www.cfs.gov.hk/english/press/20260110_12105.html", "date": "2026-01-10" }
+    { "id": "HK_CFS", "name": "HK Centre for Food Safety (Verified PDF)", "url": "resources/official_docs/HK_CFS_Recall_20260122.pdf", "date": "2026-01-22" }
 ]
 
 from datetime import datetime
