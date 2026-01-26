@@ -1,0 +1,160 @@
+:root {
+    --primary: #0F172A;
+    --danger: #EF4444;
+    --warning: #F59E0B;
+    --success: #10B981;
+    --bg-glass: rgba(255, 255, 255, 0.8);
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: radial-gradient(circle at 50% 0%, #F1F5F9 0%, #E2E8F0 100%);
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Outfit', sans-serif;
+}
+
+.glass-card {
+    background: var(--bg-glass);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+}
+
+.pulse-red {
+    animation: pulse-red 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-red {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.85;
+        transform: scale(1.02);
+    }
+}
+
+/* 🚨 CRITICAL ALERT - Emergency Flashing Animation (WHOLE CARD GLOW) */
+.pulse-red-aggressive {
+    animation: emergency-flash-red 0.6s infinite;
+    position: relative;
+}
+
+@keyframes emergency-flash-red {
+
+    0%,
+    100% {
+        border-color: #DC2626;
+        border-width: 3px;
+        box-shadow:
+            0 0 40px 8px rgba(220, 38, 38, 0.9),
+            0 0 80px 16px rgba(220, 38, 38, 0.6),
+            0 0 120px 24px rgba(220, 38, 38, 0.3),
+            inset 0 0 30px rgba(220, 38, 38, 0.3);
+        background: linear-gradient(135deg, #FEF2F2 0%, #FEE2E2 100%);
+        transform: scale(1);
+        filter: brightness(1);
+    }
+
+    50% {
+        border-color: #991B1B;
+        border-width: 4px;
+        box-shadow:
+            0 0 60px 12px rgba(220, 38, 38, 1),
+            0 0 100px 20px rgba(220, 38, 38, 0.8),
+            0 0 140px 28px rgba(220, 38, 38, 0.5),
+            inset 0 0 50px rgba(220, 38, 38, 0.5);
+        background: linear-gradient(135deg, #FEE2E2 0%, #FECACA 100%);
+        transform: scale(1.015);
+        filter: brightness(1.1);
+    }
+}
+
+/* ⚠️ CAUTION ALERT - Warning Flashing Animation (WHOLE CARD GLOW) */
+.pulse-amber-aggressive {
+    animation: emergency-flash-amber 0.8s infinite;
+    position: relative;
+}
+
+@keyframes emergency-flash-amber {
+
+    0%,
+    100% {
+        border-color: #F59E0B;
+        border-width: 3px;
+        box-shadow:
+            0 0 35px 6px rgba(245, 158, 11, 0.8),
+            0 0 70px 12px rgba(245, 158, 11, 0.5),
+            0 0 105px 18px rgba(245, 158, 11, 0.3),
+            inset 0 0 25px rgba(245, 158, 11, 0.25);
+        background: linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%);
+        transform: scale(1);
+        filter: brightness(1);
+    }
+
+    50% {
+        border-color: #92400E;
+        border-width: 4px;
+        box-shadow:
+            0 0 50px 10px rgba(245, 158, 11, 1),
+            0 0 90px 16px rgba(245, 158, 11, 0.7),
+            0 0 130px 22px rgba(245, 158, 11, 0.4),
+            inset 0 0 40px rgba(245, 158, 11, 0.4);
+        background: linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%);
+        transform: scale(1.01);
+        filter: brightness(1.08);
+    }
+}
+
+/* 🍼 Baby Bottle Icon Decoration */
+.bottle-icon {
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.1));
+    transition: transform 0.3s ease;
+}
+
+.bottle-icon:hover {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.slide-up {
+    animation: slide-up 0.4s ease-out;
+}
+
+@keyframes slide-up {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.tech-dad-gradient {
+    background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #CBD5E1;
+    border-radius: 10px;
+}
