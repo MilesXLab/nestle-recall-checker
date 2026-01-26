@@ -170,13 +170,17 @@ function normalizeBatch(code) {
 }
 
 const REGION_FLAGS = {
-    "CN_DOMESTIC": "🇨🇳",
-    "CN_CROSSBORDER": "🌐",
-    "UK_FSA": "🇬🇧",
-    "PH_FDA": "🇵🇭",
-    "HK_CFS": "🇭🇰",
+    "UK_FSA_SMA": "🇬🇧",
+    "UK_FSA_APTAMIL": "🇬🇧",
     "SG_SFA_INITIAL": "🇸🇬",
     "SG_SFA_ADDITIONAL": "🇸🇬",
+    "FR_PICOT": "🇫🇷",
+    "CN_DOMESTIC": "🇨🇳",
+    "CN_CROSSBORDER": "🇨🇳",
+    "PH_FDA": "🇵🇭",
+    "HK_CFS": "🇭🇰",
+    // Fallback/Others
+    "UK_FSA": "🇬🇧",
     "HK_NESTLE": "🇭🇰",
     "DE_NESTLE": "🇩🇪",
     "FR_NESTLE": "🇫🇷",
