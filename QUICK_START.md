@@ -206,7 +206,7 @@ Found a bug or data error?
 
 ### General Questions
 
-Email: `opensource@techdadshanghai.com`
+Email: `miles.x.dev@outlook.com`
 
 ### Data Verification
 

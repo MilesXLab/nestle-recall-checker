@@ -16,7 +16,7 @@
   - [x] 包含License: "CC BY-NC 4.0"
   - [x] 有"License & Usage Terms"部分
   - [x] 列出商业使用禁止项
-  - [x] 包含联系方式: opensource@techdadshanghai.com
+  - [x] 包含联系方式: miles.x.dev@outlook.com
 
 - [x] **LICENSE**
   - [x] 完全替换为 CC BY-NC 4.0

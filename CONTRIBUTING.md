@@ -396,7 +396,7 @@ Thank you @username for:
 
 - **GitHub Discussions:** Ask general questions
 - **GitHub Issues:** Report specific bugs
-- **Email:** opensource@techdadshanghai.com
+- **Email:** miles.x.dev@outlook.com
 
 ### Common Questions
 
