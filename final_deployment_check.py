@@ -9,7 +9,7 @@ License: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 
 Copyright (c) 2026 TechDadShanghai
 
 This utility performs comprehensive checks before deployment to ensure data integrity.
-Use for non-commercial purposes only. For commercial licensing, contact: opensource@techdadshanghai.com
+Use for non-commercial purposes only. For commercial licensing, contact: miles.x.dev@outlook.com
 """
 
 import csv

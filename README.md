@@ -25,7 +25,7 @@ If you encounter anyone **charging money** or claiming "official paid services" 
 
 ### Commercial Licensing
 For genuine non-profit organizations or legitimate disaster relief partnerships:
-**Contact:** opensource@techdadshanghai.com  
+**Contact:** miles.x.dev@outlook.com  
 
 ---
 
@@ -101,7 +101,7 @@ Run the `archive_and_sync.py` script daily to synchronize the latest CSV changes
 
 - **GitHub Issues:** Report bugs and feature requests
 - **Discussions:** Share experiences and safety tips
-- **Commercial Inquiries:** opensource@techdadshanghai.com
+- **Commercial Inquiries:** miles.x.dev@outlook.com
 - **Data Verification:** All sources listed in-app with official links
 
 ---

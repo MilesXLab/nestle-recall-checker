@@ -9,7 +9,7 @@ License: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 
 Copyright (c) 2026 TechDadShanghai
 
 This tool converts recall data from CSV format to JavaScript for use in the web interface.
-Use for non-commercial purposes only. For commercial licensing, contact: opensource@techdadshanghai.com
+Use for non-commercial purposes only. For commercial licensing, contact: miles.x.dev@outlook.com
 """
 
 import csv

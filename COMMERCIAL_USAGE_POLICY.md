@@ -69,7 +69,7 @@ This project is **open source for community use** but **protected against commer
 If you want to use this project commercially, here's the process:
 
 ### Step 1: Contact Us
-📧 **Email:** opensource@techdadshanghai.com
+📧 **Email:** miles.x.dev@outlook.com
 
 Include:
 - Organization name and description
@@ -246,7 +246,7 @@ We intend to:
 
 For questions about commercial licensing, usage rights, or specific scenarios:
 
-📧 **Email:** opensource@techdadshanghai.com  
+📧 **Email:** miles.x.dev@outlook.com  
 📝 **Response Time:** Typically 3-5 business days
 
 Please include:

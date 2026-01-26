@@ -21,7 +21,7 @@ const I18N = {
 
         final_authority: "THE OFFICIAL HOTLINE IS THE ONLY FINAL AUTHORITY.",
         btn_cn: "Call China: 400 616 5015",
-        btn_hk: "Call HK: +852 2179 8888",
+        btn_hk: "Call HK: +852 2179 8136",
         btn_uk: "Call UK: 0800 081 8180",
         btn_ph: "Call PH: +63 2 8898 0061",
         view_source: "View Official Source",
@@ -61,7 +61,7 @@ const I18N = {
 
         final_authority: "官方热线反馈是唯一的最终判定标准。",
         btn_cn: "拨打大陆客服: 400 616 5015",
-        btn_hk: "拨打香港客服: +852 2179 8888",
+        btn_hk: "拨打香港客服: +852 2179 8136",
         btn_uk: "拨打英国客服: 0800 081 8180",
         btn_ph: "拨打菲律宾客服: +63 2 8898 0061",
         view_source: "查看官方原始公告",

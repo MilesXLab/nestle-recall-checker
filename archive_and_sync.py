@@ -9,7 +9,7 @@ License: Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 
 Copyright (c) 2026 TechDadShanghai
 
 This utility automatically archives recall data and synchronizes with the web interface.
-Use for non-commercial purposes only. For commercial licensing, contact: opensource@techdadshanghai.com
+Use for non-commercial purposes only. For commercial licensing, contact: miles.x.dev@outlook.com
 """
 
 import os
