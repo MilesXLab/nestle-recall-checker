@@ -3,7 +3,7 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-28 02:20 (PST)",
+    "lastUpdated": "2026-01-27 18:33 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
     "totalCount": 427,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
@@ -3017,7 +3017,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3101,7 +3101,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3125,7 +3125,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3137,7 +3137,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3185,7 +3185,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3197,7 +3197,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3209,7 +3209,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3245,7 +3245,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3257,7 +3257,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3461,7 +3461,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3473,7 +3473,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3497,7 +3497,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3509,7 +3509,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3521,7 +3521,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3533,7 +3533,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3677,7 +3677,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3737,7 +3737,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -3749,7 +3749,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -3893,7 +3893,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3905,7 +3905,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3929,7 +3929,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3941,7 +3941,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3953,7 +3953,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -3965,7 +3965,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -4013,7 +4013,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4025,7 +4025,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4037,7 +4037,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4049,7 +4049,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4073,7 +4073,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4085,7 +4085,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4097,7 +4097,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4109,7 +4109,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4121,7 +4121,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4133,7 +4133,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4145,7 +4145,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -4181,7 +4181,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -4193,7 +4193,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -4205,7 +4205,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -4217,7 +4217,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -4229,7 +4229,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -4241,7 +4241,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -4265,7 +4265,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4289,7 +4289,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -4301,7 +4301,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4313,7 +4313,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4325,7 +4325,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4337,7 +4337,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
         "isSeries": false
     },
     {
@@ -4349,7 +4349,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4361,7 +4361,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4373,7 +4373,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4385,7 +4385,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4397,7 +4397,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4409,7 +4409,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4421,7 +4421,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4433,7 +4433,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -4445,7 +4445,7 @@ const RECALL_DATA = [
         "country": "Brazil",
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
-        "docUrl": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/anvisa-suspende-venda-de-lotes-de-formulas-infantis-da-nestle",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
