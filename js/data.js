@@ -3,9 +3,9 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-28 02:34 (PST)",
+    "lastUpdated": "2026-01-28 06:09 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
-    "totalCount": 427,
+    "totalCount": 459,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
     "integrity": "100% Verified - No Speculative Series Alerts"
 };
@@ -70,7 +70,7 @@ const OFFICIAL_SOURCES = [
 const RECALL_DATA = [
     {
         "code": "101570778C",
-        "brand": "Dumex (Danone)",
+        "brand": "Danone",
         "subBrand": "Dumex",
         "product": "Dumex Dulac 1 800g",
         "specification": "800g",
@@ -82,7 +82,7 @@ const RECALL_DATA = [
     },
     {
         "code": "111444865",
-        "brand": "Aptamil (Danone)",
+        "brand": "Danone",
         "subBrand": "Aptamil",
         "product": "Aptamil AR 1 400g",
         "specification": "400g",
@@ -93,8 +93,20 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "2027.08.19",
+        "brand": "Danone",
+        "subBrand": "Nutrilon",
+        "product": "Nutrilon Profutura 1 800g",
+        "specification": "800g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin) in raw material",
+        "sourceDisplay": "FAVV-AFSCA (Belgium)",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
+        "isSeries": false
+    },
+    {
         "code": "31-10-2026",
-        "brand": "Aptamil (Danone)",
+        "brand": "Danone",
         "subBrand": "Aptamil",
         "product": "Aptamil First Infant Formula 800g",
         "specification": "800g",
@@ -801,6 +813,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "51230346AC",
+        "brand": "Nestlé",
+        "subBrand": "Little Steps",
+        "product": "Nestlé Little Steps 1 800g",
+        "specification": "800g",
+        "country": "Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "NVWA (Netherlands)",
+        "docUrl": "https://www.nvwa.nl/documenten/waarschuwingen/2026/01/05/veiligheidswaarschuwing-little-steps-1-alfamino-zuigelingenvoeding-van-nestle",
+        "isSeries": false
+    },
+    {
         "code": "51230742F1",
         "brand": "Nestlé",
         "subBrand": "BEBA",
@@ -858,6 +882,18 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
         "docUrl": "resources/official_docs/UK_FSA_Advisory_28046.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "51240742F5",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN EXPERTPRO Complete 0-12m 800g",
+        "specification": "800g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "FAVV-AFSCA / NVWA",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
         "isSeries": false
     },
     {
@@ -1725,6 +1761,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "51530346AC",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN Evolia 1 400g",
+        "specification": "400g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "FAVV-AFSCA / NVWA",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
+        "isSeries": false
+    },
+    {
         "code": "5153080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -1746,6 +1794,18 @@ const RECALL_DATA = [
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
         "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
+        "isSeries": false
+    },
+    {
+        "code": "51540346AA",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN Evolia 1 800g",
+        "specification": "800g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "FAVV-AFSCA / NVWA",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
         "isSeries": false
     },
     {
@@ -1833,6 +1893,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "51560742D1",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN EXPERTPRO Complete 0-12m 4x26.2g",
+        "specification": "4x26.2g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "FAVV-AFSCA / NVWA",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
+        "isSeries": false
+    },
+    {
         "code": "5156080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -1854,6 +1926,18 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
         "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
+        "code": "51570742F5",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN EXPERTPRO AR 0-12m 800g",
+        "specification": "800g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "FAVV-AFSCA / NVWA",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
         "isSeries": false
     },
     {
@@ -1938,6 +2022,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "51600742D1",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN EXPERTPRO AR 0-12m 4x26.2g",
+        "specification": "4x26.2g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "FAVV-AFSCA / NVWA",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
         "isSeries": false
     },
     {
@@ -2070,6 +2166,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "51670346AA",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN Evolia 1 800g",
+        "specification": "800g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "FAVV-AFSCA / NVWA",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
         "isSeries": false
     },
     {
@@ -2230,7 +2338,7 @@ const RECALL_DATA = [
     },
     {
         "code": "51719722BA",
-        "brand": "SMA (Nestlé)",
+        "brand": "Nestlé",
         "subBrand": "SMA",
         "product": "SMA Lactose Free 400g",
         "specification": "400g",
@@ -3093,6 +3201,42 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "52620346AD",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN Evolia 1 800g",
+        "specification": "800g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "FAVV-AFSCA / NVWA",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
+        "isSeries": false
+    },
+    {
+        "code": "52620742D1",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN EXPERTPRO Complete 0-12m 4x26.2g",
+        "specification": "4x26.2g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "FAVV-AFSCA / NVWA",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
+        "isSeries": false
+    },
+    {
+        "code": "52620742F1",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN EXPERTPRO Complete 0-12m 800g",
+        "specification": "800g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "FAVV-AFSCA / NVWA",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
+        "isSeries": false
+    },
+    {
         "code": "526301896A",
         "brand": "Nestlé",
         "subBrand": "NAN",
@@ -3102,6 +3246,18 @@ const RECALL_DATA = [
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
         "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "52640346AD",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN Evolia 1 400g",
+        "specification": "400g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "FAVV-AFSCA / NVWA",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
         "isSeries": false
     },
     {
@@ -3621,6 +3777,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "52860295M",
+        "brand": "Nestlé",
+        "subBrand": "SMA",
+        "product": "SMA First Milk RTF 200ml",
+        "specification": "200ml",
+        "country": "UK/Ireland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "UK FSA / FSAI Ireland",
+        "docUrl": "https://www.fsai.ie/news-alerts/food-alerts/recall-of-certain-batches-of-nestle-sma-infant-and",
+        "isSeries": false
+    },
+    {
         "code": "528611423U",
         "brand": "Nestlé",
         "subBrand": "Lactogen",
@@ -3642,6 +3810,18 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
         "docUrl": "resources/official_docs/UK_FSA_Advisory_28046.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "52870295M",
+        "brand": "Nestlé",
+        "subBrand": "SMA",
+        "product": "SMA First Milk RTF 200ml",
+        "specification": "200ml",
+        "country": "UK/Ireland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "UK FSA / FSAI Ireland",
+        "docUrl": "https://www.fsai.ie/news-alerts/food-alerts/recall-of-certain-batches-of-nestle-sma-infant-and",
         "isSeries": false
     },
     {
@@ -3825,6 +4005,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "53070295M",
+        "brand": "Nestlé",
+        "subBrand": "SMA",
+        "product": "SMA First Milk RTF 200ml",
+        "specification": "200ml",
+        "country": "UK/Ireland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "UK FSA / FSAI Ireland",
+        "docUrl": "https://www.fsai.ie/news-alerts/food-alerts/recall-of-certain-batches-of-nestle-sma-infant-and",
+        "isSeries": false
+    },
+    {
         "code": "53070742F1",
         "brand": "Nestlé",
         "subBrand": "NAN",
@@ -3846,6 +4038,18 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
         "docUrl": "resources/official_docs/UK_FSA_Advisory_28046.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "53100742F2",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN EXPERTPRO AR 0-12m 800g",
+        "specification": "800g",
+        "country": "Belgium/Netherlands",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "FAVV-AFSCA / NVWA",
+        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
         "isSeries": false
     },
     {
@@ -4062,6 +4266,30 @@ const RECALL_DATA = [
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
         "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
+        "isSeries": false
+    },
+    {
+        "code": "53220295M",
+        "brand": "Nestlé",
+        "subBrand": "SMA",
+        "product": "SMA First Milk RTF 200ml",
+        "specification": "200ml",
+        "country": "UK/Ireland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "UK FSA / FSAI Ireland",
+        "docUrl": "https://www.fsai.ie/news-alerts/food-alerts/recall-of-certain-batches-of-nestle-sma-infant-and",
+        "isSeries": false
+    },
+    {
+        "code": "53230295M",
+        "brand": "Nestlé",
+        "subBrand": "SMA",
+        "product": "SMA First Milk RTF 200ml",
+        "specification": "200ml",
+        "country": "UK/Ireland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "UK FSA / FSAI Ireland",
+        "docUrl": "https://www.fsai.ie/news-alerts/food-alerts/recall-of-certain-batches-of-nestle-sma-infant-and",
         "isSeries": false
     },
     {
@@ -4450,7 +4678,7 @@ const RECALL_DATA = [
     },
     {
         "code": "8000003280",
-        "brand": "Picot (Lactalis)",
+        "brand": "Lactalis",
         "subBrand": "Picot",
         "product": "Picot Nutrition Quotidienne 2ème âge 800g",
         "specification": "800g",
@@ -4461,8 +4689,20 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "8000003280",
+        "brand": "Lactalis",
+        "subBrand": "Picot",
+        "product": "Picot Infant Formula (various) 800g",
+        "specification": "800g",
+        "country": "Global",
+        "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
+        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
+        "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
         "code": "8000003281",
-        "brand": "Picot (Lactalis)",
+        "brand": "Lactalis",
         "subBrand": "Picot",
         "product": "Picot Standard 2ème âge 850g",
         "specification": "850g",
@@ -4473,8 +4713,20 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "8000003281",
+        "brand": "Lactalis",
+        "subBrand": "Picot",
+        "product": "Picot Standard 2 850g",
+        "specification": "850g",
+        "country": "France/Luxembourg",
+        "reason": "Precautionary recall: Microbial contamination (Cereulide)",
+        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
+        "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
         "code": "8000003297",
-        "brand": "Picot (Lactalis)",
+        "brand": "Lactalis",
         "subBrand": "Picot",
         "product": "Picot Nutrition Quotidienne 1er âge 400g/800g",
         "specification": "800g",
@@ -4485,8 +4737,20 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "8000003297",
+        "brand": "Lactalis",
+        "subBrand": "Picot",
+        "product": "Picot Infant Formula (various) 800g",
+        "specification": "800g",
+        "country": "Global",
+        "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
+        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
+        "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
         "code": "8000003298",
-        "brand": "Picot (Lactalis)",
+        "brand": "Lactalis",
         "subBrand": "Picot",
         "product": "Picot Standard 1er âge 850g",
         "specification": "850g",
@@ -4497,8 +4761,20 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "8000003298",
+        "brand": "Lactalis",
+        "subBrand": "Picot",
+        "product": "Picot Standard 1 850g",
+        "specification": "850g",
+        "country": "France/Luxembourg",
+        "reason": "Precautionary recall: Microbial contamination (Cereulide)",
+        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
+        "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
         "code": "8000003312",
-        "brand": "Picot (Lactalis)",
+        "brand": "Lactalis",
         "subBrand": "Picot",
         "product": "Picot Nutrition Quotidienne 1er âge 400g/800g",
         "specification": "800g",
@@ -4509,8 +4785,20 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "8000003312",
+        "brand": "Lactalis",
+        "subBrand": "Picot",
+        "product": "Picot Nutrition Quotidienne 1 800g",
+        "specification": "800g",
+        "country": "Global (France/Belgium/etc)",
+        "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
+        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
+        "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
         "code": "8000003400",
-        "brand": "Picot (Lactalis)",
+        "brand": "Lactalis",
         "subBrand": "Picot",
         "product": "Picot AR 2ème âge 800g",
         "specification": "800g",
@@ -4518,6 +4806,102 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
+        "isSeries": false
+    },
+    {
+        "code": "8000003400",
+        "brand": "Lactalis",
+        "subBrand": "Picot",
+        "product": "Picot Infant Formula (various) 800g",
+        "specification": "800g",
+        "country": "Global",
+        "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
+        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
+        "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
+        "code": "8000003746",
+        "brand": "La Marque en Moins",
+        "subBrand": "La Marque en Moins",
+        "product": "BIO AGE 1/2/3 800g",
+        "specification": "800g",
+        "country": "France",
+        "reason": "Principe de précaution : présence potentielle de céréulide",
+        "sourceDisplay": "Rappel Conso (Gouvernement Français)",
+        "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
+        "code": "8000003747",
+        "brand": "La Marque en Moins",
+        "subBrand": "La Marque en Moins",
+        "product": "BIO AGE 2 6-12m 800g",
+        "specification": "800g",
+        "country": "France",
+        "reason": "Principe de précaution : présence potentielle de céréulide",
+        "sourceDisplay": "Rappel Conso (France)",
+        "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
+        "code": "8000003748",
+        "brand": "La Marque en Moins",
+        "subBrand": "La Marque en Moins",
+        "product": "BIO AGE 3 10-36m 800g",
+        "specification": "800g",
+        "country": "France",
+        "reason": "Principe de précaution : présence potentielle de céréulide",
+        "sourceDisplay": "Rappel Conso (France)",
+        "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
+        "code": "894408",
+        "brand": "Vitagermine",
+        "subBrand": "Babybio",
+        "product": "BABYBIO Optima 1 800g",
+        "specification": "800g",
+        "country": "France/Belgium/Luxembourg",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "Rappel Conso (France) / RTL Luxembourg",
+        "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
+        "code": "900035",
+        "brand": "Vitagermine",
+        "subBrand": "Babybio",
+        "product": "BABYBIO Optima 1 800g",
+        "specification": "800g",
+        "country": "France",
+        "reason": "Principe de précaution : présence potentielle de céréulide",
+        "sourceDisplay": "Rappel Conso (Gouvernement Français)",
+        "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
+        "code": "900932",
+        "brand": "Vitagermine",
+        "subBrand": "Babybio",
+        "product": "BABYBIO Optima 1 400g",
+        "specification": "400g",
+        "country": "France",
+        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
+        "sourceDisplay": "Rappel Conso (France)",
+        "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
+        "code": "CH-BIO-004",
+        "brand": "Nestlé",
+        "subBrand": "Guigoz",
+        "product": "Guigoz 1 LR CH-BIO-004",
+        "specification": "800g",
+        "country": "France/Switzerland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "Nestlé / Rappel Conso",
+        "docUrl": "https://rappel.conso.gouv.fr/",
         "isSeries": false
     },
     {
