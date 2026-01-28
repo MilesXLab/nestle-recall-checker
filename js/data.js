@@ -3,9 +3,9 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-28 06:09 (PST)",
+    "lastUpdated": "2026-01-28 07:07 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
-    "totalCount": 459,
+    "totalCount": 464,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
     "integrity": "100% Verified - No Speculative Series Alerts"
 };
@@ -102,6 +102,42 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin) in raw material",
         "sourceDisplay": "FAVV-AFSCA (Belgium)",
         "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
+        "isSeries": false
+    },
+    {
+        "code": "30484024",
+        "brand": "Bimbosan",
+        "subBrand": "Bimbosan",
+        "product": "Bimbosan goat's milk 1 refill 400g",
+        "specification": "400g",
+        "country": "Switzerland/Global",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "Hochdorf Swiss Nutrition / BLV",
+        "docUrl": "https://www.hochdorf.com/en/news/",
+        "isSeries": false
+    },
+    {
+        "code": "30484025",
+        "brand": "Bimbosan",
+        "subBrand": "Bimbosan",
+        "product": "Bimbosan goat's milk 1 refill 400g",
+        "specification": "400g",
+        "country": "Switzerland/Global",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "Hochdorf Swiss Nutrition / BLV",
+        "docUrl": "https://www.hochdorf.com/en/news/",
+        "isSeries": false
+    },
+    {
+        "code": "30484247",
+        "brand": "Bimbosan",
+        "subBrand": "Bimbosan",
+        "product": "Bimbosan goat's milk 1 Travel Portion 5x25g",
+        "specification": "125g",
+        "country": "Switzerland/Global",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "Hochdorf Swiss Nutrition / BLV",
+        "docUrl": "https://www.hochdorf.com/en/news/",
         "isSeries": false
     },
     {
@@ -4797,6 +4833,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "8000003387",
+        "brand": "Sanulac",
+        "subBrand": "Alula",
+        "product": "Alula Gold Reflux 900g (0-12m)",
+        "specification": "900g",
+        "country": "Australia/New Zealand",
+        "reason": "Precautionary recall: Microbial contamination (Cereulide)",
+        "sourceDisplay": "Food Standards Australia New Zealand (FSANZ)",
+        "docUrl": "https://www.foodstandards.gov.au/food-recalls",
+        "isSeries": false
+    },
+    {
         "code": "8000003400",
         "brand": "Lactalis",
         "subBrand": "Picot",
@@ -4818,6 +4866,18 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
         "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
         "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
+        "code": "8000003407",
+        "brand": "Sanulac",
+        "subBrand": "Alula",
+        "product": "Alula Colic & Constipation 850g (0-12m)",
+        "specification": "850g",
+        "country": "Australia/New Zealand",
+        "reason": "Precautionary recall: Microbial contamination (Cereulide)",
+        "sourceDisplay": "Food Standards Australia New Zealand (FSANZ)",
+        "docUrl": "https://www.foodstandards.gov.au/food-recalls",
         "isSeries": false
     },
     {
