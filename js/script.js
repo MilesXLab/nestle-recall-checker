@@ -246,16 +246,22 @@ function handleSearch() {
         return;
     }
 
-    // STRICT MATCHING LOGIC (v2.4)
+    // STRICT MATCHING LOGIC (v2.5) - Improved Normalization
     // 1. Exact Match: Must match the full code in database (non-series)
-    const exactMatch = RECALL_DATA.find(item =>
-        !item.isSeries && (sanitized === item.code || fuzzy === item.code)
-    );
+    const exactMatch = RECALL_DATA.find(item => {
+        if (item.isSeries) return false;
+        // Normalize both sides for comparison to handle hyphens/spaces
+        const dbSanitized = normalizeBatch(item.code).sanitized;
+        const dbFuzzy = normalizeBatch(item.code).fuzzy;
+        return sanitized === dbSanitized || fuzzy === dbFuzzy || sanitized === item.code || fuzzy === item.code;
+    });
 
     // 2. Series Match: Must match code marked as isSeries in database
-    const seriesMatch = RECALL_DATA.find(item =>
-        item.isSeries && sanitized.startsWith(item.code)
-    );
+    const seriesMatch = RECALL_DATA.find(item => {
+        if (!item.isSeries) return false;
+        const dbSanitized = normalizeBatch(item.code).sanitized;
+        return sanitized.startsWith(dbSanitized) || sanitized.startsWith(item.code);
+    });
 
     if (exactMatch) {
         renderResult('critical', sanitized, exactMatch);

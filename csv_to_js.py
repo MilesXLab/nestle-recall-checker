@@ -20,19 +20,20 @@ batches = []
 with open('recall_database.csv', 'r', encoding='utf-8-sig') as f:
     reader = csv.DictReader(f)
     for row in reader:
-        # Convert isSeries string to boolean
-        is_series = row.get('isSeries', 'False').strip() == 'True'
+        # Convert isSeries string to boolean (Case-Insensitive)
+        is_series_val = row.get('isSeries', 'False').strip().lower()
+        is_series = is_series_val == 'true'
         
         batches.append({
-            "code": row['code'],
-            "brand": row.get('brand', 'Nestlé'),
-            "subBrand": row['subBrand'],
-            "product": row['product'],
-            "specification": row['specification'],
-            "country": row['country'],
-            "reason": row['reason'],
-            "sourceDisplay": row['sourceDisplay'],
-            "docUrl": row['docUrl'],
+            "code": row['code'].strip(),
+            "brand": row.get('brand', 'Nestlé').strip(),
+            "subBrand": row['subBrand'].strip(),
+            "product": row['product'].strip(),
+            "specification": row['specification'].strip(),
+            "country": row['country'].strip(),
+            "reason": row['reason'].strip(),
+            "sourceDisplay": row['sourceDisplay'].strip(),
+            "docUrl": row['docUrl'].strip(),
             "isSeries": is_series
         })
 
