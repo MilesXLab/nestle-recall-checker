@@ -3,7 +3,7 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-27 18:33 (PST)",
+    "lastUpdated": "2026-01-27 18:34 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
     "totalCount": 427,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
@@ -3017,7 +3017,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3101,7 +3101,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3125,7 +3125,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3137,7 +3137,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3185,7 +3185,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3197,7 +3197,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3209,7 +3209,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3245,7 +3245,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3257,7 +3257,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3461,7 +3461,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3473,7 +3473,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3497,7 +3497,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3509,7 +3509,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3521,7 +3521,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3533,7 +3533,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3677,7 +3677,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3893,7 +3893,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3905,7 +3905,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3929,7 +3929,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3941,7 +3941,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3953,7 +3953,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3965,7 +3965,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -4145,7 +4145,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -4181,7 +4181,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -4193,7 +4193,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -4205,7 +4205,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -4217,7 +4217,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -4229,7 +4229,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -4241,7 +4241,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -4289,7 +4289,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -4337,7 +4337,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/wp-content/uploads/2026/01/FDA-Advisory-No.2026-0030.pdf",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
