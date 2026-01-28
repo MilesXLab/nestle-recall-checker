@@ -3,9 +3,9 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-26 06:16 (PST)",
+    "lastUpdated": "2026-01-28 02:34 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
-    "totalCount": 375,
+    "totalCount": 427,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
     "integrity": "100% Verified - No Speculative Series Alerts"
 };
@@ -3017,7 +3017,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3093,6 +3093,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "526301896A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 3 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
         "code": "52650346AA",
         "brand": "Nestlé",
         "subBrand": "NAN",
@@ -3102,6 +3114,30 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Egypt National Food Safety Authority",
         "docUrl": "https://english.ahram.org.eg/News/560085.aspx",
+        "isSeries": false
+    },
+    {
+        "code": "526701896A",
+        "brand": "Nestlé",
+        "subBrand": "Nankid",
+        "product": "Nankid Optipro 3+ Yrs 5HMO 3 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "526701898A",
+        "brand": "Nestlé",
+        "subBrand": "Nankid",
+        "product": "Nankid Optipro 3+ Yrs 5HMO 3 (2x650g)",
+        "specification": "1.3kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3141,6 +3177,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "526901896A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN Optipro 0-6mo Infant Formula 5HMO 3 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
         "code": "526901896A6",
         "brand": "Nestlé",
         "subBrand": "Nestlé Nutrition",
@@ -3149,7 +3197,19 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "526901898A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN Optipro 0-6mo Infant Formula 5HMO 6 (2x650g)",
+        "specification": "1.3kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3174,6 +3234,30 @@ const RECALL_DATA = [
         "reason": "预防性召回：个别原材料存在蜡样芽孢杆菌代谢物（Cereulide）风险",
         "sourceDisplay": "雀巢中国官方公告 / 国家健康委备案",
         "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
+        "code": "527001898A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN Optipro 0-6mo Infant Formula 5HMO 6 (2x450g)",
+        "specification": "900g",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "527001898B",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN Optipro 0-6mo Infant Formula 5HMO 6x400g",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3369,6 +3453,30 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "528101896A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 4 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "528101898A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 6x400g",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
         "code": "52819722AA",
         "brand": "Nestlé",
         "subBrand": "SMA",
@@ -3378,6 +3486,54 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
         "docUrl": "resources/official_docs/UK_FSA_Advisory_28046.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "528201896A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 3 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "528201896B",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 3 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "528201898A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 6 (2x450g)",
+        "specification": "900g",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "528201898B",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 6x400g",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3521,7 +3677,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3570,6 +3726,30 @@ const RECALL_DATA = [
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
         "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
+        "isSeries": false
+    },
+    {
+        "code": "5301046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC SUPREME PRO 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5302046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC SUPREME PRO 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
@@ -3705,6 +3885,30 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "531401896B",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 3 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "531401898A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 6 (2x450g)",
+        "specification": "900g",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
         "code": "53150017Y1",
         "brand": "Nestlé",
         "subBrand": "SMA",
@@ -3714,6 +3918,54 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
         "docUrl": "resources/official_docs/UK_FSA_Advisory_28046.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "531501896A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 3 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "531501896B",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 3 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "531501898A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 6x400g",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "531601896A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 4 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3753,6 +4005,54 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5319046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN SUPREME PRO 0-6 MESES",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5320046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN SUPREME PRO 0-6 MESES",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5321046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN SUPREME PRO 0-6 MESES",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5321046043",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN SUPREME PRO 0-6 MESES",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
         "code": "53210742D1",
         "brand": "Nestlé",
         "subBrand": "BEBA",
@@ -3765,6 +4065,78 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5323046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN SCIENCE PRO SENSITIVE",
+        "specification": "400g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5324046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN SUPREME PRO 0-6 MESES",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5325046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN SUPREME PRO 0-6 MESES",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5326046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN SUPREME PRO 0-6 MESES",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5327046043",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC COMFOR 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5328046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC COMFOR 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
         "code": "533001896A",
         "brand": "Nestlé",
         "subBrand": "Nestlé Nutrition",
@@ -3773,7 +4145,7 @@ const RECALL_DATA = [
         "country": "Philippines",
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
-        "docUrl": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
         "isSeries": false
     },
     {
@@ -3801,6 +4173,78 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "533101896A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 4 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "533101896B",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 3 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "533101898A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 6 (2x450g)",
+        "specification": "900g",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "533101898B",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 6x400g",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "533201896A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 3 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "533401898A",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN OPTI 1-3Yrs Milk Supplement 5HMO 6x400g",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
         "code": "53350742D1",
         "brand": "Nestlé",
         "subBrand": "BEBA",
@@ -3813,6 +4257,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "5336046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC COMFOR 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
         "code": "53360742C1",
         "brand": "Nestlé",
         "subBrand": "BEBA",
@@ -3822,6 +4278,174 @@ const RECALL_DATA = [
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
         "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
+        "isSeries": false
+    },
+    {
+        "code": "533701896B",
+        "brand": "Nestlé",
+        "subBrand": "Nankid",
+        "product": "Nankid Optipro 3+ Yrs 5HMO 3 (4x600g)",
+        "specification": "2.4kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5337046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC COMFOR 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5338046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC SUPREME PRO 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "53380460V1",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC COMFOR 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "533901898A",
+        "brand": "Nestlé",
+        "subBrand": "Nankid",
+        "product": "Nankid Optipro 3+ Yrs 5HMO 3 (2x650g)",
+        "specification": "1.3kg",
+        "country": "Philippines",
+        "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
+        "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
+        "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "5339046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC SUPREME PRO 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "53390460V1",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC COMFOR 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "53390460V2",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC COMFOR 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5340046041",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC SUPREME PRO 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5341046041",
+        "brand": "Nestlé",
+        "subBrand": "Nestogeno",
+        "product": "NESTOGENO 0 - 6 MESES",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5342046041",
+        "brand": "Nestlé",
+        "subBrand": "Nestogeno",
+        "product": "NESTOGENO 0 - 6 MESES",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5343046041",
+        "brand": "Nestlé",
+        "subBrand": "Nestogeno",
+        "product": "NESTOGENO 0 - 6 MESES",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "53430460V2",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NANLAC COMFOR 1 A 3 ANOS",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "5344046041",
+        "brand": "Nestlé",
+        "subBrand": "Nestogeno",
+        "product": "NESTOGENO 0 - 6 MESES",
+        "specification": "800g",
+        "country": "Brazil",
+        "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
+        "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
         "isSeries": false
     },
     {
