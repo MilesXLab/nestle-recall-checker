@@ -3,7 +3,7 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-29 08:01 (PST)",
+    "lastUpdated": "2026-01-29 00:16 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
     "totalCount": 479,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
@@ -4850,7 +4850,7 @@ const RECALL_DATA = [
         "subBrand": "Lactalis",
         "product": "Neoangelac Plus Extra Care Infant Formula",
         "specification": "800g",
-        "country": "Taiwan",
+        "country": "China (Taiwan)",
         "reason": "Precautionary recall: Proactive recall by importer due to potential Cereulide contamination (Lactalis related)",
         "sourceDisplay": "Taiwan FDA / End Strong Enterprise",
         "docUrl": "https://www.fda.gov.tw/",
