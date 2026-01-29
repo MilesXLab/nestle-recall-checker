@@ -3,9 +3,9 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-29 02:11 (PST)",
+    "lastUpdated": "2026-01-28 19:41 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
-    "totalCount": 464,
+    "totalCount": 468,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
     "integrity": "100% Verified - No Speculative Series Alerts"
 };
@@ -146,7 +146,7 @@ const RECALL_DATA = [
         "subBrand": "Aptamil",
         "product": "Aptamil First Infant Formula 800g",
         "specification": "800g",
-        "country": "United Kingdom",
+        "country": "United Kingdom/Ireland",
         "reason": "Precautionary recall: Cereulide toxin detected",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
         "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-03-2026",
@@ -4713,6 +4713,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "8000003215",
+        "brand": "Lactalis",
+        "subBrand": "Lactalis",
+        "product": "Neoangelac Plus Extra Care Infant Formula",
+        "specification": "800g",
+        "country": "Taiwan",
+        "reason": "Precautionary recall: Proactive recall by importer due to potential Cereulide contamination (Lactalis related)",
+        "sourceDisplay": "Taiwan FDA / End Strong Enterprise",
+        "docUrl": "https://www.fda.gov.tw/",
+        "isSeries": false
+    },
+    {
         "code": "8000003280",
         "brand": "Lactalis",
         "subBrand": "Picot",
@@ -4917,6 +4929,30 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "8712400802499",
+        "brand": "Danone",
+        "subBrand": "Nutrilon",
+        "product": "Nutrilon Stage 1",
+        "specification": "800g",
+        "country": "Israel",
+        "reason": "Precautionary recall: Potential Cereulide toxin contamination (Bacillus cereus)",
+        "sourceDisplay": "Teva Israel Ltd. / Ministry of Health",
+        "docUrl": "https://www.health.gov.il/",
+        "isSeries": false
+    },
+    {
+        "code": "8718117612352",
+        "brand": "Danone",
+        "subBrand": "Nutrilon",
+        "product": "Nutrilon PROfutura 1",
+        "specification": "800g",
+        "country": "Luxembourg",
+        "reason": "Precautionary recall: Potential Cereulide toxin contamination (Bacillus cereus)",
+        "sourceDisplay": "ALVA Luxembourg",
+        "docUrl": "https://securite-alimentaire.public.lu/",
+        "isSeries": false
+    },
+    {
         "code": "894408",
         "brand": "Vitagermine",
         "subBrand": "Babybio",
@@ -4951,6 +4987,18 @@ const RECALL_DATA = [
         "sourceDisplay": "Rappel Conso (France)",
         "docUrl": "https://rappel.conso.gouv.fr/",
         "isSeries": false
+    },
+    {
+        "code": "ALL-BATCHES",
+        "brand": "ByHeart",
+        "subBrand": "ByHeart",
+        "product": "ByHeart Whole Post-Production",
+        "specification": "All Sizes",
+        "country": "USA",
+        "reason": "Precautionary recall: Potential for botulism spores (Clostridium botulinum) contamination",
+        "sourceDisplay": "ByHeart Official / US FDA",
+        "docUrl": "https://byheart.com/",
+        "isSeries": true
     },
     {
         "code": "CH-BIO-004",
