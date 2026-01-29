@@ -3,9 +3,9 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-29 03:47 (PST)",
+    "lastUpdated": "2026-01-28 19:52 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
-    "totalCount": 468,
+    "totalCount": 467,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
     "integrity": "100% Verified - No Speculative Series Alerts"
 };
@@ -4987,18 +4987,6 @@ const RECALL_DATA = [
         "sourceDisplay": "Rappel Conso (France)",
         "docUrl": "https://rappel.conso.gouv.fr/",
         "isSeries": false
-    },
-    {
-        "code": "ALL-BATCHES",
-        "brand": "ByHeart",
-        "subBrand": "ByHeart",
-        "product": "ByHeart Whole Post-Production",
-        "specification": "All Sizes",
-        "country": "USA",
-        "reason": "Precautionary recall: Potential for botulism spores (Clostridium botulinum) contamination",
-        "sourceDisplay": "ByHeart Official / US FDA",
-        "docUrl": "https://byheart.com/",
-        "isSeries": true
     },
     {
         "code": "CH-BIO-004",
