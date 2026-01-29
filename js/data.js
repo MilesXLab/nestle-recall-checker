@@ -3,9 +3,9 @@
 
 const RECALL_METADATA = {
     "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-29 03:53 (PST)",
+    "lastUpdated": "2026-01-28 23:58 (PST)",
     "coverage": "9 Regions - Official Government Sources Only",
-    "totalCount": 467,
+    "totalCount": 479,
     "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
     "integrity": "100% Verified - No Speculative Series Alerts"
 };
@@ -150,6 +150,42 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Cereulide toxin detected",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
         "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-03-2026",
+        "isSeries": false
+    },
+    {
+        "code": "4056631001226",
+        "brand": "Danone",
+        "subBrand": "Aptamil",
+        "product": "Aptamil PRONATURA 1 800G",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Precautionary recall: Reported 'silent recall' due to potential Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Foodwatch Austria",
+        "docUrl": "https://www.foodwatch.org/de/oesterreich/",
+        "isSeries": false
+    },
+    {
+        "code": "4056631003435",
+        "brand": "Danone",
+        "subBrand": "Aptamil",
+        "product": "Aptamil PROFUTURA DUOADVANCE PRE 800G",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Precautionary recall: Reported 'silent recall' due to potential Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Foodwatch Austria",
+        "docUrl": "https://www.foodwatch.org/de/oesterreich/",
+        "isSeries": false
+    },
+    {
+        "code": "4056631003701",
+        "brand": "Danone",
+        "subBrand": "Aptamil",
+        "product": "Aptamil PRONUTRA PRE 1200G",
+        "specification": "1200g",
+        "country": "Austria",
+        "reason": "Precautionary recall: Reported 'silent recall' due to potential Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Foodwatch Austria",
+        "docUrl": "https://www.foodwatch.org/de/oesterreich/",
         "isSeries": false
     },
     {
@@ -923,13 +959,13 @@ const RECALL_DATA = [
     {
         "code": "51240742F5",
         "brand": "Nestlé",
-        "subBrand": "NAN",
-        "product": "NAN EXPERTPRO Complete 0-12m 800g",
+        "subBrand": "BEBA",
+        "product": "BEBA Comfort",
         "specification": "800g",
-        "country": "Belgium/Netherlands",
-        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
-        "sourceDisplay": "FAVV-AFSCA / NVWA",
-        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
+        "country": "Switzerland/Belgium/Netherlands",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Nestlé Switzerland / BLV / FAVV",
+        "docUrl": "https://www.nestle.ch/",
         "isSeries": false
     },
     {
@@ -1454,7 +1490,7 @@ const RECALL_DATA = [
         "subBrand": "Illuma",
         "product": "Illuma Future 2 800g",
         "specification": "800g",
-        "country": "China (Cross-border)",
+        "country": "China (Cross-border)/Hong Kong",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
         "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
@@ -1886,7 +1922,7 @@ const RECALL_DATA = [
         "subBrand": "Illuma",
         "product": "Illuma Future 1 800g",
         "specification": "800g",
-        "country": "China (Cross-border)",
+        "country": "China (Cross-border)/Hong Kong",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
         "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
@@ -1938,6 +1974,18 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
         "sourceDisplay": "FAVV-AFSCA / NVWA",
         "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
+        "isSeries": false
+    },
+    {
+        "code": "51560742F5",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA Comfort",
+        "specification": "800g",
+        "country": "Switzerland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Nestlé Switzerland / BLV",
+        "docUrl": "https://www.nestle.ch/",
         "isSeries": false
     },
     {
@@ -2150,7 +2198,7 @@ const RECALL_DATA = [
         "subBrand": "Illuma",
         "product": "Illuma Dual 1 800g",
         "specification": "800g",
-        "country": "China (Cross-border)",
+        "country": "China (Cross-border)/Hong Kong",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
         "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
@@ -2382,6 +2430,30 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
         "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
+        "code": "51720346AD",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA Optipro PRE",
+        "specification": "800g",
+        "country": "Switzerland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Nestlé Switzerland / BLV",
+        "docUrl": "https://www.nestle.ch/",
+        "isSeries": false
+    },
+    {
+        "code": "51720346AE",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA Optipro 1",
+        "specification": "800g",
+        "country": "Switzerland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Nestlé Switzerland / BLV",
+        "docUrl": "https://www.nestle.ch/",
         "isSeries": false
     },
     {
@@ -3249,6 +3321,30 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "52620742A",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA Comfort",
+        "specification": "800g",
+        "country": "Switzerland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Nestlé Switzerland / BLV",
+        "docUrl": "https://www.nestle.ch/",
+        "isSeries": false
+    },
+    {
+        "code": "52620742B",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA Comfort",
+        "specification": "800g",
+        "country": "Switzerland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Nestlé Switzerland / BLV",
+        "docUrl": "https://www.nestle.ch/",
+        "isSeries": false
+    },
+    {
         "code": "52620742D1",
         "brand": "Nestlé",
         "subBrand": "NAN",
@@ -3263,13 +3359,13 @@ const RECALL_DATA = [
     {
         "code": "52620742F1",
         "brand": "Nestlé",
-        "subBrand": "NAN",
-        "product": "NAN EXPERTPRO Complete 0-12m 800g",
+        "subBrand": "BEBA",
+        "product": "BEBA Comfort",
         "specification": "800g",
-        "country": "Belgium/Netherlands",
-        "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
-        "sourceDisplay": "FAVV-AFSCA / NVWA",
-        "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
+        "country": "Switzerland/Belgium/Netherlands",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Nestlé Switzerland / BLV / FAVV",
+        "docUrl": "https://www.nestle.ch/",
         "isSeries": false
     },
     {
@@ -3585,6 +3681,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "52760018",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA Comfort",
+        "specification": "800g",
+        "country": "Switzerland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Nestlé Switzerland / BLV",
+        "docUrl": "https://www.nestle.ch/",
+        "isSeries": false
+    },
+    {
         "code": "52760346AB",
         "brand": "Nestlé",
         "subBrand": "SMA",
@@ -3614,7 +3722,7 @@ const RECALL_DATA = [
         "subBrand": "NAN",
         "product": "NaN Care 3",
         "specification": "800g",
-        "country": "China (Cross-border)",
+        "country": "China (Cross-border)/Hong Kong",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
         "sourceDisplay": "雀巢中国官方公告",
         "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
@@ -3969,6 +4077,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "53020742C1",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA Aliment pour prématurés étape 2",
+        "specification": "32x90ml",
+        "country": "Switzerland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Nestlé Switzerland / BLV",
+        "docUrl": "https://www.nestle.ch/",
+        "isSeries": false
+    },
+    {
         "code": "53030017B1",
         "brand": "Nestlé",
         "subBrand": "NAN",
@@ -4266,6 +4386,18 @@ const RECALL_DATA = [
         "reason": "Preventative recall: Risk of contamination by Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "ANVISA Brazil Resolución nº 32/2026",
         "docUrl": "https://pesquisa.in.gov.br/imprensa/jsp/visualiza/index.jsp?data=07/01/2026&jornal=515&pagina=461",
+        "isSeries": false
+    },
+    {
+        "code": "53210017C1",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "Bio BEBA Optipro 1",
+        "specification": "800g",
+        "country": "Switzerland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Nestlé Switzerland / BLV",
+        "docUrl": "https://www.nestle.ch/",
         "isSeries": false
     },
     {
@@ -4850,7 +4982,7 @@ const RECALL_DATA = [
         "subBrand": "Alula",
         "product": "Alula Gold Reflux 900g (0-12m)",
         "specification": "900g",
-        "country": "Australia/New Zealand",
+        "country": "Australia/New Zealand/Vietnam",
         "reason": "Precautionary recall: Microbial contamination (Cereulide)",
         "sourceDisplay": "Food Standards Australia New Zealand (FSANZ)",
         "docUrl": "https://www.foodstandards.gov.au/food-recalls",
@@ -4886,7 +5018,7 @@ const RECALL_DATA = [
         "subBrand": "Alula",
         "product": "Alula Colic & Constipation 850g (0-12m)",
         "specification": "850g",
-        "country": "Australia/New Zealand",
+        "country": "Australia/New Zealand/Vietnam",
         "reason": "Precautionary recall: Microbial contamination (Cereulide)",
         "sourceDisplay": "Food Standards Australia New Zealand (FSANZ)",
         "docUrl": "https://www.foodstandards.gov.au/food-recalls",
@@ -4958,7 +5090,7 @@ const RECALL_DATA = [
         "subBrand": "Babybio",
         "product": "BABYBIO Optima 1 800g",
         "specification": "800g",
-        "country": "France/Belgium/Luxembourg",
+        "country": "France/Belgium/Luxembourg/Vietnam",
         "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
         "sourceDisplay": "Rappel Conso (France) / RTL Luxembourg",
         "docUrl": "https://rappel.conso.gouv.fr/",
@@ -4970,10 +5102,22 @@ const RECALL_DATA = [
         "subBrand": "Babybio",
         "product": "BABYBIO Optima 1 800g",
         "specification": "800g",
-        "country": "France",
+        "country": "France/Vietnam",
         "reason": "Principe de précaution : présence potentielle de céréulide",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
+        "code": "9001375006391",
+        "brand": "Danone",
+        "subBrand": "Aptamil",
+        "product": "Aptamil PRONATURA 1 800G",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Precautionary recall: Reported 'silent recall' due to potential Cereulide toxin (Bacillus cereus)",
+        "sourceDisplay": "Foodwatch Austria",
+        "docUrl": "https://www.foodwatch.org/de/oesterreich/",
         "isSeries": false
     },
     {
@@ -4982,7 +5126,7 @@ const RECALL_DATA = [
         "subBrand": "Babybio",
         "product": "BABYBIO Optima 1 400g",
         "specification": "400g",
-        "country": "France",
+        "country": "France/Vietnam",
         "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
         "sourceDisplay": "Rappel Conso (France)",
         "docUrl": "https://rappel.conso.gouv.fr/",
