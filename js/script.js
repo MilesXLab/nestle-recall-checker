@@ -4,8 +4,8 @@ const I18N = {
         proj_name: "Aegis Global Guard",
         title: "Recall Checker",
         hazard: "⚠️ CEREULIDE (Bacillus cereus toxin) IS HEAT-RESISTANT. BOILING WATER CANNOT DEACTIVATE IT.",
-        placeholder: "Enter 10-digit batch code...",
-        idle: "Input the 10-digit batch code from the bottom of your tin for strict verification.",
+        placeholder: "Enter batch code (e.g. from tin bottom)...",
+        idle: "Input the batch code from the bottom of your tin for strict verification.",
         searching: "Comparing against official regulatory records...",
 
         status_critical: "STRICT MATCH: OFFICIAL RECALL",
@@ -44,12 +44,12 @@ const I18N = {
         proj_name: "Aegis 全球盾",
         title: "全球召回核对工具",
         hazard: "⚠️ Cereulide（蜡样芽孢杆菌毒素）具有强耐热性，沸水冲泡无法灭活（高温无效）。",
-        placeholder: "输入罐底 10 位编码...",
-        idle: "请输入罐底喷码第一行的 10 位编码进行严格核对。",
+        placeholder: "输入罐底批次编码...",
+        idle: "请输入罐底喷码第一行的批次编码进行严格核对。",
         searching: "正在比对官方监管部门录入的批次...",
 
         status_critical: "!!! 官方精确匹配：确认召回 !!!",
-        desc_critical: "该 10 位批次号明确出现在官方公布的召回名单中。",
+        desc_critical: "该批次号明确出现在官方公布的召回名单中。",
 
         status_caution: "!!! 官方整线召回：系列匹配 !!!",
         desc_caution: "您的批次号开头属于官方公告明确指定的整线召回系列码。",
