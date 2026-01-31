@@ -4,8 +4,8 @@ const I18N = {
         proj_name: "Aegis Global Guard",
         title: "Recall Checker",
         hazard: "⚠️ CEREULIDE (Bacillus cereus toxin) IS HEAT-RESISTANT. BOILING WATER CANNOT DEACTIVATE IT.",
-        placeholder: "Enter 10-digit batch code...",
-        idle: "Input the 10-digit batch code from the bottom of your tin for strict verification.",
+        placeholder: "Enter batch code from packaging...",
+        idle: "Enter the batch code found on your product (e.g., at the bottom or top of the packaging) for verification.",
         searching: "Comparing against official regulatory records...",
 
         status_critical: "STRICT MATCH: OFFICIAL RECALL",
@@ -44,12 +44,12 @@ const I18N = {
         proj_name: "Aegis 全球盾",
         title: "全球召回核对工具",
         hazard: "⚠️ Cereulide（蜡样芽孢杆菌毒素）具有强耐热性，沸水冲泡无法灭活（高温无效）。",
-        placeholder: "输入罐底 10 位编码...",
-        idle: "请输入罐底喷码第一行的 10 位编码进行严格核对。",
+        placeholder: "输入包装上的批次编码...",
+        idle: "请输入产品包装（如罐底或瓶盖）上的批次编码进行严格核对。",
         searching: "正在比对官方监管部门录入的批次...",
 
         status_critical: "!!! 官方精确匹配：确认召回 !!!",
-        desc_critical: "该 10 位批次号明确出现在官方公布的召回名单中。",
+        desc_critical: "该批次号明确出现在官方公布的召回名单中。",
 
         status_caution: "!!! 官方整线召回：系列匹配 !!!",
         desc_caution: "您的批次号开头属于官方公告明确指定的整线召回系列码。",
@@ -246,16 +246,22 @@ function handleSearch() {
         return;
     }
 
-    // STRICT MATCHING LOGIC (v2.4)
+    // STRICT MATCHING LOGIC (v2.5) - Improved Normalization
     // 1. Exact Match: Must match the full code in database (non-series)
-    const exactMatch = RECALL_DATA.find(item =>
-        !item.isSeries && (sanitized === item.code || fuzzy === item.code)
-    );
+    const exactMatch = RECALL_DATA.find(item => {
+        if (item.isSeries) return false;
+        // Normalize both sides for comparison to handle hyphens/spaces
+        const dbSanitized = normalizeBatch(item.code).sanitized;
+        const dbFuzzy = normalizeBatch(item.code).fuzzy;
+        return sanitized === dbSanitized || fuzzy === dbFuzzy || sanitized === item.code || fuzzy === item.code;
+    });
 
     // 2. Series Match: Must match code marked as isSeries in database
-    const seriesMatch = RECALL_DATA.find(item =>
-        item.isSeries && sanitized.startsWith(item.code)
-    );
+    const seriesMatch = RECALL_DATA.find(item => {
+        if (!item.isSeries) return false;
+        const dbSanitized = normalizeBatch(item.code).sanitized;
+        return sanitized.startsWith(dbSanitized) || sanitized.startsWith(item.code);
+    });
 
     if (exactMatch) {
         renderResult('critical', sanitized, exactMatch);

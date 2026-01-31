@@ -2,11 +2,11 @@
 
 > **Official Cross-Brand Verification Tool for 2026 Infant Formula Recalls**
 > 
-> **Author:** TechDadShanghai | **License:** CC BY-NC 4.0 | **Updated:** January 2026
+> **Author:** TechDadShanghai | **License:** CC BY-NC 4.0 (Upgraded with Strict Anti-Fraud Terms) | **Updated:** January 2026
 
 ## 📜 License & Usage Terms
 
-**This project is distributed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License.**
+**This project is distributed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License, recently upgraded with a strict Anti-Commercial Addendum to prevent fraud and scams.**
 
 ### ✅ Allowed Usage
 - **Free for Personal Use**: Use for family safety and community awareness.
@@ -32,7 +32,9 @@ For genuine non-profit organizations or legitimate disaster relief partnerships:
 ## Critical Safety Information
 **Cereulide Toxin (Bacillus cereus)** is **HEAT-RESISTANT**. Boiling water **CANNOT** deactivate it.
 - All recall data is from **January 2026** official announcements
-- Covers **365 officially verified batch codes** from 11 regions (100% government sources)
+- Covers **479 officially verified batch codes** from over 20+ regions including **China (Mainland, Hong Kong, Taiwan)**, Europe, Southeast Asia, and Australia (100% government sources).
+- **Expanded Coverage:** Now includes major brands like **Aptamil, Nutrilon, Alula, Babybio, Bimbosan, and Picot** in addition to the global **Nestlé** recall.
+- **Recent Updates:** Added newly identified batches from **Austria (silent recall), Vietnam (VFA), Switzerland (BEBA), and Hong Kong (Illuma/NAN toxicity alerts).**
 
 ### Important Disclaimer
 **Official sources have NOT published a complete global batch list.** This database consolidates publicly available information from:
@@ -53,7 +55,7 @@ Deploy to GitHub Pages to see it live!
 - **Professional Dashboard**: Optimized two-column layout showing Search/Results and Authoritative Sources side-by-side (Desktop).
 - **Daily Archival System**: Automated daily synchronization with official records, maintaining timestamped snapshots for maximum transparency.
 - **Dual-Engine Verification**:
-  - **Critical Alert**: Exact match with 365 officially recalled batch codes.
+  - **Critical Alert**: Exact match with 479 officially recalled batch codes.
   - **Safe Status**: Verified against the latest official announcements.
 - **Full Bilingual Support**: Deep integration of English/Chinese (EN/中文) across all UI components.
 
@@ -62,11 +64,11 @@ Deploy to GitHub Pages to see it live!
 - `css/style.css`: Premium styling and emergency status animations
 - `js/script.js`: Core search engine and i18n logic
 - `js/data.js`: Synchronized database (100% official)
-- `recall_database.csv`: Primary source of truth (365 batches)
+- `recall_database.csv`: Primary source of truth (479 batches)
 - `archive_and_sync.py`: Daily archival and JS synchronization utility
 - `archives/`: Historical snapshots of data for rollback and audit
 - `csv_to_js.py`: Strict data conversion engine
-- `LICENSE`: MIT License
+- `LICENSE`: CC BY-NC 4.0 (Non-Commercial)
 
 ## Performance & Maintenance
 Run the `archive_and_sync.py` script daily to synchronize the latest CSV changes with the web interface. This ensures the tool always displays the latest verified state while preserving history in the `archives/` directory.
