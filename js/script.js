@@ -170,20 +170,19 @@ function normalizeBatch(code) {
 }
 
 const REGION_FLAGS = {
-    "UK_FSA_SMA": "🇬🇧",
-    "UK_FSA_APTAMIL": "🇬🇧",
-    "SG_SFA_INITIAL": "🇸🇬",
-    "SG_SFA_ADDITIONAL": "🇸🇬",
-    "FR_PICOT": "🇫🇷",
-    "CN_DOMESTIC": "🇨🇳",
-    "CN_CROSSBORDER": "🇨🇳",
-    "PH_FDA": "🇵🇭",
-    "HK_CFS": "🇭🇰",
-    // Fallback/Others
     "UK_FSA": "🇬🇧",
-    "HK_NESTLE": "🇭🇰",
+    "SG_SFA": "🇸🇬",
+    "CZ_MZD": "🇨🇿",
+    "BR_ANVISA": "🇧🇷",
+    "MX_COFEPRIS_N": "🇲🇽",
+    "MX_COFEPRIS_A": "🇲🇽",
+    "PH_FDA": "🇵🇭",
+    "FR_CN": "🇫🇷",
+    "CN_SAMR": "🇨🇳",
+    "HK_CFS": "🇭🇰",
+    "AU_FSANZ": "🇦🇺",
+    // Fallback/Legacy
     "DE_NESTLE": "🇩🇪",
-    "FR_NESTLE": "🇫🇷",
     "BE_LU_NESTLE": "🇧🇪"
 };
 
