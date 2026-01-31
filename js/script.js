@@ -179,7 +179,7 @@ const REGION_FLAGS = {
     "PH_FDA": "🇵🇭",
     "FR_CN": "🇫🇷",
     "CN_SAMR": "🇨🇳",
-    "HK_CFS": "🇭🇰",
+    "HK_CFS": "🇨🇳",
     "AU_FSANZ": "🇦🇺",
     // Fallback/Legacy
     "DE_NESTLE": "🇩🇪",
