@@ -186,6 +186,20 @@ const REGION_FLAGS = {
     "BE_LU_NESTLE": "🇧🇪"
 };
 
+const COUNTRY_FLAGS = {
+    "UK": "🇬🇧",
+    "Singapore": "🇸🇬",
+    "Czech Republic": "🇨🇿",
+    "Brazil": "🇧🇷",
+    "Mexico": "🇲🇽",
+    "Philippines": "🇵🇭",
+    "France": "🇫🇷",
+    "China (Mainland)": "🇨🇳",
+    "China (Cross-border)": "🇨🇳",
+    "Hong Kong": "🇨🇳",
+    "Australia/NZ": "🇦🇺"
+};
+
 function updateLang() {
     document.querySelector('[data-i18n="project_name"]').textContent = I18N[currentLang].proj_name;
     document.querySelector('[data-i18n="title"]').textContent = I18N[currentLang].title;
@@ -353,7 +367,10 @@ function renderResult(type, code, itemData = null) {
             </div>
             <div>
                 <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_country}</p>
-                <p class="text-sm font-black text-slate-800">${itemData.country}</p>
+                <p class="text-sm font-black text-slate-800 flex items-center gap-2">
+                    <span>${COUNTRY_FLAGS[itemData.country] || "🌐"}</span>
+                    ${itemData.country}
+                </p>
             </div>
             <div>
                 <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_source}</p>
