@@ -3,9 +3,9 @@
 
 const RECALL_METADATA = {
     "version": "4.6.0 (Global Verified)",
-    "lastUpdated": "2026-01-31 14:23 (PST)",
+    "lastUpdated": "2026-01-31 17:20 (PST)",
     "coverage": "12 Regions - Official Government Sources Only",
-    "totalCount": 541,
+    "totalCount": 531,
     "authority": "FSA, SFA, FDA, ANVISA, COFEPRIS, MZD, AFSCA, RappelConso, FSANZ, SAMR, CFS",
     "integrity": "100% Verified - Official Government Deep Links"
 };
@@ -1778,20 +1778,8 @@ const RECALL_DATA = [
         "subBrand": "BEBA",
         "product": "BEBA Supreme 1 800g",
         "specification": "800g",
-        "country": "China (Cross-border)",
+        "country": "China (Cross-border)/Czech Republic",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
-        "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
-        "isSeries": false
-    },
-    {
-        "code": "51460742F2",
-        "brand": "Nestlé",
-        "subBrand": "BEBA",
-        "product": "BEBA SUPREMEpro 1 800g",
-        "specification": "800g",
-        "country": "Czech Republic",
-        "reason": "Precautionary recall: Potential Cereulide toxin",
         "sourceDisplay": "Czech Ministry of Health",
         "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
         "isSeries": false
@@ -2618,20 +2606,8 @@ const RECALL_DATA = [
         "subBrand": "BEBA",
         "product": "BEBA Supreme 1 800g",
         "specification": "800g",
-        "country": "China (Cross-border)",
+        "country": "China (Cross-border)/Czech Republic",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
-        "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
-        "isSeries": false
-    },
-    {
-        "code": "51720742F2",
-        "brand": "Nestlé",
-        "subBrand": "BEBA",
-        "product": "BEBA SUPREMEpro 1 800g",
-        "specification": "800g",
-        "country": "Czech Republic",
-        "reason": "Precautionary recall: Potential Cereulide toxin",
         "sourceDisplay": "Czech Ministry of Health",
         "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
         "isSeries": false
@@ -4154,21 +4130,9 @@ const RECALL_DATA = [
         "subBrand": "SMA",
         "product": "SMA First Milk 200ml",
         "specification": "200ml",
-        "country": "United Kingdom",
+        "country": "United Kingdom/UK/Ireland",
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
-        "docUrl": "resources/official_docs/UK_FSA_Advisory_28046.pdf",
-        "isSeries": false
-    },
-    {
-        "code": "52860295M",
-        "brand": "Nestlé",
-        "subBrand": "SMA",
-        "product": "SMA First Milk RTF 200ml",
-        "specification": "200ml",
-        "country": "UK/Ireland",
-        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
-        "sourceDisplay": "UK FSA / FSAI Ireland",
         "docUrl": "https://www.fsai.ie/news-alerts/food-alerts/recall-of-certain-batches-of-nestle-sma-infant-and",
         "isSeries": false
     },
@@ -4190,21 +4154,9 @@ const RECALL_DATA = [
         "subBrand": "SMA",
         "product": "SMA First Milk 200ml",
         "specification": "200ml",
-        "country": "United Kingdom",
+        "country": "United Kingdom/UK/Ireland",
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
-        "docUrl": "resources/official_docs/UK_FSA_Advisory_28046.pdf",
-        "isSeries": false
-    },
-    {
-        "code": "52870295M",
-        "brand": "Nestlé",
-        "subBrand": "SMA",
-        "product": "SMA First Milk RTF 200ml",
-        "specification": "200ml",
-        "country": "UK/Ireland",
-        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
-        "sourceDisplay": "UK FSA / FSAI Ireland",
         "docUrl": "https://www.fsai.ie/news-alerts/food-alerts/recall-of-certain-batches-of-nestle-sma-infant-and",
         "isSeries": false
     },
@@ -5342,22 +5294,10 @@ const RECALL_DATA = [
         "subBrand": "Picot",
         "product": "Picot Nutrition Quotidienne 2ème âge 800g",
         "specification": "800g",
-        "country": "France",
+        "country": "France/Global",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
-        "isSeries": false
-    },
-    {
-        "code": "8000003280",
-        "brand": "Lactalis",
-        "subBrand": "Picot",
-        "product": "Picot Infant Formula (various) 800g",
-        "specification": "800g",
-        "country": "Global",
-        "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
-        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
-        "docUrl": "https://rappel.conso.gouv.fr/",
         "isSeries": false
     },
     {
@@ -5366,22 +5306,10 @@ const RECALL_DATA = [
         "subBrand": "Picot",
         "product": "Picot Standard 2ème âge 850g",
         "specification": "850g",
-        "country": "France",
+        "country": "France/France/Luxembourg",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
-        "isSeries": false
-    },
-    {
-        "code": "8000003281",
-        "brand": "Lactalis",
-        "subBrand": "Picot",
-        "product": "Picot Standard 2 850g",
-        "specification": "850g",
-        "country": "France/Luxembourg",
-        "reason": "Precautionary recall: Microbial contamination (Cereulide)",
-        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
-        "docUrl": "https://rappel.conso.gouv.fr/",
         "isSeries": false
     },
     {
@@ -5438,22 +5366,10 @@ const RECALL_DATA = [
         "subBrand": "Picot",
         "product": "Picot Nutrition Quotidienne 1er âge 400g/800g",
         "specification": "800g",
-        "country": "France",
+        "country": "France/Global",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
-        "isSeries": false
-    },
-    {
-        "code": "8000003297",
-        "brand": "Lactalis",
-        "subBrand": "Picot",
-        "product": "Picot Infant Formula (various) 800g",
-        "specification": "800g",
-        "country": "Global",
-        "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
-        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
-        "docUrl": "https://rappel.conso.gouv.fr/",
         "isSeries": false
     },
     {
@@ -5462,22 +5378,10 @@ const RECALL_DATA = [
         "subBrand": "Picot",
         "product": "Picot Standard 1er âge 850g",
         "specification": "850g",
-        "country": "France",
+        "country": "France/France/Luxembourg",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
-        "isSeries": false
-    },
-    {
-        "code": "8000003298",
-        "brand": "Lactalis",
-        "subBrand": "Picot",
-        "product": "Picot Standard 1 850g",
-        "specification": "850g",
-        "country": "France/Luxembourg",
-        "reason": "Precautionary recall: Microbial contamination (Cereulide)",
-        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
-        "docUrl": "https://rappel.conso.gouv.fr/",
         "isSeries": false
     },
     {
@@ -5522,22 +5426,10 @@ const RECALL_DATA = [
         "subBrand": "Picot",
         "product": "Picot Nutrition Quotidienne 1er âge 400g/800g",
         "specification": "800g",
-        "country": "France",
+        "country": "France/Global (France/Belgium/etc)",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
-        "isSeries": false
-    },
-    {
-        "code": "8000003312",
-        "brand": "Lactalis",
-        "subBrand": "Picot",
-        "product": "Picot Nutrition Quotidienne 1 800g",
-        "specification": "800g",
-        "country": "Global (France/Belgium/etc)",
-        "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
-        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
-        "docUrl": "https://rappel.conso.gouv.fr/",
         "isSeries": false
     },
     {
@@ -5738,22 +5630,10 @@ const RECALL_DATA = [
         "subBrand": "Picot",
         "product": "Picot AR 2ème âge 800g",
         "specification": "800g",
-        "country": "France",
+        "country": "France/Global",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
-        "isSeries": false
-    },
-    {
-        "code": "8000003400",
-        "brand": "Lactalis",
-        "subBrand": "Picot",
-        "product": "Picot Infant Formula (various) 800g",
-        "specification": "800g",
-        "country": "Global",
-        "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
-        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
-        "docUrl": "https://rappel.conso.gouv.fr/",
         "isSeries": false
     },
     {
