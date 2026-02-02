@@ -190,3 +190,28 @@ h4 {
 ::-webkit-scrollbar-thumb:hover {
     background: #94A3B8;
 }
+
+/* Version Update Scrolling Banner */
+.version-scroll-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.version-scroll-content {
+    display: inline-flex;
+    white-space: nowrap;
+    animation: scroll-left 30s linear infinite;
+}
+
+.version-scroll-content:hover {
+    animation-play-state: paused;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}

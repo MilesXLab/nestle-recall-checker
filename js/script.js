@@ -38,7 +38,16 @@ const I18N = {
         label_country: "Country/Region",
         label_reason: "Recall Reason",
         label_source: "Official Source",
-        label_authoritative_sources: "Authoritative Data Sources"
+        label_authoritative_sources: "Authoritative Data Sources",
+        github_project: "GitHub Project",
+        report_issue: "Report Issue",
+        version_update: "📢 Latest Update: {version} | {date} | {count} verified batches from {coverage} | Open Source Project - Star us on GitHub!",
+        view_on_github: "View on GitHub",
+        help_title: "Found an Issue or Have New Data?",
+        help_description: "Help us keep this database accurate! If you find outdated information, discover new recall batches, or encounter any problems, please report them on GitHub.",
+        report_on_github: "Report on GitHub Issues",
+        help_description_compact: "Found outdated info or new recall data? Help us improve!",
+        report_on_github_short: "Report Issue"
     },
     zh: {
         proj_name: "Aegis 全球盾",
@@ -78,7 +87,16 @@ const I18N = {
         label_country: "所属国家/地区",
         label_reason: "召回原因",
         label_source: "权威判定源",
-        label_authoritative_sources: "权威数据来源 (同步官方)"
+        label_authoritative_sources: "权威数据来源 (同步官方)",
+        github_project: "GitHub 项目",
+        report_issue: "反馈问题",
+        version_update: "📢 最新更新：{version} | {date} | 已验证 {count} 个批次来自 {coverage} | 开源项目 - 欢迎在 GitHub 上给我们加星！",
+        view_on_github: "在 GitHub 上查看",
+        help_title: "发现问题或有新数据？",
+        help_description: "帮助我们保持数据库的准确性！如果您发现过时信息、新的召回批次或遇到任何问题，请在 GitHub 上报告。",
+        report_on_github: "在 GitHub Issues 上报告",
+        help_description_compact: "发现过时信息或新的召回数据？帮助我们改进！",
+        report_on_github_short: "报告问题"
     }
 };
 
@@ -239,12 +257,59 @@ function updateLang() {
 
     document.getElementById('sourcesList').innerHTML = sourcesHtml;
 
+    // Update GitHub links
+    const githubLinks = document.querySelectorAll('[data-i18n="github_project"]');
+    githubLinks.forEach(link => link.textContent = I18N[currentLang].github_project);
+
+    const issueLinks = document.querySelectorAll('[data-i18n="report_issue"]');
+    issueLinks.forEach(link => link.textContent = I18N[currentLang].report_issue);
+
+    // Update GitHub button
+    const viewOnGithubLinks = document.querySelectorAll('[data-i18n="view_on_github"]');
+    viewOnGithubLinks.forEach(link => link.textContent = I18N[currentLang].view_on_github);
+
+    // Update help/contribution notice
+    const helpTitle = document.querySelector('[data-i18n="help_title"]');
+    if (helpTitle) helpTitle.textContent = I18N[currentLang].help_title;
+
+    const helpDescription = document.querySelector('[data-i18n="help_description"]');
+    if (helpDescription) helpDescription.textContent = I18N[currentLang].help_description;
+
+    const reportOnGithub = document.querySelectorAll('[data-i18n="report_on_github"]');
+    reportOnGithub.forEach(link => link.textContent = I18N[currentLang].report_on_github);
+
+    // Update compact help notice
+    const helpDescriptionCompact = document.querySelector('[data-i18n="help_description_compact"]');
+    if (helpDescriptionCompact) helpDescriptionCompact.textContent = I18N[currentLang].help_description_compact;
+
+    const reportOnGithubShort = document.querySelectorAll('[data-i18n="report_on_github_short"]');
+    reportOnGithubShort.forEach(link => link.textContent = I18N[currentLang].report_on_github_short);
+
+    // Update version scrolling banner
+    updateVersionBanner();
+
     // Force re-render of current view
     if (searchInput.value.trim().length > 0) {
         handleSearch();
     } else {
         renderIdle();
     }
+}
+
+// Version Update Banner Function
+function updateVersionBanner() {
+    const versionText = I18N[currentLang].version_update
+        .replace('{version}', RECALL_METADATA.version)
+        .replace('{date}', RECALL_METADATA.lastUpdated)
+        .replace('{count}', RECALL_METADATA.totalCount)
+        .replace('{coverage}', RECALL_METADATA.coverage);
+
+    // Duplicate content for seamless scrolling
+    const scrollContent = document.getElementById('versionScrollContent');
+    scrollContent.innerHTML = `
+        <span class="px-8 text-xs font-bold">${versionText}</span>
+        <span class="px-8 text-xs font-bold">${versionText}</span>
+    `;
 }
 
 function handleSearch() {
