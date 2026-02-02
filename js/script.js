@@ -170,21 +170,34 @@ function normalizeBatch(code) {
 }
 
 const REGION_FLAGS = {
-    "UK_FSA_SMA": "🇬🇧",
-    "UK_FSA_APTAMIL": "🇬🇧",
-    "SG_SFA_INITIAL": "🇸🇬",
-    "SG_SFA_ADDITIONAL": "🇸🇬",
-    "FR_PICOT": "🇫🇷",
-    "CN_DOMESTIC": "🇨🇳",
-    "CN_CROSSBORDER": "🇨🇳",
-    "PH_FDA": "🇵🇭",
-    "HK_CFS": "🇭🇰",
-    // Fallback/Others
     "UK_FSA": "🇬🇧",
-    "HK_NESTLE": "🇭🇰",
+    "SG_SFA": "🇸🇬",
+    "CZ_MZD": "🇨🇿",
+    "BR_ANVISA": "🇧🇷",
+    "MX_COFEPRIS_N": "🇲🇽",
+    "MX_COFEPRIS_A": "🇲🇽",
+    "PH_FDA": "🇵🇭",
+    "FR_CN": "🇫🇷",
+    "CN_SAMR": "🇨🇳",
+    "HK_CFS": "🇨🇳",
+    "AU_FSANZ": "🇦🇺",
+    // Fallback/Legacy
     "DE_NESTLE": "🇩🇪",
-    "FR_NESTLE": "🇫🇷",
     "BE_LU_NESTLE": "🇧🇪"
+};
+
+const COUNTRY_FLAGS = {
+    "UK": "🇬🇧",
+    "Singapore": "🇸🇬",
+    "Czech Republic": "🇨🇿",
+    "Brazil": "🇧🇷",
+    "Mexico": "🇲🇽",
+    "Philippines": "🇵🇭",
+    "France": "🇫🇷",
+    "China (Mainland)": "🇨🇳",
+    "China (Cross-border)": "🇨🇳",
+    "Hong Kong": "🇨🇳",
+    "Australia/NZ": "🇦🇺"
 };
 
 function updateLang() {
@@ -354,7 +367,10 @@ function renderResult(type, code, itemData = null) {
             </div>
             <div>
                 <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_country}</p>
-                <p class="text-sm font-black text-slate-800">${itemData.country}</p>
+                <p class="text-sm font-black text-slate-800 flex items-center gap-2">
+                    <span>${COUNTRY_FLAGS[itemData.country] || "🌐"}</span>
+                    ${itemData.country}
+                </p>
             </div>
             <div>
                 <p class="text-[10px] font-bold text-slate-400 uppercase tracking-widest">${t.label_source}</p>

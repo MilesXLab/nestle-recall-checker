@@ -1,69 +1,81 @@
-// --- OFFICIAL VERIFIED RECALL DATABASE (v4.5.2 - Cleaned) ---
+// --- OFFICIAL VERIFIED RECALL DATABASE (v4.6.0 - Global Verified) ---
 // 100% Official Sources Only - No Speculative Data
 
 const RECALL_METADATA = {
-    "version": "4.5.2 (100% Official)",
-    "lastUpdated": "2026-01-29 08:25 (PST)",
-    "coverage": "9 Regions - Official Government Sources Only",
-    "totalCount": 479,
-    "authority": "FSA, CFS, FDA, RappelConso, FSANZ, SAMR",
-    "integrity": "100% Verified - No Speculative Series Alerts"
+    "version": "4.6.0 (Global Verified)",
+    "lastUpdated": "2026-02-01 01:21 (PST)",
+    "coverage": "12 Regions - Official Government Sources Only",
+    "totalCount": 531,
+    "authority": "FSA, SFA, FDA, ANVISA, COFEPRIS, MZD, AFSCA, RappelConso, FSANZ, SAMR, CFS",
+    "integrity": "100% Verified - Official Government Deep Links"
 };
 
 const OFFICIAL_SOURCES = [
     {
-        "id": "UK_FSA_SMA",
-        "name": "UK Food Standards Agency - SMA (FSA-PRIN-02-2026)",
+        "id": "UK_FSA",
+        "name": "UK Food Standards Agency (FSA) - Global Notice",
         "url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
         "date": "2026-01-23"
     },
     {
-        "id": "UK_FSA_APTAMIL",
-        "name": "UK Food Standards Agency - Aptamil (FSA-PRIN-03-2026)",
-        "url": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-03-2026",
+        "id": "SG_SFA",
+        "name": "SFA Singapore - Jan 30 Final Recall Update",
+        "url": "https://www.sfa.gov.sg/news-publications/newsroom/recall-of-two-additional-infant-formula-products-due-to-presence-of-cereulide-toxin",
+        "date": "2026-01-30"
+    },
+    {
+        "id": "CZ_MZD",
+        "name": "Czech Ministry of Health - Verified Batch List",
+        "url": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
+        "date": "2026-01-30"
+    },
+    {
+        "id": "BR_ANVISA",
+        "name": "ANVISA Brazil - Resolution 32/2026",
+        "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2026/proibida-venda-de-formula-infantil-com-risco-de-contaminacao-por-toxina",
+        "date": "2026-01-07"
+    },
+    {
+        "id": "MX_COFEPRIS_N",
+        "name": "COFEPRIS Mexico - Nestlé Sanitary Alert",
+        "url": "https://www.gob.mx/cms/uploads/attachment/file/1047052/Alerta_Sanitaria__Nestl__07012026.pdf",
+        "date": "2026-01-07"
+    },
+    {
+        "id": "MX_COFEPRIS_A",
+        "name": "COFEPRIS Mexico - Alula Sanitary Alert",
+        "url": "https://www.gob.mx/cms/uploads/attachment/file/1051500/Alerta_Sanitaria__Alula_23012026.pdf",
         "date": "2026-01-23"
-    },
-    {
-        "id": "SG_SFA_INITIAL",
-        "name": "SFA Singapore - Initial Stop-Sale Notice",
-        "url": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
-        "date": "2026-01-08"
-    },
-    {
-        "id": "SG_SFA_ADDITIONAL",
-        "name": "SFA Singapore - Additional Recall Notice",
-        "url": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-recall-additional-infant-formula-products-due-to-presence-of-cereulide-toxin",
-        "date": "2026-01-17"
-    },
-    {
-        "id": "FR_PICOT",
-        "name": "Rappel Conso - Picot (Lactalis) Verified Archive",
-        "url": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
-        "date": "2026-01-21"
-    },
-    {
-        "id": "CN_DOMESTIC",
-        "name": "雀巢中国-大陆市场自愿回收公告",
-        "url": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113",
-        "date": "2026-01-13"
-    },
-    {
-        "id": "CN_CROSSBORDER",
-        "name": "雀巢中国-跨境电商自愿回收公告",
-        "url": "https://www.nestle.com.cn/media/pressreleases/preventative-voluntary-recall-infant-formula-20260113-a",
-        "date": "2026-01-13"
     },
     {
         "id": "PH_FDA",
         "name": "Philippines FDA Advisory 2026-0030",
         "url": "https://www.fda.gov.ph/fda-advisory-no-2026-0030-voluntary-recall-of-nan-optipro-and-nankid-optipro-products/",
-        "date": "2026-01-10"
+        "date": "2026-01-12"
+    },
+    {
+        "id": "FR_CN",
+        "name": "Rappel Conso - France National Recall Portal",
+        "url": "https://rappel.conso.gouv.fr/",
+        "date": "2026-01-31"
+    },
+    {
+        "id": "CN_SAMR",
+        "name": "国家市场监管总局/雀巢中国-召回公告汇总",
+        "url": "https://www.nestle.com.cn/media/pressreleases/allpressreleases/nestle-china-precautionary-recall-january-2026",
+        "date": "2026-01-13"
     },
     {
         "id": "HK_CFS",
-        "name": "HK Centre for Food Safety (Verified PDF)",
-        "url": "resources/official_docs/HK_CFS_Recall_20260122.pdf",
-        "date": "2026-01-22"
+        "name": "China Hong Kong Centre for Food Safety - Official Notice",
+        "url": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
+        "date": "2026-01-10"
+    },
+    {
+        "id": "AU_FSANZ",
+        "name": "FSANZ Australia/NZ - Multi-Brand Recall",
+        "url": "https://www.foodstandards.gov.au/food-recalls",
+        "date": "2026-01-15"
     }
 ];
 
@@ -78,6 +90,30 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Cereulide toxin risk",
         "sourceDisplay": "Singapore Food Agency (SFA)",
         "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-recall-additional-infant-formula-products-due-to-presence-of-cereulide-toxin",
+        "isSeries": false
+    },
+    {
+        "code": "101570779",
+        "brand": "Dumex (Danone)",
+        "subBrand": "Dumex",
+        "product": "Dumex Dulac Stage 2 800g",
+        "specification": "800g",
+        "country": "Singapore",
+        "reason": "Precautionary recall: Cereulide toxin risk",
+        "sourceDisplay": "Singapore Food Agency (SFA)",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/recall-of-two-additional-infant-formula-products-due-to-presence-of-cereulide-toxin",
+        "isSeries": false
+    },
+    {
+        "code": "101575737",
+        "brand": "Dumex (Danone)",
+        "subBrand": "Dumex",
+        "product": "Dumex Dulac Stage 1 800g",
+        "specification": "800g",
+        "country": "Singapore",
+        "reason": "Precautionary recall: Cereulide toxin risk",
+        "sourceDisplay": "Singapore Food Agency (SFA)",
+        "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/recall-of-two-additional-infant-formula-products-due-to-presence-of-cereulide-toxin",
         "isSeries": false
     },
     {
@@ -102,6 +138,42 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin) in raw material",
         "sourceDisplay": "FAVV-AFSCA (Belgium)",
         "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
+        "isSeries": false
+    },
+    {
+        "code": "25020021",
+        "brand": "Danone",
+        "subBrand": "BEBELO",
+        "product": "BEBELO MILK 2 600g",
+        "specification": "600g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential toxic substances",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
+        "isSeries": false
+    },
+    {
+        "code": "25020080",
+        "brand": "Danone",
+        "subBrand": "BEBELO",
+        "product": "BEBELO MILK 2 600g",
+        "specification": "600g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential toxic substances",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
+        "isSeries": false
+    },
+    {
+        "code": "25020112",
+        "brand": "Danone",
+        "subBrand": "BEBELO",
+        "product": "BEBELO MILK 1 600g",
+        "specification": "600g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential toxic substances",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
         "isSeries": false
     },
     {
@@ -138,18 +210,6 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Possible presence of Cereulide toxin",
         "sourceDisplay": "Hochdorf Swiss Nutrition / BLV",
         "docUrl": "https://www.hochdorf.com/en/news/",
-        "isSeries": false
-    },
-    {
-        "code": "31-10-2026",
-        "brand": "Danone",
-        "subBrand": "Aptamil",
-        "product": "Aptamil First Infant Formula 800g",
-        "specification": "800g",
-        "country": "United Kingdom/Ireland",
-        "reason": "Precautionary recall: Cereulide toxin detected",
-        "sourceDisplay": "UK Food Standards Agency (FSA)",
-        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-03-2026",
         "isSeries": false
     },
     {
@@ -333,6 +393,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "51060017Y2",
+        "brand": "Nestlé",
+        "subBrand": "Alfamino",
+        "product": "Alfamino 400g",
+        "specification": "400g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Nestle_07012026.pdf",
+        "isSeries": false
+    },
+    {
         "code": "5106080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -354,6 +426,18 @@ const RECALL_DATA = [
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
         "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
+        "code": "51070017Y1",
+        "brand": "Nestlé",
+        "subBrand": "Alfamino",
+        "product": "Alfamino 400g",
+        "specification": "400g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Nestle_07012026.pdf",
         "isSeries": false
     },
     {
@@ -522,6 +606,18 @@ const RECALL_DATA = [
         "reason": "Precautionary verification: Quality concern related to raw material",
         "sourceDisplay": "Nestlé MENA Official Release",
         "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-02-2026",
+        "isSeries": false
+    },
+    {
+        "code": "51130017Y1",
+        "brand": "Nestlé",
+        "subBrand": "Alfamino",
+        "product": "Alfamino 400g",
+        "specification": "400g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
         "isSeries": false
     },
     {
@@ -1528,7 +1624,7 @@ const RECALL_DATA = [
         "specification": "800g",
         "country": "Singapore, Brunei",
         "reason": "Precautionary recall: Cereulide toxin risk",
-        "sourceDisplay": "Brunei Food Safety Authority",
+        "sourceDisplay": "SFA / Brunei FSA",
         "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
         "isSeries": false
     },
@@ -1636,7 +1732,7 @@ const RECALL_DATA = [
         "specification": "800g",
         "country": "Singapore, Brunei",
         "reason": "Precautionary recall: Cereulide toxin risk",
-        "sourceDisplay": "Brunei Food Safety Authority",
+        "sourceDisplay": "SFA / Brunei FSA",
         "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
         "isSeries": false
     },
@@ -1682,10 +1778,10 @@ const RECALL_DATA = [
         "subBrand": "BEBA",
         "product": "BEBA Supreme 1 800g",
         "specification": "800g",
-        "country": "China (Cross-border)",
+        "country": "China (Cross-border)/Czech Republic",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
-        "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
         "isSeries": false
     },
     {
@@ -1708,7 +1804,7 @@ const RECALL_DATA = [
         "specification": "800g",
         "country": "Singapore, Brunei",
         "reason": "Precautionary recall: Cereulide toxin risk",
-        "sourceDisplay": "Brunei Food Safety Authority",
+        "sourceDisplay": "SFA / Brunei FSA",
         "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
         "isSeries": false
     },
@@ -1845,6 +1941,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "51530346AE",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA COMFORT 1 800g",
+        "specification": "800g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
+        "isSeries": false
+    },
+    {
         "code": "5153080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -1974,6 +2082,18 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Potential presence of Cereulide (Bacillus cereus toxin)",
         "sourceDisplay": "FAVV-AFSCA / NVWA",
         "docUrl": "https://favv-afsca.be/nl/producten/zuigelingenvoeding",
+        "isSeries": false
+    },
+    {
+        "code": "51560742F2",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA EXPERTpro SENSITIVE 800g",
+        "specification": "800g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
         "isSeries": false
     },
     {
@@ -2169,6 +2289,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "51620017Y4",
+        "brand": "Nestlé",
+        "subBrand": "Alfamino",
+        "product": "Alfamino Junior 400g",
+        "specification": "400g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
+        "isSeries": false
+    },
+    {
         "code": "5162080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -2250,6 +2382,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "51670017Y3",
+        "brand": "Nestlé",
+        "subBrand": "Alfamino",
+        "product": "Alfamino 400g",
+        "specification": "400g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
         "isSeries": false
     },
     {
@@ -2462,10 +2606,10 @@ const RECALL_DATA = [
         "subBrand": "BEBA",
         "product": "BEBA Supreme 1 800g",
         "specification": "800g",
-        "country": "China (Cross-border)",
+        "country": "China (Cross-border)/Czech Republic",
         "reason": "预防性召回：蜡样芽孢杆菌代谢物风险 (Cereulide)",
-        "sourceDisplay": "雀巢中国官方公告",
-        "docUrl": "https://www.cfs.gov.hk/english/press/20260110_12105.html",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
         "isSeries": false
     },
     {
@@ -2925,6 +3069,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "52030017Y2",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN Alfamino 400g",
+        "specification": "400g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Nestle_07012026.pdf",
+        "isSeries": false
+    },
+    {
         "code": "5203080621",
         "brand": "Nestlé",
         "subBrand": "Guigoz",
@@ -2934,6 +3090,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "52040017Y1",
+        "brand": "Nestlé",
+        "subBrand": "NAN",
+        "product": "NAN Alfamino 400g",
+        "specification": "400g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Nestle_07012026.pdf",
         "isSeries": false
     },
     {
@@ -3309,6 +3477,30 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "52610742F2",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA EXPERTpro SENSITIVE 800g",
+        "specification": "800g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
+        "isSeries": false
+    },
+    {
+        "code": "52620346AB",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA COMFORT 1 800g",
+        "specification": "800g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
+        "isSeries": false
+    },
+    {
         "code": "52620346AD",
         "brand": "Nestlé",
         "subBrand": "NAN",
@@ -3669,6 +3861,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "52760017Y2",
+        "brand": "Nestlé",
+        "subBrand": "Alfamino",
+        "product": "Alfamino Junior 400g",
+        "specification": "400g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
+        "isSeries": false
+    },
+    {
         "code": "52760017Y5",
         "brand": "Nestlé",
         "subBrand": "SMA",
@@ -3849,6 +4053,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "52850346AF",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA COMFORT 1 800g",
+        "specification": "800g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
+        "isSeries": false
+    },
+    {
         "code": "52850742F2",
         "brand": "Nestlé",
         "subBrand": "BEBA",
@@ -3914,21 +4130,9 @@ const RECALL_DATA = [
         "subBrand": "SMA",
         "product": "SMA First Milk 200ml",
         "specification": "200ml",
-        "country": "United Kingdom",
+        "country": "United Kingdom/UK/Ireland",
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
-        "docUrl": "resources/official_docs/UK_FSA_Advisory_28046.pdf",
-        "isSeries": false
-    },
-    {
-        "code": "52860295M",
-        "brand": "Nestlé",
-        "subBrand": "SMA",
-        "product": "SMA First Milk RTF 200ml",
-        "specification": "200ml",
-        "country": "UK/Ireland",
-        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
-        "sourceDisplay": "UK FSA / FSAI Ireland",
         "docUrl": "https://www.fsai.ie/news-alerts/food-alerts/recall-of-certain-batches-of-nestle-sma-infant-and",
         "isSeries": false
     },
@@ -3950,21 +4154,9 @@ const RECALL_DATA = [
         "subBrand": "SMA",
         "product": "SMA First Milk 200ml",
         "specification": "200ml",
-        "country": "United Kingdom",
+        "country": "United Kingdom/UK/Ireland",
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
-        "docUrl": "resources/official_docs/UK_FSA_Advisory_28046.pdf",
-        "isSeries": false
-    },
-    {
-        "code": "52870295M",
-        "brand": "Nestlé",
-        "subBrand": "SMA",
-        "product": "SMA First Milk RTF 200ml",
-        "specification": "200ml",
-        "country": "UK/Ireland",
-        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
-        "sourceDisplay": "UK FSA / FSAI Ireland",
         "docUrl": "https://www.fsai.ie/news-alerts/food-alerts/recall-of-certain-batches-of-nestle-sma-infant-and",
         "isSeries": false
     },
@@ -3990,6 +4182,18 @@ const RECALL_DATA = [
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "resources/official_docs/FR_Rappel_Conso_20947.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "52880742F2",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA EXPERTpro SENSITIVE 800g",
+        "specification": "800g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
         "isSeries": false
     },
     {
@@ -4077,6 +4281,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "53020742B1",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA COMFORT 1 70ml",
+        "specification": "70ml",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
+        "isSeries": false
+    },
+    {
         "code": "53020742C1",
         "brand": "Nestlé",
         "subBrand": "BEBA",
@@ -4096,7 +4312,7 @@ const RECALL_DATA = [
         "specification": "32g",
         "country": "Singapore, Brunei",
         "reason": "Precautionary recall: Cereulide toxin risk",
-        "sourceDisplay": "Brunei Food Safety Authority",
+        "sourceDisplay": "SFA / Brunei FSA",
         "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
         "isSeries": false
     },
@@ -4108,7 +4324,7 @@ const RECALL_DATA = [
         "specification": "800g",
         "country": "Singapore, Brunei",
         "reason": "Precautionary recall: Cereulide toxin risk",
-        "sourceDisplay": "Brunei Food Safety Authority",
+        "sourceDisplay": "SFA / Brunei FSA",
         "docUrl": "https://www.sfa.gov.sg/news-publications/newsroom/direction-to-stop-sale-of-five-nestle-infant-formula-due-to-potential-presence-of-toxin-in-infant-formula",
         "isSeries": false
     },
@@ -4329,6 +4545,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "53160742A1",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA COMFORT 1 70ml",
+        "specification": "70ml",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
+        "isSeries": false
+    },
+    {
         "code": "53160742C1",
         "brand": "Nestlé",
         "subBrand": "BEBA",
@@ -4542,6 +4770,18 @@ const RECALL_DATA = [
         "reason": "Voluntary Recall: Detection of low levels of cereulide in a raw material",
         "sourceDisplay": "Philippines FDA Advisory No.2026-0030",
         "docUrl": "resources/official_docs/PH_FDA_Advisory_2026_0030.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "53300742A1",
+        "brand": "Nestlé",
+        "subBrand": "BEBA",
+        "product": "BEBA EXPERTpro HA 1 600g",
+        "specification": "600g",
+        "country": "Czech Republic",
+        "reason": "Precautionary recall: Potential Cereulide toxin",
+        "sourceDisplay": "Czech Ministry of Health",
+        "docUrl": "https://mzd.gov.cz/hlavni-hygienicka-varuje-pred-konzumaci-nekolika-sarzi-kontaminovanych-kojeneckych-vyziv/",
         "isSeries": false
     },
     {
@@ -4845,6 +5085,102 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "8000003178",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 1 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003179",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 1 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003181",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003194",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003195",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003196",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003197",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003198",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
         "code": "8000003215",
         "brand": "Lactalis",
         "subBrand": "Lactalis",
@@ -4857,27 +5193,111 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
-        "code": "8000003280",
-        "brand": "Lactalis",
-        "subBrand": "Picot",
-        "product": "Picot Nutrition Quotidienne 2ème âge 800g",
-        "specification": "800g",
-        "country": "France",
-        "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
-        "sourceDisplay": "Rappel Conso (Gouvernement Français)",
-        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
+        "code": "8000003223",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold Comfort Premium",
+        "specification": "200g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003224",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold Comfort Premium",
+        "specification": "200g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003226",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 2 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003235",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 2 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003245",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold Comfort Premium",
+        "specification": "200g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003246",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold Comfort Premium",
+        "specification": "200g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003269",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 2 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003271",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
         "isSeries": false
     },
     {
         "code": "8000003280",
         "brand": "Lactalis",
         "subBrand": "Picot",
-        "product": "Picot Infant Formula (various) 800g",
+        "product": "Picot Nutrition Quotidienne 2ème âge 800g",
         "specification": "800g",
-        "country": "Global",
-        "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
-        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
-        "docUrl": "https://rappel.conso.gouv.fr/",
+        "country": "France/Global",
+        "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
+        "sourceDisplay": "Rappel Conso (Gouvernement Français)",
+        "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "isSeries": false
     },
     {
@@ -4886,22 +5306,58 @@ const RECALL_DATA = [
         "subBrand": "Picot",
         "product": "Picot Standard 2ème âge 850g",
         "specification": "850g",
-        "country": "France",
+        "country": "France/France/Luxembourg",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "isSeries": false
     },
     {
-        "code": "8000003281",
-        "brand": "Lactalis",
-        "subBrand": "Picot",
-        "product": "Picot Standard 2 850g",
-        "specification": "850g",
-        "country": "France/Luxembourg",
-        "reason": "Precautionary recall: Microbial contamination (Cereulide)",
-        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
-        "docUrl": "https://rappel.conso.gouv.fr/",
+        "code": "8000003285",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 1 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003286",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 2 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003287",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003290",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold Comfort Premium",
+        "specification": "200g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
         "isSeries": false
     },
     {
@@ -4910,22 +5366,10 @@ const RECALL_DATA = [
         "subBrand": "Picot",
         "product": "Picot Nutrition Quotidienne 1er âge 400g/800g",
         "specification": "800g",
-        "country": "France",
+        "country": "France/Global",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
-        "isSeries": false
-    },
-    {
-        "code": "8000003297",
-        "brand": "Lactalis",
-        "subBrand": "Picot",
-        "product": "Picot Infant Formula (various) 800g",
-        "specification": "800g",
-        "country": "Global",
-        "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
-        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
-        "docUrl": "https://rappel.conso.gouv.fr/",
         "isSeries": false
     },
     {
@@ -4934,22 +5378,46 @@ const RECALL_DATA = [
         "subBrand": "Picot",
         "product": "Picot Standard 1er âge 850g",
         "specification": "850g",
-        "country": "France",
+        "country": "France/France/Luxembourg",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "isSeries": false
     },
     {
-        "code": "8000003298",
-        "brand": "Lactalis",
-        "subBrand": "Picot",
-        "product": "Picot Standard 1 850g",
-        "specification": "850g",
-        "country": "France/Luxembourg",
-        "reason": "Precautionary recall: Microbial contamination (Cereulide)",
-        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
-        "docUrl": "https://rappel.conso.gouv.fr/",
+        "code": "8000003300",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 1 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003301",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold Comfort Premium",
+        "specification": "200g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003308",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
         "isSeries": false
     },
     {
@@ -4958,22 +5426,190 @@ const RECALL_DATA = [
         "subBrand": "Picot",
         "product": "Picot Nutrition Quotidienne 1er âge 400g/800g",
         "specification": "800g",
-        "country": "France",
+        "country": "France/Global (France/Belgium/etc)",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
         "isSeries": false
     },
     {
-        "code": "8000003312",
-        "brand": "Lactalis",
-        "subBrand": "Picot",
-        "product": "Picot Nutrition Quotidienne 1 800g",
+        "code": "8000003345",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 2 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003347",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003348",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003349",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003350",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003351",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 2 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003352",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 3 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003358",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 1 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003359",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold Comfort Premium",
+        "specification": "200g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003360",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold Comfort Premium",
+        "specification": "200g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003361",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold Comfort Kid Premium",
         "specification": "800g",
-        "country": "Global (France/Belgium/etc)",
-        "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
-        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
-        "docUrl": "https://rappel.conso.gouv.fr/",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003378",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 1 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003379",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold 1 Premium",
+        "specification": "800g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003385",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold Comfort Premium",
+        "specification": "200g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
+        "isSeries": false
+    },
+    {
+        "code": "8000003386",
+        "brand": "Alula (Sanulac)",
+        "subBrand": "Alula",
+        "product": "Alula Gold Comfort Premium",
+        "specification": "200g/400g/900g",
+        "country": "Mexico",
+        "reason": "Alerta Sanitaria: Posible presencia de toxina cereulida (Bacillus cereus)",
+        "sourceDisplay": "COFEPRIS Mexico",
+        "docUrl": "resources/official_docs/Mexico/Alerta_Sanitaria_Alula_23012026.pdf",
         "isSeries": false
     },
     {
@@ -4994,22 +5630,10 @@ const RECALL_DATA = [
         "subBrand": "Picot",
         "product": "Picot AR 2ème âge 800g",
         "specification": "800g",
-        "country": "France",
+        "country": "France/Global",
         "reason": "Rappel de précaution : Présence potentielle de toxin (Céréulide)",
         "sourceDisplay": "Rappel Conso (Gouvernement Français)",
         "docUrl": "https://rappel.conso.gouv.fr/fiche-rappel/21024/Version1",
-        "isSeries": false
-    },
-    {
-        "code": "8000003400",
-        "brand": "Lactalis",
-        "subBrand": "Picot",
-        "product": "Picot Infant Formula (various) 800g",
-        "specification": "800g",
-        "country": "Global",
-        "reason": "Precautionary recall: Microbial contamination (Cereulide) in raw material",
-        "sourceDisplay": "Lactalis Nutrition Santé (LNS)",
-        "docUrl": "https://rappel.conso.gouv.fr/",
         "isSeries": false
     },
     {
@@ -5142,6 +5766,18 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Possible presence of Cereulide toxin",
         "sourceDisplay": "Nestlé / Rappel Conso",
         "docUrl": "https://rappel.conso.gouv.fr/",
+        "isSeries": false
+    },
+    {
+        "code": "EXP 31-10-2026",
+        "brand": "Danone",
+        "subBrand": "Aptamil",
+        "product": "Aptamil First Infant Formula 800g",
+        "specification": "800g",
+        "country": "United Kingdom/Ireland",
+        "reason": "Precautionary recall: Cereulide toxin detected",
+        "sourceDisplay": "UK Food Standards Agency (FSA)",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-03-2026",
         "isSeries": false
     },
     {
