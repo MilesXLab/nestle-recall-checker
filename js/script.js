@@ -47,7 +47,8 @@ const I18N = {
         help_description: "Help us keep this database accurate! If you find outdated information, discover new recall batches, or encounter any problems, please report them on GitHub.",
         report_on_github: "Report on GitHub Issues",
         help_description_compact: "Found outdated info or new recall data? Help us improve!",
-        report_on_github_short: "Report Issue"
+        report_on_github_short: "Report Issue",
+        send_email: "Send Email"
     },
     zh: {
         proj_name: "Aegis 全球盾",
@@ -96,7 +97,8 @@ const I18N = {
         help_description: "帮助我们保持数据库的准确性！如果您发现过时信息、新的召回批次或遇到任何问题，请在 GitHub 上报告。",
         report_on_github: "在 GitHub Issues 上报告",
         help_description_compact: "发现过时信息或新的召回数据？帮助我们改进！",
-        report_on_github_short: "报告问题"
+        report_on_github_short: "报告问题",
+        send_email: "发送邮件"
     }
 };
 
@@ -284,6 +286,10 @@ function updateLang() {
 
     const reportOnGithubShort = document.querySelectorAll('[data-i18n="report_on_github_short"]');
     reportOnGithubShort.forEach(link => link.textContent = I18N[currentLang].report_on_github_short);
+
+    // Update email button
+    const sendEmailLinks = document.querySelectorAll('[data-i18n="send_email"]');
+    sendEmailLinks.forEach(link => link.textContent = I18N[currentLang].send_email);
 
     // Update version scrolling banner
     updateVersionBanner();
