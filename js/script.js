@@ -53,7 +53,13 @@ const I18N = {
         announcement_body: "EFSA has published a new safety threshold (0.014 µg/kg) for Cereulide toxin. In response, Danone has drastically expanded its recall to include 120+ additional batches of Aptamil, Milumil, and Gallia across Europe. Our database has been updated with these new batches.",
         announcement_link: "Read Official EFSA/AGES Notice",
         dev_note_title: "👨‍💻 Note from Developer (TechDadShanghai)",
-        dev_note_body: "Our baby has been running a high fever this week, causing a 5-day gap since the last update. Also, my Reddit account 'Techdadshanghai' was banned for sharing these safety links. While the appeal is pending, I cannot update on Reddit. However, the database is being updated here constantly as more brands are affected. Please BOOKMARK this page and check regularly."
+        dev_note_body: "Our baby has been running a high fever this week, causing a 5-day gap since the last update. Also, my Reddit account 'Techdadshanghai' was banned for sharing these safety links. While the appeal is pending, I cannot update on Reddit. However, the database is being updated here constantly as more brands are affected. Please BOOKMARK this page and check regularly.",
+        total_visits: "Total Visits",
+        families_helped: "Families Helped",
+        helpful_button: "This Tool Helped Me",
+        stats_note: "Statistics help us understand the actual usage of this tool",
+        helpful_thanks: "Thank you! 🙏",
+        helpful_already: "Already Counted"
     },
     zh: {
         proj_name: "Aegis 全球盾",
@@ -108,7 +114,13 @@ const I18N = {
         announcement_body: "欧盟食品安全局 (EFSA) 发布了 Cereulide 毒素的最新安全上限 (0.014 µg/kg)。受此影响，达能集团在欧洲大陆（德、奥、法、波、罗等）紧急扩增了超过 120 个召回批次，涉及爱他美 (Aptamil)、美乐美 (Milumil) 及 Gallia。本工具数据库已同步更新。",
         announcement_link: "查看欧盟/奥地利官方公告",
         dev_note_title: "👨‍💻 开发者 (TechDadShanghai) 指南",
-        dev_note_body: "在这特别说明：因为本周宝宝一直发高烧，距离上次大更新已有 5 天时间。同时我的 Reddit 账号 Techdadshanghai 因分享这些安全链接被意外封禁。申诉正在进行中，但在此期间我无法在 Reddit 及时发布动态。请放心，本站召回信息一直在持续同步，且涉及的品牌和批次还在增加。请务必【收藏此地址】，并定期查看核对以确保宝宝安全。"
+        dev_note_body: "在这特别说明：因为本周宝宝一直发高烧，距离上次大更新已有 5 天时间。同时我的 Reddit 账号 Techdadshanghai 因分享这些安全链接被意外封禁。申诉正在进行中，但在此期间我无法在 Reddit 及时发布动态。请放心，本站召回信息一直在持续同步，且涉及的品牌和批次还在增加。请务必【收藏此地址】，并定期查看核对以确保宝宝安全。",
+        total_visits: "总访问量",
+        families_helped: "帮助的家庭",
+        helpful_button: "这个工具帮到我了",
+        stats_note: "统计数据帮助我们了解工具的实际使用情况",
+        helpful_thanks: "感谢您！🙏",
+        helpful_already: "已统计"
     }
 };
 
@@ -252,8 +264,8 @@ function updateLang() {
     acceptBtn.textContent = I18N[currentLang].disclaimer_btn;
 
     document.getElementById('authoritativeFooter').innerHTML = `
-        <p class="text-[10px] text-slate-400 mb-2">${I18N[currentLang].data_ver}</p>
-        <p class="text-xs text-secondary font-bold">${I18N[currentLang].final_authority}</p>
+        <p class="text-[10px] text-slate-400 mb-2 text-center">${I18N[currentLang].data_ver}</p>
+        <p class="text-xs text-slate-500 font-bold text-center">${I18N[currentLang].final_authority}</p>
     `;
 
     // Global Sources section
@@ -312,6 +324,7 @@ function updateLang() {
 
     // Update announcements
     renderAnnouncement();
+    renderDevNote();
 
     // Force re-render of current view
     if (searchInput.value.trim().length > 0) {
@@ -321,7 +334,7 @@ function updateLang() {
     }
 }
 
-// Version Update Banner Function
+// Version Update Banner Function (Now in footer - static display)
 function updateVersionBanner() {
     const versionText = I18N[currentLang].version_update
         .replace('{version}', RECALL_METADATA.version)
@@ -329,61 +342,62 @@ function updateVersionBanner() {
         .replace('{count}', RECALL_METADATA.totalCount)
         .replace('{coverage}', RECALL_METADATA.coverage);
 
-    // Duplicate content for seamless scrolling
     const scrollContent = document.getElementById('versionScrollContent');
-    scrollContent.innerHTML = `
-        <span class="px-8 text-xs font-bold">${versionText}</span>
-        <span class="px-8 text-xs font-bold">${versionText}</span>
-    `;
+    if (!scrollContent) return;
+
+    // Static display in footer (no scrolling needed)
+    scrollContent.textContent = versionText;
 }
 
 // Announcement Renderer
+// Announcement Renderer (Scrolling Banner)
 function renderAnnouncement() {
-    const container = document.getElementById('announcementContainer');
+    const container = document.getElementById('recallScrollContent');
+    if (!container) return; // Guard clause
+
     const t = I18N[currentLang];
 
-    // Most recent critical announcement (Feb 5)
-    // We can make this dynamic later, but for now, hardcoded is fine for "Latest"
-    container.innerHTML = `
-        <div class="space-y-4">
-            <!-- Mass Recall Announcement -->
-            <div class="glass-card rounded-3xl p-6 border-2 border-red-500/30 bg-gradient-to-br from-red-50 to-white shadow-xl relative overflow-hidden">
-                <div class="flex items-start gap-4 relative z-10">
-                    <div class="w-12 h-12 bg-red-100 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0 animate-pulse">
-                        📢
-                    </div>
-                    <div class="flex-1 space-y-2">
-                        <h3 class="text-sm font-black text-red-700 uppercase tracking-tight">${t.announcement_title}</h3>
-                        <p class="text-[11px] text-slate-600 leading-relaxed font-medium">
-                            ${t.announcement_body}
-                        </p>
-                        <a href="https://www.produktwarnung.eu/2026/02/05/update-rueckruf-aptamil-babynahrung-danone-weitet-rueckruf-dramatisch-aus.html" 
-                           target="_blank" 
-                           class="inline-flex items-center gap-1.5 text-[10px] font-black text-red-600 hover:text-red-700 transition-colors uppercase tracking-widest pt-1">
-                            🔗 ${t.announcement_link}
-                        </a>
-                    </div>
-                </div>
-                <div class="absolute -right-12 -bottom-12 w-32 h-32 bg-red-500/5 rounded-full blur-3xl"></div>
-            </div>
+    const linkUrl = "https://www.produktwarnung.eu/2026/02/05/rueckruf-gesundheitsgefahr-danone-ruft-aptamil-babynahrung-zurueck/36778";
 
-            <!-- Developer Personal Note -->
-            <div class="glass-card rounded-3xl p-6 border border-blue-200 bg-blue-50/20 shadow-sm relative overflow-hidden">
-                <div class="flex items-start gap-4">
-                    <div class="w-12 h-12 bg-blue-100 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0">
-                        👨‍💻
-                    </div>
-                    <div class="flex-1 space-y-2">
-                        <h3 class="text-[11px] font-black text-blue-800 uppercase tracking-wider">${t.dev_note_title}</h3>
-                        <p class="text-[10px] text-slate-500 leading-relaxed italic font-medium">
-                            "${t.dev_note_body}"
-                        </p>
-                    </div>
+    // Scrolling Content: Icon + Title + Body + Link (Hazard warning removed - already in sticky banner)
+    const itemHtml = `
+        <a href="${linkUrl}" target="_blank" class="inline-flex items-center mx-8 hover:text-red-100 transition-colors py-1 group">
+            <span class="text-lg mr-2 animate-pulse">📢</span>
+            <span class="font-black uppercase tracking-tight mr-2 underline decoration-red-300 underline-offset-4">${t.announcement_title}</span>
+            <span class="opacity-90 mr-3 text-xs font-medium hidden sm:inline">${t.announcement_body}</span>
+            <span class="font-bold bg-white/20 px-2 py-0.5 rounded text-[10px] uppercase tracking-wider group-hover:bg-white group-hover:text-red-600 transition-all">🔗 ${t.announcement_link}</span>
+        </a>
+    `;
+
+    container.innerHTML = itemHtml + itemHtml; // Duplicate for smooth scroll
+
+    // Clean up old bottom container if it still exists
+    const oldContainer = document.getElementById('announcementContainer');
+    if (oldContainer) oldContainer.remove();
+}
+
+function renderDevNote() {
+    const container = document.getElementById('devNoteContainer');
+    if (!container) return;
+
+    const t = I18N[currentLang];
+
+    // Developer Personal Note Card - positioned after authoritative sources
+    container.innerHTML = `
+        <div class="glass-card rounded-2xl p-5 sm:p-6 border-l-4 border-blue-500 bg-gradient-to-r from-blue-50/40 to-transparent shadow-md relative overflow-hidden text-left">
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 bg-blue-100/60 rounded-xl flex items-center justify-center text-xl flex-shrink-0 border border-blue-200/60 shadow-sm">
+                    👨‍💻
+                </div>
+                <div class="flex-1 space-y-2 min-w-0">
+                    <h3 class="text-[11px] font-black text-blue-600 uppercase tracking-wider leading-tight">${t.dev_note_title}</h3>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed font-medium">
+                        ${t.dev_note_body}
+                    </p>
                 </div>
             </div>
         </div>
     `;
-    container.classList.remove('hidden');
 }
 
 function handleSearch() {
@@ -664,3 +678,86 @@ clearBtn.addEventListener('click', () => {
 });
 
 updateLang();
+
+// ========== Stats and Helpful Button Feature ==========
+// Using CountAPI for free, privacy-friendly statistics
+
+const COUNTAPI_NAMESPACE = 'nestle-recall-checker';
+const COUNTAPI_BASE = 'https://api.countapi.xyz';
+
+// Initialize stats on page load
+async function initializeStats() {
+    try {
+        // Increment page views automatically
+        const viewsResponse = await fetch(`${COUNTAPI_BASE}/hit/${COUNTAPI_NAMESPACE}/page-views`);
+        const viewsData = await viewsResponse.json();
+        document.getElementById('pageViews').textContent = formatNumber(viewsData.value);
+
+        // Get helpful count (don't increment yet)
+        const helpfulResponse = await fetch(`${COUNTAPI_BASE}/get/${COUNTAPI_NAMESPACE}/helpful-count`);
+        const helpfulData = await helpfulResponse.json();
+        document.getElementById('helpfulCount').textContent = formatNumber(helpfulData.value);
+    } catch (error) {
+        console.error('Failed to load stats:', error);
+        document.getElementById('pageViews').textContent = '---';
+        document.getElementById('helpfulCount').textContent = '---';
+    }
+}
+
+// Format numbers with commas
+function formatNumber(num) {
+    if (!num && num !== 0) return '---';
+    return num.toLocaleString();
+}
+
+// Handle helpful button click
+const helpfulBtn = document.getElementById('helpfulBtn');
+const HELPFUL_STORAGE_KEY = 'aegis_helpful_clicked';
+
+// Check if user already clicked
+if (localStorage.getItem(HELPFUL_STORAGE_KEY)) {
+    const t = I18N[currentLang];
+    helpfulBtn.disabled = true;
+    helpfulBtn.querySelector('.btn-text').textContent = t.helpful_already;
+    helpfulBtn.style.background = 'linear-gradient(135deg, #94A3B8 0%, #64748B 100%)';
+}
+
+helpfulBtn.addEventListener('click', async () => {
+    if (localStorage.getItem(HELPFUL_STORAGE_KEY)) {
+        return; // Already clicked
+    }
+
+    const t = I18N[currentLang];
+    const btnText = helpfulBtn.querySelector('.btn-text');
+    const originalText = btnText.textContent;
+
+    try {
+        // Increment helpful count
+        const response = await fetch(`${COUNTAPI_BASE}/hit/${COUNTAPI_NAMESPACE}/helpful-count`);
+        const data = await response.json();
+
+        // Update display
+        document.getElementById('helpfulCount').textContent = formatNumber(data.value);
+
+        // Mark as clicked
+        localStorage.setItem(HELPFUL_STORAGE_KEY, 'true');
+
+        // Show success feedback
+        helpfulBtn.classList.add('clicked');
+        btnText.textContent = t.helpful_thanks;
+
+        setTimeout(() => {
+            helpfulBtn.classList.remove('clicked');
+            btnText.textContent = t.helpful_already;
+            helpfulBtn.disabled = true;
+            helpfulBtn.style.background = 'linear-gradient(135deg, #94A3B8 0%, #64748B 100())';
+        }, 2000);
+
+    } catch (error) {
+        console.error('Failed to record helpful click:', error);
+        btnText.textContent = originalText;
+    }
+});
+
+// Initialize stats when page loads
+initializeStats();
