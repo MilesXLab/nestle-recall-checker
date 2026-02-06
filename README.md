@@ -110,4 +110,4 @@ Run the `archive_and_sync.py` script daily to synchronize the latest CSV changes
 
 *Created for public safety and transparency. Distributed under Creative Commons Attribution-NonCommercial 4.0 International License. Data synchronized with official 2026 regulatory announcements.*
 
-**Copyright © 2026 TechDadShanghai** | [Main License](./LICENSE) | [Strict Non-Commercial Addendum](./LICENSE-ADDENDUM.md)
+**Copyright © 2026 TechDadShanghai** | [View License & Usage Terms](./LICENSE)
