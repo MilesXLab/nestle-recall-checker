@@ -48,7 +48,12 @@ const I18N = {
         report_on_github: "Report on GitHub Issues",
         help_description_compact: "Found outdated info or new recall data? Help us improve!",
         report_on_github_short: "Report Issue",
-        send_email: "Send Email"
+        send_email: "Send Email",
+        announcement_title: "🚨 URGENT: MASSIVE RECALL EXPANSION (FEB 5, 2026)",
+        announcement_body: "EFSA has published a new safety threshold (0.014 µg/kg) for Cereulide toxin. In response, Danone has drastically expanded its recall to include 120+ additional batches of Aptamil, Milumil, and Gallia across Europe. Our database has been updated with these new batches.",
+        announcement_link: "Read Official EFSA/AGES Notice",
+        dev_note_title: "👨‍💻 Note from Developer (TechDadShanghai)",
+        dev_note_body: "Our baby has been running a high fever this week, causing a 5-day gap since the last update. Also, my Reddit account 'Techdadshanghai' was banned for sharing these safety links. While the appeal is pending, I cannot update on Reddit. However, the database is being updated here constantly as more brands are affected. Please BOOKMARK this page and check regularly."
     },
     zh: {
         proj_name: "Aegis 全球盾",
@@ -98,7 +103,12 @@ const I18N = {
         report_on_github: "在 GitHub Issues 上报告",
         help_description_compact: "发现过时信息或新的召回数据？帮助我们改进！",
         report_on_github_short: "报告问题",
-        send_email: "发送邮件"
+        send_email: "发送邮件",
+        announcement_title: "🚨 紧急状态：召回范围剧烈扩大 (2026年2月5日)",
+        announcement_body: "欧盟食品安全局 (EFSA) 发布了 Cereulide 毒素的最新安全上限 (0.014 µg/kg)。受此影响，达能集团在欧洲大陆（德、奥、法、波、罗等）紧急扩增了超过 120 个召回批次，涉及爱他美 (Aptamil)、美乐美 (Milumil) 及 Gallia。本工具数据库已同步更新。",
+        announcement_link: "查看欧盟/奥地利官方公告",
+        dev_note_title: "👨‍💻 开发者 (TechDadShanghai) 指南",
+        dev_note_body: "在这特别说明：因为本周宝宝一直发高烧，距离上次大更新已有 5 天时间。同时我的 Reddit 账号 Techdadshanghai 因分享这些安全链接被意外封禁。申诉正在进行中，但在此期间我无法在 Reddit 及时发布动态。请放心，本站召回信息一直在持续同步，且涉及的品牌和批次还在增加。请务必【收藏此地址】，并定期查看核对以确保宝宝安全。"
     }
 };
 
@@ -190,6 +200,8 @@ function normalizeBatch(code) {
 }
 
 const REGION_FLAGS = {
+    "IE_FSAI": "🇮🇪",
+    "AT_AGES": "🇦🇹",
     "UK_FSA": "🇬🇧",
     "SG_SFA": "🇸🇬",
     "CZ_MZD": "🇨🇿",
@@ -208,7 +220,11 @@ const REGION_FLAGS = {
 
 const COUNTRY_FLAGS = {
     "UK": "🇬🇧",
+    "Ireland": "🇮🇪",
+    "Austria": "🇦🇹",
+    "Germany": "🇩🇪",
     "Singapore": "🇸🇬",
+
     "Czech Republic": "🇨🇿",
     "Brazil": "🇧🇷",
     "Mexico": "🇲🇽",
@@ -294,6 +310,9 @@ function updateLang() {
     // Update version scrolling banner
     updateVersionBanner();
 
+    // Update announcements
+    renderAnnouncement();
+
     // Force re-render of current view
     if (searchInput.value.trim().length > 0) {
         handleSearch();
@@ -316,6 +335,55 @@ function updateVersionBanner() {
         <span class="px-8 text-xs font-bold">${versionText}</span>
         <span class="px-8 text-xs font-bold">${versionText}</span>
     `;
+}
+
+// Announcement Renderer
+function renderAnnouncement() {
+    const container = document.getElementById('announcementContainer');
+    const t = I18N[currentLang];
+
+    // Most recent critical announcement (Feb 5)
+    // We can make this dynamic later, but for now, hardcoded is fine for "Latest"
+    container.innerHTML = `
+        <div class="space-y-4">
+            <!-- Mass Recall Announcement -->
+            <div class="glass-card rounded-3xl p-6 border-2 border-red-500/30 bg-gradient-to-br from-red-50 to-white shadow-xl relative overflow-hidden">
+                <div class="flex items-start gap-4 relative z-10">
+                    <div class="w-12 h-12 bg-red-100 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0 animate-pulse">
+                        📢
+                    </div>
+                    <div class="flex-1 space-y-2">
+                        <h3 class="text-sm font-black text-red-700 uppercase tracking-tight">${t.announcement_title}</h3>
+                        <p class="text-[11px] text-slate-600 leading-relaxed font-medium">
+                            ${t.announcement_body}
+                        </p>
+                        <a href="https://www.produktwarnung.eu/2026/02/05/update-rueckruf-aptamil-babynahrung-danone-weitet-rueckruf-dramatisch-aus.html" 
+                           target="_blank" 
+                           class="inline-flex items-center gap-1.5 text-[10px] font-black text-red-600 hover:text-red-700 transition-colors uppercase tracking-widest pt-1">
+                            🔗 ${t.announcement_link}
+                        </a>
+                    </div>
+                </div>
+                <div class="absolute -right-12 -bottom-12 w-32 h-32 bg-red-500/5 rounded-full blur-3xl"></div>
+            </div>
+
+            <!-- Developer Personal Note -->
+            <div class="glass-card rounded-3xl p-6 border border-blue-200 bg-blue-50/20 shadow-sm relative overflow-hidden">
+                <div class="flex items-start gap-4">
+                    <div class="w-12 h-12 bg-blue-100 rounded-2xl flex items-center justify-center text-2xl flex-shrink-0">
+                        👨‍💻
+                    </div>
+                    <div class="flex-1 space-y-2">
+                        <h3 class="text-[11px] font-black text-blue-800 uppercase tracking-wider">${t.dev_note_title}</h3>
+                        <p class="text-[10px] text-slate-500 leading-relaxed italic font-medium">
+                            "${t.dev_note_body}"
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    `;
+    container.classList.remove('hidden');
 }
 
 function handleSearch() {
