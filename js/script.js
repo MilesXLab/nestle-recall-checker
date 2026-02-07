@@ -680,21 +680,19 @@ clearBtn.addEventListener('click', () => {
 updateLang();
 
 // ========== Stats and Helpful Button Feature ==========
-// Using CounterAPI for more stable statistics (api.counterapi.dev)
+// Using CounterAPI v2 for stable statistics (api.counterapi.dev)
 
-const STATS_API_BASE = 'https://api.counterapi.dev/v1';
-const STATS_NAMESPACE = 'nestle-recall-checker-v1'; // Added version to namespace to ensure fresh counters
+const STATS_API_BASE = 'https://api.counterapi.dev/v2';
+const STATS_NS = 'nestle_recall_checker';
 
 // Baseline stats (Historical data from previous versions)
-const BASELINE_VIEWS = 5840;   // Adjusted to a more realistic historical total
-const BASELINE_HELPFUL = 642;  // Adjusted to a more realistic historical total
+const BASELINE_VIEWS = 5840;
+const BASELINE_HELPFUL = 642;
 
-// Initialize stats on page load
 async function initializeStats() {
     const pageViewsEl = document.getElementById('pageViews');
     const helpfulCountEl = document.getElementById('helpfulCount');
 
-    // 1. Initial UI update with baselines (Optimistic)
     if (pageViewsEl) pageViewsEl.textContent = formatNumber(BASELINE_VIEWS);
     if (helpfulCountEl) {
         const localBonus = localStorage.getItem('aegis_helpful_clicked') ? 1 : 0;
@@ -709,39 +707,31 @@ async function initializeStats() {
             ]);
         };
 
-        // 2. Get and Update Page Views
-        // Note: Using 'up' increments on every visit
-        const viewsRes = await fetchWithTimeout(`${STATS_API_BASE}/${STATS_NAMESPACE}/page_views/up`);
+        const viewsRes = await fetchWithTimeout(`${STATS_API_BASE}/${STATS_NS}/page_views/up`);
         if (viewsRes.ok) {
             const data = await viewsRes.json();
-            if (data.count !== undefined && pageViewsEl) {
-                // Add server count to baseline to preserve historical data
+            if (data && data.count !== undefined && pageViewsEl) {
                 pageViewsEl.textContent = formatNumber(BASELINE_VIEWS + data.count);
             }
         }
 
-        // 3. Get Helpful Count (Current session get)
-        const helpfulRes = await fetchWithTimeout(`${STATS_API_BASE}/${STATS_NAMESPACE}/helpful_count`);
+        const helpfulRes = await fetchWithTimeout(`${STATS_API_BASE}/${STATS_NS}/helpful_count`);
         if (helpfulRes.ok) {
             const data = await helpfulRes.json();
-            if (data.count !== undefined && helpfulCountEl) {
-                // Add server count to baseline. If the server is new, it adds 0 or 1 etc.
-                // This ensures that even if server resets, we don't lose the base count.
+            if (data && data.count !== undefined && helpfulCountEl) {
                 helpfulCountEl.textContent = formatNumber(BASELINE_HELPFUL + data.count);
             }
         }
     } catch (error) {
-        console.warn('Stats API unstable, persistent baseline shown:', error.message);
+        console.warn('[Stats] API unreachable.', error.message);
     }
 }
 
-// Format numbers with commas
 function formatNumber(num) {
-    if (!num && num !== 0) return '---';
+    if (num === null || num === undefined) return '---';
     return num.toLocaleString();
 }
 
-// Handle helpful button click
 const helpfulBtn = document.getElementById('helpfulBtn');
 const HELPFUL_STORAGE_KEY = 'aegis_helpful_clicked';
 
@@ -755,37 +745,27 @@ if (localStorage.getItem(HELPFUL_STORAGE_KEY)) {
 
 helpfulBtn.addEventListener('click', async () => {
     if (localStorage.getItem(HELPFUL_STORAGE_KEY)) return;
-
     const t = I18N[currentLang];
     const btnText = helpfulBtn.querySelector('.btn-text');
     const countEl = document.getElementById('helpfulCount');
-
-    // 1. Instant UI Feedback (Local storage first to prevent double-click)
     localStorage.setItem(HELPFUL_STORAGE_KEY, 'true');
     helpfulBtn.classList.add('clicked');
     btnText.textContent = t.helpful_thanks;
-
-    // Optimistic UI update: Increment current display immediately
     if (countEl) {
-        const currentVal = parseInt(countEl.textContent.replace(/,/g, '')) || (BASELINE_HELPFUL + 1);
+        const currentVal = parseInt(countEl.textContent.replace(/,/g, '')) || BASELINE_HELPFUL;
         countEl.textContent = formatNumber(currentVal + 1);
     }
-
     try {
-        // 2. Sync with Server
-        const response = await fetch(`${STATS_API_BASE}/${STATS_NAMESPACE}/helpful_count/up`);
+        const response = await fetch(`${STATS_API_BASE}/${STATS_NS}/helpful_count/up`);
         if (response.ok) {
             const data = await response.json();
-            if (data.count !== undefined && countEl) {
-                // Final sync: Baseline + Server actual
+            if (data && data.count !== undefined && countEl) {
                 countEl.textContent = formatNumber(BASELINE_HELPFUL + data.count);
             }
         }
     } catch (error) {
-        console.error('Failed to sync helpful count:', error);
-        // UI stays at the incremented value from Step 1
+        console.error('[Stats] Increment failed:', error);
     }
-
     setTimeout(() => {
         helpfulBtn.classList.remove('clicked');
         btnText.textContent = t.helpful_already;
