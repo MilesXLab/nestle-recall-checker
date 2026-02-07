@@ -33,6 +33,30 @@ h4 {
     box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.08), 0 10px 25px rgba(0, 0, 0, 0.05);
 }
 
+/* Improved focus states for accessibility */
+button:focus-visible,
+a:focus-visible {
+    outline: 2px solid rgba(59, 130, 246, 0.6);
+    outline-offset: 2px;
+}
+
+/* Smooth transitions for interactive elements */
+button,
+a {
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Mobile optimizations */
+@media (max-width: 640px) {
+    #searchInput {
+        font-size: 1.125rem; /* 18px */
+    }
+    
+    .glass-card {
+        border-radius: 1rem; /* Slightly smaller on mobile */
+    }
+}
+
 /* Bottle Visualization */
 .bottle-container {
     width: 100%;
@@ -211,7 +235,178 @@ h4 {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-50%);
+    }
+}
+
+/* Stats Section: full container width, clear separation */
+.stats-section {
+    width: 100%;
+    padding: 1.5rem 0 2rem;
+    border-top: 1px solid rgba(226, 232, 240, 0.8);
+}
+
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.stat-item {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.95) 100%);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    border-radius: 1rem;
+    padding: 1.5rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.stat-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.06);
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.stat-icon {
+    font-size: 2rem;
+    line-height: 1;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.stat-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.stat-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #64748B;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.stat-value {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #0F172A;
+    font-family: 'Outfit', sans-serif;
+    line-height: 1;
+}
+
+.helpful-btn {
+    width: 100%;
+    background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.helpful-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.5s;
+}
+
+.helpful-btn:hover::before {
+    left: 100%;
+}
+
+.helpful-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(59, 130, 246, 0.4);
+}
+
+.helpful-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+}
+
+.helpful-btn.clicked {
+    animation: button-success 0.6s ease;
+}
+
+@keyframes button-success {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+        background: linear-gradient(135deg, #10B981 0%, #059669 100%);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.helpful-btn:disabled {
+    background: linear-gradient(135deg, #94A3B8 0%, #64748B 100%);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.btn-icon {
+    font-size: 1.25rem;
+    line-height: 1;
+}
+
+.btn-text {
+    font-family: 'Inter', sans-serif;
+}
+
+.stats-note {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #94A3B8;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+    .stats-container {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+    }
+
+    .stat-item {
+        padding: 1.25rem 1rem;
+    }
+
+    .stat-value {
+        font-size: 1.25rem;
+    }
+
+    .helpful-btn {
+        padding: 0.875rem 1.25rem;
+        font-size: 0.9375rem;
+        min-height: 48px;
     }
 }
