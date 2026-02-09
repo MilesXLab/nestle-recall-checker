@@ -688,7 +688,6 @@ const STATS_NS = 'nestle_recall_checker';
 // Baseline stats (Historical data from previous versions)
 const BASELINE_VIEWS = 5840;
 const BASELINE_HELPFUL = 642;
-
 async function initializeStats() {
     const pageViewsEl = document.getElementById('pageViews');
     const helpfulCountEl = document.getElementById('helpfulCount');
@@ -734,7 +733,6 @@ function formatNumber(num) {
 
 const helpfulBtn = document.getElementById('helpfulBtn');
 const HELPFUL_STORAGE_KEY = 'aegis_helpful_clicked';
-
 if (localStorage.getItem(HELPFUL_STORAGE_KEY)) {
     const t = I18N[currentLang];
     helpfulBtn.disabled = true;
