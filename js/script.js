@@ -682,7 +682,7 @@ updateLang();
 // ========== Stats and Helpful Button Feature ==========
 // Using CounterAPI v2 for stable statistics (api.counterapi.dev)
 
-const STATS_API_BASE = 'https://api.counterapi.dev/v2';
+const STATS_API_BASE = 'https://api.counterapi.dev/v1';
 const STATS_NS = 'nestle_recall_checker';
 
 // Baseline stats (Historical data from previous versions)
