@@ -3,9 +3,9 @@
 
 const RECALL_METADATA = {
     "version": "4.7.0 (Global Verified)",
-    "lastUpdated": "2026-02-07 04:38 (PST)",
+    "lastUpdated": "2026-02-08 20:30 (PST)",
     "coverage": "14 Regions - Official Government Sources Only",
-    "totalCount": 714,
+    "totalCount": 731,
     "authority": "FSA, FSAI, AGES, SFA, FDA, ANVISA, COFEPRIS, MZD, AFSCA, RappelConso, FSANZ, SAMR, CFS",
     "integrity": "100% Verified - Official Government Deep Links"
 };
@@ -261,6 +261,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "04.02.2027",
+        "brand": "Danone",
+        "subBrand": "Milumil",
+        "product": "Milumil 1",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
+        "sourceDisplay": "AGES Austria",
+        "docUrl": "https://www.ages.at/service/service-presse/pressemeldungen/presse-detail/rueckruf-von-milumil-babynahrung",
+        "isSeries": false
+    },
+    {
         "code": "04.07.2026",
         "brand": "Aptamil (Danone)",
         "subBrand": "Pronutra",
@@ -402,6 +414,18 @@ const RECALL_DATA = [
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "AGES / Produktwarnung.at",
         "docUrl": "https://www.produktwarnung.eu/2026/02/05/rueckruf-cereulide-danone-ruft-milumil-babynahrung-zueruck.html",
+        "isSeries": false
+    },
+    {
+        "code": "07.07.2026",
+        "brand": "Danone",
+        "subBrand": "Milumil",
+        "product": "Milumil Pre",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
+        "sourceDisplay": "AGES Austria",
+        "docUrl": "https://www.ages.at/service/service-presse/pressemeldungen/presse-detail/rueckruf-von-milumil-babynahrung",
         "isSeries": false
     },
     {
@@ -573,6 +597,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "09.11.2026",
+        "brand": "Danone",
+        "subBrand": "Milumil",
+        "product": "Milumil Pre",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
+        "sourceDisplay": "AGES Austria",
+        "docUrl": "https://www.ages.at/service/service-presse/pressemeldungen/presse-detail/rueckruf-von-milumil-babynahrung",
+        "isSeries": false
+    },
+    {
         "code": "10-11-2026",
         "brand": "Danone",
         "subBrand": "Aptamil",
@@ -606,6 +642,18 @@ const RECALL_DATA = [
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "AGES / Produktwarnung.at",
         "docUrl": "https://www.produktwarnung.eu/2026/02/05/rueckruf-cereulide-danone-ruft-milumil-babynahrung-zueruck.html",
+        "isSeries": false
+    },
+    {
+        "code": "10.06.2026",
+        "brand": "Danone",
+        "subBrand": "Milumil",
+        "product": "Milumil Pre",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
+        "sourceDisplay": "AGES Austria",
+        "docUrl": "https://www.ages.at/service/service-presse/pressemeldungen/presse-detail/rueckruf-von-milumil-babynahrung",
         "isSeries": false
     },
     {
@@ -786,6 +834,18 @@ const RECALL_DATA = [
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "AGES / Produktwarnung.at",
         "docUrl": "https://www.produktwarnung.eu/2026/02/05/rueckruf-cereulide-danone-ruft-milumil-babynahrung-zueruck.html",
+        "isSeries": false
+    },
+    {
+        "code": "11.12.2026",
+        "brand": "Danone",
+        "subBrand": "Milumil",
+        "product": "Milumil Pre",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
+        "sourceDisplay": "AGES Austria",
+        "docUrl": "https://www.ages.at/service/service-presse/pressemeldungen/presse-detail/rueckruf-von-milumil-babynahrung",
         "isSeries": false
     },
     {
@@ -1101,6 +1161,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "18.08.2026",
+        "brand": "Danone",
+        "subBrand": "Milumil",
+        "product": "Milumil Pre",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
+        "sourceDisplay": "AGES Austria",
+        "docUrl": "https://www.ages.at/service/service-presse/pressemeldungen/presse-detail/rueckruf-von-milumil-babynahrung",
+        "isSeries": false
+    },
+    {
         "code": "18.09.2026",
         "brand": "Aptamil (Danone)",
         "subBrand": "Pronutra",
@@ -1281,6 +1353,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "20.09.2026",
+        "brand": "Danone",
+        "subBrand": "Milumil",
+        "product": "Milumil 1",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
+        "sourceDisplay": "AGES Austria",
+        "docUrl": "https://www.ages.at/service/service-presse/pressemeldungen/presse-detail/rueckruf-von-milumil-babynahrung",
+        "isSeries": false
+    },
+    {
         "code": "20.11.2026",
         "brand": "Milumil (Danone)",
         "subBrand": "Milumil",
@@ -1365,6 +1449,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "22.11.2026",
+        "brand": "Danone",
+        "subBrand": "Milumil",
+        "product": "Milumil Pre",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
+        "sourceDisplay": "AGES Austria",
+        "docUrl": "https://www.ages.at/service/service-presse/pressemeldungen/presse-detail/rueckruf-von-milumil-babynahrung",
+        "isSeries": false
+    },
+    {
         "code": "23.07.2026",
         "brand": "Aptamil (Danone)",
         "subBrand": "Pronutra",
@@ -1386,6 +1482,18 @@ const RECALL_DATA = [
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "AGES / Produktwarnung.at",
         "docUrl": "https://www.produktwarnung.eu/2026/02/05/rueckruf-cereulide-danone-ruft-milumil-babynahrung-zueruck.html",
+        "isSeries": false
+    },
+    {
+        "code": "24.07.2026",
+        "brand": "Danone",
+        "subBrand": "Milumil",
+        "product": "Milumil Pre",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
+        "sourceDisplay": "AGES Austria",
+        "docUrl": "https://www.ages.at/service/service-presse/pressemeldungen/presse-detail/rueckruf-von-milumil-babynahrung",
         "isSeries": false
     },
     {
@@ -1533,6 +1641,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "27.09.2026",
+        "brand": "Danone",
+        "subBrand": "Milumil",
+        "product": "Milumil Pre",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
+        "sourceDisplay": "AGES Austria",
+        "docUrl": "https://www.ages.at/service/service-presse/pressemeldungen/presse-detail/rueckruf-von-milumil-babynahrung",
+        "isSeries": false
+    },
+    {
         "code": "27.09.2027",
         "brand": "Aptamil (Danone)",
         "subBrand": "Profutura",
@@ -1626,6 +1746,18 @@ const RECALL_DATA = [
         "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
         "sourceDisplay": "AGES / Produktwarnung.at",
         "docUrl": "https://www.produktwarnung.eu/2026/02/05/rueckruf-cereulide-danone-ruft-milumil-babynahrung-zueruck.html",
+        "isSeries": false
+    },
+    {
+        "code": "29.10.2026",
+        "brand": "Danone",
+        "subBrand": "Milumil",
+        "product": "Milumil 1",
+        "specification": "800g",
+        "country": "Austria",
+        "reason": "Vorsorglicher Rückruf: Mögliches Vorhandensein des Toxins Cereulid",
+        "sourceDisplay": "AGES Austria",
+        "docUrl": "https://www.ages.at/service/service-presse/pressemeldungen/presse-detail/rueckruf-von-milumil-babynahrung",
         "isSeries": false
     },
     {
@@ -6561,6 +6693,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "53390346AB",
+        "brand": "Nestlé",
+        "subBrand": "SMA",
+        "product": "SMA First Infant Milk",
+        "specification": "800g",
+        "country": "United Kingdom (NI)",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "UK FSA",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-06-2026",
+        "isSeries": false
+    },
+    {
         "code": "5339046041",
         "brand": "Nestlé",
         "subBrand": "NAN",
@@ -7485,6 +7629,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "EXP 01-08-2026",
+        "brand": "Danone",
+        "subBrand": "Cow & Gate",
+        "product": "Anti-Reflux From Birth",
+        "specification": "800g",
+        "country": "Ireland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "FSAI Ireland",
+        "docUrl": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-cow-gate-anti-reflux-from-birth",
+        "isSeries": false
+    },
+    {
         "code": "EXP 03-08-2026",
         "brand": "Danone",
         "subBrand": "Cow & Gate",
@@ -7737,6 +7893,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "EXP 16-11-2026",
+        "brand": "Danone",
+        "subBrand": "Aptamil",
+        "product": "Hungry First Infant Milk 1",
+        "specification": "800g",
+        "country": "UK/Ireland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "UK FSA / FSAI",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-05-2026",
+        "isSeries": false
+    },
+    {
         "code": "EXP 16-12-2026",
         "brand": "Danone",
         "subBrand": "Cow & Gate",
@@ -7746,6 +7914,18 @@ const RECALL_DATA = [
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
         "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-05-2026",
+        "isSeries": false
+    },
+    {
+        "code": "EXP 16-12-2026",
+        "brand": "Danone",
+        "subBrand": "Cow & Gate",
+        "product": "Anti-Reflux From Birth",
+        "specification": "800g",
+        "country": "Ireland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "FSAI Ireland",
+        "docUrl": "https://www.fsai.ie/news-and-alerts/food-alerts/recall-of-cow-gate-anti-reflux-from-birth",
         "isSeries": false
     },
     {
@@ -7881,6 +8061,18 @@ const RECALL_DATA = [
         "isSeries": false
     },
     {
+        "code": "EXP 24-02-2027",
+        "brand": "Danone",
+        "subBrand": "Aptamil",
+        "product": "Hungry First Infant Milk 1",
+        "specification": "800g",
+        "country": "UK/Ireland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "UK FSA / FSAI",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-05-2026",
+        "isSeries": false
+    },
+    {
         "code": "EXP 24-07-2026",
         "brand": "Danone",
         "subBrand": "Aptamil",
@@ -7973,6 +8165,18 @@ const RECALL_DATA = [
         "country": "United Kingdom/Ireland",
         "reason": "Precautionary recall: Possible presence of Cereulide toxin (Bacillus cereus)",
         "sourceDisplay": "UK Food Standards Agency (FSA)",
+        "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-05-2026",
+        "isSeries": false
+    },
+    {
+        "code": "EXP 31-07-2026",
+        "brand": "Danone",
+        "subBrand": "Aptamil",
+        "product": "Hungry First Infant Milk 1",
+        "specification": "800g",
+        "country": "UK/Ireland",
+        "reason": "Precautionary recall: Possible presence of Cereulide toxin",
+        "sourceDisplay": "UK FSA / FSAI",
         "docUrl": "https://www.food.gov.uk/news-alerts/alert/fsa-prin-05-2026",
         "isSeries": false
     },

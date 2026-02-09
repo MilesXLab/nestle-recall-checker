@@ -122,15 +122,17 @@ OFFICIAL_SOURCES = [
     }
 ]
 
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 
 with open('js/data.js', 'w', encoding='utf-8') as f:
     f.write("// --- OFFICIAL VERIFIED RECALL DATABASE (v4.7.0 - Global Verified) ---\n")
     f.write("// 100% Official Sources Only - No Speculative Data\n\n")
     
+    pst_time = datetime.now(timezone.utc) - timedelta(hours=8)
+    
     metadata = json.dumps({
         "version": "4.7.0 (Global Verified)",
-        "lastUpdated": datetime.now().strftime("%Y-%m-%d %H:%M (PST)"),
+        "lastUpdated": pst_time.strftime("%Y-%m-%d %H:%M (PST)"),
         "coverage": "14 Regions - Official Government Sources Only",
         "totalCount": len(batches),
         "authority": "FSA, FSAI, AGES, SFA, FDA, ANVISA, COFEPRIS, MZD, AFSCA, RappelConso, FSANZ, SAMR, CFS",

@@ -14,8 +14,8 @@ const I18N = {
         status_caution: "OFFICIAL SERIES RECALL",
         desc_caution: "Your code starts with a production series prefix that has been recalled in its entirety by official sources.",
 
-        status_none: "NO MATCH IN OFFICIAL LIST",
-        desc_none: "This specific code is not currently found in our database of officially recalled batches.",
+        status_none: "NO MATCH IN OFFICIAL GLOBAL LIST",
+        desc_none: "This specific code is not currently found in our multi-brand database of officially recalled batches.",
 
         series_notice: "Official Regulatory Notice: The authority has recalled the ENTIRE production series starting with '[Prefix]'. Individual codes within this series are affected.",
 
@@ -28,7 +28,7 @@ const I18N = {
         data_ver: "Database Sync: " + RECALL_METADATA.version + " | " + RECALL_METADATA.lastUpdated,
 
         disclaimer_title: "Strict Compliance Notice",
-        disclaimer_p1: "This tool strictly indexes batch codes announced by government regulatory bodies (FSA, FDA, SAMR, CFS).",
+        disclaimer_p1: "This tool strictly indexes batch codes announced by government regulatory bodies (FSA, FDA, SAMR, CFS) for global brands including Nestlé, Danone, and more.",
         disclaimer_p2: "We do not use fuzzy or probabilistic matching to avoid misidentification and legal risks for merchants.",
         disclaimer_p3: "Always cross-reference with the official hotline or local health authorities for a final determination.",
         disclaimer_btn: "I AGREE TO THE STRICT TERMS",
@@ -49,11 +49,11 @@ const I18N = {
         help_description_compact: "Found outdated info or new recall data? Help us improve!",
         report_on_github_short: "Report Issue",
         send_email: "Send Email",
-        announcement_title: "🚨 URGENT: MASSIVE RECALL EXPANSION (FEB 6, 2026)",
-        announcement_body: "Danone has significantly expanded its recall to include dozens of new batches of Cow & Gate and Aptamil in the UK, Ireland, and across Europe. Our database has been updated with 714+ verified batches to date.",
+        announcement_title: "🚨 URGENT: MASSIVE RECALL EXPANSION (FEB 8, 2026)",
+        announcement_body: "The recall has expanded globally across multiple brands including Nestlé (SMA, NAN), Danone (Aptamil, Cow & Gate, Milupa, Dumex), and more. Our database has been updated with 731 verified batches from over 14 regions to ensure comprehensive infant safety.",
         announcement_link: "Read Official FSA Notice",
         dev_note_title: "👨‍💻 Note from Developer (TechDadShanghai)",
-        dev_note_body: "Our baby has been running a high fever this week, causing a 5-day gap since the last update. Also, my Reddit account 'Techdadshanghai' was banned for sharing these safety links. While the appeal is pending, I cannot update on Reddit. However, the database is being updated here constantly as more brands are affected. Please BOOKMARK this page and check regularly.",
+        dev_note_body: "Our baby has been running a high fever this week, which may affect the frequency of updates, but we are making every effort to keep this database current. Also, my Reddit account 'Techdadshanghai' was banned for sharing these safety links. While the appeal is pending, I cannot update on Reddit. The database is being updated here constantly as more brands and global regions are affected. Please BOOKMARK this page and check regularly.",
         total_visits: "Total Visits",
         families_helped: "Families Helped",
         helpful_button: "This Tool Helped Me",
@@ -75,8 +75,8 @@ const I18N = {
         status_caution: "!!! 官方整线召回：系列匹配 !!!",
         desc_caution: "您的批次号开头属于官方公告明确指定的整线召回系列码。",
 
-        status_none: "官方名单未命中",
-        desc_none: "在当前录入的官方召回名单中未找到该批次。注：非保修证明，请以官方客服为准。",
+        status_none: "全球官方名单未命中",
+        desc_none: "在当前录入的多品牌官方召回名单中未找到该批次。注：非保修证明，请以官方客服为准。",
 
         series_notice: "官方监管说明：监管部门对以 “[Prefix]” 开头的整条生产线/生产系列下达了召回令，因此该系列下所有产品均在受影响范围。",
 
@@ -89,7 +89,7 @@ const I18N = {
         data_ver: "最近同步: " + RECALL_METADATA.version + " | " + RECALL_METADATA.lastUpdated,
 
         disclaimer_title: "严格合规性协议",
-        disclaimer_p1: "本工具严格索引政府监管部门（如国家食安中心、FSA、FDA等）发布的批次名单。",
+        disclaimer_p1: "本工具严格索引政府监管部门（如国家食安中心、FSA、FDA等）发布的包括雀巢、达能等多品牌的召回批次名单。",
         disclaimer_p2: "系统不使用模糊匹配或过度推断逻辑，以避免误导消费者或导致商家名誉损失。",
         disclaimer_p3: "查询结果仅供参考。继续使用即代表您同意：最终结论以品牌官方或当地食安部门回复为准。",
         disclaimer_btn: "我已知晓并同意协议",
@@ -110,11 +110,11 @@ const I18N = {
         help_description_compact: "发现过时信息或新的召回数据？帮助我们改进！",
         report_on_github_short: "报告问题",
         send_email: "发送邮件",
-        announcement_title: "🚨 紧急状态：召回范围剧烈扩大 (2026年2月6日)",
-        announcement_body: "达能集团 (Danone) 大幅扩大了召回范围，新增了数十个英国及爱尔兰市场的牛栏 (Cow & Gate) 和爱他美 (Aptamil) 批次。本工具数据库已完成深度补全，目前包含全球 714 个已核实批次。",
+        announcement_title: "🚨 紧急状态：召回范围剧烈扩大 (2026年2月8日)",
+        announcement_body: "召回范围已在全球多个品牌中剧烈扩大，包括雀巢 (SMA, NAN)、达能 (爱他美, 牛栏, Milupa, 多美滋) 等。本工具已同步全球 14 个国家和地区的官方数据，当前包含 731 个已核实批次，确保全品牌安全覆盖。",
         announcement_link: "查看英国 FSA 官方公告",
         dev_note_title: "👨‍💻 开发者 (TechDadShanghai) 指南",
-        dev_note_body: "在这特别说明：因为本周宝宝一直发高烧，距离上次大更新已有 5 天时间。同时我的 Reddit 账号 Techdadshanghai 因分享这些安全链接被意外封禁。申诉正在进行中，但在此期间我无法在 Reddit 及时发布动态。请放心，本站召回信息一直在持续同步，且涉及的品牌和批次还在增加。请务必【收藏此地址】，并定期查看核对以确保宝宝安全。",
+        dev_note_body: "在这特别说明：因为本周宝宝一直发高烧，更新进度可能会受到影响，但我们会尽最大努力保持数据同步。同时我的 Reddit 账号 Techdadshanghai 因分享这些安全链接被意外封禁。申诉正在进行中，但在此期间我无法在 Reddit 及时发布动态。请放心，本站召回信息一直在持续同步，且涉及的品牌、范围和批次仍在增加。请务必【收藏此地址】，并定期查看核对以确保宝宝安全。",
         total_visits: "总访问量",
         families_helped: "帮助的家庭",
         helpful_button: "这个工具帮到我了",

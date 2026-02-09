@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Nestlé Milk Formula Recall Search | 雀巢奶粉全球召回查询</title>
+    <title>Global Infant Formula Recall Search | 全球奶粉召回查询 (Nestlé, Danone & More)</title>
     <meta name="description"
-        content="Official data-aligned search tool for global Nestlé infant formula recalls. Check your batch codes for safety.">
+        content="Official data-aligned search tool for global infant formula recalls (Nestlé, Danone, Aptamil, Cow & Gate). Check your batch codes for safety.">
     <script src="https://cdn.tailwindcss.com"></script>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;700&display=swap"
@@ -49,7 +49,8 @@
 
     <!-- Global Emergency Banner (Sticky) -->
     <div class="disclaimer-banner sticky top-0 z-50 px-4 py-2.5 sm:py-3 text-center shadow-lg">
-        <p class="text-[11px] sm:text-xs font-black text-red-600 uppercase tracking-tight leading-tight" data-i18n="hazard_info">
+        <p class="text-[11px] sm:text-xs font-black text-red-600 uppercase tracking-tight leading-tight"
+            data-i18n="hazard_info">
             ⚠️ CEREULIDE TOXIN IS HEAT-RESISTANT. BOILING WATER HAS NO EFFECT.
         </p>
     </div>
@@ -76,7 +77,8 @@
                 <div class="min-w-0 flex-1">
                     <h2 class="text-[9px] sm:text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 leading-none"
                         data-i18n="project_name">Aegis Guard</h2>
-                    <h1 class="text-lg sm:text-xl font-black tracking-tight mt-0.5 sm:mt-1 truncate" data-i18n="title">Recall Checker</h1>
+                    <h1 class="text-lg sm:text-xl font-black tracking-tight mt-0.5 sm:mt-1 truncate" data-i18n="title">
+                        Recall Checker</h1>
                 </div>
             </div>
 
@@ -111,10 +113,14 @@
                     </div>
                     <input type="text" id="searchInput"
                         class="w-full bg-white/80 backdrop-blur-md border border-slate-200 py-5 sm:py-6 md:py-7 pl-12 sm:pl-14 md:pl-16 pr-12 sm:pr-14 md:pr-16 rounded-2xl sm:rounded-[2.5rem] text-lg sm:text-xl md:text-2xl font-black placeholder:text-slate-300 placeholder:font-normal focus:outline-none focus:ring-4 focus:ring-blue-500/10 focus:border-blue-500/30 transition-all shadow-xl"
-                        placeholder="Loading..." maxlength="25" aria-label="Enter batch code from product packaging" autocomplete="off">
+                        placeholder="Loading..." maxlength="25" aria-label="Enter batch code from product packaging"
+                        autocomplete="off">
                     <div class="absolute inset-y-0 right-0 pr-4 sm:pr-5 flex items-center">
-                        <button id="clearBtn" class="hidden p-2 sm:p-3 hover:bg-slate-100 rounded-full transition-all focus:outline-none focus:ring-2 focus:ring-blue-500/50" aria-label="Clear search input">
-                            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <button id="clearBtn"
+                            class="hidden p-2 sm:p-3 hover:bg-slate-100 rounded-full transition-all focus:outline-none focus:ring-2 focus:ring-blue-500/50"
+                            aria-label="Clear search input">
+                            <svg class="w-5 h-5 sm:w-6 sm:h-6 text-slate-400" fill="none" stroke="currentColor"
+                                viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"
                                     d="M6 18L18 6M6 6l12 12" />
                             </svg>
@@ -162,13 +168,15 @@
 
                 <!-- Authoritative Reference Section -->
                 <section class="space-y-6 pt-6 sm:pt-8" aria-labelledby="sources-heading">
-                    <div class="glass-card rounded-2xl sm:rounded-[2.5rem] p-6 sm:p-10 border border-slate-100 shadow-xl sm:shadow-2xl bg-white/50">
+                    <div
+                        class="glass-card rounded-2xl sm:rounded-[2.5rem] p-6 sm:p-10 border border-slate-100 shadow-xl sm:shadow-2xl bg-white/50">
                         <div class="flex items-center gap-3 sm:gap-4 mb-6 sm:mb-10">
                             <div
                                 class="w-12 h-12 tech-dad-gradient rounded-2xl flex items-center justify-center text-white text-xl shadow-lg">
                                 ✓</div>
                             <div>
-                                <h4 id="sources-heading" class="text-[10px] font-black uppercase tracking-[0.3em] text-slate-800 leading-none"
+                                <h4 id="sources-heading"
+                                    class="text-[10px] font-black uppercase tracking-[0.3em] text-slate-800 leading-none"
                                     data-i18n="sources_title">Authoritative Data Sources</h4>
                                 <p class="text-[9px] text-slate-400 font-bold uppercase tracking-widest mt-2">Verified
                                     Government Announcements</p>
@@ -217,10 +225,10 @@
                         </div>
                     </div>
                 </div>
-            <button id="helpfulBtn" class="helpful-btn" aria-label="Mark this tool as helpful">
-                <span class="btn-icon">👍</span>
-                <span class="btn-text" data-i18n="helpful_button">This Tool Helped Me</span>
-            </button>
+                <button id="helpfulBtn" class="helpful-btn" aria-label="Mark this tool as helpful">
+                    <span class="btn-icon">👍</span>
+                    <span class="btn-text" data-i18n="helpful_button">This Tool Helped Me</span>
+                </button>
                 <p class="stats-note" data-i18n="stats_note">Statistics help us understand the actual usage of this tool
                 </p>
             </section>
@@ -230,7 +238,7 @@
                 <!-- Copyright & Info -->
                 <div class="text-center text-slate-300 text-[10px] space-y-3 font-medium uppercase tracking-widest">
                     <p>© 2026 TechDadShanghai • Open Source Under CC BY-NC 4.0 License</p>
-                    <p class="text-[9px] text-slate-400">Global Nestlé Infant Formula Recall Verification Tool</p>
+                    <p class="text-[9px] text-slate-400">Global Multi-Brand Infant Formula Recall Verification Tool</p>
                     <p class="text-[8px] text-slate-500">🛡️ Community Safety Project • Not for Commercial Use Without
                         Permission</p>
                 </div>
@@ -260,8 +268,10 @@
                 </div>
 
                 <!-- Version Update Info (Moved from top banner) -->
-                <div class="bg-gradient-to-r from-blue-50/80 to-blue-100/50 border border-blue-200/50 rounded-lg px-4 py-2.5 mt-4 max-w-3xl mx-auto">
-                    <div id="versionScrollContent" class="text-center text-[10px] sm:text-xs text-blue-700 font-semibold">
+                <div
+                    class="bg-gradient-to-r from-blue-50/80 to-blue-100/50 border border-blue-200/50 rounded-lg px-4 py-2.5 mt-4 max-w-3xl mx-auto">
+                    <div id="versionScrollContent"
+                        class="text-center text-[10px] sm:text-xs text-blue-700 font-semibold">
                         <!-- Content will be injected by JavaScript -->
                     </div>
                 </div>
