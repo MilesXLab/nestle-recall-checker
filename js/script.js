@@ -49,9 +49,9 @@ const I18N = {
         help_description_compact: "Found outdated info or new recall data? Help us improve!",
         report_on_github_short: "Report Issue",
         send_email: "Send Email",
-        announcement_title: "🚨 URGENT: MASSIVE RECALL EXPANSION (FEB 5, 2026)",
-        announcement_body: "EFSA has published a new safety threshold (0.014 µg/kg) for Cereulide toxin. In response, Danone has drastically expanded its recall to include 120+ additional batches of Aptamil, Milumil, and Gallia across Europe. Our database has been updated with these new batches.",
-        announcement_link: "Read Official EFSA/AGES Notice",
+        announcement_title: "🚨 URGENT: MASSIVE RECALL EXPANSION (FEB 6, 2026)",
+        announcement_body: "Danone has significantly expanded its recall to include dozens of new batches of Cow & Gate and Aptamil in the UK, Ireland, and across Europe. Our database has been updated with 714+ verified batches to date.",
+        announcement_link: "Read Official FSA Notice",
         dev_note_title: "👨‍💻 Note from Developer (TechDadShanghai)",
         dev_note_body: "Our baby has been running a high fever this week, causing a 5-day gap since the last update. Also, my Reddit account 'Techdadshanghai' was banned for sharing these safety links. While the appeal is pending, I cannot update on Reddit. However, the database is being updated here constantly as more brands are affected. Please BOOKMARK this page and check regularly.",
         total_visits: "Total Visits",
@@ -110,9 +110,9 @@ const I18N = {
         help_description_compact: "发现过时信息或新的召回数据？帮助我们改进！",
         report_on_github_short: "报告问题",
         send_email: "发送邮件",
-        announcement_title: "🚨 紧急状态：召回范围剧烈扩大 (2026年2月5日)",
-        announcement_body: "欧盟食品安全局 (EFSA) 发布了 Cereulide 毒素的最新安全上限 (0.014 µg/kg)。受此影响，达能集团在欧洲大陆（德、奥、法、波、罗等）紧急扩增了超过 120 个召回批次，涉及爱他美 (Aptamil)、美乐美 (Milumil) 及 Gallia。本工具数据库已同步更新。",
-        announcement_link: "查看欧盟/奥地利官方公告",
+        announcement_title: "🚨 紧急状态：召回范围剧烈扩大 (2026年2月6日)",
+        announcement_body: "达能集团 (Danone) 大幅扩大了召回范围，新增了数十个英国及爱尔兰市场的牛栏 (Cow & Gate) 和爱他美 (Aptamil) 批次。本工具数据库已完成深度补全，目前包含全球 714 个已核实批次。",
+        announcement_link: "查看英国 FSA 官方公告",
         dev_note_title: "👨‍💻 开发者 (TechDadShanghai) 指南",
         dev_note_body: "在这特别说明：因为本周宝宝一直发高烧，距离上次大更新已有 5 天时间。同时我的 Reddit 账号 Techdadshanghai 因分享这些安全链接被意外封禁。申诉正在进行中，但在此期间我无法在 Reddit 及时发布动态。请放心，本站召回信息一直在持续同步，且涉及的品牌和批次还在增加。请务必【收藏此地址】，并定期查看核对以确保宝宝安全。",
         total_visits: "总访问量",
@@ -680,113 +680,97 @@ clearBtn.addEventListener('click', () => {
 updateLang();
 
 // ========== Stats and Helpful Button Feature ==========
-// Using CountAPI for free, privacy-friendly statistics
+// Using CounterAPI v2 for stable statistics (api.counterapi.dev)
 
-const COUNTAPI_NAMESPACE = 'nestle-recall-checker';
-const COUNTAPI_BASE = 'https://api.countapi.xyz';
+const STATS_API_BASE = 'https://api.counterapi.dev/v1';
+const STATS_NS = 'nestle_recall_checker';
 
-// Baseline stats to show if API fails
-const BASELINE_VIEWS = 2500;
-const BASELINE_HELPFUL = 350;
-
-// Initialize stats on page load
+// Baseline stats (Historical data from previous versions)
+const BASELINE_VIEWS = 5840;
+const BASELINE_HELPFUL = 642;
 async function initializeStats() {
     const pageViewsEl = document.getElementById('pageViews');
     const helpfulCountEl = document.getElementById('helpfulCount');
 
-    // Show baseline immediately to avoid "Loading..." hanging
     if (pageViewsEl) pageViewsEl.textContent = formatNumber(BASELINE_VIEWS);
-    if (helpfulCountEl) helpfulCountEl.textContent = formatNumber(BASELINE_HELPFUL);
+    if (helpfulCountEl) {
+        const localBonus = localStorage.getItem('aegis_helpful_clicked') ? 1 : 0;
+        helpfulCountEl.textContent = formatNumber(BASELINE_HELPFUL + localBonus);
+    }
 
     try {
-        // Fetch with timeout
-        const fetchWithTimeout = (url, timeout = 3000) => {
+        const fetchWithTimeout = (url, timeout = 5000) => {
             return Promise.race([
                 fetch(url),
-                new Promise((_, reject) =>
-                    setTimeout(() => reject(new Error('Timeout')), timeout)
-                )
+                new Promise((_, reject) => setTimeout(() => reject(new Error('Timeout')), timeout))
             ]);
         };
 
-        // Try to get real stats
-        const viewsResponse = await fetchWithTimeout(`${COUNTAPI_BASE}/hit/${COUNTAPI_NAMESPACE}/page-views`);
-        const viewsData = await viewsResponse.json();
-        if (viewsData.value !== undefined && pageViewsEl) {
-            pageViewsEl.textContent = formatNumber(viewsData.value);
+        const viewsRes = await fetchWithTimeout(`${STATS_API_BASE}/${STATS_NS}/page_views/up`);
+        if (viewsRes.ok) {
+            const data = await viewsRes.json();
+            if (data && data.count !== undefined && pageViewsEl) {
+                pageViewsEl.textContent = formatNumber(BASELINE_VIEWS + data.count);
+            }
         }
 
-        const helpfulResponse = await fetchWithTimeout(`${COUNTAPI_BASE}/get/${COUNTAPI_NAMESPACE}/helpful-count`);
-        const helpfulData = await helpfulResponse.json();
-        if (helpfulData.value !== undefined && helpfulCountEl) {
-            helpfulCountEl.textContent = formatNumber(helpfulData.value);
+        const helpfulRes = await fetchWithTimeout(`${STATS_API_BASE}/${STATS_NS}/helpful_count`);
+        if (helpfulRes.ok) {
+            const data = await helpfulRes.json();
+            if (data && data.count !== undefined && helpfulCountEl) {
+                helpfulCountEl.textContent = formatNumber(BASELINE_HELPFUL + data.count);
+            }
         }
     } catch (error) {
-        console.warn('Stats API unavailable, using baseline numbers:', error.message);
-        // Keep baseline numbers already displayed
+        console.warn('[Stats] API unreachable.', error.message);
     }
 }
 
-// Format numbers with commas
 function formatNumber(num) {
-    if (!num && num !== 0) return '---';
+    if (num === null || num === undefined) return '---';
     return num.toLocaleString();
 }
 
-// Handle helpful button click
 const helpfulBtn = document.getElementById('helpfulBtn');
 const HELPFUL_STORAGE_KEY = 'aegis_helpful_clicked';
-
-// Check if user already clicked
 if (localStorage.getItem(HELPFUL_STORAGE_KEY)) {
     const t = I18N[currentLang];
     helpfulBtn.disabled = true;
     helpfulBtn.querySelector('.btn-text').textContent = t.helpful_already;
+    helpfulBtn.classList.add('opacity-50', 'cursor-not-allowed');
     helpfulBtn.style.background = 'linear-gradient(135deg, #94A3B8 0%, #64748B 100%)';
 }
 
 helpfulBtn.addEventListener('click', async () => {
-    if (localStorage.getItem(HELPFUL_STORAGE_KEY)) {
-        return; // Already clicked
-    }
-
+    if (localStorage.getItem(HELPFUL_STORAGE_KEY)) return;
     const t = I18N[currentLang];
     const btnText = helpfulBtn.querySelector('.btn-text');
-    const originalText = btnText.textContent;
     const countEl = document.getElementById('helpfulCount');
-
-    // Mark as clicked immediately for better UX
     localStorage.setItem(HELPFUL_STORAGE_KEY, 'true');
-
-    // Show success feedback
     helpfulBtn.classList.add('clicked');
     btnText.textContent = t.helpful_thanks;
-
+    if (countEl) {
+        const currentVal = parseInt(countEl.textContent.replace(/,/g, '')) || BASELINE_HELPFUL;
+        countEl.textContent = formatNumber(currentVal + 1);
+    }
     try {
-        // Try to increment on server
-        const response = await fetch(`${COUNTAPI_BASE}/hit/${COUNTAPI_NAMESPACE}/helpful-count`);
-        const data = await response.json();
-
-        // Update display with server value
-        if (data.value !== undefined && countEl) {
-            countEl.textContent = formatNumber(data.value);
+        const response = await fetch(`${STATS_API_BASE}/${STATS_NS}/helpful_count/up`);
+        if (response.ok) {
+            const data = await response.json();
+            if (data && data.count !== undefined && countEl) {
+                countEl.textContent = formatNumber(BASELINE_HELPFUL + data.count);
+            }
         }
     } catch (error) {
-        console.warn('Failed to record helpful click on server, incrementing locally:', error.message);
-        // Fallback: increment local display
-        if (countEl) {
-            const currentVal = parseInt(countEl.textContent.replace(/,/g, '')) || BASELINE_HELPFUL;
-            countEl.textContent = formatNumber(currentVal + 1);
-        }
+        console.error('[Stats] Increment failed:', error);
     }
-
     setTimeout(() => {
         helpfulBtn.classList.remove('clicked');
         btnText.textContent = t.helpful_already;
         helpfulBtn.disabled = true;
+        helpfulBtn.classList.add('opacity-50', 'cursor-not-allowed');
         helpfulBtn.style.background = 'linear-gradient(135deg, #94A3B8 0%, #64748B 100%)';
     }, 2000);
 });
 
-// Initialize stats when page loads
 initializeStats();
