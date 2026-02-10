@@ -1,5 +1,7 @@
 # 🍼 Global Formula Safety Guard (Aegis Global Guard)
 
+🔔 Important: To avoid misleading parents into thinking only Nestlé is affected, this project has moved to a multi-brand response node. Use the new link for the latest data: [SafeFeed Action](https://milesxlab.github.io/safefeed-action/)
+
 > **Official Cross-Brand Verification Tool for 2026 Infant Formula Recalls**
 > 
 > **Author:** TechDadShanghai | **License:** CC BY-NC 4.0 (Upgraded with Strict Anti-Fraud Terms) | **Updated:** January 2026
@@ -32,7 +34,7 @@ For genuine non-profit organizations or legitimate disaster relief partnerships:
 ## Critical Safety Information
 **Cereulide Toxin (Bacillus cereus)** is **HEAT-RESISTANT**. Boiling water **CANNOT** deactivate it.
 - All recall data is from **January 2026** official announcements
-- Covers **479 officially verified batch codes** from over 20+ regions including **China (Mainland, Hong Kong, Taiwan)**, Europe, Southeast Asia, and Australia (100% government sources).
+- Covers over **731 officially verified batch codes** from over 14 regions including **China (Mainland, Hong Kong, Taiwan)**, Europe, Southeast Asia, and Australia (100% government sources).
 - **Expanded Coverage:** Now includes major brands like **Aptamil, Nutrilon, Alula, Babybio, Bimbosan, and Picot** in addition to the global **Nestlé** recall.
 - **Recent Updates:** Added newly identified batches from **Austria (silent recall), Vietnam (VFA), Switzerland (BEBA), and Hong Kong (Illuma/NAN toxicity alerts).**
 
