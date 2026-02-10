@@ -1,6 +1,6 @@
 # 🍼 Global Formula Safety Guard (Aegis Global Guard)
 
-> **🔔 Notice: To prevent misleading parents, this project has been renamed and moved. While this tool supports multiple brands, the name 'Nestle-only' was a limitation. Please use the new node for the latest multi-brand data: [SafeFeed Action](https://milesxlab.github.io/safefeed-action/)**
+🔔 Important: To avoid misleading parents into thinking only Nestlé is affected, this project has moved to a multi-brand response node. Use the new link for the latest data: [SafeFeed Action](https://milesxlab.github.io/safefeed-action/)
 
 > **Official Cross-Brand Verification Tool for 2026 Infant Formula Recalls**
 > 
